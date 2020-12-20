@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'main',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -84,6 +85,9 @@ DATABASES = {
         'PORT': 5432,
     }
 }
+
+AUTH_USER_MODEL = 'main.User'
+
 
 
 # Password validation
