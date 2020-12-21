@@ -17,7 +17,7 @@ class UsersEndpoint(views.APIView):
         try:
             user: models.User = models.User.objects.create_user_from_json(
                 data=request.data)
-        except Exception as e:
+        except:
             return response.Response(status=status.HTTP_400_BAD_REQUEST)
 
         serialized_user = serializers.UserSerializer(instance=user)
