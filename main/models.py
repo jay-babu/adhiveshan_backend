@@ -106,7 +106,7 @@ class Pledge(models.Model):
         null=True)
 
     def __str__(self):
-        return self.user.full_name()
+        return self.user.email
 
 
 class Module(models.Model):
@@ -114,6 +114,9 @@ class Module(models.Model):
     type = models.CharField(max_length=60, choices=constants.MODULE_TYPES, null=True)
     tier = models.CharField(max_length=60, choices=constants.TIERS, null=True)
     is_selectable = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.type + ', ' + self.tier + ', for ' + self.pledge.user.email
 
 
 class MukhpathItem(models.Model):
@@ -125,8 +128,14 @@ class MukhpathItem(models.Model):
     audio_url = models.CharField(max_length=60)
     video_url = models.CharField(max_length=60)
 
+    def __str__(self):
+        return self.name + ', ' + self.type
+
 
 class MukhpathItemInstance(models.Model):
     mukhpath_item = models.ForeignKey(MukhpathItem, on_delete=models.CASCADE)
     module = models.ForeignKey(Module, on_delete=models.CASCADE)
     is_memorized = models.BooleanField(default=False)
+
+    def __str__(self):
+        return self.mukhpath_item.name + ', ' + self.mukhpath_item.type + ', for ' + self.module.pledge.user.email

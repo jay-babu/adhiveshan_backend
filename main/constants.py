@@ -62,8 +62,8 @@ MODULE_TYPES = [
     (MAHIMA, 'Mahima'),
     (SEVA, 'Seva'),
     (SAMARPAN, 'Samarpan'),
-    (BHAKTI, 'bhakti'),
-    (AHNIK, 'ahnik'),
+    (BHAKTI, 'Bhakti'),
+    (AHNIK, 'Ahnik'),
 ]
 
 # Tiers
