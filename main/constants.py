@@ -1,3 +1,47 @@
+# Regions
+WEST = 'west'
+NORTHEAST = 'northeast'
+SOUTHWEST = 'southwest'
+REGIONS = [
+    (WEST, 'West'),
+    (NORTHEAST, 'Northeast'),
+    (SOUTHWEST, 'Southwest'),
+]
+
+# Centers
+CHERRY_HILL = 'cherry_hill'
+EDISON = 'edison'
+PHILADELPHIA = 'philadelphia'
+ROBBINSVILLE = 'robbinsville'
+CENTERS = [
+    (CHERRY_HILL, 'Cherry Hill'),
+    (EDISON, 'Edison'),
+    (PHILADELPHIA, 'Philadelphia'),
+    (ROBBINSVILLE, 'Robbinsville'),
+]
+
+# Side
+I_SIDE = 'i_side'
+E_SIDE = 'e_side'
+SIDES = [
+    (I_SIDE, 'I Side'),
+    (E_SIDE, 'E Side'),
+]
+
+# Mandals
+GROUP_0 = 'group_0'
+GROUP_1 = 'group_1'
+GROUP_2 = 'group_2'
+GROUP_3 = 'group_3'
+KISHORE_KISHORI = 'kishore_kishori'
+MANDALS = [
+    (GROUP_0, 'Group 0'),
+    (GROUP_1, 'Group 1'),
+    (GROUP_2, 'Group 2'),
+    (GROUP_3, 'Group 3'),
+    (KISHORE_KISHORI, 'Kishore/Kishori'),
+]
+
 # Modules
 SATSANG_DIKSHA = 'satsang_diksha'
 SWAMINI_VATO = 'swamini_vato'

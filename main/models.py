@@ -71,6 +71,10 @@ class User(AbstractBaseUser):
     is_superuser: models.BooleanField = models.BooleanField(default=False)
     first_name: models.CharField = models.CharField(max_length=60)
     last_name: models.CharField = models.CharField(max_length=60)
+    region = models.CharField(max_length=60, choices=constants.REGIONS, null=True)
+    center = models.CharField(max_length=60, choices=constants.CENTERS, null=True)
+    side = models.CharField(max_length=60, choices=constants.SIDES, null=True)
+    mandal = models.CharField(max_length=60, choices=constants.MANDALS, null=True)
 
     objects: UserManager = UserManager()
 
