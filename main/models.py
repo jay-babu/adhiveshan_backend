@@ -37,6 +37,30 @@ class UserManager(BaseUserManager):
         superuser.save(using=self._db)
         return superuser
 
+    def create_user_from_json(self, data) -> 'User':
+        """Creates a user from a JSON payload.
+        Args:
+            data: A dict like object containing data to instantiate a user with.
+        Raises:
+            DataForNewUserNotProvidedException: If required data are not
+                provided.
+        Returns:
+            The created User object.
+        """
+        try:
+            email = data['email']
+            password = data['password']
+            first_name = data['first_name']
+            last_name = data['last_name']
+        except KeyError:
+            raise Exception
+
+        user = User.objects.create_user(email=email,
+                                        password=password,
+                                        first_name=first_name,
+                                        last_name=last_name)
+        return user
+
 
 class User(AbstractBaseUser):
     """The Base User main."""
@@ -102,4 +126,3 @@ class MukhpathItemInstance(models.Model):
     mukhpath_item = models.ForeignKey(MukhpathItem, on_delete=models.CASCADE)
     module = models.ForeignKey(Module, on_delete=models.CASCADE)
     is_memorized = models.BooleanField(default=False)
-
