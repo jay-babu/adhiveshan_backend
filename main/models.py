@@ -11,7 +11,11 @@ class UserManager(BaseUserManager):
                     email: str,
                     password: str,
                     first_name: str = None,
-                    last_name: str = None) -> 'User':
+                    last_name: str = None,
+                    region: str = None,
+                    center: str = None,
+                    side: str = None,
+                    mandal: str = None) -> 'User':
         """Create a user."""
         if not email or not password:
             raise Exception
@@ -21,10 +25,13 @@ class UserManager(BaseUserManager):
 
         normalized_email: str = self.normalize_email(email=email)
         user: User = self.model(email=normalized_email)
-        if first_name:
-            user.first_name = first_name
-        if last_name:
-            user.last_name = last_name
+        user.first_name = first_name
+        user.last_name = last_name
+        user.region = region
+        user.center = center
+        user.side = side
+        user.mandal = mandal
+
         user.set_password(raw_password=password)
         user.save(using=self._db)
         return user
@@ -52,13 +59,21 @@ class UserManager(BaseUserManager):
             password = data['password']
             first_name = data['first_name']
             last_name = data['last_name']
+            region = data['region']
+            center = data['center']
+            side = data['side']
+            mandal = data['mandal']
         except KeyError:
             raise Exception
 
         user = User.objects.create_user(email=email,
                                         password=password,
                                         first_name=first_name,
-                                        last_name=last_name)
+                                        last_name=last_name,
+                                        region=region,
+                                        center=center,
+                                        side=side,
+                                        mandal=mandal)
         return user
 
 
