@@ -1,5 +1,6 @@
 from django.conf import settings
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
+from django.core.exceptions import ValidationError
 from django.db import models
 
 from . import constants
@@ -11,18 +12,20 @@ class UserManager(BaseUserManager):
     def create_user(self,
                     email: str,
                     password: str,
-                    first_name: str = None,
-                    last_name: str = None,
-                    region: str = None,
-                    center: str = None,
-                    side: str = None,
-                    mandal: str = None) -> 'User':
+                    first_name: str = '',
+                    last_name: str = '',
+                    region: str = '',
+                    center: str = '',
+                    gender: str = '',
+                    mandal: str = '', ) -> 'User':
         """Create a user."""
-        if not email or not password:
-            raise Exception
+        if not email:
+            raise ValidationError(f'Please provide an email')
+        if not password:
+            raise ValidationError(f'Please provide a password')
 
         if User.objects.filter(email=email).exists():
-            raise Exception('An user with email: {} already exists in the database')
+            raise ValidationError(f'An user with email: {email} already exists in the database')
 
         normalized_email: str = self.normalize_email(email=email)
         user: User = self.model(email=normalized_email)
@@ -30,52 +33,19 @@ class UserManager(BaseUserManager):
         user.last_name = last_name
         user.region = region
         user.center = center
-        user.side = side
+        user.gender = gender
         user.mandal = mandal
 
-        user.set_password(raw_password=password)
-        user.save(using=self._db)
         return user
 
     def create_superuser(self, email: str, password: str) -> 'User':
         """Create a superuser. Superusers can log into the admin platform."""
-        superuser: User = self.create_user(email=email, password=password)
+        superuser: User = self.model(email=email)
         superuser.is_admin = True
         superuser.is_superuser = True
+        superuser.set_password(password)
         superuser.save(using=self._db)
         return superuser
-
-    def create_user_from_json(self, data) -> 'User':
-        """Creates a user from a JSON payload.
-        Args:
-            data: A dict like object containing data to instantiate a user with.
-        Raises:
-            DataForNewUserNotProvidedException: If required data are not
-                provided.
-        Returns:
-            The created User object.
-        """
-        try:
-            email = data['email']
-            password = data['password']
-            first_name = data['first_name']
-            last_name = data['last_name']
-            region = data['region']
-            center = data['center']
-            side = data['side']
-            mandal = data['mandal']
-        except KeyError:
-            raise Exception
-
-        user = User.objects.create_user(email=email,
-                                        password=password,
-                                        first_name=first_name,
-                                        last_name=last_name,
-                                        region=region,
-                                        center=center,
-                                        side=side,
-                                        mandal=mandal)
-        return user
 
 
 class User(AbstractBaseUser):
@@ -87,10 +57,19 @@ class User(AbstractBaseUser):
     is_superuser: models.BooleanField = models.BooleanField(default=False)
     first_name: models.CharField = models.CharField(max_length=60, null=True)
     last_name: models.CharField = models.CharField(max_length=60, null=True)
-    region = models.CharField(max_length=60, choices=constants.REGIONS, null=True)
-    center = models.CharField(max_length=60, choices=constants.CENTERS, null=True)
-    side = models.CharField(max_length=60, choices=constants.SIDES, null=True)
-    mandal = models.CharField(max_length=60, choices=constants.MANDALS, null=True)
+    region = models.CharField(max_length=60,
+                              choices=[(region, region.replace('_', ' ').title()) for region in constants.REGIONS],
+                              null=True)
+    center = models.CharField(max_length=60,
+                              choices=[(center, center.replace('_', ' ').title()) for center in
+                                       constants.CENTERS_REGIONS.keys()],
+                              null=True)
+    gender = models.CharField(max_length=60,
+                              choices=[(gender, gender.replace('_', ' ').title()) for gender in constants.GENDERS],
+                              null=True)
+    mandal = models.CharField(max_length=60,
+                              choices=[(mandal, mandal.replace('_', ' ').title()) for mandal in constants.MANDALS],
+                              null=True)
 
     objects: UserManager = UserManager()
 

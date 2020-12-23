@@ -2,45 +2,83 @@
 WEST = 'west'
 NORTHEAST = 'northeast'
 SOUTHWEST = 'southwest'
-REGIONS = [
-    (WEST, 'West'),
-    (NORTHEAST, 'Northeast'),
-    (SOUTHWEST, 'Southwest'),
-]
+SOUTHEAST = 'southeast'
+MIDWEST = 'midwest'
+CANADA = 'canada'
+REGIONS = {
+    WEST,
+    NORTHEAST,
+    SOUTHWEST,
+    SOUTHEAST,
+    MIDWEST,
+    CANADA,
+}
 
 # Centers
+CENTERS = {
+    'cherry_hill',
+    'edison',
+    'philadelphia',
+    'robbinsville',
+}
+
 CHERRY_HILL = 'cherry_hill'
 EDISON = 'edison'
 PHILADELPHIA = 'philadelphia'
 ROBBINSVILLE = 'robbinsville'
-CENTERS = [
-    (CHERRY_HILL, 'Cherry Hill'),
-    (EDISON, 'Edison'),
-    (PHILADELPHIA, 'Philadelphia'),
-    (ROBBINSVILLE, 'Robbinsville'),
-]
+ATLANTA = 'atlanta'
+HOUSTON = 'houston'
+CHINO_HILLS = 'chino_hills'
+CHICAGO = 'chicago'
+TORONTO = 'toronto'
+
+REGIONS_CENTERS = {
+    NORTHEAST: {
+        CHERRY_HILL,
+        EDISON,
+        PHILADELPHIA,
+        ROBBINSVILLE,
+    },
+    SOUTHEAST: {
+        ATLANTA
+    },
+    SOUTHWEST: {
+        HOUSTON
+    },
+    WEST: {
+        CHINO_HILLS,
+    },
+    MIDWEST: {
+        CHICAGO,
+    },
+    CANADA: {
+        TORONTO,
+    },
+}
+
+CENTERS_REGIONS = {center: region for region, centers in REGIONS_CENTERS.items() for center in centers}
 
 # Side
-I_SIDE = 'i_side'
-E_SIDE = 'e_side'
-SIDES = [
-    (I_SIDE, 'I Side'),
-    (E_SIDE, 'E Side'),
-]
+MALE = 'male'
+FEMALE = 'female'
+GENDERS = {
+    MALE,
+    FEMALE,
+}
 
 # Mandals
 GROUP_0 = 'group_0'
 GROUP_1 = 'group_1'
 GROUP_2 = 'group_2'
 GROUP_3 = 'group_3'
-KISHORE_KISHORI = 'kishore_kishori'
-MANDALS = [
-    (GROUP_0, 'Group 0'),
-    (GROUP_1, 'Group 1'),
-    (GROUP_2, 'Group 2'),
-    (GROUP_3, 'Group 3'),
-    (KISHORE_KISHORI, 'Kishore/Kishori'),
-]
+KISHORE_KISHORI = 'kishore/kishori'
+MANDALS = {
+    GROUP_0,
+    GROUP_1,
+    GROUP_2,
+    GROUP_3,
+    KISHORE_KISHORI,
+}
 
 # Modules
 SATSANG_DIKSHA = 'satsang_diksha'
