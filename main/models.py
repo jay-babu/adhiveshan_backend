@@ -7,6 +7,7 @@ from . import constants
 
 class UserManager(BaseUserManager):
     """Manager for the User class."""
+
     def create_user(self,
                     email: str,
                     password: str,
@@ -98,10 +99,10 @@ class User(AbstractBaseUser):
     EMAIL_FIELD: str = 'email'
 
     def __str__(self) -> str:
-        return str(self.email.__str__())
+        return f'{self.email}'
 
     def full_name(self) -> str:
-        return self.first_name + ' ' + self.last_name
+        return f'{self.first_name} {self.last_name}'
 
     def is_staff(self) -> models.BooleanField:
         return self.is_admin
@@ -131,7 +132,7 @@ class Module(models.Model):
     is_selectable = models.BooleanField(default=True)
 
     def __str__(self):
-        return self.type + ', ' + self.tier + ', for ' + self.pledge.user.email
+        return f'{self.type}, {self.tier}, for {self.pledge.user.email}'
 
 
 class MukhpathItem(models.Model):
@@ -144,7 +145,7 @@ class MukhpathItem(models.Model):
     video_url = models.CharField(max_length=60)
 
     def __str__(self):
-        return self.name + ', ' + self.type
+        return f'{self.name}, {self.type}'
 
 
 class MukhpathItemInstance(models.Model):
@@ -153,4 +154,4 @@ class MukhpathItemInstance(models.Model):
     is_memorized = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.mukhpath_item.name + ', ' + self.mukhpath_item.type + ', for ' + self.module.pledge.user.email
+        return f'{self.mukhpath_item.name}, {self.mukhpath_item.type}, for {self.module.pledge.user.email}'
