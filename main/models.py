@@ -93,30 +93,42 @@ class User(AbstractBaseUser):
         return self.is_admin
 
 
+class Module(models.Model):
+    title = models.CharField(max_length=60, null=True)
+    imageURL = models.URLField(null=True)
+    is_selectable = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.title
+
+
+class ModuleInstance(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    module = models.ForeignKey(Module, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f'{self.module.title}, for {self.user.email}'
+
+
 class Pledge(models.Model):
     user = models.OneToOneField(
         to=settings.AUTH_USER_MODEL,
         on_delete=models.CASCADE,
-        related_name='pledge',
         null=True)
 
     def __str__(self):
         return self.user.email
 
 
-class Module(models.Model):
-    pledge = models.ForeignKey(Pledge, on_delete=models.CASCADE, related_name='modules')
-    type = models.CharField(max_length=60, choices=constants.MODULE_TYPES, null=True)
+class PledgedModule(models.Model):
+    pledge = models.ForeignKey(Pledge, on_delete=models.CASCADE)
+    module = models.ForeignKey(Module, on_delete=models.CASCADE)
     tier = models.CharField(max_length=60, choices=constants.TIERS, null=True)
-    is_selectable = models.BooleanField(default=True)
-
-    def __str__(self):
-        return f'{self.type}, {self.tier}, for {self.pledge.user.email}'
 
 
 class MukhpathItem(models.Model):
-    name = models.CharField(max_length=60)
-    type = models.CharField(max_length=60, choices=constants.MODULE_TYPES)
+    name = models.CharField(max_length=60, blank=True, null=True)
+    module = models.ForeignKey(Module, on_delete=models.CASCADE, null=True)
     english_content = models.CharField(max_length=60)
     gujurati_content = models.CharField(max_length=60)
     transliteration_content = models.CharField(max_length=60)
@@ -124,13 +136,14 @@ class MukhpathItem(models.Model):
     video_url = models.CharField(max_length=60)
 
     def __str__(self):
-        return f'{self.name}, {self.type}'
+        return f'{self.name}, {self.module.title}'
 
 
 class MukhpathItemInstance(models.Model):
     mukhpath_item = models.ForeignKey(MukhpathItem, on_delete=models.CASCADE)
-    module = models.ForeignKey(Module, on_delete=models.CASCADE)
+    module_instance = models.ForeignKey(ModuleInstance, on_delete=models.CASCADE, null=True)
     is_memorized = models.BooleanField(default=False)
+    is_bookmarked = models.BooleanField(default=False)
 
     def __str__(self):
-        return f'{self.mukhpath_item.name}, {self.mukhpath_item.type}, for {self.module.pledge.user.email}'
+        return f'{self.mukhpath_item.name}, {self.module_instance.module.title}, for {self.module_instance.user.email}'

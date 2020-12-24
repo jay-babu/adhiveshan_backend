@@ -81,8 +81,8 @@ WSGI_APPLICATION = 'adhiveshan_backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'xhwjxnrm',
-        'USER': 'xhwjxnrm',
+        'NAME': 'lsrjzyji',
+        'USER': 'lsrjzyji',
         'PASSWORD': getenv('DB_PASSWORD'),
         'HOST': 'suleiman.db.elephantsql.com',
         'PORT': '5432',
