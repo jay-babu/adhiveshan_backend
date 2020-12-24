@@ -125,6 +125,9 @@ class PledgedModule(models.Model):
     module = models.ForeignKey(Module, on_delete=models.CASCADE)
     tier = models.CharField(max_length=60, choices=constants.TIERS, null=True)
 
+    def __str__(self):
+        return f'{self.module.title} pledged for {self.tier} tier'
+
 
 class MukhpathItem(models.Model):
     name = models.CharField(max_length=60, blank=True, null=True)
