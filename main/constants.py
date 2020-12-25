@@ -26,6 +26,7 @@ CHERRY_HILL = 'cherry_hill'
 EDISON = 'edison'
 PHILADELPHIA = 'philadelphia'
 ROBBINSVILLE = 'robbinsville'
+BOSTON = 'boston'
 ATLANTA = 'atlanta'
 HOUSTON = 'houston'
 CHINO_HILLS = 'chino_hills'
@@ -34,6 +35,7 @@ TORONTO = 'toronto'
 
 REGIONS_CENTERS = {
     NORTHEAST: {
+        BOSTON,
         CHERRY_HILL,
         EDISON,
         PHILADELPHIA,

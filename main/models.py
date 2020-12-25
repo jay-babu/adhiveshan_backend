@@ -35,7 +35,8 @@ class UserManager(BaseUserManager):
         user.center = center
         user.gender = gender
         user.mandal = mandal
-
+        user.set_password(password)
+        user.save(using=self._db)
         return user
 
     def create_superuser(self, email: str, password: str) -> 'User':

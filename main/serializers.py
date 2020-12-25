@@ -37,4 +37,16 @@ class UserSerializer(serializers.ModelSerializer):
         return super().validate(attrs)
 
     def create(self, validated_data: Dict[str, str]):
-        return User.objects.create(**validated_data)
+        return User.objects.create_user(**validated_data)
+
+
+class ChangePasswordSerializer(serializers.ModelSerializer):
+    model = models.User
+
+    """
+    Serializer for password change endpoint.
+    """
+    old_password = serializers.CharField(max_length=65, min_length=8, write_only=True, required=True,
+                                         style={'input_type': 'password'})
+    new_password = serializers.CharField(max_length=65, min_length=8, write_only=True, required=True,
+                                         style={'input_type': 'password'})
