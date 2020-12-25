@@ -90,6 +90,9 @@ class User(AbstractBaseUser):
     def has_perm(self, perm: str, obj=None) -> models.BooleanField:
         return self.is_admin
 
+    def has_perms(self, perm: str, obj=None) -> models.BooleanField:
+        return self.is_admin
+
     def has_module_perms(self, app_label: str) -> models.BooleanField:
         return self.is_admin
 

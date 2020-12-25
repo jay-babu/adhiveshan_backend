@@ -41,8 +41,6 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class ChangePasswordSerializer(serializers.ModelSerializer):
-    model = models.User
-
     """
     Serializer for password change endpoint.
     """
@@ -50,3 +48,7 @@ class ChangePasswordSerializer(serializers.ModelSerializer):
                                          style={'input_type': 'password'})
     new_password = serializers.CharField(max_length=65, min_length=8, write_only=True, required=True,
                                          style={'input_type': 'password'})
+
+    class Meta:
+        model = models.User
+        fields = ('old_password', 'new_password',)
