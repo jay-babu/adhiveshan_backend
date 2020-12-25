@@ -4,6 +4,7 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
+from . import constants
 from main.models import User
 from main.serializers import UserSerializer, ChangePasswordSerializer
 from . import models
@@ -58,6 +59,23 @@ class PledgeView(APIView):
     """Endpoints for User objects."""
     permission_classes = (IsAuthenticated, )
 
+    def get(self, request):
+        # Checks if pledge object exists.
+        if hasattr(request.user, 'pledge'):
+            response = {'modules': []}
+            for pledged_module in request.user.pledge.pledged_modules.all():
+                response['modules'].append({
+                    'title': pledged_module.module.title,
+                    'tier': pledged_module.tier,
+                    'required': constants.REQUIRED_MUKHPATH_ITEMS[
+                        (pledged_module.module.title, request.user.mandal, pledged_module.tier)
+                    ]
+                })
+            return Response(data=response, status=status.HTTP_200_OK)
+        else:
+            return Response(data={},
+                            status=status.HTTP_200_OK)
+
     def put(self, request):
         """Sets or updates a pledge."""
         # Checks if pledge object exists. If so, update.
@@ -76,3 +94,4 @@ class PledgeView(APIView):
 
         return Response(data=request.data,
                         status=status.HTTP_201_CREATED)
+
