@@ -1,6 +1,6 @@
 from rest_framework import status
 from rest_framework.generics import GenericAPIView, UpdateAPIView
-from rest_framework.permissions import AllowAny
+from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 
 from main.models import User
@@ -21,10 +21,9 @@ class RegisterView(GenericAPIView):
 
 
 class ChangePassword(UpdateAPIView):
+    permission_classes = [IsAuthenticated]
     serializer_class = ChangePasswordSerializer
-    model = User
     object = None
-    queryset = User.objects.all()
 
     def get_object(self, queryset=None):
         obj = self.request.user
@@ -36,7 +35,7 @@ class ChangePassword(UpdateAPIView):
 
         if serializer.is_valid():
             # Check old password
-            if not self.object.check_password(request.data.get("old_password")):
+            if not self.object.check_password(serializer.data.get("old_password")):
                 return Response({"old_password": ["Wrong password."]}, status=status.HTTP_400_BAD_REQUEST)
             # set_password also hashes the password that the user will get
             self.object.set_password(serializer.data.get("new_password"))

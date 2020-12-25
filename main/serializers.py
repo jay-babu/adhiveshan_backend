@@ -1,3 +1,4 @@
+from abc import ABC
 from typing import Dict
 
 from rest_framework import serializers
@@ -40,15 +41,12 @@ class UserSerializer(serializers.ModelSerializer):
         return User.objects.create_user(**validated_data)
 
 
-class ChangePasswordSerializer(serializers.ModelSerializer):
+class ChangePasswordSerializer(serializers.Serializer):
     """
     Serializer for password change endpoint.
     """
-    old_password = serializers.CharField(max_length=65, min_length=8, write_only=True, required=True,
+    old_password = serializers.CharField(max_length=65, min_length=8, required=True,
                                          style={'input_type': 'password'})
-    new_password = serializers.CharField(max_length=65, min_length=8, write_only=True, required=True,
+    new_password = serializers.CharField(max_length=65, min_length=8, required=True,
                                          style={'input_type': 'password'})
 
-    class Meta:
-        model = models.User
-        fields = ('old_password', 'new_password',)
