@@ -2,9 +2,11 @@ from rest_framework import status
 from rest_framework.generics import GenericAPIView, UpdateAPIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
+from rest_framework.views import APIView
 
 from main.models import User
 from main.serializers import UserSerializer, ChangePasswordSerializer
+from . import models
 
 
 class RegisterView(GenericAPIView):
@@ -50,3 +52,27 @@ class ChangePassword(UpdateAPIView):
             return Response(response)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+class PledgeView(APIView):
+    """Endpoints for User objects."""
+    permission_classes = (IsAuthenticated, )
+
+    def put(self, request):
+        """Sets or updates a pledge."""
+        # Checks if pledge object exists. If so, update.
+        if hasattr(request.user, 'pledge'):
+            request.user.pledge.pledged_modules.all().delete()
+            pledge = request.user.pledge
+        # If not, create new pledge object.
+        else:
+            pledge = models.Pledge.objects.create(user=request.user)
+
+        for module in request.data['modules']:
+            models.PledgedModule.objects.create(
+                pledge=pledge,
+                module=models.Module.objects.get(title=module['title']),
+                tier=module['tier'])
+
+        return Response(data=request.data,
+                        status=status.HTTP_201_CREATED)

@@ -121,16 +121,22 @@ class Pledge(models.Model):
         null=True)
 
     def __str__(self):
-        return self.user.email
+        pledged_module_strings = []
+        for i in self.pledged_modules.all():
+            pledged_module_strings.append(i.__str__())
+
+        pledge_module_combined = ', '.join(pledged_module_strings)
+        return '{} has pledged: {}'.format(
+            self.user.email, pledge_module_combined)
 
 
 class PledgedModule(models.Model):
-    pledge = models.ForeignKey(Pledge, on_delete=models.CASCADE)
+    pledge = models.ForeignKey(Pledge, on_delete=models.CASCADE, related_name='pledged_modules')
     module = models.ForeignKey(Module, on_delete=models.CASCADE)
     tier = models.CharField(max_length=60, choices=constants.TIERS, null=True)
 
     def __str__(self):
-        return f'{self.module.title} pledged for {self.tier} tier'
+        return f'{self.module.title} for {self.tier} tier'
 
 
 class MukhpathItem(models.Model):
