@@ -109,7 +109,7 @@ class Module(models.Model):
 
 
 class ModuleInstance(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='module_instances')
     module = models.ForeignKey(Module, on_delete=models.CASCADE)
 
     def __str__(self):
@@ -142,7 +142,7 @@ class PledgedModule(models.Model):
 
 
 class MukhpathItem(models.Model):
-    name = models.CharField(max_length=60, blank=True, null=True)
+    title = models.CharField(max_length=60, blank=True, null=True)
     module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name='mukhpath_items', null=True)
     english_content = models.CharField(max_length=60)
     gujurati_content = models.CharField(max_length=60)
