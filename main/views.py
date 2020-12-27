@@ -21,8 +21,21 @@ class RegisterView(GenericAPIView):
 
         if serializer.is_valid():
             serializer.save()
+            instantiate_module_instances_for_user(models.User.objects.get(
+                email=serializer.data.get('email')))
             return Response(serializer.data, status=status.HTTP_201_CREATED)
+
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+
+def instantiate_module_instances_for_user(user):
+    # Bal mandal
+    for module in models.Module.objects.filter(is_bal_mandal=True):
+        module_instance = models.ModuleInstance.objects.create(user=user, module=module)
+        for item in module.mukhpath_items.all():
+            models.MukhpathItemInstance.objects.create(
+                mukhpath_item=item,
+                module_instance=module_instance)
 
 
 class ChangePasswordView(UpdateAPIView):

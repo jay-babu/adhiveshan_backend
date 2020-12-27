@@ -101,6 +101,8 @@ class Module(models.Model):
     title = models.CharField(max_length=60, null=True)
     imageURL = models.URLField(null=True)
     is_selectable = models.BooleanField(default=True)
+    is_kishore_mandal = models.BooleanField(default=False)
+    is_bal_mandal = models.BooleanField(default=False)
 
     def __str__(self):
         return self.title
@@ -141,7 +143,7 @@ class PledgedModule(models.Model):
 
 class MukhpathItem(models.Model):
     name = models.CharField(max_length=60, blank=True, null=True)
-    module = models.ForeignKey(Module, on_delete=models.CASCADE, null=True)
+    module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name='mukhpath_items', null=True)
     english_content = models.CharField(max_length=60)
     gujurati_content = models.CharField(max_length=60)
     transliteration_content = models.CharField(max_length=60)
@@ -154,7 +156,11 @@ class MukhpathItem(models.Model):
 
 class MukhpathItemInstance(models.Model):
     mukhpath_item = models.ForeignKey(MukhpathItem, on_delete=models.CASCADE)
-    module_instance = models.ForeignKey(ModuleInstance, on_delete=models.CASCADE, null=True)
+    module_instance = models.ForeignKey(
+        ModuleInstance,
+        on_delete=models.CASCADE,
+        related_name='mukhpath_item_instances',
+        null=True)
     is_memorized = models.BooleanField(default=False)
     is_bookmarked = models.BooleanField(default=False)
 
