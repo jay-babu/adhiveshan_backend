@@ -1,4 +1,3 @@
-from abc import ABC
 from typing import Dict
 
 from rest_framework import serializers
