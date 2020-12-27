@@ -4,9 +4,8 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from . import constants
-from main.models import User
 from main.serializers import UserSerializer, ChangePasswordSerializer
+from . import constants
 from . import models
 
 
