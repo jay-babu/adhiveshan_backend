@@ -120,32 +120,43 @@ class AccessAllowedView(APIView):
         return Response({'access_allowed': False}, status=status.HTTP_401_UNAUTHORIZED)
 
 
-class ModuleView(APIView):
-    """Endpoints for Module objects."""
+class AllMukhpathItemsView(APIView):
     permission_classes = (IsAuthenticated,)
 
     def get(self, request):
-        response = {}
-        for module_instance in request.user.module_instances.all():
-            mukhpath_item_instances = []
-            for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
-                mukhpath_item_instance_dict = {
-                    'id': mukhpath_item_instance.id,
-                    'title': mukhpath_item_instance.mukhpath_item.title,
-                    'english_content': mukhpath_item_instance.mukhpath_item.english_content,
-                    'gujurati_content': mukhpath_item_instance.mukhpath_item.gujurati_content,
-                    'transliteration_content': mukhpath_item_instance.mukhpath_item.transliteration_content,
-                    'is_memorized': mukhpath_item_instance.is_memorized,
-                    'is_bookmarked': mukhpath_item_instance.is_bookmarked
-                }
-                mukhpath_item_instances.append(mukhpath_item_instance_dict)
+        return Response(data=get_modules(user=request.user), status=status.HTTP_200_OK)
 
-            if len(mukhpath_item_instances) > 0:
-                response[module_instance.module.title] = mukhpath_item_instances
 
-        return Response(data=response,
-                        status=status.HTTP_200_OK)
+class BookmarkedMukhpathItemsView(APIView):
+    permission_classes = (IsAuthenticated,)
 
+    def get(self, request):
+        return Response(
+            data=get_modules(user=request.user, bookmarked_only=True),
+            status=status.HTTP_200_OK)
+
+
+def get_modules(user, bookmarked_only=False):
+    response = {}
+    for module_instance in user.module_instances.all():
+        mukhpath_item_instances = []
+        for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
+            if bookmarked_only and not mukhpath_item_instance.is_bookmarked:
+                continue
+            mukhpath_item_instance_dict = {
+                'id': mukhpath_item_instance.id,
+                'title': mukhpath_item_instance.mukhpath_item.title,
+                'english_content': mukhpath_item_instance.mukhpath_item.english_content,
+                'gujurati_content': mukhpath_item_instance.mukhpath_item.gujurati_content,
+                'transliteration_content': mukhpath_item_instance.mukhpath_item.transliteration_content,
+                'is_memorized': mukhpath_item_instance.is_memorized,
+                'is_bookmarked': mukhpath_item_instance.is_bookmarked
+            }
+            mukhpath_item_instances.append(mukhpath_item_instance_dict)
+
+        if len(mukhpath_item_instances) > 0:
+            response[module_instance.module.title] = mukhpath_item_instances
+    return response
 
 class MukhpathItemInstanceView(APIView):
     """Endpoints for MukhpathItemInstances objects."""

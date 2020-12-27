@@ -11,7 +11,9 @@ urlpatterns = [
     path('access_allowed/', views.AccessAllowedView.as_view()),
 
     path('pledges/', views.PledgeView.as_view(), name='pledge_view'),
-    path('modules/', views.ModuleView.as_view(), name='module_view'),
+    path('all_mukhpath_items/', views.AllMukhpathItemsView.as_view(), name='all_mukhpath_items'),
+    path('bookmarked_mukhpath_items/', views.BookmarkedMukhpathItemsView.as_view(),
+         name='bookmarked_mukhpath_items'),
     path('mukhpath_item_instances/', views.MukhpathItemInstanceView.as_view(),
          name='mukhpath_item_instance_view')
 ]
