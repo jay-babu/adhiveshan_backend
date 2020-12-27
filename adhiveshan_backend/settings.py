@@ -24,7 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False if getenv('PROD') else DEBUG = True
+DEBUG = True
+if getenv('PROD', False):
+    DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
