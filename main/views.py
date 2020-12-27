@@ -1,6 +1,9 @@
+from os import getenv
+
 from rest_framework import status
 from rest_framework.generics import GenericAPIView, UpdateAPIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -22,7 +25,7 @@ class RegisterView(GenericAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class ChangePassword(UpdateAPIView):
+class ChangePasswordView(UpdateAPIView):
     permission_classes = [IsAuthenticated]
     serializer_class = ChangePasswordSerializer
     object = None
@@ -56,7 +59,7 @@ class ChangePassword(UpdateAPIView):
 
 class PledgeView(APIView):
     """Endpoints for User objects."""
-    permission_classes = (IsAuthenticated, )
+    permission_classes = (IsAuthenticated,)
 
     def get(self, request):
         # Checks if pledge object exists.
@@ -94,3 +97,11 @@ class PledgeView(APIView):
         return Response(data=request.data,
                         status=status.HTTP_201_CREATED)
 
+
+class AccessAllowedView(APIView):
+    permission_classes = [AllowAny]
+
+    def post(self, request: Request):
+        if request.data.get('ADHIVESHAN_ACCESS_CODE', '') == getenv('ADHIVESHAN_ACCESS_CODE'):
+            return Response({'access_allowed': True}, status=status.HTTP_200_OK)
+        return Response({'access_allowed': False}, status=status.HTTP_401_UNAUTHORIZED)
