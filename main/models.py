@@ -165,4 +165,4 @@ class MukhpathItemInstance(models.Model):
     is_bookmarked = models.BooleanField(default=False)
 
     def __str__(self):
-        return f'{self.mukhpath_item.name}, {self.module_instance.module.title}, for {self.module_instance.user.email}'
+        return f'{self.mukhpath_item.title}, {self.module_instance.module.title}, for {self.module_instance.user.email}'

@@ -145,3 +145,20 @@ class ModuleView(APIView):
 
         return Response(data=response,
                         status=status.HTTP_200_OK)
+
+
+class MukhpathItemInstanceView(APIView):
+    """Endpoints for MukhpathItemInstances objects."""
+    permission_classes = (IsAuthenticated,)
+
+    def post(self, request):
+        mukhpath_item_instance = models.MukhpathItemInstance.objects.get(id=request.data['id'])
+
+        if 'is_memorized' in request.data:
+            mukhpath_item_instance.is_memorized = request.data['is_memorized']
+
+        if 'is_bookmarked' in request.data:
+            mukhpath_item_instance.is_bookmarked = request.data['is_bookmarked']
+
+        mukhpath_item_instance.save()
+        return Response(status=status.HTTP_200_OK)
