@@ -44,8 +44,7 @@ class ChangePasswordView(UpdateAPIView):
     object = None
 
     def get_object(self, queryset=None):
-        obj = self.request.user
-        return obj
+        return self.request.user
 
     def put(self, request, *args, **kwargs):
         self.object = self.get_object()
