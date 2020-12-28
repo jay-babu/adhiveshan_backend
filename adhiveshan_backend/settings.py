@@ -158,5 +158,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+APPEND_SLASH = True
+
 # Activate Django-Heroku.
 django_heroku.settings(locals())
