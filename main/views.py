@@ -1,3 +1,4 @@
+from collections import defaultdict
 from os import getenv
 
 from rest_framework import status
@@ -14,7 +15,7 @@ from . import models
 
 class RegisterView(GenericAPIView):
     serializer_class = UserSerializer
-    permission_classes = [AllowAny]
+    permission_classes = (AllowAny,)
 
     def post(self, request):
         serializer = UserSerializer(data=request.data)
@@ -39,7 +40,7 @@ def instantiate_module_instances_for_user(user):
 
 
 class ChangePasswordView(UpdateAPIView):
-    permission_classes = [IsAuthenticated]
+    permission_classes = (IsAuthenticated,)
     serializer_class = ChangePasswordSerializer
     object = None
 
@@ -76,9 +77,10 @@ class PledgeView(APIView):
     def get(self, request):
         # Checks if pledge object exists.
         if hasattr(request.user, 'pledge'):
-            response = {'modules': []}
+            response = defaultdict(list)
+            modules = response['modules']
             for pledged_module in request.user.pledge.pledged_modules.all():
-                response['modules'].append({
+                modules.append({
                     'title': pledged_module.module.title,
                     'tier': pledged_module.tier,
                     'required': constants.REQUIRED_MUKHPATH_ITEMS[
@@ -111,7 +113,7 @@ class PledgeView(APIView):
 
 
 class AccessAllowedView(APIView):
-    permission_classes = [AllowAny]
+    permission_classes = (AllowAny,)
 
     def post(self, request: Request):
         if request.data.get('ADHIVESHAN_ACCESS_CODE', '') == getenv('ADHIVESHAN_ACCESS_CODE'):
@@ -157,18 +159,15 @@ def get_modules(user, bookmarked_only=False):
             response[module_instance.module.title] = mukhpath_item_instances
     return response
 
+
 class MukhpathItemInstanceView(APIView):
     """Endpoints for MukhpathItemInstances objects."""
     permission_classes = (IsAuthenticated,)
 
     def post(self, request):
         mukhpath_item_instance = models.MukhpathItemInstance.objects.get(id=request.data['id'])
-
-        if 'is_memorized' in request.data:
-            mukhpath_item_instance.is_memorized = request.data['is_memorized']
-
-        if 'is_bookmarked' in request.data:
-            mukhpath_item_instance.is_bookmarked = request.data['is_bookmarked']
+        mukhpath_item_instance.is_memorized = request.data.get('is_memorized', False)
+        mukhpath_item_instance.is_bookmarked = request.data.get('is_bookmarked', False)
 
         mukhpath_item_instance.save()
         return Response(status=status.HTTP_200_OK)
