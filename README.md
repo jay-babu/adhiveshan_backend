@@ -17,4 +17,7 @@
     1. This will set up any database migrations necessary but not commit them
 4. `python manage.py migrate`
     1. This will commit all migrations in database (irreversible)
-    
+   
+## Learn more about Django
+
+https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Introduction
