@@ -14,6 +14,7 @@ urlpatterns = [
     # get_user_detail
 
     path('pledges/', views.PledgeView.as_view(), name='pledge_view'),
+    path('dashboard/', views.DashboardView.as_view(), name='dashboard_view'),
     path('all_mukhpath_items/', views.AllMukhpathItemsView.as_view(), name='all_mukhpath_items'),
     path('bookmarked_mukhpath_items/', views.BookmarkedMukhpathItemsView.as_view(),
          name='bookmarked_mukhpath_items'),

@@ -152,7 +152,7 @@ class MukhpathItem(models.Model):
     video_url = models.CharField(max_length=60)
 
     def __str__(self):
-        return f'{self.type}, {self.name}, {self.module.title}'
+        return f'{self.title}, {self.module.title}'
 
 
 class MukhpathItemInstance(models.Model):

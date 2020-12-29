@@ -70,7 +70,7 @@ class ChangePasswordView(UpdateAPIView):
 
 
 class PledgeView(APIView):
-    """Endpoints for User objects."""
+    """Endpoints for Pledge objects."""
     permission_classes = (IsAuthenticated,)
 
     def get(self, request):
@@ -109,6 +109,36 @@ class PledgeView(APIView):
 
         return Response(data=request.data,
                         status=status.HTTP_201_CREATED)
+
+
+class DashboardView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        # Checks if pledge object exists.
+        if hasattr(request.user, 'pledge'):
+            response = defaultdict(list)
+            modules = response['modules']
+            for pledged_module in request.user.pledge.pledged_modules.all():
+                module_instance = models.ModuleInstance.objects.get(
+                    user=request.user,
+                    module=pledged_module.module)
+                modules.append({
+                    'title': pledged_module.module.title,
+                    'tier': pledged_module.tier,
+                    'required': constants.REQUIRED_MUKHPATH_ITEMS[
+                        (pledged_module.module.title, request.user.mandal, pledged_module.tier)
+                    ],
+                    'memorized': get_num_of_items_memorized(module_instance)
+                })
+            return Response(data=response, status=status.HTTP_200_OK)
+        else:
+            return Response(data={},
+                            status=status.HTTP_200_OK)
+
+
+def get_num_of_items_memorized(module_instance):
+    return module_instance.mukhpath_item_instances.filter(is_memorized=True).count()
 
 
 class AccessAllowedView(APIView):
