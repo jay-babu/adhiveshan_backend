@@ -14,12 +14,14 @@ class UserSerializer(serializers.ModelSerializer):
     first_name = serializers.CharField(max_length=255, min_length=2, required=True)
     last_name = serializers.CharField(max_length=255, min_length=2, required=True)
     center = serializers.ChoiceField(
-        choices=sorted(list(map(lambda item: item.replace('_', ' ').title(), constants.CENTERS_REGIONS.keys()))),
+        choices=sorted(map(lambda item: item.replace('_', ' ').title(), constants.CENTERS_REGIONS.keys())),
         required=True)
-    gender = serializers.ChoiceField(choices=list(map(lambda item: item.replace('_', ' ').title(), constants.GENDERS)),
-                                     required=True)
-    mandal = serializers.ChoiceField(choices=list(map(lambda item: item.replace('_', ' ').title(), constants.MANDALS)),
-                                     required=True)
+    gender = serializers.ChoiceField(
+        choices=sorted(map(lambda item: item.replace('_', ' ').title(), constants.GENDERS), reverse=True),
+        required=True)
+    mandal = serializers.ChoiceField(
+        choices=sorted(map(lambda item: item.replace('_', ' ').title(), constants.MANDALS)),
+        required=True)
 
     class Meta:
         model = models.User
@@ -48,4 +50,3 @@ class ChangePasswordSerializer(serializers.Serializer):
                                          style={'input_type': 'password'})
     new_password = serializers.CharField(max_length=65, min_length=8, required=True,
                                          style={'input_type': 'password'})
-
