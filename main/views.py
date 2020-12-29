@@ -171,3 +171,12 @@ class MukhpathItemInstanceView(APIView):
 
         mukhpath_item_instance.save()
         return Response(status=status.HTTP_200_OK)
+
+
+class CentersView(APIView):
+    permission_classes = (AllowAny,)
+
+    def get(self, request):
+        return Response(data={
+            'centers': sorted(map(lambda item: item.replace('_', ' ').title(), constants.CENTERS_REGIONS.keys()))},
+                        status=status.HTTP_200_OK)
