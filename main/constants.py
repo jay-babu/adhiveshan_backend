@@ -14,47 +14,233 @@ REGIONS = {
     CANADA,
 }
 
-# Centers
-CENTERS = {
-    'cherry_hill',
-    'edison',
-    'philadelphia',
-    'robbinsville',
-}
-
-CHERRY_HILL = 'cherry_hill'
-EDISON = 'edison'
-PHILADELPHIA = 'philadelphia'
-ROBBINSVILLE = 'robbinsville'
-BOSTON = 'boston'
-ATLANTA = 'atlanta'
-HOUSTON = 'houston'
-CHINO_HILLS = 'chino_hills'
-CHICAGO = 'chicago'
-TORONTO = 'toronto'
+ALBANY_GA = "albany_ga"
+ALBANY_NY = "albany_ny"
+ALLENTOWN = "allentown"
+ATLANTA = "atlanta"
+ATLANTIC_CITY = "atlantic_city"
+AUGUSTA = "augusta"
+AUSTIN = "austin"
+BAKERSFIELD = "bakersfield"
+BEAUMONT = "beaumont"
+BIRMINGHAM = "birmingham"
+BLOOMINGTON = "bloomington"
+BOSTON = "boston"
+CALGARY = "calgary"
+CALHOUN = "calhoun"
+CAMBRIDGE = "cambridge"
+CHARLOTTE = "charlotte"
+CHATTANOOGA = "chattanooga"
+CHERRY_HILL = "cherry_hill"
+CHICAGO = "chicago"
+CINCINNATI = "cincinnati"
+CLEAR_LAKE = "clear_lake"
+CLEVELAND = "cleveland"
+CLIFTON = "clifton"
+COLUMBIA_SC = "columbia_sc"
+COLUMBIA_TN = "columbia_tn"
+COLUMBUS = "columbus"
+CORPUS_CHRISTI = "corpus_christi"
+CRYSTAL_LAKE = "crystal_lake"
+DALLAS = "dallas"
+DAYTON = "dayton"
+DELAWARE = "delaware"
+DETROIT = "detroit"
+DOTHAN = "dothan"
+EDISON = "edison"
+EDMONTON = "edmonton"
+EVANSVILLE = "evansville"
+FLORENCE = "florence"
+FRESNO = "fresno"
+GAINESVILLE = "gainesville"
+GREENSBORO = "greensboro"
+GREENVILLE = "greenville"
+HARRISBURG = "harrisburg"
+HARTFORD = "hartford"
+HOUSTON = "houston"
+HUNTSVILLE = "huntsville"
+INDIANAPOLIS = "indianapolis"
+JACKSON = "jackson"
+JACKSONVILLE = "jacksonville"
+JERSEY_CITY = "jersey_city"
+KANSAS_CITY = "kansas_city"
+KNOXVILLE = "knoxville"
+LANSDALE = "lansdale"
+LITTLE_ROCK = "little_rock"
+LONG_ISLAND = "long_island"
+LOS_ANGELES = "los_angeles"
+LOUISVILLE = "louisville"
+LUBBOCK = "lubbock"
+MELBOURNE = "melbourne"
+MEMPHIS = "memphis"
+MIAMI = "miami"
+MILWAUKEE = "milwaukee"
+MINNEAPOLIS = "minneapolis"
+MONTGOMERY = "montgomery"
+MUNSTER = "munster"
+NASHVILLE = "nashville"
+NEW_HAVEN = "new_haven"
+NEW_ORLEANS = "new_orleans"
+NEW_YORK = "new_york"
+NORTHERN_VIRGINIA = "northern_virginia"
+OKLAHOMA_CITY = "oklahoma_city"
+ORANGEBURG = "orangeburg"
+ORLANDO = "orlando"
+PARSIPPANY = "parsippany"
+PERRY = "perry"
+PHILADELPHIA = "philadelphia"
+PHOENIX = "phoenix"
+PITTSBURGH = "pittsburgh"
+PORTLAND = "portland"
+RALEIGH = "raleigh"
+RICHMOND = "richmond"
+ROANOKE = "roanoke"
+ROBBINSVILLE = "robbinsville"
+SACRAMENTO = "sacramento"
+SALT_LAKE_CITY = "salt_lake_city"
+SAN_ANTONIO = "san_antonio"
+SAN_DIEGO = "san_diego"
+SAN_FRANCISCO = "san_francisco"
+SAN_JOSE = "san_jose"
+SAVANNAH = "savannah"
+SCARBOROUGH = "scarborough"
+SCRANTON = "scranton"
+SEATTLE = "seattle"
+SOUTH_BOSTON = "south_boston"
+SPRINGFIELD = "springfield"
+ST_LOUIS = "st_louis"
+STERLING_HEIGHTS = "sterling_heights"
+SYRACUSE = "syracuse"
+TAMPA = "tampa"
+TORONTO = "toronto"
+TUCSON = "tucson"
+VIRGINIA_BEACH = "virginia_beach"
+WARRINGTON = "warrington"
+WASHINGTON_DC = "washington_dc"
+WESTBOROUGH = "westborough"
+WESTCHESTER = "westchester"
+WINDSOR = "windsor"
+WINNIPEG = "winnipeg"
 
 REGIONS_CENTERS = {
     NORTHEAST: {
+        ALBANY_NY,
+        ALLENTOWN,
+        ATLANTIC_CITY,
         BOSTON,
         CHERRY_HILL,
+        CLIFTON,
+        DELAWARE,
         EDISON,
+        HARRISBURG,
+        HARTFORD,
+        JERSEY_CITY,
+        LANSDALE,
+        LONG_ISLAND,
+        NEW_HAVEN,
+        NEW_YORK,
+        NORTHERN_VIRGINIA,
+        PARSIPPANY,
         PHILADELPHIA,
+        RICHMOND,
+        ROANOKE,
         ROBBINSVILLE,
+        SCRANTON,
+        SOUTH_BOSTON,
+        SPRINGFIELD,
+        SYRACUSE,
+        VIRGINIA_BEACH,
+        WARRINGTON,
+        WASHINGTON_DC,
+        WESTBOROUGH,
+        WESTCHESTER,
     },
     SOUTHEAST: {
-        ATLANTA
+        ALBANY_GA,
+        ATLANTA,
+        AUGUSTA,
+        BIRMINGHAM,
+        CALHOUN,
+        CHARLOTTE,
+        CHATTANOOGA,
+        COLUMBIA_SC,
+        COLUMBIA_TN,
+        DOTHAN,
+        FLORENCE,
+        GAINESVILLE,
+        GREENSBORO,
+        GREENVILLE,
+        HUNTSVILLE,
+        JACKSONVILLE,
+        KNOXVILLE,
+        MELBOURNE,
+        MEMPHIS,
+        MIAMI,
+        MONTGOMERY,
+        NASHVILLE,
+        ORANGEBURG,
+        ORLANDO,
+        PERRY,
+        RALEIGH,
+        SAVANNAH,
+        TAMPA,
     },
     SOUTHWEST: {
-        HOUSTON
+        AUSTIN,
+        BEAUMONT,
+        CLEAR_LAKE,
+        CORPUS_CHRISTI,
+        DALLAS,
+        HOUSTON,
+        JACKSON,
+        LITTLE_ROCK,
+        LUBBOCK,
+        NEW_ORLEANS,
+        OKLAHOMA_CITY,
+        SAN_ANTONIO,
     },
     WEST: {
-        CHINO_HILLS,
+        BAKERSFIELD,
+        FRESNO,
+        LOS_ANGELES,
+        PHOENIX,
+        PORTLAND,
+        SACRAMENTO,
+        SAN_DIEGO,
+        SAN_FRANCISCO,
+        SAN_JOSE,
+        SEATTLE,
+        TUCSON,
+        SALT_LAKE_CITY,
     },
     MIDWEST: {
+        BLOOMINGTON,
         CHICAGO,
+        CINCINNATI,
+        CLEVELAND,
+        COLUMBUS,
+        CRYSTAL_LAKE,
+        DAYTON,
+        DETROIT,
+        EVANSVILLE,
+        INDIANAPOLIS,
+        KANSAS_CITY,
+        LOUISVILLE,
+        MILWAUKEE,
+        MINNEAPOLIS,
+        MUNSTER,
+        PITTSBURGH,
+        ST_LOUIS,
+        STERLING_HEIGHTS,
     },
     CANADA: {
+        CALGARY,
+        CAMBRIDGE,
+        EDMONTON,
+        SCARBOROUGH,
         TORONTO,
+        WINDSOR,
+        WINNIPEG,
     },
 }
 
