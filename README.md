@@ -11,7 +11,7 @@
 ## Django Setup
 
 1. Set `DATABASE_URL` and `SECRET_KEY` in Environment Variables
-2. `python manage.py runserver 8100`
+2. `python manage.py runserver 8000`
     1. This runs Django
 3. `python manage.py makemigrations`
     1. This will set up any database migrations necessary but not commit them
