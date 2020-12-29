@@ -22,8 +22,7 @@ class RegisterView(GenericAPIView):
 
         if serializer.is_valid():
             serializer.save()
-            instantiate_module_instances_for_user(models.User.objects.get(
-                email=serializer.data.get('email')))
+            instantiate_module_instances_for_user(models.User.objects.get(email=serializer.data.get('email')))
             return Response(serializer.data, status=status.HTTP_201_CREATED)
 
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
@@ -166,8 +165,8 @@ class MukhpathItemInstanceView(APIView):
 
     def post(self, request):
         mukhpath_item_instance = models.MukhpathItemInstance.objects.get(id=request.data['id'])
-        mukhpath_item_instance.is_memorized = request.data.get('is_memorized', False)
-        mukhpath_item_instance.is_bookmarked = request.data.get('is_bookmarked', False)
+        mukhpath_item_instance.is_memorized = request.data.get('is_memorized', mukhpath_item_instance.is_memorized)
+        mukhpath_item_instance.is_bookmarked = request.data.get('is_bookmarked', mukhpath_item_instance.is_bookmarked)
 
         mukhpath_item_instance.save()
         return Response(status=status.HTTP_200_OK)
