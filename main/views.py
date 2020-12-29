@@ -178,4 +178,21 @@ class CentersView(APIView):
     def get(self, request):
         return Response(data={
             'centers': sorted(map(lambda item: item.replace('_', ' ').title(), constants.CENTERS_REGIONS.keys()))},
-                        status=status.HTTP_200_OK)
+            status=status.HTTP_200_OK)
+
+
+class UserDetailView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request: Request):
+        user = request.user
+        return Response(data={
+            'username': user.get_username(),
+            'email': user.email,
+            'first_name': user.first_name,
+            'last_name': user.last_name,
+            'region': user.region,
+            'center': user.center,
+            'gender': user.gender,
+            'mandal': user.mandal,
+        }, status=status.HTTP_200_OK)

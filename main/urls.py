@@ -10,6 +10,8 @@ urlpatterns = [
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('access_allowed/', views.AccessAllowedView.as_view()),
     path('get_all_centers/', views.CentersView.as_view()),
+    path('get_user_detail/', views.UserDetailView.as_view()),
+    # get_user_detail
 
     path('pledges/', views.PledgeView.as_view(), name='pledge_view'),
     path('all_mukhpath_items/', views.AllMukhpathItemsView.as_view(), name='all_mukhpath_items'),
