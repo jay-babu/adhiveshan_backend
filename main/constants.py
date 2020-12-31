@@ -14,6 +14,7 @@ REGIONS = {
     CANADA,
 }
 
+# Centers
 ALBANY_GA = "albany_ga"
 ALBANY_NY = "albany_ny"
 ALLENTOWN = "allentown"
@@ -26,6 +27,7 @@ BEAUMONT = "beaumont"
 BIRMINGHAM = "birmingham"
 BLOOMINGTON = "bloomington"
 BOSTON = "boston"
+BRANDON = "brandon"
 CALGARY = "calgary"
 CALHOUN = "calhoun"
 CAMBRIDGE = "cambridge"
@@ -45,27 +47,35 @@ CRYSTAL_LAKE = "crystal_lake"
 DALLAS = "dallas"
 DAYTON = "dayton"
 DELAWARE = "delaware"
+DENVER = "denver"
+DES_MOINES = "des_moines"
 DETROIT = "detroit"
 DOTHAN = "dothan"
+DOWNINGTOWN = "downingtown"
 EDISON = "edison"
 EDMONTON = "edmonton"
 EVANSVILLE = "evansville"
 FLORENCE = "florence"
+FORT_MCMURRAY = "fort_mcmurray"
 FRESNO = "fresno"
 GAINESVILLE = "gainesville"
 GREENSBORO = "greensboro"
 GREENVILLE = "greenville"
 HARRISBURG = "harrisburg"
 HARTFORD = "hartford"
+HILLTOP = "hilltop"
 HOUSTON = "houston"
 HUNTSVILLE = "huntsville"
 INDIANAPOLIS = "indianapolis"
+IOWA_CITY = "iowa_city"
 JACKSON = "jackson"
 JACKSONVILLE = "jacksonville"
 JERSEY_CITY = "jersey_city"
+KALAMAZOO = "kalamazoo"
 KANSAS_CITY = "kansas_city"
 KNOXVILLE = "knoxville"
 LANSDALE = "lansdale"
+LEXINGTON = "lexington"
 LITTLE_ROCK = "little_rock"
 LONG_ISLAND = "long_island"
 LOS_ANGELES = "los_angeles"
@@ -74,10 +84,13 @@ LUBBOCK = "lubbock"
 MELBOURNE = "melbourne"
 MEMPHIS = "memphis"
 MIAMI = "miami"
+MIDLAND = "midland"
 MILWAUKEE = "milwaukee"
 MINNEAPOLIS = "minneapolis"
 MONTGOMERY = "montgomery"
+MONTREAL = "montreal"
 MUNSTER = "munster"
+MYRTLE_BEACH = "myrtle_beach"
 NASHVILLE = "nashville"
 NEW_HAVEN = "new_haven"
 NEW_ORLEANS = "new_orleans"
@@ -86,6 +99,8 @@ NORTHERN_VIRGINIA = "northern_virginia"
 OKLAHOMA_CITY = "oklahoma_city"
 ORANGEBURG = "orangeburg"
 ORLANDO = "orlando"
+OTTAWA = "ottawa"
+PANAMA = "panama"
 PARSIPPANY = "parsippany"
 PERRY = "perry"
 PHILADELPHIA = "philadelphia"
@@ -93,6 +108,8 @@ PHOENIX = "phoenix"
 PITTSBURGH = "pittsburgh"
 PORTLAND = "portland"
 RALEIGH = "raleigh"
+RED_DEER = "red_deer"
+REGINA = "regina"
 RICHMOND = "richmond"
 ROANOKE = "roanoke"
 ROBBINSVILLE = "robbinsville"
@@ -102,23 +119,26 @@ SAN_ANTONIO = "san_antonio"
 SAN_DIEGO = "san_diego"
 SAN_FRANCISCO = "san_francisco"
 SAN_JOSE = "san_jose"
+SASKATOON = "saskatoon"
 SAVANNAH = "savannah"
 SCARBOROUGH = "scarborough"
 SCRANTON = "scranton"
 SEATTLE = "seattle"
 SOUTH_BOSTON = "south_boston"
 SPRINGFIELD = "springfield"
-ST_LOUIS = "st_louis"
 STERLING_HEIGHTS = "sterling_heights"
+ST_LOUIS = "st_louis"
 SYRACUSE = "syracuse"
 TAMPA = "tampa"
 TORONTO = "toronto"
 TUCSON = "tucson"
+VANCOUVER = "vancouver"
 VIRGINIA_BEACH = "virginia_beach"
 WARRINGTON = "warrington"
 WASHINGTON_DC = "washington_dc"
 WESTBOROUGH = "westborough"
 WESTCHESTER = "westchester"
+WICHITA = "wichita"
 WINDSOR = "windsor"
 WINNIPEG = "winnipeg"
 
@@ -131,9 +151,11 @@ REGIONS_CENTERS = {
         CHERRY_HILL,
         CLIFTON,
         DELAWARE,
+        DOWNINGTOWN,
         EDISON,
         HARRISBURG,
         HARTFORD,
+        HILLTOP,
         JERSEY_CITY,
         LANSDALE,
         LONG_ISLAND,
@@ -177,6 +199,7 @@ REGIONS_CENTERS = {
         MEMPHIS,
         MIAMI,
         MONTGOMERY,
+        MYRTLE_BEACH,
         NASHVILLE,
         ORANGEBURG,
         ORLANDO,
@@ -191,12 +214,15 @@ REGIONS_CENTERS = {
         CLEAR_LAKE,
         CORPUS_CHRISTI,
         DALLAS,
+        DENVER,
         HOUSTON,
         JACKSON,
         LITTLE_ROCK,
         LUBBOCK,
+        MIDLAND,
         NEW_ORLEANS,
         OKLAHOMA_CITY,
+        PANAMA,
         SAN_ANTONIO,
     },
     WEST: {
@@ -206,12 +232,12 @@ REGIONS_CENTERS = {
         PHOENIX,
         PORTLAND,
         SACRAMENTO,
+        SALT_LAKE_CITY,
         SAN_DIEGO,
         SAN_FRANCISCO,
         SAN_JOSE,
         SEATTLE,
         TUCSON,
-        SALT_LAKE_CITY,
     },
     MIDWEST: {
         BLOOMINGTON,
@@ -221,24 +247,37 @@ REGIONS_CENTERS = {
         COLUMBUS,
         CRYSTAL_LAKE,
         DAYTON,
+        DES_MOINES,
         DETROIT,
         EVANSVILLE,
         INDIANAPOLIS,
+        IOWA_CITY,
+        KALAMAZOO,
         KANSAS_CITY,
+        LEXINGTON,
         LOUISVILLE,
         MILWAUKEE,
         MINNEAPOLIS,
         MUNSTER,
         PITTSBURGH,
-        ST_LOUIS,
         STERLING_HEIGHTS,
+        ST_LOUIS,
+        WICHITA,
     },
     CANADA: {
+        BRANDON,
         CALGARY,
         CAMBRIDGE,
         EDMONTON,
+        FORT_MCMURRAY,
+        MONTREAL,
+        OTTAWA,
+        RED_DEER,
+        REGINA,
+        SASKATOON,
         SCARBOROUGH,
         TORONTO,
+        VANCOUVER,
         WINDSOR,
         WINNIPEG,
     },
@@ -394,8 +433,8 @@ REQUIRED_MUKHPATH_ITEMS = {
     ('prasang_manan', 'Group 3', 'shastri'): 15,
 
     # Kishore-Kishori
-    ('satsang_diksha', 'kishore/kishori', 'mahant'): 64,
-    ('satsang_diksha', 'kishore/kishori', 'pramukh'): 100,
-    ('satsang_diksha', 'kishore/kishori', 'yogiji'): 200,
-    ('satsang_diksha', 'kishore/kishori', 'shastri'): 315,
+    ('satsang_diksha', 'Kishore/Kishori', 'mahant'): 64,
+    ('satsang_diksha', 'Kishore/Kishori', 'pramukh'): 100,
+    ('satsang_diksha', 'Kishore/Kishori', 'yogiji'): 200,
+    ('satsang_diksha', 'Kishore/Kishori', 'shastri'): 315,
 }
