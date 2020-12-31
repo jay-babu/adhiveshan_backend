@@ -113,6 +113,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "http://localhost:8100",
     "https://bkadhiveshan.na.baps.org",
+    "capacitor://localhost",
+    "http://localhost",
 ]
 
 PASSWORD_HASHERS = [
