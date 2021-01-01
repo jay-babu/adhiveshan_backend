@@ -87,6 +87,7 @@ MIAMI = "miami"
 MIDLAND = "midland"
 MILWAUKEE = "milwaukee"
 MINNEAPOLIS = "minneapolis"
+MOBILE = "mobile"
 MONTGOMERY = "montgomery"
 MONTREAL = "montreal"
 MUNSTER = "munster"
@@ -198,6 +199,7 @@ REGIONS_CENTERS = {
         MELBOURNE,
         MEMPHIS,
         MIAMI,
+        MOBILE,
         MONTGOMERY,
         MYRTLE_BEACH,
         NASHVILLE,
