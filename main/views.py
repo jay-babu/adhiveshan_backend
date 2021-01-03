@@ -153,9 +153,10 @@ class DashboardView(APIView):
                 modules.append({
                     'title': pledged_module.module.title,
                     'tier': pledged_module.tier,
-                    'required': constants.REQUIRED_MUKHPATH_ITEMS[
-                        (pledged_module.module.title, request.user.mandal, pledged_module.tier)
-                    ],
+                    'required': constants.get_required_mukhpath_items(
+                        pledged_module.module.title,
+                        request.user.mandal,
+                        pledged_module.tier),
                     'memorized': get_num_of_items_memorized(module_instance)
                 })
             return Response(data=response, status=status.HTTP_200_OK)
