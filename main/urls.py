@@ -12,7 +12,7 @@ urlpatterns = [
     path('get_all_centers/', views.CentersView.as_view()),
     path('get_user_detail/', views.UserDetailView.as_view()),
 
-    path('onboard_status/', views.OnboardedView.as_view(), name='onboarded_view'),
+    path('set_onboard_status/', views.OnboardedView.as_view(), name='onboarded_view'),
     path('pledge_options/', views.PledgeOptionsView.as_view(), name='pledge_options_view'),
     path('my_pledges/', views.MyPledgeView.as_view(), name='my_pledges_view'),
     path('dashboard/', views.DashboardView.as_view(), name='dashboard_view'),

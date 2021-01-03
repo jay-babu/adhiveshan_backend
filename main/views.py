@@ -41,12 +41,6 @@ def instantiate_module_instances_for_user(user):
 class OnboardedView(APIView):
     permission_classes = (IsAuthenticated,)
 
-    def get(self, request):
-        response = {'is_onboarded': request.user.is_onboarded}
-        return Response(
-            data=response,
-            status=status.HTTP_200_OK)
-
     def put(self, request):
         request.user.is_onboarded = request.data.get('is_onboarded')
         request.user.save()
@@ -254,4 +248,5 @@ class UserDetailView(APIView):
             'center': user.center or '',
             'gender': user.gender or '',
             'mandal': user.mandal or '',
+            'is_onboarded': user.is_onboarded,
         }, status=status.HTTP_200_OK)
