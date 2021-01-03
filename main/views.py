@@ -219,10 +219,11 @@ class UserDetailView(APIView):
         return Response(data={
             'username': user.get_username(),
             'email': user.email,
-            'first_name': user.first_name,
-            'last_name': user.last_name,
-            'region': user.region,
-            'center': user.center,
-            'gender': user.gender,
-            'mandal': user.mandal,
+            'first_name': user.first_name or '',
+            'middle_name': user.middle_name or '',
+            'last_name': user.last_name or '',
+            'region': user.region or '',
+            'center': user.center or '',
+            'gender': user.gender or '',
+            'mandal': user.mandal or '',
         }, status=status.HTTP_200_OK)
