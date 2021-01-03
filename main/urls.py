@@ -11,9 +11,10 @@ urlpatterns = [
     path('access_allowed/', views.AccessAllowedView.as_view()),
     path('get_all_centers/', views.CentersView.as_view()),
     path('get_user_detail/', views.UserDetailView.as_view()),
-    # get_user_detail
 
-    path('pledges/', views.PledgeView.as_view(), name='pledge_view'),
+
+    path('pledge_options/', views.PledgeOptionsView.as_view(), name='pledge_options_view'),
+    path('my_pledges/', views.MyPledgeView.as_view(), name='my_pledges_view'),
     path('dashboard/', views.DashboardView.as_view(), name='dashboard_view'),
     path('all_mukhpath_items/', views.AllMukhpathItemsView.as_view(), name='all_mukhpath_items'),
     path('bookmarked_mukhpath_items/', views.BookmarkedMukhpathItemsView.as_view(),

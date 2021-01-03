@@ -69,7 +69,19 @@ class ChangePasswordView(UpdateAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class PledgeView(APIView):
+class PledgeOptionsView(APIView):
+    """Gets all the pledge options so that frontend can display them."""
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        response = constants.get_pledge_options(request.user.mandal.lower().replace(' ', '_'))
+
+
+
+        return Response(data=response, status=status.HTTP_200_OK)
+
+
+class MyPledgeView(APIView):
     """Endpoints for Pledge objects."""
     permission_classes = (IsAuthenticated,)
 
@@ -82,9 +94,10 @@ class PledgeView(APIView):
                 modules.append({
                     'title': pledged_module.module.title,
                     'tier': pledged_module.tier,
-                    'required': constants.REQUIRED_MUKHPATH_ITEMS[
-                        (pledged_module.module.title, request.user.mandal, pledged_module.tier)
-                    ]
+                    'required': constants.get_required_mukhpath_items(
+                        pledged_module.module.title,
+                        request.user.mandal.lower().replace(' ', '_'),
+                        pledged_module.tier)
                 })
             return Response(data=response, status=status.HTTP_200_OK)
         else:

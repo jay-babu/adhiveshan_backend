@@ -347,96 +347,136 @@ TIERS = [
     (SHASTRI, 'Shastri'),
 ]
 
-REQUIRED_MUKHPATH_ITEMS = {
-    # GROUP 0
-    ('satsang_diksha', 'Group 0', 'ghanshyam'): 20,
-    ('swamini_vato', 'Group 0', 'ghanshyam'): 5,
-    ('shlok_sakhi', 'Group 0', 'ghanshyam'): 2,
-    ('kirtan', 'Group 0', 'ghanshyam'): 1,
-    ('prasang_manan', 'Group 0', 'ghanshyam'): 1,
-
-    # GROUP 1
-    ('satsang_diksha', 'Group 1', 'ghanshyam'): 20,
-    ('satsang_diksha', 'Group 1', 'mahant'): 64,
-    ('satsang_diksha', 'Group 1', 'pramukh'): 100,
-    ('satsang_diksha', 'Group 1', 'yogiji'): 200,
-    ('satsang_diksha', 'Group 1', 'shastri'): 315,
-
-    ('swamini_vato', 'Group 1', 'mahant'): 5,
-    ('swamini_vato', 'Group 1', 'pramukh'): 10,
-    ('swamini_vato', 'Group 1', 'yogiji'): 15,
-    ('swamini_vato', 'Group 1', 'shastri'): 20,
-
-    ('shlok_sakhi', 'Group 1', 'mahant'): 3,
-    ('shlok_sakhi', 'Group 1', 'pramukh'): 5,
-    ('shlok_sakhi', 'Group 1', 'yogiji'): 7,
-    ('shlok_sakhi', 'Group 1', 'shastri'): 10,
-
-    ('kirtan', 'Group 1', 'mahant'): 2,
-    ('kirtan', 'Group 1', 'pramukh'): 3,
-    ('kirtan', 'Group 1', 'yogiji'): 4,
-    ('kirtan', 'Group 1', 'shastri'): 5,
-
-    ('prasang_manan', 'Group 1', 'mahant'): 2,
-    ('prasang_manan', 'Group 1', 'pramukh'): 3,
-    ('prasang_manan', 'Group 1', 'yogiji'): 4,
-    ('prasang_manan', 'Group 1', 'shastri'): 5,
-
-    # GROUP 2
-    ('satsang_diksha', 'Group 2', 'mahant'): 64,
-    ('satsang_diksha', 'Group 2', 'pramukh'): 100,
-    ('satsang_diksha', 'Group 2', 'yogiji'): 200,
-    ('satsang_diksha', 'Group 2', 'shastri'): 315,
-
-    ('swamini_vato', 'Group 2', 'mahant'): 10,
-    ('swamini_vato', 'Group 2', 'pramukh'): 15,
-    ('swamini_vato', 'Group 2', 'yogiji'): 20,
-    ('swamini_vato', 'Group 2', 'shastri'): 25,
-
-    ('shlok_sakhi', 'Group 2', 'mahant'): 5,
-    ('shlok_sakhi', 'Group 2', 'pramukh'): 8,
-    ('shlok_sakhi', 'Group 2', 'yogiji'): 11,
-    ('shlok_sakhi', 'Group 2', 'shastri'): 15,
-
-    ('kirtan', 'Group 2', 'mahant'): 3,
-    ('kirtan', 'Group 2', 'pramukh'): 5,
-    ('kirtan', 'Group 2', 'yogiji'): 7,
-    ('kirtan', 'Group 2', 'shastri'): 10,
-
-    ('prasang_manan', 'Group 2', 'mahant'): 3,
-    ('prasang_manan', 'Group 2', 'pramukh'): 5,
-    ('prasang_manan', 'Group 2', 'yogiji'): 7,
-    ('prasang_manan', 'Group 2', 'shastri'): 10,
-
-    # GROUP 3
-    ('satsang_diksha', 'Group 3', 'mahant'): 64,
-    ('satsang_diksha', 'Group 3', 'pramukh'): 100,
-    ('satsang_diksha', 'Group 3', 'yogiji'): 200,
-    ('satsang_diksha', 'Group 3', 'shastri'): 315,
-
-    ('swamini_vato', 'Group 3', 'mahant'): 15,
-    ('swamini_vato', 'Group 3', 'pramukh'): 25,
-    ('swamini_vato', 'Group 3', 'yogiji'): 35,
-    ('swamini_vato', 'Group 3', 'shastri'): 50,
-
-    ('shlok_sakhi', 'Group 3', 'mahant'): 5,
-    ('shlok_sakhi', 'Group 3', 'pramukh'): 10,
-    ('shlok_sakhi', 'Group 3', 'yogiji'): 15,
-    ('shlok_sakhi', 'Group 3', 'shastri'): 20,
-
-    ('kirtan', 'Group 3', 'mahant'): 5,
-    ('kirtan', 'Group 3', 'pramukh'): 8,
-    ('kirtan', 'Group 3', 'yogiji'): 11,
-    ('kirtan', 'Group 3', 'shastri'): 15,
-
-    ('prasang_manan', 'Group 3', 'mahant'): 5,
-    ('prasang_manan', 'Group 3', 'pramukh'): 8,
-    ('prasang_manan', 'Group 3', 'yogiji'): 11,
-    ('prasang_manan', 'Group 3', 'shastri'): 15,
-
-    # Kishore-Kishori
-    ('satsang_diksha', 'Kishore/Kishori', 'mahant'): 64,
-    ('satsang_diksha', 'Kishore/Kishori', 'pramukh'): 100,
-    ('satsang_diksha', 'Kishore/Kishori', 'yogiji'): 200,
-    ('satsang_diksha', 'Kishore/Kishori', 'shastri'): 315,
+GROUP_0_PLEDGES = {
+    SATSANG_DIKSHA: {GHANSHYAM: 20},
+    SWAMINI_VATO: {GHANSHYAM: 5},
+    SHLOK_SAKHI: {GHANSHYAM: 2},
+    KIRTAN: {GHANSHYAM: 1},
+    PRASANG_MANAN: {GHANSHYAM: 1},
 }
+
+GROUP_1_PLEDGES = {
+    SATSANG_DIKSHA: {
+        GHANSHYAM: 20,
+        MAHANT: 64,
+        PRAMUKH: 100,
+        YOGI: 200,
+        SHASTRI: 315
+    },
+    SWAMINI_VATO: {
+        MAHANT: 5,
+        PRAMUKH: 10,
+        YOGI: 15,
+        SHASTRI: 20
+    },
+    SHLOK_SAKHI: {
+        MAHANT: 3,
+        PRAMUKH: 5,
+        YOGI: 7,
+        SHASTRI: 10
+    },
+    KIRTAN: {
+        MAHANT: 2,
+        PRAMUKH: 3,
+        YOGI: 4,
+        SHASTRI: 5
+    },
+    PRASANG_MANAN: {
+        MAHANT: 2,
+        PRAMUKH: 3,
+        YOGI: 4,
+        SHASTRI: 5
+    },
+}
+
+
+GROUP_2_PLEDGES = {
+    SATSANG_DIKSHA: {
+        MAHANT: 64,
+        PRAMUKH: 100,
+        YOGI: 200,
+        SHASTRI: 315
+    },
+    SWAMINI_VATO: {
+        MAHANT: 10,
+        PRAMUKH: 15,
+        YOGI: 20,
+        SHASTRI: 25
+    },
+    SHLOK_SAKHI: {
+        MAHANT: 5,
+        PRAMUKH: 8,
+        YOGI: 11,
+        SHASTRI: 15
+    },
+    KIRTAN: {
+        MAHANT: 3,
+        PRAMUKH: 5,
+        YOGI: 7,
+        SHASTRI: 10
+    },
+    PRASANG_MANAN: {
+        MAHANT: 3,
+        PRAMUKH: 5,
+        YOGI: 7,
+        SHASTRI: 10,
+    },
+}
+
+GROUP_3_PLEDGES = {
+    SATSANG_DIKSHA: {
+        MAHANT: 64,
+        PRAMUKH: 100,
+        YOGI: 200,
+        SHASTRI: 315,
+    },
+    SWAMINI_VATO: {
+        MAHANT: 15,
+        PRAMUKH: 25,
+        YOGI: 35,
+        SHASTRI: 50
+    },
+    SHLOK_SAKHI: {
+        MAHANT: 5,
+        PRAMUKH: 10,
+        YOGI: 15,
+        SHASTRI: 20
+    },
+    KIRTAN: {
+        MAHANT: 5,
+        PRAMUKH: 8,
+        YOGI: 11,
+        SHASTRI: 15,
+    },
+    PRASANG_MANAN: {
+        MAHANT: 5,
+        PRAMUKH: 8,
+        YOGI: 11,
+        SHASTRI: 15
+    },
+}
+
+KISHORE_KISHORI_PLEDGES = {
+    SATSANG_DIKSHA: {
+        MAHANT: 64,
+        PRAMUKH: 100,
+        YOGI: 200,
+        SHASTRI: 315
+    },
+}
+
+PLEDGE_OPTIONS = {
+    GROUP_0: GROUP_0_PLEDGES,
+    GROUP_1: GROUP_1_PLEDGES,
+    GROUP_2: GROUP_2_PLEDGES,
+    GROUP_3: GROUP_3_PLEDGES,
+    KISHORE_KISHORI: KISHORE_KISHORI_PLEDGES,
+}
+
+
+def get_pledge_options(mandal):
+    return PLEDGE_OPTIONS[mandal]
+
+
+def get_required_mukhpath_items(module, mandal, tier):
+    return PLEDGE_OPTIONS[mandal][module][tier]
