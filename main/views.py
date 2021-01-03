@@ -38,6 +38,23 @@ def instantiate_module_instances_for_user(user):
                 module_instance=module_instance)
 
 
+class OnboardedView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        response = {'is_onboarded': request.user.is_onboarded}
+        return Response(
+            data=response,
+            status=status.HTTP_200_OK)
+
+    def put(self, request):
+        request.user.is_onboarded = request.data.get('is_onboarded')
+        request.user.save()
+        return Response(
+            data={'is_onboarded': request.user.is_onboarded},
+            status=status.HTTP_200_OK)
+
+
 class ChangePasswordView(UpdateAPIView):
     permission_classes = (IsAuthenticated,)
     serializer_class = ChangePasswordSerializer
@@ -75,9 +92,6 @@ class PledgeOptionsView(APIView):
 
     def get(self, request):
         response = constants.get_pledge_options(request.user.mandal.lower().replace(' ', '_'))
-
-
-
         return Response(data=response, status=status.HTTP_200_OK)
 
 

@@ -31,7 +31,7 @@ class UserManager(BaseUserManager):
         normalized_email: str = self.normalize_email(email=email)
         user: User = self.model(email=normalized_email)
         user.first_name = first_name
-        user.middle_name = last_name
+        user.middle_name = middle_name
         user.last_name = last_name
         user.region = region
         user.center = center
@@ -74,6 +74,7 @@ class User(AbstractBaseUser):
     mandal = models.CharField(max_length=60,
                               choices=[(mandal, mandal.replace('_', ' ').title()) for mandal in constants.MANDALS],
                               null=True)
+    is_onboarded = models.BooleanField(default=False, null=True)
 
     objects: UserManager = UserManager()
 
