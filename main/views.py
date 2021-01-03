@@ -155,7 +155,7 @@ class DashboardView(APIView):
                     'tier': pledged_module.tier,
                     'required': constants.get_required_mukhpath_items(
                         pledged_module.module.title,
-                        request.user.mandal,
+                        request.user.mandal.lower().replace(' ', '_'),
                         pledged_module.tier),
                     'memorized': get_num_of_items_memorized(module_instance)
                 })
