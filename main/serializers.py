@@ -11,8 +11,9 @@ class UserSerializer(serializers.ModelSerializer):
     password = serializers.CharField(max_length=65, min_length=8, write_only=True, required=True,
                                      style={'input_type': 'password'})
     email = serializers.EmailField(max_length=255, min_length=4, required=True)
-    first_name = serializers.CharField(max_length=255, min_length=2, required=True)
-    last_name = serializers.CharField(max_length=255, min_length=2, required=True)
+    first_name = serializers.CharField(max_length=60, min_length=2, required=True)
+    middle_name = serializers.CharField(max_length=60, min_length=1, required=False)
+    last_name = serializers.CharField(max_length=60, min_length=2, required=True)
     center = serializers.ChoiceField(
         choices=sorted(map(lambda item: item.replace('_', ' ').title(), constants.CENTERS_REGIONS.keys())),
         required=True)
@@ -25,7 +26,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = models.User
-        fields = ('email', 'first_name', 'last_name', 'center', 'gender', 'mandal', 'password',)
+        fields = ('email', 'first_name', 'last_name', 'center', 'gender', 'mandal', 'password', 'middle_name',)
 
     def validate(self, attrs: Dict[str, str]):
         if not (center := attrs.get('center', None)):

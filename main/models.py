@@ -12,12 +12,13 @@ class UserManager(BaseUserManager):
     def create_user(self,
                     email: str,
                     password: str,
-                    first_name: str = '',
-                    last_name: str = '',
-                    region: str = '',
-                    center: str = '',
-                    gender: str = '',
-                    mandal: str = '', ) -> 'User':
+                    first_name='',
+                    middle_name='',
+                    last_name='',
+                    region='',
+                    center='',
+                    gender='',
+                    mandal='', ) -> 'User':
         """Create a user."""
         if not email:
             raise ValidationError(f'Please provide an email')
@@ -30,6 +31,7 @@ class UserManager(BaseUserManager):
         normalized_email: str = self.normalize_email(email=email)
         user: User = self.model(email=normalized_email)
         user.first_name = first_name
+        user.middle_name = last_name
         user.last_name = last_name
         user.region = region
         user.center = center
@@ -57,6 +59,7 @@ class User(AbstractBaseUser):
     is_admin: models.BooleanField = models.BooleanField(default=False)
     is_superuser: models.BooleanField = models.BooleanField(default=False)
     first_name: models.CharField = models.CharField(max_length=60, null=True)
+    middle_name: models.CharField = models.CharField(max_length=60, null=True)
     last_name: models.CharField = models.CharField(max_length=60, null=True)
     region = models.CharField(max_length=60,
                               choices=[(region, region.replace('_', ' ').title()) for region in constants.REGIONS],
