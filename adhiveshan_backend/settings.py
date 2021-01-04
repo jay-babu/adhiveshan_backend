@@ -14,6 +14,7 @@ from datetime import timedelta
 from os import getenv
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -30,10 +31,11 @@ if getenv('PROD', False):
 # Application definition
 
 INSTALLED_APPS = [
-    'main',
+    'main.apps.MainConfig',
     'corsheaders',
     'rest_framework',
     'rest_framework_simplejwt',
+    'django_rest_resetpassword',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -58,8 +60,7 @@ ROOT_URLCONF = 'adhiveshan_backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
-        ,
+        'DIRS': [BASE_DIR / 'main/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -147,6 +148,15 @@ SIMPLE_JWT = {
 
     'JTI_CLAIM': 'jti',
 }
+
+SENDGRID_API_KEY = getenv('SENDGRID_API_KEY')
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'apikey'
+EMAIL_HOST_PASSWORD = SENDGRID_API_KEY
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+DJANGO_REST_RESETPASSWORD_NO_INFORMATION_LEAKAGE = True
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/

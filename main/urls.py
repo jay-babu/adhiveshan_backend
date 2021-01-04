@@ -1,4 +1,4 @@
-from django.urls import path
+from django.urls import path, include
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from . import views
@@ -11,6 +11,7 @@ urlpatterns = [
     path('access_allowed/', views.AccessAllowedView.as_view()),
     path('get_all_centers/', views.CentersView.as_view()),
     path('get_user_detail/', views.UserDetailView.as_view()),
+    path(r'password-reset/', include('django_rest_resetpassword.urls', namespace='password_reset')),
 
     path('set_onboard_status/', views.OnboardedView.as_view(), name='onboarded_view'),
     path('pledge_options/', views.PledgeOptionsView.as_view(), name='pledge_options_view'),
