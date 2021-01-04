@@ -315,22 +315,16 @@ SWAMINI_VATO = 'swamini_vato'
 SHLOK_SAKHI = 'shlok_sakhi'
 KIRTAN = 'kirtan'
 PRASANG_MANAN = 'prasang_manan'
-MAHIMA = 'mahima'
-SEVA = 'seva'
-SAMARPAN = 'samarpan'
-BHAKTI = 'bhakti'
-AHNIK = 'ahnik'
+DIVYABHAV_NIRDOSHBUDDHI = 'divyabhav_nirdoshbuddhi'
+SAMP_SURADHBHAV_EKTA = 'samp_suradhbhav_ekta'
 MODULE_TYPES = [
     (SATSANG_DIKSHA, 'Satsang Diksha'),
     (SWAMINI_VATO, 'Swamini Vato'),
     (SHLOK_SAKHI, 'Shlok/Sakhi'),
     (KIRTAN, 'Kirtan'),
     (PRASANG_MANAN, 'Prasang Manan'),
-    (MAHIMA, 'Mahima'),
-    (SEVA, 'Seva'),
-    (SAMARPAN, 'Samarpan'),
-    (BHAKTI, 'Bhakti'),
-    (AHNIK, 'Ahnik'),
+    (DIVYABHAV_NIRDOSHBUDDHI, 'Divyabhav Nirdoshbuddhi'),
+    (SAMP_SURADHBHAV_EKTA, 'Samp Suradhbhav Ekta'),
 ]
 
 # Tiers
@@ -339,12 +333,15 @@ MAHANT = 'mahant'
 PRAMUKH = 'pramukh'
 YOGI = 'yogi'
 SHASTRI = 'shastri'
+KM_DEFAULT = 'km_default'
+KM_DEFAULT_VALUE = 4
 TIERS = [
     (GHANSHYAM, 'Ghanshyam'),
     (MAHANT, 'Mahant'),
     (PRAMUKH, 'Pramukh'),
     (YOGI, 'Yogi'),
     (SHASTRI, 'Shastri'),
+    (KM_DEFAULT, 'KM Default'),
 ]
 
 GROUP_0_PLEDGES = {
@@ -463,6 +460,12 @@ KISHORE_KISHORI_PLEDGES = {
         YOGI: 200,
         SHASTRI: 315
     },
+    DIVYABHAV_NIRDOSHBUDDHI: {
+        KM_DEFAULT: KM_DEFAULT_VALUE
+    },
+    SAMP_SURADHBHAV_EKTA: {
+        KM_DEFAULT: KM_DEFAULT_VALUE
+    }
 }
 
 PLEDGE_OPTIONS = {
