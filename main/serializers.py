@@ -1,10 +1,50 @@
+import functools
 from typing import Dict
 
+from django.core.exceptions import ImproperlyConfigured
+from django.utils.module_loading import import_string
 from rest_framework import serializers
+from rest_framework.exceptions import ValidationError
+from django.core.exceptions import ValidationError as DVE
 
+from adhiveshan_backend import settings
 from . import constants
 from . import models
 from .models import User
+
+
+@functools.lru_cache(maxsize=None)
+def get_default_password_validators():
+    return get_password_validators(settings.AUTH_PASSWORD_VALIDATORS)
+
+
+def get_password_validators(validator_config):
+    validators = []
+    for validator in validator_config:
+        try:
+            klass = import_string(validator['NAME'])
+        except ImportError:
+            msg = "The module in NAME could not be imported: %s. Check your AUTH_PASSWORD_VALIDATORS setting."
+            raise ImproperlyConfigured(msg % validator['NAME'])
+        validators.append(klass(**validator.get('OPTIONS', {})))
+
+    return validators
+
+
+def validate_password(password, user=None, password_validators=None):
+    """
+    Validate whether the password meets all validator requirements.
+
+    If the password is valid, return ``None``.
+    If the password is invalid, raise ValidationError with all error messages.
+    """
+    if password_validators is None:
+        password_validators = get_default_password_validators()
+    for validator in password_validators:
+        try:
+            validator.validate(password, user)
+        except DVE as error:
+            raise ValidationError({'new_password': error.message})
 
 
 class UserSerializer(serializers.ModelSerializer):
@@ -32,6 +72,9 @@ class UserSerializer(serializers.ModelSerializer):
         if not (center := attrs.get('center', None)):
             raise serializers.ValidationError(f'Please select a Center')
 
+        user = self.context.user
+        validate_password(attrs.get('password', ''), user)
+
         email = attrs.get('email', '')
         if User.objects.filter(email=email).exists():
             raise serializers.ValidationError(f'An user with email: {email} already exists in the database')
@@ -51,3 +94,10 @@ class ChangePasswordSerializer(serializers.Serializer):
                                          style={'input_type': 'password'})
     new_password = serializers.CharField(max_length=65, min_length=8, required=True,
                                          style={'input_type': 'password'})
+
+    def validate(self, attrs):
+        user = self.context.user
+        if not user.check_password(attrs.get('old_password')):
+            raise ValidationError({"old_password": ["Wrong password."]})
+        validate_password(attrs.get('new_password', ''), user)
+        return super().validate(attrs)

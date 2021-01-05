@@ -18,7 +18,7 @@ class RegisterView(GenericAPIView):
     permission_classes = (AllowAny,)
 
     def post(self, request):
-        serializer = UserSerializer(data=request.data)
+        serializer = UserSerializer(data=request.data, context=request)
 
         if serializer.is_valid():
             serializer.save()
@@ -54,17 +54,10 @@ class ChangePasswordView(UpdateAPIView):
     serializer_class = ChangePasswordSerializer
     object = None
 
-    def get_object(self, queryset=None):
-        return self.request.user
-
     def put(self, request, *args, **kwargs):
-        self.object = self.get_object()
-        serializer = ChangePasswordSerializer(data=request.data)
+        serializer = ChangePasswordSerializer(data=request.data, context=self.request)
 
         if serializer.is_valid():
-            # Check old password
-            if not self.object.check_password(serializer.data.get("old_password")):
-                return Response({"old_password": ["Wrong password."]}, status=status.HTTP_400_BAD_REQUEST)
             # set_password also hashes the password that the user will get
             self.object.set_password(serializer.data.get("new_password"))
             self.object.save()
