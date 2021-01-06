@@ -29,8 +29,8 @@ class RegisterView(GenericAPIView):
 
 
 def instantiate_module_instances_for_user(user):
-    # Bal mandal
-    for module in models.Module.objects.filter(is_bal_mandal=True):
+    is_user_kishore = user.mandal.lower().replace(' ', '_') == constants.KISHORE_KISHORI
+    for module in models.Module.objects.filter(is_kishore_mandal=is_user_kishore):
         module_instance = models.ModuleInstance.objects.create(user=user, module=module)
         for item in module.mukhpath_items.all():
             models.MukhpathItemInstance.objects.create(

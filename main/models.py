@@ -106,7 +106,6 @@ class Module(models.Model):
     imageURL = models.URLField(null=True)
     is_selectable = models.BooleanField(default=True)
     is_kishore_mandal = models.BooleanField(default=False)
-    is_bal_mandal = models.BooleanField(default=False)
 
     def __str__(self):
         return self.title
