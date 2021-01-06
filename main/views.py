@@ -243,3 +243,10 @@ class UserDetailView(APIView):
             'mandal': user.mandal or '',
             'is_onboarded': user.is_onboarded,
         }, status=status.HTTP_200_OK)
+
+
+class GetFAQView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request: Request):
+        return Response(data=constants.FAQ, status=status.HTTP_200_OK)

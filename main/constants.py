@@ -483,3 +483,19 @@ def get_pledge_options(mandal):
 
 def get_required_mukhpath_items(module, mandal, tier):
     return PLEDGE_OPTIONS[mandal][module][tier]
+
+
+FAQ = [
+    {
+        'question': 'How do I download the app?',
+        'answer': 'Go to the app store'
+    },
+    {
+        'question': 'How do I reset my pledge?',
+        'answer': 'Go to the page to reset your pledge.'
+    },
+    {
+        'question': 'How do I resize my text?',
+        'answer': 'Go to the settings page.'
+    },
+]

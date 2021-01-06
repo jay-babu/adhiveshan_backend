@@ -21,5 +21,6 @@ urlpatterns = [
     path('bookmarked_mukhpath_items/', views.BookmarkedMukhpathItemsView.as_view(),
          name='bookmarked_mukhpath_items'),
     path('mukhpath_item_instances/', views.MukhpathItemInstanceView.as_view(),
-         name='mukhpath_item_instance_view')
+         name='mukhpath_item_instance_view'),
+    path('get_faq/', views.GetFAQView.as_view(), name='get_faq')
 ]
