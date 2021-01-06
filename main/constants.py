@@ -499,14 +499,17 @@ def get_required_mukhpath_items(module, mandal, tier):
 FAQ = [
     {
         'question': 'How do I download the app?',
-        'answer': 'Go to the app store'
+        'answer': 'Go to the app store',
+        'category': 'Misc Help'
     },
     {
         'question': 'How do I reset my pledge?',
-        'answer': 'Go to the page to reset your pledge.'
+        'answer': 'Go to the page to reset your pledge.',
+        'category': 'App help'
     },
     {
         'question': 'How do I resize my text?',
-        'answer': 'Go to the settings page.'
+        'answer': 'Go to the settings page.',
+        'category': 'Settings help'
     },
 ]
