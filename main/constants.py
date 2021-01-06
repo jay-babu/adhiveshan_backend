@@ -333,15 +333,25 @@ MAHANT = 'mahant'
 PRAMUKH = 'pramukh'
 YOGI = 'yogi'
 SHASTRI = 'shastri'
-KM_DEFAULT = 'km_default'
-KM_DEFAULT_VALUE = 4
+
+# KM Only
+BRONZE = 'bronze'
+SILVER = 'silver'
+GOLD = 'gold'
+PLATINUM = 'platinum'
+
 TIERS = [
     (GHANSHYAM, 'Ghanshyam'),
     (MAHANT, 'Mahant'),
     (PRAMUKH, 'Pramukh'),
     (YOGI, 'Yogi'),
     (SHASTRI, 'Shastri'),
-    (KM_DEFAULT, 'KM Default'),
+
+    # KM Only
+    (BRONZE, 'Bronze'),
+    (SILVER, 'Silver'),
+    (GOLD, 'Gold'),
+    (PLATINUM, 'Platinum'),
 ]
 
 GROUP_0_PLEDGES = {
@@ -453,6 +463,7 @@ GROUP_3_PLEDGES = {
     },
 }
 
+KM_MODULES = 'km_modules'
 KISHORE_KISHORI_PLEDGES = {
     SATSANG_DIKSHA: {
         MAHANT: 64,
@@ -460,12 +471,12 @@ KISHORE_KISHORI_PLEDGES = {
         YOGI: 200,
         SHASTRI: 315
     },
-    DIVYABHAV_NIRDOSHBUDDHI: {
-        KM_DEFAULT: KM_DEFAULT_VALUE
+    KM_MODULES: {
+        BRONZE: 5,
+        SILVER: 10,
+        GOLD: 15,
+        PLATINUM: 20,
     },
-    SAMP_SURADHBHAV_EKTA: {
-        KM_DEFAULT: KM_DEFAULT_VALUE
-    }
 }
 
 PLEDGE_OPTIONS = {
