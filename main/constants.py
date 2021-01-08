@@ -396,7 +396,6 @@ GROUP_1_PLEDGES = {
     },
 }
 
-
 GROUP_2_PLEDGES = {
     SATSANG_DIKSHA: {
         MAHANT: 64,
@@ -496,20 +495,65 @@ def get_required_mukhpath_items(module, mandal, tier):
     return PLEDGE_OPTIONS[mandal][module][tier]
 
 
-FAQ = [
-    {
-        'question': 'How do I download the app?',
-        'answer': 'Go to the app store',
-        'category': 'Misc Help'
+FAQ = {
+    'General': {
+        {
+            'question': 'What is Adhiveshan?',
+            'answer': 'Adhiveshan is a structured way of memorizing mukhpath which is sometimes focused on a certain satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to sacrifice our time to memorize the mukhpath, learn its meaning, and eventually imbibe it in our lives to please our Guru.',
+        },
+        {
+            'question': 'Why do we do Adhiveshans?',
+            'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and balikas to memorize mukhpath during their summer vacations to the various Adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, mukhpath has been an integral way for balaks and balikas to earn the raajipo of our Gurus. By learning and memorizing various parts of our Shastras, we are able to ground ourselves in the Akshar Purushottam Upasana and find solutions to the many problems we may face in life. Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.',
+        },
+        {
+            'question': 'Which Adhiveshan do I pledge for and which Summer Shibir do I go to?',
+            'answer': 'You will pledge for the tiers in the group you currently are in (as of January 2021). For example, if you are in Group 2 in January of 2021, and even if you are graduating and moving to Group 3 in September 2021, you will pledge for Adhiveshan in the Group 2 categories. Anyone in Groups 1-3 will also attend the Bal/Balika summer shibir.\nAdditionally, current 8th graders will pledge for the Kishore/Kishori Adhiveshan and will join the Kishore/Kishori Shibir.\nThose currently in Group 0 will pledge for the Group 0 adhiveshan, even if they are graduating and moving to Group 1 in September 2021; those currently in Group 0 will join the Bal/Balika Group 0 shibir.',
+        },
+        {
+            'question': 'What does Adhiveshan consist of?',
+            'answer': 'Adhiveshan will have three parts, each assessed in different ways and at different times. The first part is the Beginner’s Challenge (Prathmik Mukhpath) which will be assessed at home. The second part is the Adhiveshan Raajipo Challenge (Main Mukhpath), which will be assessed online (in real time - over Zoom). The final part is the Skills Challenge (Talent Competitions), which will be judged through regional online submissions.',
+        },
     },
-    {
-        'question': 'How do I reset my pledge?',
-        'answer': 'Go to the page to reset your pledge.',
-        'category': 'App help'
+    'Beginner’s Challenge (Prathmik Mukhpath)': {
+        {
+            'question': "What is the Beginner\'s Challenge (Prathmik Mukhpath)?",
+            'answer': "The Beginner's Challenge contains the core mukhpath of our sanstha. All of the mukhpath comes with translations, so it is important to pay close attention to the meanings and try to introspect on how the values being transmitted in the words can be applied back to our lives. The Beginner's Challenge will be administered at home, wherein you all will complete a worksheet. Your parents will aid in ensuring that you have completed the worksheet properly and assist in grading.",
+        },
     },
-    {
-        'question': 'How do I resize my text?',
-        'answer': 'Go to the settings page.',
-        'category': 'Settings help'
+    "Adhiveshan Raajipo Challenge (Advanced Mukhpath)": {
+        {
+            'question': "How is the Adhiveshan Raajipo Challenge (Advanced Mukhpath) structured?",
+            'answer': "The Raajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, Shlokas and Sakhis, and Prasang Manan. There are 4 tiers (Mahant, Pramukh, Yogi, and Shastri).\nNOTE: There is an additional tier called the Ghanshyam tier that is ONLY if you are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for Satsang Diksha (for the other categories, you must pick from the normal 4 tiers).\nThe breakdown for each tier and each group is found in the appendix on the last page.",
+        },
+        {
+            'question': "Is there a minimum number of tiers/categories needed to participate in the Adhiveshan?",
+            'answer': "As per Swamishri’s ruchi, the focus of this Adhiveshan is to learn, understand, and imbibe various satsang shastras in the lives of balaks and balikas. Thus, there is no mandatory minimum amount of categories you need to pledge to be able to participate in the Adhiveshan. Although, you should still strive to pledge for as many categories as you can and push yourselves to strive for higher tiers to make Swamishri extra raaji.",
+        },
+        {
+            'question': "Can we choose which items to memorize in each category?",
+            'answer': "The Satsang Diksha category is the only category that will have a set number of shlokas for each tier. For example if you choose the Mahant Challenge for the Satsang Diksha category, there will be a pre-set list of 64 shlokas. For all of the other categories (Swamini Vato, Shloka/Sakhi, Kirtan, Prasang Manan), you will have a choice in creating your own set with the available list of mukhpath. For example, if you are a group 1 balak or balika who wants to do the Yogi challenge for Kirtans, you will be able to choose any 4 out of a possible list of 15 kirtans listed in the book.",
+        },
     },
-]
+    "Skills Challenge (Talent Competitions)": {
+        {
+            'question': "What is the Skills Challenge (Talent Competition)?",
+            'answer': "The Skills Challenge allows you to tie your passions and hobbies back to Satsang. You will have a chance to show your talents in a multitude of fashions included in the mukhbath booklet. You will be able to choose a minimum of 1 and a maximum of 3 categories. More details on the rules and regulations for each of the specific skills challenges are listed in the book.",
+        },
+    },
+    "Adhiveshan Pledging": {
+        {
+            'question': "How can I pledge for Adhiveshan?",
+            'answer': "You will be able to pledge for Adhiveshan through BKMS after the Launch Sabha at the end of January. You will be able to access this link until 3/7/21. By this date, you must submit their pledges. Before this date, please read through the Mukhpath book and take a look at the possible tiers for your group and make a decision on what mukhpath you will be able to memorize by the summer.\nNOTE: If you pledge for Satsang Diksha, you should try to continue with the tier you chose for your Raajipo Challenge from August 2020. If you would like to change it, there will be an opportunity for you to repledge your original Satsang Diksha pledge when you pledge for the other Adhiveshan categories.",
+        },
+        {
+            'question': "Will there be additional material to help me study?",
+            'answer': "Along with this book, there will be additional material provided via a website including interactive aids to help memorize the Adhiveshan content. The website will also contain small interactive quizzes to aid in memorization and self-evaluation. Details for this website will come soon.",
+        },
+    },
+    "Adhiveshan Timeline": {
+        {
+            'question': "What are some important dates to keep in mind relating to the Adhiveshan?",
+            'answer': "SS21 Adhiveshan Launch Sabha: 1/31/2021\nAdhiveshan Pledge and Summer Shibir registration: 1/31/2021-3/7/2021\nBeginner's Challenge Quiz: To be held at home - Time soon to come\nTalent Competition Submission Deadline: Time soon to come\nAdhiveshan Raajipo Challenge: Time soon to come",
+        },
+    },
+}
