@@ -50,7 +50,6 @@ class UserManager(BaseUserManager):
         superuser.save(using=self._db)
         return superuser
 
-
 class User(AbstractBaseUser):
     """The Base User main."""
     email: models.EmailField = models.EmailField(max_length=60, unique=True)
@@ -100,12 +99,20 @@ class User(AbstractBaseUser):
     def has_module_perms(self, app_label: str) -> models.BooleanField:
         return self.is_admin
 
+    def is_bal_mandal(self):
+        return self.mandal.lower().replace(' ', '_') \
+               in (constants.GROUP_0, constants.GROUP_1, constants.GROUP_3)
+
+    def is_kishore_mandal(self):
+        return self.mandal.lower().replace(' ', '_') == constants.KISHORE_KISHORI
+
 
 class Module(models.Model):
     title = models.CharField(max_length=60, null=True)
     imageURL = models.URLField(null=True)
     is_selectable = models.BooleanField(default=True)
     is_kishore_mandal = models.BooleanField(default=False)
+    is_bal_mandal = models.BooleanField(default=False)
 
     def __str__(self):
         return self.title

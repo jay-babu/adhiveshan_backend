@@ -29,8 +29,14 @@ class RegisterView(GenericAPIView):
 
 
 def instantiate_module_instances_for_user(user):
-    is_user_kishore = user.mandal.lower().replace(' ', '_') == constants.KISHORE_KISHORI
-    for module in models.Module.objects.filter(is_kishore_mandal=is_user_kishore):
+    # Get relevant modules for the user, depending on whether they are BM or KM.
+    relevant_modules = None
+    if user.is_kishore_mandal():
+        relevant_modules = models.Module.objects.filter(is_kishore_mandal=True)
+    elif user.is_bal_mandal():
+        relevant_modules = models.Module.objects.filter(is_bal_mandal=True)
+
+    for module in relevant_modules:
         module_instance = models.ModuleInstance.objects.create(user=user, module=module)
         for item in module.mukhpath_items.all():
             models.MukhpathItemInstance.objects.create(
@@ -130,26 +136,63 @@ class DashboardView(APIView):
 
     def get(self, request):
         # Checks if pledge object exists.
-        if hasattr(request.user, 'pledge'):
-            response = defaultdict(list)
-            modules = response['modules']
-            for pledged_module in request.user.pledge.pledged_modules.all():
-                module_instance = models.ModuleInstance.objects.get(
-                    user=request.user,
-                    module=pledged_module.module)
-                modules.append({
-                    'title': pledged_module.module.title,
-                    'tier': pledged_module.tier,
-                    'required': constants.get_required_mukhpath_items(
-                        pledged_module.module.title,
-                        request.user.mandal.lower().replace(' ', '_'),
-                        pledged_module.tier),
-                    'memorized': get_num_of_items_memorized(module_instance)
-                })
-            return Response(data=response, status=status.HTTP_200_OK)
-        else:
-            return Response(data={},
-                            status=status.HTTP_200_OK)
+        if request.user.is_bal_mandal():
+            return get_bal_mandal_dashboard_view(request.user)
+        elif request.user.is_kishore_mandal():
+            return get_kishore_mandal_dashboard_view(request.user)
+
+
+def get_bal_mandal_dashboard_view(user):
+    response = defaultdict(list)
+    modules = response['modules']
+    for pledged_module in user.pledge.pledged_modules.all():
+        module_instance = models.ModuleInstance.objects.get(
+            user=user,
+            module=pledged_module.module)
+        modules.append({
+            'title': pledged_module.module.title,
+            'tier': pledged_module.tier,
+            'required': constants.get_required_mukhpath_items(
+                pledged_module.module.title,
+                user.mandal.lower().replace(' ', '_'),
+                pledged_module.tier),
+            'memorized': get_num_of_items_memorized(module_instance)
+        })
+    return Response(data=response, status=status.HTTP_200_OK)
+
+
+def get_kishore_mandal_dashboard_view(user):
+    response = defaultdict(list)
+    modules = response['modules']
+    for pledged_module in user.pledge.pledged_modules.all():
+        if pledged_module.module.title == constants.SATSANG_DIKSHA:
+            module_instance = models.ModuleInstance.objects.get(
+                user=user,
+                module=pledged_module.module)
+            modules.append({
+                'title': pledged_module.module.title,
+                'tier': pledged_module.tier,
+                'required': constants.get_required_mukhpath_items(
+                    pledged_module.module.title,
+                    user.mandal.lower().replace(' ', '_'),
+                    pledged_module.tier),
+                'memorized': get_num_of_items_memorized(module_instance)
+            })
+
+    # For module in all user module instances except for SATSANG DIKSHA and KM_MODULES
+    # If is one bookmarked, show that
+    # Set required as constant value.
+    for module_instance in user.module_instances.all():
+        if module_instance.module.title in (constants.SATSANG_DIKSHA, constants.KM_MODULES):
+            continue
+        if module_instance.mukhpath_item_instances.filter(is_bookmarked=True).count() > 0:
+            modules.append({
+                'title': module_instance.module.title,
+                'required': constants.REQUIRED_PER_KM_MODULE,
+                'memorized': get_num_of_items_memorized(module_instance)
+            })
+    # Get all modules that the user has added bookmarks too.
+    return Response(data=response, status=status.HTTP_200_OK)
 
 
 def get_num_of_items_memorized(module_instance):

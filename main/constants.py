@@ -340,6 +340,10 @@ SILVER = 'silver'
 GOLD = 'gold'
 PLATINUM = 'platinum'
 
+# REQUIRED_PER_KM_MODULE num of mukhpath items need to be
+# memorized per module for kishore mandal.
+REQUIRED_PER_KM_MODULE = 4
+
 TIERS = [
     (GHANSHYAM, 'Ghanshyam'),
     (MAHANT, 'Mahant'),
