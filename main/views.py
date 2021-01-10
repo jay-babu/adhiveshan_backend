@@ -1,3 +1,5 @@
+import os
+import csv
 from collections import defaultdict
 from os import getenv
 
@@ -82,7 +84,7 @@ class ChangePasswordView(UpdateAPIView):
                 'status': 'success',
                 'code': status.HTTP_200_OK,
                 'message': 'Password updated successfully',
-                'data': []
+                'mukhpath_content_data': []
             }
 
             return Response(response)
@@ -305,3 +307,37 @@ class GetFAQView(APIView):
 
     def get(self, request: Request):
         return Response(data=constants.FAQ, status=status.HTTP_200_OK)
+
+
+class UploadContentView(APIView):
+    permission_classes = (AllowAny,)
+
+    def get(self, request: Request):
+        # Call python func here.
+        upload_mukhpath_content()
+        return Response(data={}, status=status.HTTP_200_OK)
+
+
+MUKHPATH_CONTENT_DIR = 'main/mukhpath_content_data'
+def upload_mukhpath_content():
+    for module_name in os.listdir(MUKHPATH_CONTENT_DIR):
+        file_name = os.path.join(MUKHPATH_CONTENT_DIR, module_name)
+        with open(file_name) as opened_file:
+            mukhpath_items = csv.reader(opened_file, delimiter='\t')
+            # Skip header
+            next(mukhpath_items)
+
+            module_name_trunc = module_name[:-4]
+            for row in mukhpath_items:
+                current_module = models.Module.objects.get(title=module_name_trunc)
+                new_item = models.MukhpathItem.objects.create(
+                    title=row[0],
+                    english_content=row[1],
+                    gujurati_content=row[2],
+                    transliteration_content=row[3],
+                    audio_url=row[4],
+                    module=current_module,
+                )
+
+                new_item.value = 1 if current_module.title != constants.SATSANG_DIKSHA else row[5]
+                new_item.source = '' if current_module.is_bal_mandal else row[5]

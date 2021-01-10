@@ -23,5 +23,8 @@ urlpatterns = [
          name='bookmarked_mukhpath_items'),
     path('mukhpath_item_instances/', views.MukhpathItemInstanceView.as_view(),
          name='mukhpath_item_instance_view'),
-    path('get_faq/', views.GetFAQView.as_view(), name='get_faq')
+    path('get_faq/', views.GetFAQView.as_view(), name='get_faq'),
+
+    # Dev use only
+    path('upload_content/', views.UploadContentView.as_view(), name='upload_content')
 ]

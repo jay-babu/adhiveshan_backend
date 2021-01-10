@@ -157,14 +157,14 @@ class PledgedModule(models.Model):
 
 
 class MukhpathItem(models.Model):
-    type = models.CharField(max_length=20, blank=True, null=True)
-    title = models.CharField(max_length=100, blank=True, null=True)
+    source = models.CharField(max_length=200, blank=True, null=True)
+    title = models.CharField(max_length=200, blank=True, null=True)
     module = models.ForeignKey(Module, on_delete=models.CASCADE, related_name='mukhpath_items', null=True)
-    english_content = models.CharField(max_length=300)
-    gujurati_content = models.CharField(max_length=300)
-    transliteration_content = models.CharField(max_length=300)
-    audio_url = models.CharField(max_length=60)
-    video_url = models.CharField(max_length=60)
+    english_content = models.CharField(max_length=100000)
+    gujurati_content = models.CharField(max_length=100000)
+    transliteration_content = models.CharField(max_length=100000)
+    audio_url = models.CharField(max_length=1000)
+    value = models.IntegerField(default=1)
 
     def __str__(self):
         return f'{self.title}, {self.module.title}'

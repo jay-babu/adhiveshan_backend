@@ -154,7 +154,7 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-# profiling data
+# profiling mukhpath_content_data
 .prof
 
 ### Emacs ###
@@ -466,7 +466,7 @@ Temporary Items
 
 # pytype static type analyzer
 
-# profiling data
+# profiling mukhpath_content_data
 
 ### Vim ###
 # Swap
@@ -523,3 +523,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/django,macos,python,jetbrains,pycharm,vscode,windows,emacs,vim
+
