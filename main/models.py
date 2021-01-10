@@ -100,8 +100,12 @@ class User(AbstractBaseUser):
         return self.is_admin
 
     def is_bal_mandal(self):
-        return self.mandal.lower().replace(' ', '_') \
-               in (constants.GROUP_0, constants.GROUP_1, constants.GROUP_3)
+        return self.mandal.lower().replace(' ', '_') in (
+            constants.GROUP_0,
+            constants.GROUP_1,
+            constants.GROUP_2,
+            constants.GROUP_3
+        )
 
     def is_kishore_mandal(self):
         return self.mandal.lower().replace(' ', '_') == constants.KISHORE_KISHORI
