@@ -503,7 +503,7 @@ FAQ = {
     'General': [
         {
             'question': 'What is Adhiveshan?',
-            'answer': 'Adhiveshan is a structured way of memorizing mukhpath which is sometimes focused on a certain satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to sacrifice our time to memorize the mukhpath, learn its meaning, and eventually imbibe it in our lives to please our Guru.',
+            'answer': 'Adhiveshan is a structured way of memorizing mukhpath which is sometimes focused on a certain satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to sacrifice our time to memorize the mukhpath, learn its meaning, and eventually imbibe it in our lives to please Mahant Swami Maharaj.',
         },
         {
             'question': 'Why do we do Adhiveshans?',
