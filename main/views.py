@@ -55,6 +55,17 @@ class OnboardedView(APIView):
             status=status.HTTP_200_OK)
 
 
+class HasWatchedTutorialView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def put(self, request):
+        request.user.has_watched_tutorial = request.data.get('has_watched_tutorial')
+        request.user.save()
+        return Response(
+            data={'has_watched_tutorial': request.user.has_watched_tutorial},
+            status=status.HTTP_200_OK)
+
+
 class ChangePasswordView(UpdateAPIView):
     permission_classes = (IsAuthenticated,)
     serializer_class = ChangePasswordSerializer
@@ -285,6 +296,7 @@ class UserDetailView(APIView):
             'gender': user.gender or '',
             'mandal': user.mandal or '',
             'is_onboarded': user.is_onboarded,
+            'has_watched_tutorial': user.has_watched_tutorial,
         }, status=status.HTTP_200_OK)
 
 

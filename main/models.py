@@ -74,6 +74,7 @@ class User(AbstractBaseUser):
                               choices=[(mandal, mandal.replace('_', ' ').title()) for mandal in constants.MANDALS],
                               null=True)
     is_onboarded = models.BooleanField(default=False, null=True)
+    has_watched_tutorial = models.BooleanField(default=False, null=True)
 
     objects: UserManager = UserManager()
 
