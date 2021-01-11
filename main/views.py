@@ -140,6 +140,13 @@ class MyPledgeView(APIView):
                 module=models.Module.objects.get(title=module['title']),
                 tier=module['tier'])
 
+            # If pledged module is satsang diksha, bookmark all items.
+            if module['title'] == constants.SATSANG_DIKSHA:
+                module_instance = request.user.module_instances.get(module__title=constants.SATSANG_DIKSHA)
+                for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
+                    mukhpath_item_instance.is_bookmarked = True
+                    mukhpath_item_instance.save()
+
         return Response(data=request.data,
                         status=status.HTTP_201_CREATED)
 
