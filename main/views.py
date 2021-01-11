@@ -239,11 +239,23 @@ class BookmarkedMukhpathItemsView(APIView):
 
 def get_modules(user, bookmarked_only=False):
     response = {}
+    has_pledged_for_satsang_diksha = user.pledge.pledged_modules.filter(module__title=constants.SATSANG_DIKSHA).count() > 0
+    sd_tier = None
+    if has_pledged_for_satsang_diksha:
+        sd_tier = user.pledge.pledged_modules.get(module__title=constants.SATSANG_DIKSHA).tier
+
     for module_instance in user.module_instances.all():
         mukhpath_item_instances = []
+        module_instance_is_sd = module_instance.module.title == constants.SATSANG_DIKSHA
         for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
-            if bookmarked_only and not mukhpath_item_instance.is_bookmarked:
+            if bookmarked_only and not mukhpath_item_instance.is_bookmarked and not module_instance_is_sd:
                 continue
+
+            if module_instance_is_sd and has_pledged_for_satsang_diksha:
+                is_item_in_sd_tier = mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKS_FOR_TIER[sd_tier]
+                if not is_item_in_sd_tier:
+                    continue
+
             mukhpath_item_instance_dict = {
                 'id': mukhpath_item_instance.id,
                 'title': mukhpath_item_instance.mukhpath_item.title,
