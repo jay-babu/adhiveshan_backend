@@ -262,8 +262,10 @@ def get_modules(user, bookmarked_only=False):
                 'english_content': mukhpath_item_instance.mukhpath_item.english_content,
                 'gujurati_content': mukhpath_item_instance.mukhpath_item.gujurati_content,
                 'transliteration_content': mukhpath_item_instance.mukhpath_item.transliteration_content,
+                'audio_url': mukhpath_item_instance.mukhpath_item.audio_url,
                 'is_memorized': mukhpath_item_instance.is_memorized,
-                'is_bookmarked': mukhpath_item_instance.is_bookmarked
+                'is_bookmarked': mukhpath_item_instance.is_bookmarked,
+                'value': mukhpath_item_instance.mukhpath_item.value,
             }
             mukhpath_item_instances.append(mukhpath_item_instance_dict)
 
