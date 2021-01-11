@@ -503,11 +503,11 @@ FAQ = {
     'General': [
         {
             'question': 'What is Adhiveshan?',
-            'answer': 'Adhiveshan is a structured way of memorizing mukhpath which is sometimes focused on a certain satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to sacrifice our time to memorize the mukhpath, learn its meaning, and eventually imbibe it in our lives to please our Guru.',
+            'answer': 'Adhiveshan is a structured way of memorizing mukhpath which is sometimes focused on a certain satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to sacrifice our time to memorize the mukhpath, learn its meaning, and eventually imbibe it in our lives to please Mahant Swami Maharaj.',
         },
         {
             'question': 'Why do we do Adhiveshans?',
-            'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and balikas to memorize mukhpath during their summer vacations to the various Adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, mukhpath has been an integral way for balaks and balikas to earn the raajipo of our Gurus. By learning and memorizing various parts of our Shastras, we are able to ground ourselves in the Akshar Purushottam Upasana and find solutions to the many problems we may face in life. Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.',
+            'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and balikas to memorize mukhpath during their summer vacations to the various Adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, mukhpath has been an integral way for balaks and balikas to earn the raajipo of our Gurus. By learning and memorizing various parts of our Shastras, we are able to ground ourselves in the Akshar Purushottam Upasana and find solutions to the many problems we may face in life. Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and the Aksharsham Mahotsav.',
         },
         {
             'question': 'Which Adhiveshan do I pledge for and which Summer Shibir do I go to?',
