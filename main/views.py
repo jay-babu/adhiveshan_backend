@@ -323,6 +323,28 @@ class GetFAQView(APIView):
         return Response(data=constants.FAQ, status=status.HTTP_200_OK)
 
 
+class ResetMemorizedView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def post(self, request: Request):
+        for module_instance in request.user.module_instances.all():
+            for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
+                mukhpath_item_instance.is_memorized = False
+                mukhpath_item_instance.save()
+        return Response(data={}, status=status.HTTP_200_OK)
+
+
+class ResetBookmarkedView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def post(self, request: Request):
+        for module_instance in request.user.module_instances.all():
+            for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
+                mukhpath_item_instance.is_bookmarked = False
+                mukhpath_item_instance.save()
+        return Response(data={}, status=status.HTTP_200_OK)
+
+
 class UploadContentView(APIView):
     permission_classes = (AllowAny,)
 
