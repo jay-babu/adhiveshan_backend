@@ -3,8 +3,6 @@ import csv
 from collections import defaultdict
 from os import getenv
 
-from django.utils.decorators import method_decorator
-from django.views.decorators.cache import cache_page
 from rest_framework import status
 from rest_framework.generics import GenericAPIView, UpdateAPIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
@@ -15,8 +13,6 @@ from rest_framework.views import APIView
 from main.serializers import UserSerializer, ChangePasswordSerializer
 from . import constants
 from . import models
-
-DEFAULT_CACHE_TIMEOUT = 60 * 60 * 12  # 12 Hours
 
 
 class RegisterView(GenericAPIView):
@@ -144,12 +140,13 @@ class MyPledgeView(APIView):
                 module=models.Module.objects.get(title=module['title']),
                 tier=module['tier'])
 
-            # If pledged module is satsang diksha, bookmark all items.
+            # If pledged module is satsang diksha, bookmark items in tier.
             if module['title'] == constants.SATSANG_DIKSHA:
                 module_instance = request.user.module_instances.get(module__title=constants.SATSANG_DIKSHA)
                 for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
-                    mukhpath_item_instance.is_bookmarked = True
-                    mukhpath_item_instance.save()
+                    if mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKS_FOR_TIER[module['tier']]:
+                        mukhpath_item_instance.is_bookmarked = True
+                        mukhpath_item_instance.save()
 
         return Response(data=request.data,
                         status=status.HTTP_201_CREATED)
@@ -235,7 +232,6 @@ class AccessAllowedView(APIView):
 class AllMukhpathItemsView(APIView):
     permission_classes = (IsAuthenticated,)
 
-    @method_decorator(cache_page(DEFAULT_CACHE_TIMEOUT))
     def get(self, request):
         return Response(data=get_modules(user=request.user), status=status.HTTP_200_OK)
 
@@ -251,8 +247,7 @@ class BookmarkedMukhpathItemsView(APIView):
 
 def get_modules(user, bookmarked_only=False):
     response = {}
-    has_pledged_for_satsang_diksha = user.pledge.pledged_modules.filter(
-        module__title=constants.SATSANG_DIKSHA).count() > 0
+    has_pledged_for_satsang_diksha = user.pledge.pledged_modules.filter(module__title=constants.SATSANG_DIKSHA).count() > 0
     sd_tier = None
     if has_pledged_for_satsang_diksha:
         sd_tier = user.pledge.pledged_modules.get(module__title=constants.SATSANG_DIKSHA).tier
@@ -303,7 +298,6 @@ class MukhpathItemInstanceView(APIView):
 class CentersView(APIView):
     permission_classes = (AllowAny,)
 
-    @method_decorator(cache_page(DEFAULT_CACHE_TIMEOUT))
     def get(self, request):
         return Response(data={
             'centers': sorted(map(lambda item: item.replace('_', ' ').title(), constants.CENTERS_REGIONS.keys()))},
@@ -333,7 +327,6 @@ class UserDetailView(APIView):
 class GetFAQView(APIView):
     permission_classes = (IsAuthenticated,)
 
-    @method_decorator(cache_page(60 * 60 * 12))
     def get(self, request: Request):
         return Response(data=constants.FAQ, status=status.HTTP_200_OK)
 
@@ -372,8 +365,6 @@ class UploadContentView(APIView):
 
 
 MUKHPATH_CONTENT_DIR = 'main/mukhpath_content_data'
-
-
 def upload_mukhpath_content():
     for module_name in os.listdir(MUKHPATH_CONTENT_DIR):
         file_name = os.path.join(MUKHPATH_CONTENT_DIR, module_name)
