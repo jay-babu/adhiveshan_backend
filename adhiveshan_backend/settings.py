@@ -124,12 +124,13 @@ CACHES = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:8000",
-    "http://localhost:8100",
     "https://bkadhiveshan.na.baps.org",
     "capacitor://localhost",
     "http://localhost",
 ]
+
+if getenv('ENV_PROD', 'False') == 'False':
+    CORS_ALLOWED_ORIGINS.extend(["http://localhost:8000", "http://localhost:8100", ])
 
 PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.Argon2PasswordHasher',
