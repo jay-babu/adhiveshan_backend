@@ -14,7 +14,6 @@ from datetime import timedelta
 from os import getenv
 from pathlib import Path
 
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -149,10 +148,10 @@ SIMPLE_JWT = {
     'JTI_CLAIM': 'jti',
 }
 
-SENDGRID_API_KEY = getenv('SENDGRID_API_KEY')
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = SENDGRID_API_KEY
+SENDINBLUE_API_KEY = getenv('SENDINBLUE_API_KEY')
+EMAIL_HOST = 'smtp-relay.sendinblue.com'
+EMAIL_HOST_USER = 'kishore@na.baps.org'
+EMAIL_HOST_PASSWORD = SENDINBLUE_API_KEY
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 

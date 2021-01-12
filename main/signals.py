@@ -37,7 +37,7 @@ def password_reset_token_created(sender, instance, reset_password_token, *args, 
         # message:
         email_plaintext_message,
         # from:
-        "jayrpatel1907@gmail.com",
+        "kishore@na.baps.org",
         # to:
         [reset_password_token.user.email]
     )
