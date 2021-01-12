@@ -346,6 +346,8 @@ class ResetBookmarkedView(APIView):
 
     def post(self, request: Request):
         for module_instance in request.user.module_instances.all():
+            if module_instance.module.title == constants.SATSANG_DIKSHA:
+                continue
             for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
                 mukhpath_item_instance.is_bookmarked = False
                 mukhpath_item_instance.save()
