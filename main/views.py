@@ -247,12 +247,23 @@ class BookmarkedMukhpathItemsView(APIView):
 
 def get_modules(user, bookmarked_only=False):
     response = {}
-    has_pledged_for_satsang_diksha = user.pledge.pledged_modules.filter(module__title=constants.SATSANG_DIKSHA).count() > 0
+    has_pledged_for_satsang_diksha = False
+    try:
+        _ = user.pledge
+        has_pledged_for_satsang_diksha = user.pledge.pledged_modules.filter(
+            module__title=constants.SATSANG_DIKSHA).count() > 0
+    except Exception:
+        pass
+
     sd_tier = None
     if has_pledged_for_satsang_diksha:
         sd_tier = user.pledge.pledged_modules.get(module__title=constants.SATSANG_DIKSHA).tier
 
     for module_instance in user.module_instances.all():
+        # DEV
+        if module_instance.module.title != constants.KIRTAN:
+            continue
+
         mukhpath_item_instances = []
         module_instance_is_sd = module_instance.module.title == constants.SATSANG_DIKSHA
         for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
@@ -385,9 +396,9 @@ def upload_mukhpath_content():
                 current_module = models.Module.objects.get(title=module_name_trunc)
                 new_item = models.MukhpathItem.objects.create(
                     title=row[0],
-                    english_content=row[1],
-                    gujurati_content=row[2],
-                    transliteration_content=row[3],
+                    english_content='\\n'.join(row[1].splitlines()),
+                    gujurati_content='\\n'.join(row[2].splitlines()),
+                    transliteration_content='\\n'.join(row[3].splitlines()),
                     audio_url=row[4],
                     module=current_module,
                 )
