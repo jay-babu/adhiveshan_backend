@@ -566,6 +566,7 @@ FAQ = {
 SKILLS_CHALLENGE = {
     'Story/Speech-Based Competitions': [
         'Mono-acting',
+            'Test',
         'Storytelling',
         'Satsang Diksha Nirupan',
         'Prasang-Varnan Speech',
