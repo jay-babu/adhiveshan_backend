@@ -396,9 +396,9 @@ def upload_mukhpath_content():
                 current_module = models.Module.objects.get(title=module_name_trunc)
                 new_item = models.MukhpathItem.objects.create(
                     title=row[0],
-                    english_content='\\n'.join(row[1].splitlines()),
-                    gujurati_content='\\n'.join(row[2].splitlines()),
-                    transliteration_content='\\n'.join(row[3].splitlines()),
+                    english_content='\n'.join(row[1].splitlines()),
+                    gujurati_content='\n'.join(row[2].splitlines()),
+                    transliteration_content='\n'.join(row[3].splitlines()),
                     audio_url=row[4],
                     module=current_module,
                 )
