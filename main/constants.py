@@ -562,6 +562,30 @@ FAQ = {
     ],
 }
 
+# Skills Challenge
+SKILLS_CHALLENGE = {
+    'Story/Speech-Based Competitions': [
+        'Mono-acting',
+        'Storytelling',
+        'Satsang Diksha Nirupan',
+        'Prasang-Varnan Speech',
+    ],
+    'Music-Based Competitions': [
+        'Solo Singing',
+        'Musical Instruments',
+    ],
+    'Writing-Based Competitions': [
+        'Poetry',
+        'Essay-Writing (Group 3)',
+    ],
+    'Art-Based Talents': [
+        'Painting/Illustration',
+        'Graphic Design (Photoshop)',
+        'Video Making',
+        'Rangoli design',
+    ]
+}
+
 # Satsang Diksha Tiers
 # Contains set of SD shloks in ghanshyam tier, indexed by title.
 GHANSHYAM_SD_SHLOKS = {

@@ -331,6 +331,13 @@ class GetFAQView(APIView):
         return Response(data=constants.FAQ, status=status.HTTP_200_OK)
 
 
+class GetSkillsChallengeView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request: Request):
+        return Response(data=constants.SKILLS_CHALLENGE, status=status.HTTP_200_OK)
+
+
 class ResetMemorizedView(APIView):
     permission_classes = (IsAuthenticated,)
 
