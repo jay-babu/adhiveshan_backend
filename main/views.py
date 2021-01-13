@@ -260,10 +260,6 @@ def get_modules(user, bookmarked_only=False):
         sd_tier = user.pledge.pledged_modules.get(module__title=constants.SATSANG_DIKSHA).tier
 
     for module_instance in user.module_instances.all():
-        # DEV
-        if module_instance.module.title != constants.KIRTAN:
-            continue
-
         mukhpath_item_instances = []
         module_instance_is_sd = module_instance.module.title == constants.SATSANG_DIKSHA
         for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
