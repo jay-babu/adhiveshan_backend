@@ -29,5 +29,5 @@ urlpatterns = [
     path('reset_bookmarked_all/', views.ResetBookmarkedView.as_view(), name='reset_bookmarked_all'),
 
     # Dev use only
-    # path('upload_content/', views.UploadContentView.as_view(), name='upload_content')
+    path('upload_content/', views.UploadContentView.as_view(), name='upload_content')
 ]

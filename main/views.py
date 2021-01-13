@@ -376,7 +376,7 @@ def upload_mukhpath_content():
     for module_name in os.listdir(MUKHPATH_CONTENT_DIR):
         file_name = os.path.join(MUKHPATH_CONTENT_DIR, module_name)
         with open(file_name) as opened_file:
-            mukhpath_items = csv.reader(opened_file, delimiter='\t')
+            mukhpath_items = csv.reader(opened_file, delimiter=',')
             # Skip header
             next(mukhpath_items)
 
