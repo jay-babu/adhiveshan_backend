@@ -565,8 +565,41 @@ FAQ = {
 # Skills Challenge
 SKILLS_CHALLENGE = {
     'Story/Speech-Based Competitions': [
-        'Mono-acting',
-            'Test',
+        'Mono-acting': [
+            'Rules': {
+                """Participants can choose to enact any one scene from the list of scenes below. However, participants can choose to enact another scene if not present from the list.
+Each participant will have a maximum of 5 minutes to enact the scene. 
+The act must be memorized. Notes will not be allowed.
+Participants must record their drama in good lighting and on a good camera (either on a smartphone or webcam). Audio must be clear. Participants should dress up and use props.
+You will take on the role of one person from the scene (for most scenes this is provided), and enact the scene from that person's point of view.
+Balaks must choose the bal characters and balikas must choose the balika character list.
+Mono-acting will be judged on: accurate portrayal of the incident, acting, tone, emotion, facial expressions, memorization, props/costume/creativity."""
+            },
+            'Character List': {
+                """<table>
+                    <tr>
+                        <td>No</td>
+                        <td>Joban Pagi's transformation</td>
+                        <td>Jivuba's Bhakti to Thakorji</td
+                    </tr>
+                     <tr>
+                        <td>No</td>
+                        <td>Bal Characters</td>
+                        <td>Balika Characters</td
+                    </tr>
+                     <tr>
+                        <td>No</td>
+                        <td>Bal Characters</td>
+                        <td>Balika Characters</td
+                    </tr>
+                     <tr>
+                        <td>No</td>
+                        <td>Bal Characters</td>
+                        <td>Balika Characters</td
+                    </tr>
+                </table>"""
+            }
+        ],
         'Storytelling',
         'Satsang Diksha Nirupan',
         'Prasang-Varnan Speech',
