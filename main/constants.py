@@ -748,7 +748,7 @@ SKILLS_CHALLENGE = {
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
-		Participants will speak on one of Yogiji Maharaj’s Bodh Katha. A sample list is provided below, however participants can choose any bodh katha from the book, 101 Tales of Wisdom. If you do not have a book, a short version can be found at: http://www.swaminarayan.org/yogijimaharaj/talesofwisdom/ 
+		Participants will speak on one of Yogiji Maharaj’s Bodh Katha. A sample list is provided below, however participants can choose any bodh katha from the book, 101 Tales of Wisdom.
 	</li>
 	<li>Participants must tell the story in its entirety, as well as provide a manan, or reflection, on the importance of the story.</li>
 	<li>The story must be memorized. Notes will not be allowed.</li>
