@@ -620,8 +620,8 @@ FAQ = {
     ],
 }
 
-# Skills Challenge
-SKILLS_CHALLENGE = {
+# Skills Challenge for BM
+BAL_SKILLS_CHALLENGE = {
     'Story/Speech-Based Competitions': {
         'Mono-acting': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
@@ -849,6 +849,9 @@ SKILLS_CHALLENGE = {
         'Rangoli design': "",
     },
 }
+
+# Skills Challenge for KM
+KISHORE_SKILLS_CHALLENGE = {}
 
 # Satsang Diksha Tiers
 # Contains set of SD shloks in ghanshyam tier, indexed by title.
