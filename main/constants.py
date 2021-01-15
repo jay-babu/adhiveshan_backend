@@ -777,7 +777,7 @@ SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Jivuba’s Bhakti to Thakorji
+          Tukaram and Naradji
         </ion-text>
       </ion-col>
   </ion-row>
@@ -789,7 +789,7 @@ SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Kushalkuvarba
+          A Quiver of Arrows
         </ion-text>
       </ion-col>
   </ion-row>
@@ -801,7 +801,7 @@ SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Gargi’s Debate
+          Lindiyo
         </ion-text>
       </ion-col>
   </ion-row>
@@ -813,9 +813,19 @@ SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Mirabai’s Bhakti
+          The Sesame Seed Scholar
         </ion-text>
       </ion-col>
+      <ion-col size="2">
+        <ion-text>
+          5
+        </ion-text>
+      </ion-col>
+        <ion-col size="5">
+          <ion-text>
+            The Lazy Man
+          </ion-text>
+        </ion-col>
   </ion-row>
 </ion-grid>
 <div>""",
