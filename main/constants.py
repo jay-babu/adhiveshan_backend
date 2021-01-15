@@ -816,6 +816,7 @@ SKILLS_CHALLENGE = {
           The Sesame Seed Scholar
         </ion-text>
       </ion-col>
+    <ion-row>
       <ion-col size="2">
         <ion-text>
           5
@@ -826,6 +827,7 @@ SKILLS_CHALLENGE = {
             The Lazy Man
           </ion-text>
         </ion-col>
+    </ion-row>
   </ion-row>
 </ion-grid>
 <div>""",
