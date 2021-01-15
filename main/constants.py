@@ -748,28 +748,15 @@ SKILLS_CHALLENGE = {
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
-		Participants can choose to enact any one scene from the list of scenes
-		below. However, participants can choose to enact another scene if not
-		present from the list.
+		Participants will speak on one of Yogiji Maharaj’s Bodh Katha. A sample list is provided below, however participants can choose any bodh katha from the book, 101 Tales of Wisdom. If you do not have a book, a short version can be found at: http://www.swaminarayan.org/yogijimaharaj/talesofwisdom/ 
 	</li>
-	<li>Each participant will have a maximum of 5 minutes to enact the scene.</li>
-	<li>The act must be memorized. Notes will not be allowed.</li>
+	<li>Participants must tell the story in its entirety, as well as provide a manan, or reflection, on the importance of the story.</li>
+	<li>The story must be memorized. Notes will not be allowed.</li>
 	<li>
-		Participants must record their drama in good lighting and on a good camera
-		(either on a smartphone or webcam). Audio must be clear. Participants should
-		dress up and use props.
+		Participants must record their story in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
 	</li>
 	<li>
-		You will take on the role of one person from the scene (for most scenes this
-		is provided), and enact the scene from that person's point of view.
-	</li>
-	<li>
-		Balaks must choose the bal characters and balikas must choose the balika
-		character list.
-	</li>
-	<li>
-		Mono-acting will be judged on: accurate portrayal of the incident, acting,
-		tone, emotion, facial expressions, memorization, props/costume/creativity.
+		Storytelling will be judged on: storytelling ability, content, manan/personal reflection, gestures, organization, flow, confidence, tone, etc.
 	</li>
 </ul>
 <h2 class="static-content-title">Character List</h2>
