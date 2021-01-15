@@ -816,18 +816,18 @@ SKILLS_CHALLENGE = {
           The Sesame Seed Scholar
         </ion-text>
       </ion-col>
-    <ion-row>
-      <ion-col size="2">
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
         <ion-text>
-          5
+          The Lazy Man
         </ion-text>
       </ion-col>
-        <ion-col size="5">
-          <ion-text>
-            The Lazy Man
-          </ion-text>
-        </ion-col>
-    </ion-row>
   </ion-row>
 </ion-grid>
 <div>""",
