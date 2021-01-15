@@ -759,17 +759,14 @@ SKILLS_CHALLENGE = {
 		Storytelling will be judged on: storytelling ability, content, manan/personal reflection, gestures, organization, flow, confidence, tone, etc.
 	</li>
 </ul>
-<h2 class="static-content-title">Character List</h2>
+<h2 class="static-content-title">Bodh Katha</h2>
 <ion-grid class="ion-text-center">
   <ion-row class="header-row">
     <ion-col size="2">
       <ion-text>#</ion-text>
     </ion-col>
     <ion-col size="5">
-      <ion-text>Bal Characters</ion-text>
-    </ion-col>
-    <ion-col size="5">
-      <ion-text>Balika Characters</ion-text>
+      <ion-text>Bodh Katha</ion-text>
     </ion-col>
   </ion-row>
   <ion-row>
@@ -778,11 +775,6 @@ SKILLS_CHALLENGE = {
         1
       </ion-text>
     </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Joban Pagi’s Transformation
-        </ion-text>
-      </ion-col>
       <ion-col size="5">
         <ion-text>
           Jivuba’s Bhakti to Thakorji
@@ -797,11 +789,6 @@ SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Ladudanji’s Four Wishes
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
           Kushalkuvarba
         </ion-text>
       </ion-col>
@@ -812,11 +799,6 @@ SKILLS_CHALLENGE = {
         3
       </ion-text>
     </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Prahalad’s Bhakti
-        </ion-text>
-      </ion-col>
       <ion-col size="5">
         <ion-text>
           Gargi’s Debate
@@ -831,23 +813,8 @@ SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Shravan’s Seva
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
           Mirabai’s Bhakti
         </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        5
-      </ion-text>
-    </ion-col>
-      <ion-col size="10">
-        Characters from any bodh katha
       </ion-col>
   </ion-row>
 </ion-grid>
