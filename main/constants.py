@@ -768,6 +768,8 @@ SKILLS_CHALLENGE = {
     <ion-col size="5">
       <ion-text>Bodh Katha</ion-text>
     </ion-col>
+    <ion-col class="unused-column" size="5"
+    </ion-col>
   </ion-row>
   <ion-row>
     <ion-col size="2">
