@@ -342,7 +342,7 @@ class GetSkillsChallengeView(APIView):
     permission_classes = (IsAuthenticated,)
 
     def get(self, request: Request):
-        return Response(data={}, status=status.HTTP_200_OK)
+        return Response(data=constants.SKILLS_CHALLENGE, status=status.HTTP_200_OK)
 
 
 class ResetMemorizedView(APIView):
