@@ -765,7 +765,7 @@ SKILLS_CHALLENGE = {
     <ion-col size="2">
       <ion-text>#</ion-text>
     </ion-col>
-    <ion-col size="5">
+    <ion-col size="10">
       <ion-text>Bodh Katha</ion-text>
     </ion-col>
   </ion-row>
