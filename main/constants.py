@@ -775,7 +775,7 @@ SKILLS_CHALLENGE = {
         1
       </ion-text>
     </ion-col>
-      <ion-col size="5">
+      <ion-col size="10">
         <ion-text>
           Tukaram and Naradji
         </ion-text>
@@ -787,7 +787,7 @@ SKILLS_CHALLENGE = {
         2
       </ion-text>
     </ion-col>
-      <ion-col size="5">
+      <ion-col size="10">
         <ion-text>
           A Quiver of Arrows
         </ion-text>
@@ -799,7 +799,7 @@ SKILLS_CHALLENGE = {
         3
       </ion-text>
     </ion-col>
-      <ion-col size="5">
+      <ion-col size="10">
         <ion-text>
           Lindiyo
         </ion-text>
@@ -811,7 +811,7 @@ SKILLS_CHALLENGE = {
         4
       </ion-text>
     </ion-col>
-      <ion-col size="5">
+      <ion-col size="10">
         <ion-text>
           The Sesame Seed Scholar
         </ion-text>
@@ -823,7 +823,7 @@ SKILLS_CHALLENGE = {
         5
       </ion-text>
     </ion-col>
-      <ion-col size="5">
+      <ion-col size="10">
         <ion-text>
           The Lazy Man
         </ion-text>
