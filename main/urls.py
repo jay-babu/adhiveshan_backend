@@ -18,6 +18,7 @@ urlpatterns = [
     path('pledge_options/', views.PledgeOptionsView.as_view(), name='pledge_options_view'),
     path('my_pledges/', views.MyPledgeView.as_view(), name='my_pledges_view'),
     path('dashboard/', views.DashboardView.as_view(), name='dashboard_view'),
+    path('module_images/', views.ModuleImagesView.as_view()),
     path('all_mukhpath_items/', views.AllMukhpathItemsView.as_view(), name='all_mukhpath_items'),
     path('bookmarked_mukhpath_items/', views.BookmarkedMukhpathItemsView.as_view(),
          name='bookmarked_mukhpath_items'),

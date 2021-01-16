@@ -229,6 +229,17 @@ class AccessAllowedView(APIView):
         return Response({'access_allowed': False}, status=status.HTTP_401_UNAUTHORIZED)
 
 
+class ModuleImagesView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        data = {}
+        for module_instance in request.user.module_instances.all():
+            data[module_instance.module.title] = module_instance.module.image_url
+
+        return Response(data=data, status=status.HTTP_200_OK)
+
+
 class AllMukhpathItemsView(APIView):
     permission_classes = (IsAuthenticated,)
 
