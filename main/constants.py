@@ -316,11 +316,39 @@ SWAMINI_VATO = 'swamini_vato'
 SHLOKA_SAKHI = 'shloka_sakhi'
 KIRTAN = 'kirtan'
 PRASANG_MANAN = 'prasang_manan'
+# Keep in order as presented in website.
+BAL_ONLY_MODULES = [
+    SWAMINI_VATO,
+    SHLOKA_SAKHI,
+    KIRTAN,
+    PRASANG_MANAN
+]
 
 # Kishore
 ANTARDRASHTI = 'antardrashti'
 PRAPTINO_VICHAR = 'praptino_vichar'
 RAJIPANO_VICHAR = 'rajipano_vichar'
+KISHORE_ONLY_MODULES = [
+    ANTARDRASHTI,
+    PRAPTINO_VICHAR,
+    RAJIPANO_VICHAR
+]
+
+BAL_AND_KISHORE_MODULES = [
+    SATSANG_DIKSHA
+]
+
+MODULE_ICON_LINKS = {
+    SATSANG_DIKSHA: 'https://baps.box.com/shared/static/xq8xia8s7wlzeq03c8ksvgcyzpavh3mg.png',
+    SWAMINI_VATO: 'https://baps.box.com/shared/static/eka816vxers5k2wievnqgkqg5ism7rlj.png',
+    SHLOKA_SAKHI: 'https://baps.box.com/shared/static/c7ba7xmmj7rp3izl5v2q6dy8fkcfsmid.png',
+    KIRTAN: 'https://baps.box.com/shared/static/kvtdw89ew6vez8z6xpvuctnqzkuh6ued.png',
+    PRASANG_MANAN: 'https://baps.box.com/shared/static/4p18elsk5vjdy9rxyp65e3ml0lfmvt6a.png',
+
+    ANTARDRASHTI: 'https://baps.box.com/shared/static/0byr2nm02fqt9mfu4bmi4mvl9vt9b315.jpg',
+    PRAPTINO_VICHAR: 'https://baps.box.com/shared/static/kx0uqxzclx4c00vp0l2tx8w4c8hfavi9.png',
+    RAJIPANO_VICHAR: 'https://baps.box.com/shared/static/0j5z1oujesijt9fx519pjnopghzcpjx9.png',
+}
 
 # Tiers
 GHANSHYAM = 'ghanshyam'

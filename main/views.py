@@ -409,9 +409,47 @@ class ResetBookmarkedView(APIView):
 class UploadContentView(APIView):
     permission_classes = (AllowAny,)
 
-    def get(self, request: Request):
+    def post(self, request: Request):
         # Call python func here.
         upload_mukhpath_content()
+        return Response(data={}, status=status.HTTP_200_OK)
+
+
+class AddModulesToDB(APIView):
+    permission_classes = (AllowAny,)
+
+    def post(self, request: Request):
+        # Only satsang diksha
+        for module_title in constants.BAL_AND_KISHORE_MODULES:
+            models.Module.objects.update_or_create(
+                title=module_title,
+                image_url=constants.MODULE_ICON_LINKS[module_title],
+                is_bal_mandal=True,
+                is_kishore_mandal=True,
+                index=1
+            )
+
+        index = 2
+        for module_title in constants.BAL_ONLY_MODULES:
+            models.Module.objects.update_or_create(
+                title=module_title,
+                image_url=constants.MODULE_ICON_LINKS[module_title],
+                is_bal_mandal=True,
+                is_kishore_mandal=False,
+                index=index
+            )
+            index += 1
+
+        index = 2
+        for module_title in constants.KISHORE_ONLY_MODULES:
+            models.Module.objects.update_or_create(
+                title=module_title,
+                image_url=constants.MODULE_ICON_LINKS[module_title],
+                is_bal_mandal=False,
+                is_kishore_mandal=True,
+                index=index
+            )
+            index += 1
         return Response(data={}, status=status.HTTP_200_OK)
 
 
