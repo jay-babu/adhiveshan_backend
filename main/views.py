@@ -334,8 +334,13 @@ class UserDetailView(APIView):
 class GetFAQView(APIView):
     permission_classes = (IsAuthenticated,)
 
-    def get(self, request: Request):
-        return Response(data=constants.FAQ, status=status.HTTP_200_OK)
+    def get(self, request):
+        if request.user.is_bal_mandal():
+            return Response(data=constants.BAL_FAQ, status=status.HTTP_200_OK)
+        elif request.user.is_kishore_mandal():
+            return Response(data=constants.KISHORE_FAQ, status=status.HTTP_200_OK)
+        else:
+            return Response(data={}, status=status.HTTP_200_OK)
 
 
 class GetSkillsChallengeView(APIView):
