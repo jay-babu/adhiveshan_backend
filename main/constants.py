@@ -312,7 +312,7 @@ MANDALS = {
 # Modules
 SATSANG_DIKSHA = 'satsang_diksha'
 SWAMINI_VATO = 'swamini_vato'
-SHLOK_SAKHI = 'shlok_sakhi'
+SHLOKA_SAKHI = 'shloka_sakhi'
 KIRTAN = 'kirtan'
 PRASANG_MANAN = 'prasang_manan'
 DIVYABHAV_NIRDOSHBUDDHI = 'divyabhav_nirdoshbuddhi'
@@ -320,7 +320,7 @@ SAMP_SURADHBHAV_EKTA = 'samp_suradhbhav_ekta'
 MODULE_TYPES = [
     (SATSANG_DIKSHA, 'Satsang Diksha'),
     (SWAMINI_VATO, 'Swamini Vato'),
-    (SHLOK_SAKHI, 'Shlok/Sakhi'),
+    (SHLOKA_SAKHI, 'Shloka/Sakhi'),
     (KIRTAN, 'Kirtan'),
     (PRASANG_MANAN, 'Prasang Manan'),
     (DIVYABHAV_NIRDOSHBUDDHI, 'Divyabhav Nirdoshbuddhi'),
@@ -361,7 +361,7 @@ TIERS = [
 GROUP_0_PLEDGES = {
     SATSANG_DIKSHA: {GHANSHYAM: 20},
     SWAMINI_VATO: {GHANSHYAM: 5},
-    SHLOK_SAKHI: {GHANSHYAM: 2},
+    SHLOKA_SAKHI: {GHANSHYAM: 2},
     KIRTAN: {GHANSHYAM: 1},
     PRASANG_MANAN: {GHANSHYAM: 1},
 }
@@ -380,7 +380,7 @@ GROUP_1_PLEDGES = {
         YOGI: 15,
         SHASTRI: 20
     },
-    SHLOK_SAKHI: {
+    SHLOKA_SAKHI: {
         MAHANT: 3,
         PRAMUKH: 5,
         YOGI: 7,
@@ -413,7 +413,7 @@ GROUP_2_PLEDGES = {
         YOGI: 20,
         SHASTRI: 25
     },
-    SHLOK_SAKHI: {
+    SHLOKA_SAKHI: {
         MAHANT: 5,
         PRAMUKH: 8,
         YOGI: 11,
@@ -446,7 +446,7 @@ GROUP_3_PLEDGES = {
         YOGI: 35,
         SHASTRI: 50
     },
-    SHLOK_SAKHI: {
+    SHLOKA_SAKHI: {
         MAHANT: 5,
         PRAMUKH: 10,
         YOGI: 15,
@@ -1014,8 +1014,8 @@ KISHORE_SKILLS_CHALLENGE = {
 }
 
 # Satsang Diksha Tiers
-# Contains set of SD shloks in ghanshyam tier, indexed by title.
-GHANSHYAM_SD_SHLOKS = {
+# Contains set of SD shlokas in ghanshyam tier, indexed by title.
+GHANSHYAM_SD_SHLOKAS = {
     'Shloka 1',
     'Shloka 4 & 5',
     'Shloka 8-9',
@@ -1637,8 +1637,8 @@ SHASTRI_SD_SHLOKS = {
     'Shloka 315',
 }
 
-SD_SHLOKS_FOR_TIER = {
-    GHANSHYAM: GHANSHYAM_SD_SHLOKS,
+SD_SHLOKAS_FOR_TIER = {
+    GHANSHYAM: GHANSHYAM_SD_SHLOKAS,
     MAHANT: MAHANT_SD_SHLOKS,
     PRAMUKH: PRAMUKH_SD_SHLOKS,
     YOGI: YOGI_SD_SHLOKS,

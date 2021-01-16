@@ -144,7 +144,7 @@ class MyPledgeView(APIView):
             if module['title'] == constants.SATSANG_DIKSHA:
                 module_instance = request.user.module_instances.get(module__title=constants.SATSANG_DIKSHA)
                 for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
-                    if mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKS_FOR_TIER[module['tier']]:
+                    if mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKAS_FOR_TIER[module['tier']]:
                         mukhpath_item_instance.is_bookmarked = True
                         mukhpath_item_instance.save()
 
@@ -280,7 +280,7 @@ def get_modules(user, bookmarked_only=False):
                 continue
 
             if module_instance_is_sd and has_pledged_for_satsang_diksha:
-                is_item_in_sd_tier = mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKS_FOR_TIER[sd_tier]
+                is_item_in_sd_tier = mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKAS_FOR_TIER[sd_tier]
                 if not is_item_in_sd_tier:
                     continue
 
