@@ -129,6 +129,12 @@ class MyPledgeView(APIView):
         # Checks if pledge object exists. If so, update.
         if hasattr(request.user, 'pledge'):
             request.user.pledge.pledged_modules.all().delete()
+            # Remove all satsang diksha bookmarks here.
+            satsang_diksha_instance = request.user.module_instances.get(module__title=constants.SATSANG_DIKSHA)
+            for mukhpath_item_instance in satsang_diksha_instance.mukhpath_item_instances.all():
+                mukhpath_item_instance.is_bookmarked = False
+                mukhpath_item_instance.save()
+
             pledge = request.user.pledge
         # If not, create new pledge object.
         else:
