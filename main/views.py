@@ -403,6 +403,7 @@ class UploadContentView(APIView):
 
 MUKHPATH_CONTENT_DIR = 'main/mukhpath_content_data'
 def upload_mukhpath_content():
+    starting_id = 12000
     for module_name in os.listdir(MUKHPATH_CONTENT_DIR):
         file_name = os.path.join(MUKHPATH_CONTENT_DIR, module_name)
         with open(file_name) as opened_file:
@@ -411,7 +412,7 @@ def upload_mukhpath_content():
             next(mukhpath_items)
 
             module_name_trunc = module_name[:-4]
-            starting_id = 10000
+
             for row in mukhpath_items:
                 current_module = models.Module.objects.get(title=module_name_trunc)
                 new_item = models.MukhpathItem.objects.create(
