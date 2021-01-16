@@ -1495,36 +1495,104 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
   </ion-row>
 </ion-grid>
 <div>""",
-        'Prasang-Varnan Speech': """<div class="skills-html">
+        'Musical Instruments': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
-    Participants will elaborate on a prasang and provide a manan, or personal reflection, on the prasang by using 2 mukhpath references that they had memorized. The prasang can be from, but not limited to, the prasang mukhpath section in the Rajipo Challenge. However, the personal manan must be different from the one provided.
+	Participants may select one of the bhajans below to perform during the competition on a musical instrument. However, participants have the option to not select one of the bhajans below and can select to perform any bhajan from the Kirtan Muktavali.
 	</li>
-	<li>If a prasang is not chosen from the Rajipo Challenge, please name the source in your speech, such as kids.baps.org or Eternal Virtues.</li>
-	<li>The prasang-varnan should include at least:</li>
+  <li>
+  The submission must include a manan (reflection) prior to singing the bhajan. This reflection can either be about the meaning of the bhajan, its history or what the bhajan means to you.
+  </li>
   <ul>
 	  <li>
-		1 key prasang
-	  </li>
-	  <li>
-		1 mukhpath reference
-    </li>
-    <li>
-    A personal manan (analysis/reflection)
+      If we use the Shri Swaminarayan Aarti as an example, begin by generally explaining the meaning of the Swaminarayan Aarti for around 1 minute. Then, go ahead and play the aarti on the instrument.
     </li>
   </ul>
-  <li>
-  Participants will have a maximum of 8 minutes.
+	</li>
+    Participants do not have to memorize the bhajan. They can have sheet music in front of them while they play.
   </li>
+	<li>
+    Participants may play on any musical instrument that they know how to play, including but not limited to piano, tabla, flute, trumpet, violin, harmonium, etc.
+	</li>
+		If participants choose a percussion instrument where the melody cannot be found, such as tabla, please have the bhajan audio playing in the background while the participant plays. 
+	</li>
   <li>
-  The prasang-varnan must be memorized. Notes will not be allowed.
+  You will be judged on: sur (melody), tempo/rhythm, accuracy, tonality, etc.
   </li>
-  <li>
-  Participants must record their prasang-varnan in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
-  </li>
-</ul>""",
-        'Musical Instruments': "",
+</ul>
+<h2 class="static-content-title">Bodh Katha</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="10">
+      <ion-text>Bodh Katha</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Tukaram and Naradji
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          A Quiver of Arrows
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Lindiyo
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          The Sesame Seed Scholar
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          The Lazy Man
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
     },
     'Writing-Based Competitions': {
         'Poetry': "",
