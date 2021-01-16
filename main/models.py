@@ -115,7 +115,6 @@ class User(AbstractBaseUser):
 class Module(models.Model):
     title = models.CharField(max_length=60, null=True)
     image_url = models.CharField(max_length=1000, null=True)
-    is_selectable = models.BooleanField(default=True)
     is_kishore_mandal = models.BooleanField(default=False)
     is_bal_mandal = models.BooleanField(default=False)
     index = models.IntegerField(default=1)
