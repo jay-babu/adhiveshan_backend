@@ -328,10 +328,84 @@ BAL_ONLY_MODULES = [
 ANTARDRASHTI = 'antardrashti'
 PRAPTINO_VICHAR = 'praptino_vichar'
 RAJIPANO_VICHAR = 'rajipano_vichar'
+SANKHYA_VICHAR = 'sankhya_vichar'
+GUN_GRAHAN_SAMBANDHNO_MAHIMA = 'gun_grahan_sambandhno_mahima'
+ATMA_VICHAR = 'atma_vichar'
+PRARTHANA = 'prarthana'
+UPASANA_SWARUPNISHTHA = 'upasana_swarupnishtha'
+AKSHAR_PURUSHOTTAM_SIDDHANT = 'akshar_purushottam_siddhant'
+SARVOPARI = 'sarvopari'
+DIVYA_SAKAR = 'divya_sakar'
+SARVA_KARTA = 'sarva_karta'
+PRAGAT = 'pragat'
+AGNA = 'agna'
+ASHRO = 'ashro'
+SEVA = 'seva'
+VISHWAS_SHRADDHA = 'vishwas_shraddha'
+NIYAM_DHARMA = 'niyam_dharma'
+BHAKTI = 'bkati'
+SHURVIRTA_HIMMAT = 'shurvirta_himmat'
+SMRUTI = 'smruti'
+SUKH = 'sukh'
+KATHA_VARTA = 'katha_varta'
+SATSANG_READING = 'satsang_reading'
+SAMP_SUHRADBHAV_EKTA = 'samp_suhradbhav_ekta'
+KSHAMA = 'kshama'
+SAHAN = 'sahan'
+NIRMANIPANU = 'nirmanipanu'
+DIVYABHAV = 'divyabhav'
+SATPURUSHNO_MAHIMA = 'satpurushno_mahima'
+DRADH_PRITI = 'dradh_priti'
+SATSANG = 'satsang'
+KUSANG = 'kusang'
+SWABHAV = 'swabhav'
+ABHAV_AVGUN = 'abhav_avgun'
+AHNIK = 'ahnik'
+CHOSAR_PADS = 'chosar_pads'
+FAGVA = 'fagva'
+GURU_PARAMPARA = 'guru_parampara'
+PATRI = 'patri'
 KISHORE_ONLY_MODULES = [
     ANTARDRASHTI,
     PRAPTINO_VICHAR,
-    RAJIPANO_VICHAR
+    RAJIPANO_VICHAR,
+    SANKHYA_VICHAR,
+    GUN_GRAHAN_SAMBANDHNO_MAHIMA,
+    ATMA_VICHAR,
+    PRARTHANA,
+    UPASANA_SWARUPNISHTHA,
+    AKSHAR_PURUSHOTTAM_SIDDHANT,
+    SARVOPARI,
+    DIVYA_SAKAR,
+    SARVA_KARTA,
+    PRAGAT,
+    AGNA,
+    ASHRO,
+    SEVA,
+    VISHWAS_SHRADDHA,
+    NIYAM_DHARMA,
+    BHAKTI,
+    SHURVIRTA_HIMMAT,
+    SMRUTI,
+    SUKH,
+    KATHA_VARTA,
+    SATSANG_READING,
+    SAMP_SUHRADBHAV_EKTA,
+    KSHAMA,
+    SAHAN,
+    NIRMANIPANU,
+    DIVYABHAV,
+    SATPURUSHNO_MAHIMA,
+    DRADH_PRITI,
+    SATSANG,
+    KUSANG,
+    SWABHAV,
+    ABHAV_AVGUN,
+    AHNIK,
+    CHOSAR_PADS,
+    FAGVA,
+    GURU_PARAMPARA,
+    PATRI,
 ]
 
 BAL_AND_KISHORE_MODULES = [
@@ -348,6 +422,43 @@ MODULE_ICON_LINKS = {
     ANTARDRASHTI: 'https://baps.box.com/shared/static/0byr2nm02fqt9mfu4bmi4mvl9vt9b315.jpg',
     PRAPTINO_VICHAR: 'https://baps.box.com/shared/static/kx0uqxzclx4c00vp0l2tx8w4c8hfavi9.png',
     RAJIPANO_VICHAR: 'https://baps.box.com/shared/static/0j5z1oujesijt9fx519pjnopghzcpjx9.png',
+    SANKHYA_VICHAR: 'https://baps.box.com/shared/static/8nfbae3qrcipnn4xiysuvm3ye2as8cq1.jpg',
+    GUN_GRAHAN_SAMBANDHNO_MAHIMA: 'https://baps.box.com/shared/static/ajm5gqckboix2xrvpx44bitbd87bhxqb.jpg',
+    ATMA_VICHAR: 'https://baps.box.com/shared/static/fe85cithxizogejsjx6k2cjgeaqr8lqa.jpg',
+    PRARTHANA: 'https://baps.box.com/shared/static/pc2ppmhc91aka6ni7pe5eg1mu8k8bnjg.jpg',
+    UPASANA_SWARUPNISHTHA: 'https://baps.box.com/shared/static/je14v7dm1nx5e703otrzcrl8jgknjuro.jpg',
+    AKSHAR_PURUSHOTTAM_SIDDHANT: 'https://baps.box.com/shared/static/9t8wqu79m0kv9vpfglgim6ve2p7c56ss.jpg',
+    SARVOPARI: 'https://baps.box.com/shared/static/gqvymfmf2qslqrfzxl3x14sijt8489kb.jpg',
+    DIVYA_SAKAR: 'https://baps.box.com/shared/static/7jt4e8w5zrcr2a4g9kthx39l5sprp42c.jpg',
+    SARVA_KARTA: 'https://baps.box.com/shared/static/jdkpom5awa4nj2pou9fmc3rbq42pz7l2.jpg',
+    PRAGAT: 'https://baps.box.com/shared/static/9skb19q171eci8h6ty7eta3tpip7f2lf.jpg',
+    AGNA: 'https://baps.box.com/shared/static/xx8vntvvq8bvj8g1ji9q2wy92z392bxh.jpg',
+    ASHRO: 'https://baps.box.com/shared/static/cqysx181f6ytdoojdbqyj31itfy0i2lz.png',
+    SEVA: 'https://baps.box.com/shared/static/8pygl7lmm79jg0yswr7ig0g1efcmn2no.jpg',
+    VISHWAS_SHRADDHA: 'https://baps.box.com/shared/static/fwdprjdihpw6torgl99921teqnicyvxl.jpg',
+    NIYAM_DHARMA: 'https://baps.box.com/shared/static/ednsd0ue32gzp2x3hki14azr2b7ftttu.jpg',
+    BHAKTI: 'https://baps.box.com/shared/static/gexu8q3duebgz0thbegnm5r7sp358syt.jpg',
+    SHURVIRTA_HIMMAT: 'https://baps.box.com/shared/static/bmd4bgwz3ch14gkazhqc5qyeodj4k3tt.jpg',
+    SMRUTI: 'https://baps.box.com/shared/static/1xxnlbl1udqbqq8ecqi9p6533w8qr1rb.jpg',
+    SUKH: 'https://baps.box.com/shared/static/s2svh23asb6wn0hz4x1virku6oayq36q.jpg',
+    KATHA_VARTA: 'https://baps.box.com/shared/static/yjp9364xuxeipgnas08m6iwdwk5952cx.jpg',
+    SATSANG_READING: 'https://baps.box.com/shared/static/zwcpja4180d2pn1znvqemn83einuhd06.jpg',
+    SAMP_SUHRADBHAV_EKTA: 'https://baps.box.com/shared/static/tbdjs59tdniiiu94l7az0kf4wz7872oj.png',
+    KSHAMA: 'https://baps.box.com/shared/static/88rzxhz5unyv6eu7z6phia1423dhdoek.jpg',
+    SAHAN: 'https://baps.box.com/shared/static/tk5zuzwv7jpi5rk4y1yewpjodq2yc31b.jpg',
+    NIRMANIPANU: 'https://baps.box.com/shared/static/00mlk26y8m1mmde6yuftli7q6pihr300.jpg',
+    DIVYABHAV: 'https://baps.box.com/shared/static/vyqk4qkjnoh6z8kqufkmrqbvsx33rxqx.png',
+    SATPURUSHNO_MAHIMA: 'https://baps.box.com/shared/static/k4v37q8h7y4gyf1zs6zfsjthqo544enq.jpg',
+    DRADH_PRITI: 'https://baps.box.com/shared/static/rvr9wt9psa5r2snxqcxgg3uov6zvajm9.jpg',
+    SATSANG: 'https://baps.box.com/shared/static/xvr64pscal7wcw0jk107qln9e5g5mtiy.jpg',
+    KUSANG: 'https://baps.box.com/shared/static/anig5kvmry9e2sr60k2udo879n47kcly.jpg',
+    SWABHAV: 'https://baps.box.com/shared/static/ple8q8tthvyw8r4boq9kggqvvh1tf0iz.jpg',
+    ABHAV_AVGUN: 'https://baps.box.com/shared/static/2uax04lf77486js7bcvbatllchfeqmae.jpg',
+    AHNIK: 'https://baps.box.com/shared/static/s1plm3cfs61dimvdwnbkmjhcbelvsaok.png',
+    CHOSAR_PADS: 'https://baps.box.com/shared/static/nmv283u8ak14cbexx2ip0lywj1i8kkb3.jpg',
+    FAGVA: 'https://baps.box.com/shared/static/ge1hx2xjo344dfecv7zp5zfnl0oc8v2c.png',
+    GURU_PARAMPARA: 'https://baps.box.com/shared/static/saj9sb3zfjujo4dgvgy0kzwjcpdgplxk.jpg',
+    PATRI: 'https://baps.box.com/shared/static/i39pujukiw5fi0vknjqbs598mi6o28af.jpg',
 }
 
 # Tiers
@@ -381,6 +492,43 @@ REQUIRED_PER_KM_MODULE = {
     ANTARDRASHTI: 4,
     PRAPTINO_VICHAR: 4,
     RAJIPANO_VICHAR: 4,
+    SANKHYA_VICHAR: 4,
+    GUN_GRAHAN_SAMBANDHNO_MAHIMA: 4,
+    ATMA_VICHAR: 4,
+    PRARTHANA: 4,
+    UPASANA_SWARUPNISHTHA: 4,
+    AKSHAR_PURUSHOTTAM_SIDDHANT: 4,
+    SARVOPARI: 4,
+    DIVYA_SAKAR: 4,
+    SARVA_KARTA: 4,
+    PRAGAT: 4,
+    AGNA: 4,
+    ASHRO: 4,
+    SEVA: 4,
+    VISHWAS_SHRADDHA: 4,
+    NIYAM_DHARMA: 4,
+    BHAKTI: 4,
+    SHURVIRTA_HIMMAT: 4,
+    SMRUTI: 4,
+    SUKH: 4,
+    KATHA_VARTA: 4,
+    SATSANG_READING: 4,
+    SAMP_SUHRADBHAV_EKTA: 4,
+    KSHAMA: 4,
+    SAHAN: 4,
+    NIRMANIPANU: 4,
+    DIVYABHAV: 4,
+    SATPURUSHNO_MAHIMA: 4,
+    DRADH_PRITI: 4,
+    SATSANG: 4,
+    KUSANG: 4,
+    SWABHAV: 4,
+    ABHAV_AVGUN: 4,
+    AHNIK: 7,
+    CHOSAR_PADS: 4,
+    FAGVA: 1,
+    GURU_PARAMPARA: 7,
+    PATRI: 1,
 }
 
 GROUP_0_PLEDGES = {
