@@ -2136,7 +2136,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
 </ul>
 <h2 class="static-content-title">Topic List</h2>
 <ion-grid class="ion-text-center">
-  <ion-row>
+  <ion-row class="header-row">
     <ion-col size="2">
       <ion-text>
         1
