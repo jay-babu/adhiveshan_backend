@@ -979,7 +979,126 @@ BAL_SKILLS_CHALLENGE = {
   </ion-row>
 </ion-grid>
 <div>""",
-        'Satsang Diksha Nirupan': "",
+        'Satsang Diksha Nirupan': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+		Participants will speak on a theme which is expanded upon in the Satsang Diksha. Participants must select from one of the themes below. Sample shlokas related to the theme are also provided for guidance, however participants may choose shloks outside of the range.
+	</li>
+	<li>The nirupan should include at least:</li>
+	  <li>2 Satsang Diksha Shloks</li>
+	  <li>
+		1 prasang of Pramukh Swami Maharaj or Mahant Swami Maharaj
+	  </li>
+  	<li>
+		Participants will have a maximum of 8 minutes.
+	  </li>
+    <li>
+    The nirupan must be memorized. Notes will not be allowed.
+    </li>
+	<li>
+		Participants must record their nirupan in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
+	</li>
+	<li>
+Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, flow, confidence, tone, etc.
+	</li>
+</ul>
+<h2 class="static-content-title">Character List</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Example Shlokas</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Importance of a Mandir
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shloks 79-95
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Akshar-Purushottam Darshan
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shloks 96-115
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sang vs Kusang
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shloks 216-234
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Being an Ideal Child
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shloks 209-115
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Importance of Agna and Upasana
+      </ion-col>
+      <ion-col>
+        Shloks 287-298
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
         'Prasang-Varnan Speech': "",
     },
     'Music-Based Competitions': {
