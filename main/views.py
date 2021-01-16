@@ -209,7 +209,7 @@ def get_kishore_mandal_dashboard_view(user):
         if module_instance.mukhpath_item_instances.filter(is_bookmarked=True).count() > 0:
             modules.append({
                 'title': module_instance.module.title,
-                'required': constants.REQUIRED_PER_KM_MODULE,
+                'required': constants.REQUIRED_PER_KM_MODULE[module_instance.module.title],
                 'memorized': get_num_of_items_memorized(module_instance)
             })
     # Get all modules that the user has added bookmarks too.
@@ -427,5 +427,4 @@ def upload_mukhpath_content():
                 index += 1
 
                 new_item.value = 1 if current_module.title != constants.SATSANG_DIKSHA else row[5]
-                new_item.source = '' if current_module.is_bal_mandal else row[5]
                 new_item.save()

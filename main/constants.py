@@ -310,22 +310,17 @@ MANDALS = {
 }
 
 # Modules
+# Bal
 SATSANG_DIKSHA = 'satsang_diksha'
 SWAMINI_VATO = 'swamini_vato'
 SHLOKA_SAKHI = 'shloka_sakhi'
 KIRTAN = 'kirtan'
 PRASANG_MANAN = 'prasang_manan'
-DIVYABHAV_NIRDOSHBUDDHI = 'divyabhav_nirdoshbuddhi'
-SAMP_SURADHBHAV_EKTA = 'samp_suradhbhav_ekta'
-MODULE_TYPES = [
-    (SATSANG_DIKSHA, 'Satsang Diksha'),
-    (SWAMINI_VATO, 'Swamini Vato'),
-    (SHLOKA_SAKHI, 'Shloka/Sakhi'),
-    (KIRTAN, 'Kirtan'),
-    (PRASANG_MANAN, 'Prasang Manan'),
-    (DIVYABHAV_NIRDOSHBUDDHI, 'Divyabhav Nirdoshbuddhi'),
-    (SAMP_SURADHBHAV_EKTA, 'Samp Suradhbhav Ekta'),
-]
+
+# Kishore
+ANTARDRASHTI = 'antardrashti'
+PRAPTINO_VICHAR = 'praptino_vichar'
+RAJIPANO_VICHAR = 'rajipano_vichar'
 
 # Tiers
 GHANSHYAM = 'ghanshyam'
@@ -340,10 +335,6 @@ SILVER = 'silver'
 GOLD = 'gold'
 PLATINUM = 'platinum'
 
-# REQUIRED_PER_KM_MODULE num of mukhpath items need to be
-# memorized per module for kishore mandal.
-REQUIRED_PER_KM_MODULE = 4
-
 TIERS = [
     (GHANSHYAM, 'Ghanshyam'),
     (MAHANT, 'Mahant'),
@@ -357,6 +348,12 @@ TIERS = [
     (GOLD, 'Gold'),
     (PLATINUM, 'Platinum'),
 ]
+
+REQUIRED_PER_KM_MODULE = {
+    ANTARDRASHTI: 4,
+    PRAPTINO_VICHAR: 4,
+    RAJIPANO_VICHAR: 4,
+}
 
 GROUP_0_PLEDGES = {
     SATSANG_DIKSHA: {GHANSHYAM: 20},
