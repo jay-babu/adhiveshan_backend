@@ -275,7 +275,8 @@ def get_modules(user, bookmarked_only=False):
     for module_instance in user.module_instances.all():
         mukhpath_item_instances = []
         module_instance_is_sd = module_instance.module.title == constants.SATSANG_DIKSHA
-        for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
+
+        for mukhpath_item_instance in module_instance.mukhpath_item_instances.all().order_by('mukhpath_item__index'):
             if bookmarked_only and not mukhpath_item_instance.is_bookmarked and not module_instance_is_sd:
                 continue
 
