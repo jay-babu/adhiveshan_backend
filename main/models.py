@@ -6,6 +6,15 @@ from django.db import models
 from . import constants
 
 
+def title_and_capitial(place: str):
+    city, state, *_ = place.split()
+    if len(state) <= 2:
+        state = state.upper()
+    else:
+        state = state.capitalize()
+    return f'{city.title()} {state}'
+
+
 class UserManager(BaseUserManager):
     """Manager for the User class."""
 
@@ -50,6 +59,7 @@ class UserManager(BaseUserManager):
         superuser.save(using=self._db)
         return superuser
 
+
 class User(AbstractBaseUser):
     """The Base User main."""
     email: models.EmailField = models.EmailField(max_length=60, unique=True)
@@ -64,8 +74,10 @@ class User(AbstractBaseUser):
                               choices=[(region, region.replace('_', ' ').title()) for region in constants.REGIONS],
                               null=True)
     center = models.CharField(max_length=60,
-                              choices=[(center, center.replace('_', ' ').title()) for center in
-                                       constants.CENTERS_REGIONS.keys()],
+                              choices=[(center, center.replace('_', ' ').title())
+                                       if len(center.split('_')) == 1
+                                       else (center, title_and_capitial(center.replace('_', ' ')))
+                                       for center in constants.CENTERS_REGIONS.keys()],
                               null=True)
     gender = models.CharField(max_length=60,
                               choices=[(gender, gender.replace('_', ' ').title()) for gender in constants.GENDERS],

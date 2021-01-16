@@ -13,6 +13,7 @@ from rest_framework.views import APIView
 from main.serializers import UserSerializer, ChangePasswordSerializer
 from . import constants
 from . import models
+from .models import title_and_capitial
 
 
 class RegisterView(GenericAPIView):
@@ -290,7 +291,8 @@ def get_modules(user, bookmarked_only=False):
                 continue
 
             if module_instance_is_sd and has_pledged_for_satsang_diksha:
-                is_item_in_sd_tier = mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKAS_FOR_TIER[sd_tier]
+                is_item_in_sd_tier = mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKAS_FOR_TIER[
+                    sd_tier]
                 if not is_item_in_sd_tier:
                     continue
 
@@ -330,7 +332,9 @@ class CentersView(APIView):
 
     def get(self, request):
         return Response(data={
-            'centers': sorted(map(lambda item: item.replace('_', ' ').title(), constants.CENTERS_REGIONS.keys()))},
+            'centers': sorted(map(lambda center: center.replace('_', ' ').title()
+            if len(center.split('_')) == 1
+            else title_and_capitial(center.replace('_', ' ')), constants.CENTERS_REGIONS.keys()))},
             status=status.HTTP_200_OK)
 
 
@@ -412,6 +416,8 @@ class UploadContentView(APIView):
 
 
 MUKHPATH_CONTENT_DIR = 'main/mukhpath_content_data'
+
+
 def upload_mukhpath_content():
     for module_name in os.listdir(MUKHPATH_CONTENT_DIR):
         file_name = os.path.join(MUKHPATH_CONTENT_DIR, module_name)
