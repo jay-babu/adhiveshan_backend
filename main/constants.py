@@ -1498,7 +1498,35 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
   </ion-row>
 </ion-grid>
 <div>""",
-
+        'Prasang-Varnan Speech': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants will elaborate on a prasang and provide a manan, or personal reflection, on the prasang by using 2 mukhpath references that they had memorized. The prasang can be from, but not limited to, the prasang mukhpath section in the Rajipo Challenge. However, the personal manan must be different from the one provided.
+	</li>
+	<li>If a prasang is not chosen from the Rajipo Challenge, please name the source in your speech, such as kids.baps.org or Eternal Virtues.</li>
+	<li>The prasang-varnan should include at least:</li>
+  <ul>
+	  <li>
+		1 key prasang
+	  </li>
+	  <li>
+		1 mukhpath reference
+    </li>
+    <li>
+    A personal manan (analysis/reflection)
+    </li>
+  </ul>
+  <li>
+  Participants will have a maximum of 8 minutes.
+  </li>
+  <li>
+  The prasang-varnan must be memorized. Notes will not be allowed.
+  </li>
+  <li>
+  Participants must record their prasang-varnan in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
+  </li>
+</ul>""",
         'Musical Instruments': "",
     },
     'Writing-Based Competitions': {
