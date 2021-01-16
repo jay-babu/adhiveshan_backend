@@ -272,7 +272,7 @@ def get_modules(user, bookmarked_only=False):
     if has_pledged_for_satsang_diksha:
         sd_tier = user.pledge.pledged_modules.get(module__title=constants.SATSANG_DIKSHA).tier
 
-    for module_instance in user.module_instances.all():
+    for module_instance in user.module_instances.all().order_by('module__index'):
         mukhpath_item_instances = []
         module_instance_is_sd = module_instance.module.title == constants.SATSANG_DIKSHA
 
