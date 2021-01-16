@@ -413,7 +413,6 @@ def upload_mukhpath_content():
             module_name_trunc = module_name[:-4]
             for row in mukhpath_items:
                 current_module = models.Module.objects.get(title=module_name_trunc)
-                # Hope this works
                 new_item = models.MukhpathItem.objects.create(
                     title=row[0],
                     english_content='\n'.join(row[1].splitlines()),
@@ -425,3 +424,4 @@ def upload_mukhpath_content():
 
                 new_item.value = 1 if current_module.title != constants.SATSANG_DIKSHA else row[5]
                 new_item.source = '' if current_module.is_bal_mandal else row[5]
+                new_item.save()
