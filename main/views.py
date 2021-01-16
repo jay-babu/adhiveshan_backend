@@ -223,7 +223,10 @@ def get_kishore_mandal_dashboard_view(user):
 
 
 def get_num_of_items_memorized(module_instance):
-    return module_instance.mukhpath_item_instances.filter(is_memorized=True).count()
+    value_of_items_memorized = 0
+    for item_instance in module_instance.mukhpath_item_instances.filter(is_memorized=True):
+        value_of_items_memorized += item_instance.mukhpath_item.value
+    return value_of_items_memorized
 
 
 class AccessAllowedView(APIView):
