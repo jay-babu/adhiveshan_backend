@@ -986,6 +986,7 @@ BAL_SKILLS_CHALLENGE = {
 		Participants will speak on a theme which is expanded upon in the Satsang Diksha. Participants must select from one of the themes below. Sample shlokas related to the theme are also provided for guidance, however participants may choose shloks outside of the range.
 	</li>
 	<li>The nirupan should include at least:</li>
+  <ul>
 	  <li>2 Satsang Diksha Shloks</li>
 	  <li>
 		1 prasang of Pramukh Swami Maharaj or Mahant Swami Maharaj
@@ -996,6 +997,7 @@ BAL_SKILLS_CHALLENGE = {
     <li>
     The nirupan must be memorized. Notes will not be allowed.
     </li>
+  </ul>
 	<li>
 		Participants must record their nirupan in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
 	</li>
