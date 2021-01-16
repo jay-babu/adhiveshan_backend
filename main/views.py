@@ -235,6 +235,8 @@ class ModuleImagesView(APIView):
     def get(self, request):
         data = {}
         for module_instance in request.user.module_instances.all():
+            if module_instance.module.title == constants.KM_MODULES:
+                continue
             data[module_instance.module.title] = module_instance.module.image_url
 
         return Response(data=data, status=status.HTTP_200_OK)
