@@ -851,7 +851,167 @@ BAL_SKILLS_CHALLENGE = {
 }
 
 # Skills Challenge for KM
-KISHORE_SKILLS_CHALLENGE = {}
+KISHORE_SKILLS_CHALLENGE = {
+  'Kirtan-based Short Speech': """
+    <ul>
+      <li>
+        This competition is ideal for a kishore/kishori who is strong in singing as well as public speaking. Participants will combine the two technical elements to create an engaging and thought-provoking presentation. Presentations will revolve around a selection of one chosar from the adhiveshan booklet.
+      </li>
+      <li>
+        This competition requires a through understanding of the background behind the chosar and the meaning of the words. A cohesive speech will incorporate these elements in a seamless manner — used to educate anyone who watches.
+      </li>
+      <li>
+        Kishores and kishoris will be judged on time limit, accurate chosar pad understanding, incorporation of translations, creativity, ability to sing and speak, and cohesiveness of the speech’s components and overall message. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Creative Storytelling': """
+    <ul>
+      <li>
+        Participants will choose prasangs from their adhiveshan modules and/or prasangs from other books as well. Participants must tell the story in its entirety, as well as provide a manan, or reflection, on the importance of the story.
+      </li>
+      <li>
+        If participants are recording themselves, they must record their story in good lighting and on a good camera (either on a smartphone or webcam). Kishores should wear a jabho-lengho and kishoris should wear a punjabi. The story may also be presented with graphics, animations, etc. with the delegate as the narrator.
+      </li>
+      <li>
+        Creative elements can be added such as creative visuals, editing, music, graphics, etc. Storytelling will be judged on: storytelling ability, content, manan/personal reflection, gestures, organization, flow, confidence, tone, etc. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Vachanamrut Nirupan': """
+    <ul>
+      <li>
+        Kishores and kishoris will have the opportunity to perform a nirupan on any given Vachanamrut contained within the adhiveshan booklet. This is a solo presentation that should be recorded for submission. This presentation has a time limit of 6 minutes. Platforms such as Google Slides, Powerpoint, or Prezi may be used to assist in the nirupan but are not required.
+      </li>
+      <li>
+        Delegates should explain the Vachanamrut, analyze the content, relate the Vachanamrut to other prasangs and texts, and explain how this Vachanamrut is beneficial to a kishore or kishori’s life.
+      </li>
+      <li>
+        Kishores/kishoris will be judged on analysis of the Vachanamrut, references to other prasangs/texts, real life application, speaking ability, accurate information, and timing. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Group Presentation': """
+    <ul>
+      <li>
+        Kishores and kishoris will have the opportunity to present on the topics listed below in a group. Groups are limited to a minimum of 3 people and a maximum of 5 people. 
+      </li>
+      <li>
+        Kishores/kishoris will be able to create a presentation on the following topics to be recorded for submission. Presentations can be created on platforms such as Google Slides, Powerpoint, Prezi, etc. During the time of the presentation, kishores must be dressed in a jabho lengho and kishoris in punjabis.
+      </li>
+      <li>
+        The presentation should include module content, which includes Vachanamrut references, Swamini Vato, Kirtans, etc. The presentation should provide a thorough understanding of the topic using Satsang-based references.
+      </li>
+      <li>
+        Group presentations will be judged on speaking ability, accurate information, dress code, timing, creativity. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Solo Singing': """
+    <ul>
+      <li>
+        Delegates may select any kirtan/chosar pad they wish to sing for this challenge, more specifically, it is encouraged that delegates pick a bhajan that they strongly resonate with.
+      </li>
+      <li>
+        Prior to singing the bhajan, you will need to describe the overall theme/messages contained within this bhajan. This reflection can either be about the meaning of the bhajan, or its history.
+      </li>
+      <li>
+        Kishores and kishoris will be judged on: sur (melody), tempo/rhythm, and tone/voice, along with your understanding of the kirtan that is spoken at the beginning. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Music Production (Group Singing)': """
+    <ul>
+      <li>
+        Kishores and kishoris will have the opportunity to create a full music production with a group. Groups are limited to no less than 3 people and no more than 5 people. 
+      </li>
+      <li>
+        Kishores and kishoris may combine musical instruments, vocals, and sound effects to create a music production using production software such as Garageband, Audacity, FL Studio, etc. 
+      </li>
+      <li>
+        The produced soundtrack must be exported and submitted as a MP3 file. The soundtrack will be graded on tone of vocals, melody, implementation of proper musical instruments, tempo/rhythm, and sound effects. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Research Paper': """
+    <ul>
+      <li>
+        Kishores and kishoris will have the opportunity to research a Satsang concept in depth using various Satsang scriptures and texts. The research paper will highlight a certain point and texts should be used to support the concept being presented.
+      </li>
+      <li>
+        Kishores and kishoris should create a submission via PDF or Word.
+      </li>
+      <li>
+        Papers will be judged on: organization, flow, grammar, content, sources, and citations. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Screenwriting': """
+    <ul>
+      <li>
+        Anyone interested in large productions or musicals will find this challenge interesting. A kishore or kishori must explain the relevant theme of guru bhakti through a written play or musical. Specific insights must be incorporated within the written play or musical. 
+      </li>
+      <li>
+        Writing must be done on either Google Docs or Microsoft Word and turned in as a PDF file. An example script with proper formatting will be provided. Competitors will be graded on grammar, sentence structure, readability, format, creativity, story arch, use of themes. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Photography': """
+    <ul>
+      <li>
+        Kishores and kishoris will have the opportunity to create a photo album containing a topic or theme which corresponds to the images within the album. For example, the images within the submitted photo album must correspond to a satsang topic such as: guru bhakti, mahima, mandir, Satpurush, etc.
+      </li>
+      <li>
+        Kishores and kishoris are also welcome to use editing software such as Adobe Lightroom to edit their photos. (Photoshop and Illustrator are not allowed as this would cross the boundary into graphic design)
+      </li>
+      <li>
+        Photo albums are to be submitted with a brief description of the theme which corresponds to the images. Images must be submitted within a folder or zip file with the image types as either JPEG or PNG.
+      </li>
+      <li>
+        Photo albums will be judged by consistent themes, quality, moods, creativity, originality, and uniqueness of concept. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Painting and Illustrations': """
+    <ul>
+      <li>
+        Kishores and kishoris will have the opportunity to paint or illustrate a certain incident in the lives of our gurus. These paintings and illustrations must be submitted electronically as a scan.
+      </li>
+      <li>
+        Artwork may include painting, drawing, chalk art, oil pastels, or any form of physical art utensils.
+      </li>
+      <li>
+        Artwork will be judged on creativity, cleanliness, artistic ability, and the content depicted in the artwork. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Graphic Design': """
+    <ul>
+      <li>
+        Kishores and kishoris will have the opportunity to create a graphic using an online software platform. The graphic can be made using any photo editing/illustrating tool, such as Photoshop, Illustrator or Canva.
+      </li>
+      <li>
+        The designs must be submitted electronically, as an image.
+      </li>
+      <li>
+        Submissions will be judged on creativity, artistic ability, and content depicted in the graphic. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+  'Coding Challenge': """
+    <ul>
+      <li>
+        Any kishore or kishori interested in developing their talents in web/app development, data visualizations, or AI/ML should pick this challenge.
+      </li>
+      <li>
+        Participants may use any language and should submit final code as a .zip file
+      </li>
+      <li>
+        Submissions will be judged on creativity, utility, user-friendliness, and content provided in the coding platform. More information about the judging criteria will be provided later.
+      </li>
+    </ul>
+  """,
+}
 
 # Satsang Diksha Tiers
 # Contains set of SD shloks in ghanshyam tier, indexed by title.
