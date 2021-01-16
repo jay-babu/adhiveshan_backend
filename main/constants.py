@@ -991,13 +991,11 @@ BAL_SKILLS_CHALLENGE = {
 	  <li>
 		1 prasang of Pramukh Swami Maharaj or Mahant Swami Maharaj
 	  </li>
-  	<li>
-		Participants will have a maximum of 8 minutes.
-	  </li>
-    <li>
-    The nirupan must be memorized. Notes will not be allowed.
-    </li>
   </ul>
+  <li>
+  Participants will have a maximum of 8 minutes.
+  </li>
+  The nirupan must be memorized. Notes will not be allowed.
 	<li>
 		Participants must record their nirupan in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
 	</li>
@@ -1132,7 +1130,403 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
 </ul>""",
     },
     'Music-Based Competitions': {
-        'Solo Singing': "",
+        'Solo Singing': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    You may select 1 of the 20 bhajans provided below to perform during the competition. However, you do have the option to not select one of the 20 bhajans below and can select to perform any kirtan from the Kirtan Muktavali. 
+	</li>
+  <li>
+  Select any bhajan that you feel you resonate strongly with!
+  </li>
+	<li>The bhajan must be memorized with the meaning and must include a manan (reflection) prior to singing the bhajan. This reflection can either be about the meaning of the bhajan, its history or what the bhajan means to you.</li>
+  <ul>
+	  <li>If we use the Shri Swaminarayan Aarti as an example, begin by generally explaining the meaning of the Swaminarayan Aarti for around 1 minute. Then, go ahead and sing the entire aarti. (Note: Do not select the aarti to sing.)</li>
+  </ul>
+  <li>
+  You will be judged on: sur (melody), tempo/rhythm, and tone/voice, along with your understanding of the kirtan that is spoken at the beginning.
+  </li>
+</ul>
+<h2 class="static-content-title">Bhajan List</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Bhajan Name</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>CD Album</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Tamri Murti Vina
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Prarthana
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Jivu Chhu Rasila Tara
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Murti Pyari Re
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Hum to Ek Sahajanand Gave
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sahajanand Gave
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Joi Murti Manohar Tari
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Murti Manohar Tari
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Terī Sāvarī Sūrat Chhatādār
+      </ion-col>
+      <ion-col>
+        Neh Nibhavana
+      </ion-col>
+  </ion-row>
+   <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Rūdā Lāgo Chho
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Murti Manohar Tari
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sant Jan Soī Sadā Mohe Bhāve
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sahajanand Gave
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        8
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sant Param Hitkari
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sant Param Hitkari - 2
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        9
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Thaī Rahyo Chhe Jay Jaykār Re
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Vandan Varamvar Yogijine
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        10
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shastriji Maharajno Sang
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shastriji Maharajno Sang
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        11
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Āvo Āvo Dharma Dulārā
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shastriji Maharajne Vandana
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        12
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Swamiji to Mahapratapi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Yagnapurush Smruti
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        13
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhakti Kartā Chhute Māro Prān
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Almast Jogi
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        14
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Vandan Vāramvār Yogījīne
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jogina Jadu
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        15
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Guru Parameshwar Re
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sant Saurabh
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        16
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Vahetu Jīvan Tamāru Gangānī Dhārā
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Vandana
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        17
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Māre Swāmīne Rājī Karvāja Chhe
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bal Saragam
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        18
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Ghanu Jīvo Ho Jīvan Adhār
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Valam Vadhamna
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        19
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Ā Dehathī Shu Na Thāy Re
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sadgunna Bhandar
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        20
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Chho Ji Amāru Jīvan
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Namie Narayanswarup
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Prasang-Varnan Speech': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants will elaborate on a prasang and provide a manan, or personal reflection, on the prasang by using 2 mukhpath references that they had memorized. The prasang can be from, but not limited to, the prasang mukhpath section in the Rajipo Challenge. However, the personal manan must be different from the one provided.
+	</li>
+	<li>If a prasang is not chosen from the Rajipo Challenge, please name the source in your speech, such as kids.baps.org or Eternal Virtues.</li>
+	<li>The prasang-varnan should include at least:</li>
+  <ul>
+	  <li>
+		1 key prasang
+	  </li>
+	  <li>
+		1 mukhpath reference
+    </li>
+    <li>
+    A personal manan (analysis/reflection)
+    </li>
+  </ul>
+  <li>
+  Participants will have a maximum of 8 minutes.
+  </li>
+  <li>
+  The prasang-varnan must be memorized. Notes will not be allowed.
+  </li>
+  <li>
+  Participants must record their prasang-varnan in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
+  </li>
+</ul>""",
         'Musical Instruments': "",
     },
     'Writing-Based Competitions': {
