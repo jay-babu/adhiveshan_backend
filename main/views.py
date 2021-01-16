@@ -403,7 +403,6 @@ class UploadContentView(APIView):
 
 MUKHPATH_CONTENT_DIR = 'main/mukhpath_content_data'
 def upload_mukhpath_content():
-    starting_id = 12000
     for module_name in os.listdir(MUKHPATH_CONTENT_DIR):
         file_name = os.path.join(MUKHPATH_CONTENT_DIR, module_name)
         with open(file_name) as opened_file:
@@ -412,19 +411,19 @@ def upload_mukhpath_content():
             next(mukhpath_items)
 
             module_name_trunc = module_name[:-4]
-
+            index = 1
             for row in mukhpath_items:
                 current_module = models.Module.objects.get(title=module_name_trunc)
                 new_item = models.MukhpathItem.objects.create(
-                    id=starting_id,
                     title=row[0],
                     english_content='\n'.join(row[1].splitlines()),
                     gujurati_content='\n'.join(row[2].splitlines()),
                     transliteration_content='\n'.join(row[3].splitlines()),
                     audio_url=row[4],
                     module=current_module,
+                    index=index,
                 )
-                starting_id += 1
+                index += 1
 
                 new_item.value = 1 if current_module.title != constants.SATSANG_DIKSHA else row[5]
                 new_item.source = '' if current_module.is_bal_mandal else row[5]
