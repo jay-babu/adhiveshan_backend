@@ -1509,7 +1509,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
       If we use the Shri Swaminarayan Aarti as an example, begin by generally explaining the meaning of the Swaminarayan Aarti for around 1 minute. Then, go ahead and play the aarti on the instrument.
     </li>
   </ul>
-	</li>
+	<li>
     Participants do not have to memorize the bhajan. They can have sheet music in front of them while they play.
   </li>
 	<li>
@@ -1528,7 +1528,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
       <ion-text>#</ion-text>
     </ion-col>
     <ion-col size="10">
-      <ion-text>Bodh Katha</ion-text>
+      <ion-text>Bhajan Name</ion-text>
     </ion-col>
   </ion-row>
   <ion-row>
@@ -1539,7 +1539,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Tukaram and Naradji
+          Sant Param Hitkari
         </ion-text>
       </ion-col>
   </ion-row>
@@ -1551,7 +1551,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          A Quiver of Arrows
+          Tamari Murti Vina
         </ion-text>
       </ion-col>
   </ion-row>
@@ -1563,7 +1563,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Lindiyo
+         Bhulish Hu Jagatni Maya
         </ion-text>
       </ion-col>
   </ion-row>
@@ -1575,7 +1575,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          The Sesame Seed Scholar
+          Bhav Dharine Bolo Jay Akshar-Purushottam
         </ion-text>
       </ion-col>
   </ion-row>
@@ -1587,7 +1587,67 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          The Lazy Man
+          Ame Sau Swāmīnā Bālak
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Ame Sau Swāmīnā Bālak
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Vandan Karīe Prabhu Bhāv Dharī
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        8
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Joi Murti Manohar Tari
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        9
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          He Jī Me To Harkhe Nihalyā Nāth
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        10
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Vandan Guruji Vandan Prabhuji
         </ion-text>
       </ion-col>
   </ion-row>
@@ -1595,14 +1655,652 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
 <div>""",
     },
     'Writing-Based Competitions': {
-        'Poetry': "",
-        'Essay-Writing (Group 3)': "",
+        'Poetry': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided, with a small description on what the poem should depict.
+	</li>
+	<li>
+    Although there are many different types of poetic form, please limit to using one poetry style/form throughout the poem. Some examples are haiku, rhymed poetry, acrostic, free verse, ode, etc.
+  </li>
+  <li>
+    Poems will be judged on: organization, flow, grammar, poetry style, etc.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jay ho Akshar-Purushottam!
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the glory of Akshar-Purushottam Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         His Gift to Us
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the Satsang Diksha
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the greatness of Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write what a guru means to you
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Akshardham
+      </ion-col>
+      <ion-col>
+        Depict what Robbinsville Akshardham means to you
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Essay-Writing (Group 3)': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided, with a small description on what the essay should be on.	</li>
+	<li>
+    Essays must be in 12 point font, Arial or Times New Roman with double margins.
+  </li>
+  <li>
+    Essays must be between 3-5 pages.
+  </li>
+  <li>
+    Essays must include at least:
+  </li>
+  <ul>
+    <li>
+      1 prasang, along with a manan
+    </li>
+    <li>
+    2 mukhpath references
+    </li>
+  </ul>
+  <li>
+  Essays must include a creative title and page numbers.
+  </li>
+  <li>
+  Participants should NOT put their name on their essay. They should only include their BKMS ID on the top right of the page.
+  </li>
+  <li>
+  Essays will be judged on: organization, flow, grammar, content, imagination, etc.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jay ho Akshar-Purushottam!
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the greatness of the Akshar-Purushottam Darshan
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Need for the Aksharbrahma Guru
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the necessity of the Aksharbrahma guru
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Guru Bhakti
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the importance of guru bhakti
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Thank You Pramukh Swami Maharaj!
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Write about the impact Pramukh Swami Maharaj had on others
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Robbinsville Akshardham
+      </ion-col>
+      <ion-col>
+        Write about the importance of mandirs and the future impact of Robbinsville Akshardham
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
     },
     'Art-Based Talents': {
-        'Painting/Illustration': "",
-        'Graphic Design (Photoshop)': "",
-        'Video Making': "",
-        'Rangoli design': "",
+        'Painting/Illustration': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided, with a small description on what the artwork should depict.
+  </li>
+  <li>
+    Before the Adhiveshan, these pieces of artwork must be submitted electronically.
+  </li>
+  <li>
+    Artwork may include painting, drawing, chalk art, oil pastels, etc. This does not include photoshop or any multimedia art.
+  </li>
+  <li>
+    The artwork must be presented on an 8.5 inches by 11 inches paper or canvas.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Ghansham - The Miraculous Child
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict any miraculous incident from Ghanshyam's childhood
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Jay Ho Akshar-Purushottam!
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the glory of Akshar-Purushottam Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life and work of Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Guru Bhakti
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Depict an incident from our gurus’ lives on the topic of Guru bhakti
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Akshardham
+      </ion-col>
+      <ion-col>
+        Depict what Robbinsville Akshardham means to you
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Graphic Design (Photoshop)': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided, with a small description on what the graphic should depict.
+  </li>
+  <li>
+    The graphic can be made using any photo editing/illustrating tool, such as Photoshop or Canva.
+  </li>
+  <li>
+    The graphic can be in either portrait or landscape orientation.
+  </li>
+  <li>
+    Please make sure the graphic is of good quality, such as 1920 pixels by 1080 pixels.
+  </li>
+</ul>
+<h2 class="static-content-title">Topic List</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhagwan Swaminarayan
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life and work of Bhagwan Swaminarayan
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Visualizing the Prasang
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict any famous prasangs from our gurus’ life
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Explain the life and work of Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Explain an introduction of Mahant Swami Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Satsang Timeline
+      </ion-col>
+      <ion-col>
+        Depict key moments from our satsang history (local, national or global)
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Video Making': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants can choose any 1 suggested topic and prepare a video to submit on that topic in advance of the Adhiveshan.  The suggested topics are general, and will allow you to be creative and think freely!
+  </li>
+  <li>
+    Video length should be maximum 5 minutes long.
+  </li>
+	<li>
+    Video length should be maximum 5 minutes long.
+  </li>
+	<li>
+    This video will also be submitted electronically.	
+  </li>
+</ul>
+<h2 class="static-content-title">Topic List</h2>
+<ion-grid class="ion-text-center">
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Pramukh Swami Maharaj: 
+          A Timeless Tribute to a Timeless Guru
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          About My Guru
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Satsang History
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Robbinsville Akshardham
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Mukhpath in My Life
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Rangoli design': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants can, but are not limited to, choose any of the suggested topics to design their rangoli. The suggested topics are general, and will allow you to be creative and think freely!
+  </li>
+  <li>
+    Rangolis can be made from any of the following: colored powder, chalk, colored rice grains, paper cut outs, etc. Feel free to experiment with new materials.
+  </li>
+  <li>
+    Rangolis cannot be only drawn/illustrated on paper.
+  </li>
+  <li>
+    Photo submissions should ensure that the rangoli can be seen in good lighting and is taken from the top to see the entirety of the rangoli.
+  </li>
+  <li>
+  Rangolis that are submitted must be new submissions and not done on prior occasions.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhagwan Swaminarayan
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Celebrating Swaminarayan Jayanti
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Aksharbrahmana Vadhamna
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Welcoming Gunatitanand Swami to sit alongside Harikrishna Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Celebrating Pramukh Swami Maharaj’s Shatabdi Mahotsav
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Divyata na Divada
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Celebrating Diwali with our family
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
     },
 }
 
