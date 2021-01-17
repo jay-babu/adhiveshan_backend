@@ -419,6 +419,15 @@ class AddModulesToDB(APIView):
     permission_classes = (AllowAny,)
 
     def post(self, request: Request):
+        # Add special KM MODULES
+        models.Module.objects.create(
+            title='km_modules',
+            image_url='',
+            is_bal_mandal=False,
+            is_kishore_mandal=False,
+            index=1
+        )
+
         # Only satsang diksha
         for module_title in constants.BAL_AND_KISHORE_MODULES:
             models.Module.objects.update_or_create(
