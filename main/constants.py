@@ -353,7 +353,7 @@ SAMP_SUHRADBHAV_EKTA = 'samp_suhradbhav_ekta'
 KSHAMA = 'kshama'
 SAHAN = 'sahan'
 NIRMANIPANU = 'nirmanipanu'
-DIVYABHAV = 'divyabhav'
+DIVYABHAV_NIRDOSHBUDDHI = 'divyabhav_nirdoshbuddhi'
 SATPURUSHNO_MAHIMA = 'satpurushno_mahima'
 DRADH_PRITI = 'dradh_priti'
 SATSANG = 'satsang'
@@ -394,7 +394,7 @@ KISHORE_ONLY_MODULES = [
     KSHAMA,
     SAHAN,
     NIRMANIPANU,
-    DIVYABHAV,
+    DIVYABHAV_NIRDOSHBUDDHI,
     SATPURUSHNO_MAHIMA,
     DRADH_PRITI,
     SATSANG,
@@ -447,7 +447,7 @@ MODULE_ICON_LINKS = {
     KSHAMA: 'https://baps.box.com/shared/static/88rzxhz5unyv6eu7z6phia1423dhdoek.jpg',
     SAHAN: 'https://baps.box.com/shared/static/tk5zuzwv7jpi5rk4y1yewpjodq2yc31b.jpg',
     NIRMANIPANU: 'https://baps.box.com/shared/static/00mlk26y8m1mmde6yuftli7q6pihr300.jpg',
-    DIVYABHAV: 'https://baps.box.com/shared/static/vyqk4qkjnoh6z8kqufkmrqbvsx33rxqx.png',
+    DIVYABHAV_NIRDOSHBUDDHI: 'https://baps.box.com/shared/static/vyqk4qkjnoh6z8kqufkmrqbvsx33rxqx.png',
     SATPURUSHNO_MAHIMA: 'https://baps.box.com/shared/static/k4v37q8h7y4gyf1zs6zfsjthqo544enq.jpg',
     DRADH_PRITI: 'https://baps.box.com/shared/static/rvr9wt9psa5r2snxqcxgg3uov6zvajm9.jpg',
     SATSANG: 'https://baps.box.com/shared/static/xvr64pscal7wcw0jk107qln9e5g5mtiy.jpg',
@@ -517,7 +517,7 @@ REQUIRED_PER_KM_MODULE = {
     KSHAMA: 4,
     SAHAN: 4,
     NIRMANIPANU: 4,
-    DIVYABHAV: 4,
+    DIVYABHAV_NIRDOSHBUDDHI: 4,
     SATPURUSHNO_MAHIMA: 4,
     DRADH_PRITI: 4,
     SATSANG: 4,
