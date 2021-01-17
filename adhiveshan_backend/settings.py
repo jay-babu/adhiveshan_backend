@@ -9,13 +9,13 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
+import django_heroku
 from datetime import timedelta
 from os import getenv
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
@@ -25,16 +25,16 @@ SECRET_KEY = getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
-
-
+if getenv('PROD', False):
+    DEBUG = True
 # Application definition
 
 INSTALLED_APPS = [
-    'main',
+    'main.apps.MainConfig',
+    'corsheaders',
     'rest_framework',
     'rest_framework_simplejwt',
+    'django_rest_resetpassword',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -58,8 +59,7 @@ ROOT_URLCONF = 'adhiveshan_backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
-        ,
+        'DIRS': [BASE_DIR / 'main/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -74,24 +74,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'adhiveshan_backend.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'lsrjzyji',
-        'USER': 'lsrjzyji',
-        'PASSWORD': getenv('DB_PASSWORD'),
-        'HOST': 'suleiman.db.elephantsql.com',
-        'PORT': '5432',
-    }
-}
 
 AUTH_USER_MODEL = 'main.User'
-
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
@@ -115,12 +102,29 @@ REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.DjangoModelPermissions'
+        'rest_framework.permissions.DjangoModelPermissions',
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     ],
+    # 'DEFAULT_THROTTLE_CLASSES': [
+    #    'rest_framework.throttling.AnonRateThrottle',
+    #    'rest_framework.throttling.UserRateThrottle',
+    # ],
+    #'DEFAULT_THROTTLE_RATES': {
+    #    'anon': '3/second',
+    #    'user': '7/second',
+    #}
 }
+
+CORS_ALLOWED_ORIGINS = [
+    "https://bkadhiveshan.na.baps.org",
+    "capacitor://localhost",
+    "http://localhost",
+]
+
+if getenv('ENV_PROD', 'False') == 'False':
+    CORS_ALLOWED_ORIGINS = ["http://localhost:8000", "http://localhost:8100", ]
 
 PASSWORD_HASHERS = [
     'django.contrib.auth.hashers.Argon2PasswordHasher',
@@ -153,6 +157,15 @@ SIMPLE_JWT = {
     'JTI_CLAIM': 'jti',
 }
 
+SENDINBLUE_API_KEY = getenv('SENDINBLUE_API_KEY')
+EMAIL_HOST = 'smtp-relay.sendinblue.com'
+EMAIL_HOST_USER = 'kishore@na.baps.org'
+EMAIL_HOST_PASSWORD = SENDINBLUE_API_KEY
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+
+DJANGO_REST_RESETPASSWORD_NO_INFORMATION_LEAKAGE = True
+
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
@@ -166,8 +179,7 @@ USE_L10N = True
 
 USE_TZ = True
 
+APPEND_SLASH = True
 
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/3.1/howto/static-files/
-
-STATIC_URL = '/static/'
+# Activate Django-Heroku.
+django_heroku.settings(locals())
