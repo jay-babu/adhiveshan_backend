@@ -349,7 +349,7 @@ SMRUTI = 'smruti'
 SUKH = 'sukh'
 KATHA_VARTA = 'katha_varta'
 SATSANG_READING = 'satsang_reading'
-SAMP_SURADBHAV_EKTA = 'samp_suradbhav_ekta'
+SAMP_SURADHBHAV_EKTA = 'samp_suradhbhav_ekta'
 KSHAMA = 'kshama'
 SAHAN = 'sahan'
 NIRMANIPANU = 'nirmanipanu'
@@ -390,7 +390,7 @@ KISHORE_ONLY_MODULES = [
     SUKH,
     KATHA_VARTA,
     SATSANG_READING,
-    SAMP_SURADBHAV_EKTA,
+    SAMP_SURADHBHAV_EKTA,
     KSHAMA,
     SAHAN,
     NIRMANIPANU,
@@ -443,7 +443,7 @@ MODULE_ICON_LINKS = {
     SUKH: 'https://baps.box.com/shared/static/s2svh23asb6wn0hz4x1virku6oayq36q.jpg',
     KATHA_VARTA: 'https://baps.box.com/shared/static/yjp9364xuxeipgnas08m6iwdwk5952cx.jpg',
     SATSANG_READING: 'https://baps.box.com/shared/static/zwcpja4180d2pn1znvqemn83einuhd06.jpg',
-    SAMP_SURADBHAV_EKTA: 'https://baps.box.com/shared/static/tbdjs59tdniiiu94l7az0kf4wz7872oj.png',
+    SAMP_SURADHBHAV_EKTA: 'https://baps.box.com/shared/static/tbdjs59tdniiiu94l7az0kf4wz7872oj.png',
     KSHAMA: 'https://baps.box.com/shared/static/88rzxhz5unyv6eu7z6phia1423dhdoek.jpg',
     SAHAN: 'https://baps.box.com/shared/static/tk5zuzwv7jpi5rk4y1yewpjodq2yc31b.jpg',
     NIRMANIPANU: 'https://baps.box.com/shared/static/00mlk26y8m1mmde6yuftli7q6pihr300.jpg',
@@ -513,7 +513,7 @@ REQUIRED_PER_KM_MODULE = {
     SUKH: 4,
     KATHA_VARTA: 4,
     SATSANG_READING: 4,
-    SAMP_SURADBHAV_EKTA: 4,
+    SAMP_SURADHBHAV_EKTA: 4,
     KSHAMA: 4,
     SAHAN: 4,
     NIRMANIPANU: 4,
