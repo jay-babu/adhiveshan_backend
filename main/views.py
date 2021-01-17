@@ -406,6 +406,14 @@ class ResetBookmarkedView(APIView):
         return Response(data={}, status=status.HTTP_200_OK)
 
 
+class DeleteUserView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def post(self, request: Request):
+        request.user.delete()
+        return Response(data={}, status=status.HTTP_200_OK)
+
+
 class UploadContentView(APIView):
     permission_classes = (AllowAny,)
 

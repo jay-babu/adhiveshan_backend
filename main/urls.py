@@ -11,6 +11,7 @@ urlpatterns = [
     path('access_allowed/', views.AccessAllowedView.as_view()),
     path('get_all_centers/', views.CentersView.as_view()),
     path('get_user_detail/', views.UserDetailView.as_view()),
+    path('delete_user/', views.DeleteUserView.as_view()),
     path(r'password-reset/', include('django_rest_resetpassword.urls', namespace='password_reset')),
 
     path('set_onboard_status/', views.OnboardedView.as_view(), name='onboarded_view'),
