@@ -3288,6 +3288,12 @@ VIDEOS = [
     'https://www.youtube.com/watch?v=CSHo_2iAaQs',
 ]
 
+STORIES = [
+  'https://upload.wikimedia.org/wikipedia/commons/b/b5/Mahant_Swami_Maharaj.jpg',
+  'https://baps.box.com/shared/static/1xxnlbl1udqbqq8ecqi9p6533w8qr1rb.jpg',
+  'https://baps.box.com/shared/static/xx8vntvvq8bvj8g1ji9q2wy92z392bxh.jpg'
+]
+
 QUOTE = 'This is a nice quote.'
 
 # For timestamp, use epoch timestamp.
@@ -3308,5 +3314,6 @@ ANNOUNCEMENT_PAGE_CONTENT = {
     'images': IMAGES,
     'videos': VIDEOS,
     'quote': QUOTE,
-    'announcements': ANNOUNCEMENTS
+    'announcements': ANNOUNCEMENTS,
+    'stories': STORIES
 }
