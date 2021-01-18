@@ -414,6 +414,14 @@ class DeleteUserView(APIView):
         return Response(data={}, status=status.HTTP_200_OK)
 
 
+class AnnouncementsPageView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request: Request):
+        return Response(data=constants.ANNOUNCEMENT_PAGE_CONTENT,
+                        status=status.HTTP_200_OK)
+
+
 class UploadContentView(APIView):
     permission_classes = (AllowAny,)
 

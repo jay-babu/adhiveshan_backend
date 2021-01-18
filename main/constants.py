@@ -3274,3 +3274,39 @@ SD_SHLOKAS_FOR_TIER = {
     YOGI: YOGI_SD_SHLOKS,
     SHASTRI: SHASTRI_SD_SHLOKS,
 }
+
+
+# Announcements
+IMAGES = [
+    'www.google.com',
+    'www.google.com',
+    'www.google.com',
+]
+VIDEOS = [
+    'www.google.com',
+    'www.google.com',
+    'www.google.com',
+]
+
+QUOTE = 'This is a nice quote.'
+
+# For timestamp, use epoch timestamp.
+# You can convert current time to epoch timestamp
+# using this website https://www.epochconverter.com/
+ANNOUNCEMENTS = [
+    {
+        'timestamp': '1610937740',
+        'text': 'This is the first announcement.'
+    },
+    {
+        'timestamp': '1610937740',
+        'text': 'This is the first announcement.'
+    }
+]
+
+ANNOUNCEMENT_PAGE_CONTENT = {
+    'images': IMAGES,
+    'videos': VIDEOS,
+    'quote': QUOTE,
+    'announcements': ANNOUNCEMENTS
+}
