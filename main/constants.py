@@ -774,13 +774,6 @@ BAL_FAQ = {
                       "change it, there will be an opportunity for you to repledge your original Satsang Diksha "
                       "pledge when you pledge for the other Adhiveshan categories.",
         },
-        {
-            'question': "Will there be additional material to help me study?",
-            'answer': "Along with this book, there will be additional material provided via a website including "
-                      "interactive aids to help memorize the Adhiveshan content. The website will also contain small "
-                      "interactive quizzes to aid in memorization and self-evaluation. Details for this website will "
-                      "come soon.",
-        },
     ],
     "Adhiveshan Timeline": [
         {
