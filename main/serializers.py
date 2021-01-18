@@ -10,7 +10,7 @@ from django.core.exceptions import ValidationError as DVE
 from adhiveshan_backend import settings
 from . import constants
 from . import models
-from .models import User
+from .models import User, title_and_capitial
 
 
 @functools.lru_cache(maxsize=None)
@@ -55,8 +55,10 @@ class UserSerializer(serializers.ModelSerializer):
     middle_name = serializers.CharField(max_length=60, min_length=1, required=False)
     last_name = serializers.CharField(max_length=60, min_length=2, required=True)
     center = serializers.ChoiceField(
-        choices=sorted(map(lambda item: item.replace('_', ' ').title(), constants.CENTERS_REGIONS.keys())),
-        required=True)
+        choices=sorted(map(lambda center: center.replace('_', ' ').title()
+        if len(center.split('_')) == 1
+        else title_and_capitial(center.replace('_', ' ')), constants.CENTERS_REGIONS.keys()))
+    )
     gender = serializers.ChoiceField(
         choices=sorted(map(lambda item: item.replace('_', ' ').title(), constants.GENDERS), reverse=True),
         required=True)
