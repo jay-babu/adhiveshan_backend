@@ -3278,14 +3278,14 @@ SD_SHLOKAS_FOR_TIER = {
 
 # Announcements
 IMAGES = [
-    'www.google.com',
-    'www.google.com',
-    'www.google.com',
+    'https://upload.wikimedia.org/wikipedia/commons/b/b5/Mahant_Swami_Maharaj.jpg',
+    'https://upload.wikimedia.org/wikipedia/commons/b/b5/Mahant_Swami_Maharaj.jpg',
+    'https://upload.wikimedia.org/wikipedia/commons/b/b5/Mahant_Swami_Maharaj.jpg',
 ]
 VIDEOS = [
-    'www.google.com',
-    'www.google.com',
-    'www.google.com',
+    'https://www.youtube.com/watch?v=CSHo_2iAaQs',
+    'https://www.youtube.com/watch?v=CSHo_2iAaQs',
+    'https://www.youtube.com/watch?v=CSHo_2iAaQs',
 ]
 
 QUOTE = 'This is a nice quote.'
