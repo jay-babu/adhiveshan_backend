@@ -3282,9 +3282,9 @@ VIDEOS = [
 ]
 
 STORIES = [
-  'https://upload.wikimedia.org/wikipedia/commons/b/b5/Mahant_Swami_Maharaj.jpg',
-  'https://baps.box.com/shared/static/1xxnlbl1udqbqq8ecqi9p6533w8qr1rb.jpg',
-  'https://baps.box.com/shared/static/xx8vntvvq8bvj8g1ji9q2wy92z392bxh.jpg'
+  'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
+  'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg',
+  'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg'
 ]
 
 QUOTE = 'This is a nice quote.'
