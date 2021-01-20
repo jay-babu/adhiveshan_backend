@@ -937,7 +937,7 @@ KISHORE_FAQ = {
 # Skills Challenge for BM
 BAL_SKILLS_CHALLENGE = {
     'Story/Speech-Based Competitions': {
-        'Mono-acting': """<div class="faq-html">
+        'Mono-acting': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -1058,7 +1058,7 @@ BAL_SKILLS_CHALLENGE = {
   </ion-row>
 </ion-grid>
 <div>""",
-        'Storytelling': """<div class="faq-html">
+        'Storytelling': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -1145,7 +1145,7 @@ BAL_SKILLS_CHALLENGE = {
   </ion-row>
 </ion-grid>
 <div>""",
-        'Satsang Diksha Nirupan': """<div class="faq-html">
+        'Satsang Diksha Nirupan': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -1265,7 +1265,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
   </ion-row>
 </ion-grid>
 <div>""",
-        'Prasang-Varnan Speech': """<div class="faq-html">
+        'Prasang-Varnan Speech': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -1296,7 +1296,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
 </ul>""",
     },
     'Music-Based Competitions': {
-        'Solo Singing': """<div class="faq-html">
+        'Solo Singing': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -1664,7 +1664,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
   </ion-row>
 </ion-grid>
 <div>""",
-        'Musical Instruments': """<div class="faq-html">
+        'Musical Instruments': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -1824,7 +1824,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
 <div>""",
     },
     'Writing-Based Competitions': {
-        'Poetry': """<div class="faq-html">
+        'Poetry': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -1933,7 +1933,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
   </ion-row>
 </ion-grid>
 <div>""",
-        'Essay-Writing (Group 3)': """<div class="faq-html">
+        'Essay-Writing (Group 3)': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -2063,7 +2063,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
 <div>""",
     },
     'Art-Based Talents': {
-        'Painting/Illustration': """<div class="faq-html">
+        'Painting/Illustration': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -2175,7 +2175,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
   </ion-row>
 </ion-grid>
 <div>""",
-        'Graphic Design (Photoshop)': """<div class="faq-html">
+        'Graphic Design (Photoshop)': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -2287,7 +2287,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
   </ion-row>
 </ion-grid>
 <div>""",
-        'Video Making': """<div class="faq-html">
+        'Video Making': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
@@ -2368,7 +2368,7 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
   </ion-row>
 </ion-grid>
 <div>""",
-        'Rangoli design': """<div class="faq-html">
+        'Rangoli design': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
