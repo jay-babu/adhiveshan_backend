@@ -686,7 +686,7 @@ BAL_FAQ = {
             'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion '
                       'for balaks and balikas to memorize mukhpath during their summer vacations to the various '
                       'Adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, mukhpath has been an '
-                      'integral way for balaks and balikas to earn the raajipo of our Gurus. By learning and '
+                      'integral way for balaks and balikas to earn the Rajipo of our Gurus. By learning and '
                       'memorizing various parts of our Shastras, we are able to ground ourselves in the Akshar '
                       'Purushottam Upasana and find solutions to the many problems we may face in life. Along with '
                       'this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj '
@@ -707,7 +707,7 @@ BAL_FAQ = {
             'question': 'What does Adhiveshan consist of?',
             'answer': 'Adhiveshan will have three parts, each assessed in different ways and at different times. The '
                       'first part is the Beginner’s Challenge (Prathmik Mukhpath) which will be assessed at home. The '
-                      'second part is the Adhiveshan Raajipo Challenge (Main Mukhpath), which will be assessed online '
+                      'second part is the Adhiveshan Rajipo Challenge (Main Mukhpath), which will be assessed online '
                       '(in real time - over Zoom). The final part is the Skills Challenge (Talent Competitions), '
                       'which will be judged through regional online submissions.',
         },
@@ -723,10 +723,10 @@ BAL_FAQ = {
                       "and assist in grading.",
         },
     ],
-    "Adhiveshan Raajipo Challenge (Advanced Mukhpath)": [
+    "Adhiveshan Rajipo Challenge (Advanced Mukhpath)": [
         {
-            'question': "How is the Adhiveshan Raajipo Challenge (Advanced Mukhpath) structured?",
-            'answer': "The Raajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, "
+            'question': "How is the Adhiveshan Rajipo Challenge (Advanced Mukhpath) structured?",
+            'answer': "The Rajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, "
                       "Shlokas and Sakhis, and Prasang Manan. There are 4 tiers (Mahant, Pramukh, Yogi, "
                       "and Shastri).\nNOTE: There is an additional tier called the Ghanshyam tier that is ONLY if you "
                       "are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for "
@@ -770,7 +770,7 @@ BAL_FAQ = {
                       "their pledges. Before this date, please read through the Mukhpath book and take a look at the "
                       "possible tiers for your group and make a decision on what mukhpath you will be able to "
                       "memorize by the summer.\nNOTE: If you pledge for Satsang Diksha, you should try to continue "
-                      "with the tier you chose for your Raajipo Challenge from August 2020. If you would like to "
+                      "with the tier you chose for your Rajipo Challenge from August 2020. If you would like to "
                       "change it, there will be an opportunity for you to repledge your original Satsang Diksha "
                       "pledge when you pledge for the other Adhiveshan categories.",
         },
@@ -780,7 +780,7 @@ BAL_FAQ = {
             'question': "What are some important dates to keep in mind relating to the Adhiveshan?",
             'answer': """<div class="timeline-question">SS21 Adhiveshan Launch Sabha: 1/31/2021\nAdhiveshan Pledge and Summer Shibir registration:
                       1/31/2021-3/7/2021\nBeginner's Challenge Quiz: To be held at home - Time soon to come\nTalent
-                      Competition Submission Deadline: Time soon to come\nAdhiveshan Raajipo Challenge: Time soon to
+                      Competition Submission Deadline: Time soon to come\nAdhiveshan Rajipo Challenge: Time soon to
                       come""",
         },
     ],
@@ -790,15 +790,15 @@ KISHORE_FAQ = {
   'Adhiveshan Overview': [
     {
       'question': "What is this year’s shibir theme and how does it relate to Adhiveshan?",
-      'answer': "This year’s shibir theme is Guru Bhakti. Understanding how to perform guru bhakti the same way our gurus have will be the primary focus of the shibir. One way to perform guru bhakti is to memorize and learn mukhpath with the thought of raajipano vichar. Thus, this adhiveshan is a way to show our guru bhakti and earn our guru’s raajipo."
+      'answer': "This year’s shibir theme is Guru Bhakti. Understanding how to perform guru bhakti the same way our gurus have will be the primary focus of the shibir. One way to perform guru bhakti is to memorize and learn mukhpath with the thought of raajipano vichar. Thus, this adhiveshan is a way to show our guru bhakti and earn our guru’s Rajipo."
     },
     {
       'question': "What is Adhiveshan?",
-      'answer': "Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and kishores to memorize mukhpath during their summer vacations to the various adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, mukhpath has been integral way for kishores and kishoris to earn the raajipo of their gurus. Adhiveshan is a structured way of memorizing mukhpath which is often focused on a certain Satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to spend time memorizing the mukhpath, learning its meaning, and eventually imbibing it in our lives to please our gurus."
+      'answer': "Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and kishores to memorize mukhpath during their summer vacations to the various adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, mukhpath has been integral way for kishores and kishoris to earn the Rajipo of their gurus. Adhiveshan is a structured way of memorizing mukhpath which is often focused on a certain Satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to spend time memorizing the mukhpath, learning its meaning, and eventually imbibing it in our lives to please our gurus."
     },
     {
       'question': "How is the Adhiveshan structured? Will it be virtual?",
-      'answer': "All components of adhiveshan will take place virtually this year. There will be four components to adhiveshan: the prathmik mukhpath, the Raajipo Challenge, the Guru Bhakti Challenge, and Skills Competitions."
+      'answer': "All components of adhiveshan will take place virtually this year. There will be four components to adhiveshan: the prathmik mukhpath, the Rajipo Challenge, the Guru Bhakti Challenge, and Skills Competitions."
     },
     {
       'question': "How will Adhiveshan testing work? Will it be virtual?",
@@ -811,14 +811,14 @@ KISHORE_FAQ = {
       'answer': "The prathmik mukhpath contains core mukhpath that kishores and kishoris encounter on a daily basis. All of the mukhpath comes with translations, so it is important to pay close attention, understand the meanings, and try to introspect on how the values being transmitted in the words can be applied back to our lives. The prathmik mukhpath for this year includes the Shri Swaminarayan Arti and the two puja shlokas provided in Satsang Diksha. Kishores and kishoris will be tested on the prathmik mukhpath, just like both mukhpath challenges."
     }
   ],
-  'Raajipo Challenge': [
+  'Rajipo Challenge': [
     {
-      'question': "What is the Raajipo Challenge and how is it structured?",
-      'answer': "The Adhiveshan Raajipo Challenge is one that kishore and kishoris have been working on since August 2020: the Satsang Diksha Raajipo Challenge. The Raajipo Challenge for the adhiveshan will test memorization and understanding of Satsang Diksha as well as encourage kishores and kishoris to further memorize Satsang Diksha as it is Swamishri’s inner wish. The tiering will work exactly the same as the current Raajipo Challenge."
+      'question': "What is the Rajipo Challenge and how is it structured?",
+      'answer': "The Adhiveshan Rajipo Challenge is one that kishore and kishoris have been working on since August 2020: the Satsang Diksha Rajipo Challenge. The Rajipo Challenge for the adhiveshan will test memorization and understanding of Satsang Diksha as well as encourage kishores and kishoris to further memorize Satsang Diksha as it is Swamishri’s inner wish. The tiering will work exactly the same as the current Rajipo Challenge."
     },
     {
-      'question': "Should the current Raajipo Challenge (Satsang Diksha) be continued?",
-      'answer': "Kishores and kishoris are encouraged to continue on with their Satsang Diksha Raajipo Challenge pledge. However, kishores and kishoris will have the opportunity to re-pledge beginning January 31st, 2021 if they’d like. The pledging will occur in the same fashion as it had been previously, with the four tiers being the same (Mahant, Pramukh, Yogiji, Shastri). Final pledging closes March 7th, 2021."
+      'question': "Should the current Rajipo Challenge (Satsang Diksha) be continued?",
+      'answer': "Kishores and kishoris are encouraged to continue on with their Satsang Diksha Rajipo Challenge pledge. However, kishores and kishoris will have the opportunity to re-pledge beginning January 31st, 2021 if they’d like. The pledging will occur in the same fashion as it had been previously, with the four tiers being the same (Mahant, Pramukh, Yogiji, Shastri). Final pledging closes March 7th, 2021."
     },
   ],
   'Guru Bhakti Challenge': [
