@@ -778,10 +778,10 @@ BAL_FAQ = {
     "Adhiveshan Timeline": [
         {
             'question': "What are some important dates to keep in mind relating to the Adhiveshan?",
-            'answer': """<div class="timeline-question">"SS21 Adhiveshan Launch Sabha: 1/31/2021\nAdhiveshan Pledge and Summer Shibir registration: "
-                      "1/31/2021-3/7/2021\nBeginner's Challenge Quiz: To be held at home - Time soon to come\nTalent "
-                      "Competition Submission Deadline: Time soon to come\nAdhiveshan Raajipo Challenge: Time soon to "
-                      "come""",
+            'answer': """<div class="timeline-question">SS21 Adhiveshan Launch Sabha: 1/31/2021\nAdhiveshan Pledge and Summer Shibir registration:
+                      1/31/2021-3/7/2021\nBeginner's Challenge Quiz: To be held at home - Time soon to come\nTalent
+                      Competition Submission Deadline: Time soon to come\nAdhiveshan Raajipo Challenge: Time soon to
+                      come""",
         },
     ],
 }
