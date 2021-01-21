@@ -3294,12 +3294,12 @@ QUOTE = 'This is a nice quote.'
 # using this website https://www.epochconverter.com/
 ANNOUNCEMENTS = [
     {
-        'timestamp': '1610937740',
-        'text': 'This is the first announcement.'
+        'timestamp': '1611236580',
+        'text': 'The Parents Sabha is on February 6th, 2021. Details will be released shortly.'
     },
     {
-        'timestamp': '1610937740',
-        'text': 'This is the first announcement.'
+        'timestamp': '1611236580',
+        'text': 'The deadline to pledge for Adhiveshan is on March 7th, 2021 and can be done through BKMS.'
     }
 ]
 
