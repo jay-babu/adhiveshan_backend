@@ -3357,11 +3357,16 @@ KM_STORIES = [{
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201_2.mp4',
         "type": "video"
       },
-      # {
-      #   "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
-      #   "quote": "Some Inspiring Quote...\n-Some Great Person",
-      #   "type": "quote",
-      # }
+    ]
+  },
+  {
+    "title": "Quote of the Week",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg',
+        "type": "image"
+      },
     ]
   },
 ]
