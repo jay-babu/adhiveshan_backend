@@ -74,13 +74,16 @@ class ChangePasswordView(UpdateAPIView):
     serializer_class = ChangePasswordSerializer
     object = None
 
+    def get_object(self, queryset=None):
+        return self.request.user
+
     def put(self, request, *args, **kwargs):
         serializer = ChangePasswordSerializer(data=request.data, context=self.request)
 
         if serializer.is_valid():
             # set_password also hashes the password that the user will get
-            self.object.set_password(serializer.data.get("new_password"))
-            self.object.save()
+            self.get_object().set_password(serializer.validated_data.get("new_password"))
+            self.get_object().save()
             response = {
                 'status': 'success',
                 'code': status.HTTP_200_OK,
