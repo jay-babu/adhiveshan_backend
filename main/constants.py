@@ -3368,15 +3368,15 @@ KM_STORIES = [{
 
 BM_ANNOUNCEMENTS = [
     {
-        'timestamp': '12 Jan, 2021',
+        'timestamp': '31 Jan, 2021',
         'text': 'On Saturday, February 6th, please join your parents to attend a special Adhiveshan Sabha. You will be able to hear more about the mahima of Adhiveshan and learn how to use tools such as the website.'
     },
     {
-        'timestamp': '13 Jan, 2021',
+        'timestamp': '31 Jan, 2021',
         'text': 'Pledging is now live on BKMS! Make sure you contact your karyakars if you are having any issues or problems. Remember that pledges made on the website are not automatically made for you on BKMS!'
     },
     {
-        'timestamp': '13 Jan, 2021',
+        'timestamp': '31 Jan, 2021',
         'text': 'Jai Swaminarayan balaks and balikas. Welcome to the Adhiveshan website! We are very excited to begin our journey towards Guru Bhakti.'
     }
 ]
