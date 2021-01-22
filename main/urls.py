@@ -30,6 +30,7 @@ urlpatterns = [
     path('get_announcements/', views.AnnouncementsPageView.as_view()),
     path('reset_memorized_all/', views.ResetMemorizedView.as_view(), name='reset_memorized_all'),
     path('reset_bookmarked_all/', views.ResetBookmarkedView.as_view(), name='reset_bookmarked_all'),
+    path('get_video/', views.GetGHDVideo.as_view(), name='get_video'),
 
     # Dev use only
     # path('upload_content/', views.UploadContentView.as_view(), name='upload_content'),
