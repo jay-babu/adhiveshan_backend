@@ -3314,7 +3314,36 @@ BM_STORIES = [{
   },
 ]
 
-KM_STORIES = [{
+KM_STORIES = [
+  {
+    "title": "Quote of the Week",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg',
+        "type": "image"
+      },
+    ]
+  },
+  {
+    "title": "Insights from Swamishri",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201.mp4',
+        "type": "video"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201_1.mp4',
+        "type": "video"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201_2.mp4',
+        "type": "video"
+      },
+    ]
+  },
+  {
     "title": "Divine Moods",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
     "stories": [
@@ -3339,34 +3368,6 @@ KM_STORIES = [{
       #   "quote": "Some Inspiring Quote...\n-Some Great Person",
       #   "type": "quote",
       # }
-    ]
-  },
-  {
-    "title": "Insights from Swamishri",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
-    "stories": [
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201.mp4',
-        "type": "video"
-      },
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201_1.mp4',
-        "type": "video"
-      },
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201_2.mp4',
-        "type": "video"
-      },
-    ]
-  },
-  {
-    "title": "Quote of the Week",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg",
-    "stories": [
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg',
-        "type": "image"
-      },
     ]
   },
 ]
