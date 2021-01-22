@@ -3369,7 +3369,7 @@ KM_STORIES = [{
 BM_ANNOUNCEMENTS = [
     {
         'timestamp': '12 Jan, 2021',
-        'text': 'Jai Swaminarayan balaks and balikas. Welcome to the Adhiveshan website! We are very excited to begin our journey towards Guru Bhakti.'
+        'text': 'On Saturday, February 6th, please join your parents to attend a special Adhiveshan Sabha. You will be able to hear more about the mahima of Adhiveshan and learn how to use tools such as the website.'
     },
     {
         'timestamp': '13 Jan, 2021',
@@ -3377,7 +3377,7 @@ BM_ANNOUNCEMENTS = [
     },
     {
         'timestamp': '13 Jan, 2021',
-        'text': 'On Saturday, February 6th, please join your parents to attend a special Adhiveshan Sabha. You will be able to hear more about the mahima of Adhiveshan and learn how to use tools such as the website.'
+        'text': 'Jai Swaminarayan balaks and balikas. Welcome to the Adhiveshan website! We are very excited to begin our journey towards Guru Bhakti.'
     }
 ]
 
