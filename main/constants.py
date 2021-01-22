@@ -3270,48 +3270,134 @@ SD_SHLOKAS_FOR_TIER = {
 
 
 # Announcements
-IMAGES = [
-    'https://upload.wikimedia.org/wikipedia/commons/b/b5/Mahant_Swami_Maharaj.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/b/b5/Mahant_Swami_Maharaj.jpg',
-    'https://upload.wikimedia.org/wikipedia/commons/b/b5/Mahant_Swami_Maharaj.jpg',
-]
-VIDEOS = [
-    'https://www.youtube.com/watch?v=CSHo_2iAaQs',
-    'https://www.youtube.com/watch?v=CSHo_2iAaQs',
-    'https://www.youtube.com/watch?v=CSHo_2iAaQs',
+BM_STORIES = [{
+    "title": "Memories With Bapa",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+        "type": "image"
+      },
+    ]
+  },
+  {
+    "title": "Bapa's Vicharan",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+        "quote": "Some Inspiring Quote...\n-Some Great Person",
+        "type": "quote",
+      }
+    ]
+  },
 ]
 
-STORIES = [
-  'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
-  'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg',
-  'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg'
+KM_STORIES = [{
+    "title": "Memories With Bapa",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/IMG_0472.mov',
+        "type": "video",
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+        "quote": "Some Inspiring Quote...\n-Some Great Person",
+        "type": "quote",
+      }
+    ]
+  },
+  {
+    "title": "Bapa's Vicharan",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+        "quote": "Some Inspiring Quote...\n-Some Great Person",
+        "type": "quote",
+      }
+    ]
+  },
 ]
 
-QUOTE = 'This is a nice quote.'
-
-# For timestamp, use epoch timestamp.
-# You can convert current time to epoch timestamp
-# using this website https://www.epochconverter.com/
-ANNOUNCEMENTS = [
+BM_ANNOUNCEMENTS = [
     {
-        'timestamp': '1612137600',
+        'timestamp': '12 Jan, 2021',
         'text': 'Jai Swaminarayan balaks and balikas. Welcome to the Adhiveshan website! We are very excited to begin our journey towards Guru Bhakti.'
     },
     {
-        'timestamp': '1612137600',
+        'timestamp': '13 Jan, 2021',
         'text': 'Pledging is now live on BKMS! Make sure you contact your karyakars if you are having any issues or problems. Remember that pledges made on the website are not automatically made for you on BKMS!'
     },
     {
-        'timestamp': '1612137600',
+        'timestamp': '13 Jan, 2021',
         'text': 'On Saturday, February 6th, please join your parents to attend a special Adhiveshan Sabha. You will be able to hear more about the mahima of Adhiveshan and learn how to use tools such as the website.'
     }
-
 ]
 
-ANNOUNCEMENT_PAGE_CONTENT = {
-    'images': IMAGES,
-    'videos': VIDEOS,
-    'quote': QUOTE,
-    'announcements': ANNOUNCEMENTS,
-    'stories': STORIES
+KM_ANNOUNCEMENTS = [
+    {
+        'timestamp': '12 Jan, 2021',
+        'text': 'This is the first announcement.'
+    },
+    {
+        'timestamp': '13 Jan, 2021',
+        'text': 'This is the first announcement.'
+    }
+]
+
+BM_ANNOUNCEMENT_PAGE_CONTENT = {
+    'announcements': BM_ANNOUNCEMENTS,
+    'stories': BM_STORIES
 }
+
+KM_ANNOUNCEMENT_PAGE_CONTENT = {
+    'announcements': KM_ANNOUNCEMENTS,
+    'stories': KM_STORIES
+}
+
