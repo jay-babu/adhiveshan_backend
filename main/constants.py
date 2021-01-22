@@ -3273,7 +3273,7 @@ SD_SHLOKAS_FOR_TIER = {
 # Announcements
 BM_STORIES = [{
     "title": "Memories With Bapa",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
     "stories": [
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
@@ -3291,7 +3291,7 @@ BM_STORIES = [{
   },
   {
     "title": "Bapa's Vicharan",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
     "stories": [
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
@@ -3316,7 +3316,7 @@ BM_STORIES = [{
 
 KM_STORIES = [{
     "title": "Memories With Bapa",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
     "stories": [
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
@@ -3343,7 +3343,7 @@ KM_STORIES = [{
   },
   {
     "title": "Bapa's Vicharan",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
     "stories": [
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
