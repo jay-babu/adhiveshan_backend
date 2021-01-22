@@ -10,9 +10,6 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-import urllib.parse
-import requests
-
 from main.serializers import UserSerializer, ChangePasswordSerializer
 from . import constants
 from . import models
@@ -486,14 +483,6 @@ class AddModulesToDB(APIView):
             )
             index += 1
         return Response(data={}, status=status.HTTP_200_OK)
-
-class GetGHDVideo(APIView):
-    def get(self, request):
-        json_data = requests.get("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet%2CcontentDetails&maxResults=50&playlistId=UUuQNLnncEruW0pllaE0ZeKQ&key=AIzaSyARAjrD7z3taSDssLMMJY_gFNWjXHKjThI").json()
-        for items in json_data['items']:
-            if 'Guruhari Darshan' in items['snippet']['title']:
-                return Response(data=("http://www.youtube.com/watch?v=" + items['snippet']['resourceId']['videoId']), status=status.HTTP_200_OK)
-                break
 
 
 MUKHPATH_CONTENT_DIR = 'main/mukhpath_content_data'
