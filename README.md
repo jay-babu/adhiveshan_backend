@@ -10,7 +10,7 @@
 
 ## Django Setup
 
-1. Set `DATABASE_URL`, `SENDGRID_API_KEY`, and `SECRET_KEY` in Environment Variables
+1. Set `DATABASE_URL`, `SENDINBLUE_API_KEY`, and `SECRET_KEY` in Environment Variables
 2. `python manage.py runserver 8000`
     1. This runs Django
 3. `python manage.py makemigrations`

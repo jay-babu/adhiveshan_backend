@@ -25,8 +25,8 @@ SECRET_KEY = getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-if getenv('PROD', False):
-    DEBUG = True
+if getenv('ENV_PROD', False):
+    DEBUG = False
 # Application definition
 
 INSTALLED_APPS = [

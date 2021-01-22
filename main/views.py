@@ -447,32 +447,36 @@ class AddModulesToDB(APIView):
 
     def post(self, request: Request):
         # Add special KM MODULES
-        models.Module.objects.create(
-            title='km_modules',
-            image_url='',
-            is_bal_mandal=False,
-            is_kishore_mandal=False,
-            index=1
-        )
+        # models.Module.objects.create(
+        #     title='km_modules',
+        #     image_url='',
+        #     is_bal_mandal=False,
+        #     is_kishore_mandal=False,
+        #     index=1
+        # )
 
         # Only satsang diksha
         for module_title in constants.BAL_AND_KISHORE_MODULES:
             models.Module.objects.update_or_create(
                 title=module_title,
-                image_url=constants.MODULE_ICON_LINKS[module_title],
                 is_bal_mandal=True,
                 is_kishore_mandal=True,
-                index=1
+                index=1,
+                defaults={
+                    'image_url': constants.MODULE_ICON_LINKS[module_title],
+                }
             )
 
         index = 2
         for module_title in constants.BAL_ONLY_MODULES:
             models.Module.objects.update_or_create(
                 title=module_title,
-                image_url=constants.MODULE_ICON_LINKS[module_title],
                 is_bal_mandal=True,
                 is_kishore_mandal=False,
-                index=index
+                index=index,
+                defaults={
+                    'image_url': constants.MODULE_ICON_LINKS[module_title],
+                }
             )
             index += 1
 
@@ -480,10 +484,12 @@ class AddModulesToDB(APIView):
         for module_title in constants.KISHORE_ONLY_MODULES:
             models.Module.objects.update_or_create(
                 title=module_title,
-                image_url=constants.MODULE_ICON_LINKS[module_title],
                 is_bal_mandal=False,
                 is_kishore_mandal=True,
-                index=index
+                index=index,
+                defaults={
+                    'image_url': constants.MODULE_ICON_LINKS[module_title],
+                }
             )
             index += 1
         return Response(data={}, status=status.HTTP_200_OK)

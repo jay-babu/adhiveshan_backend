@@ -36,7 +36,7 @@ urlpatterns = [
     path('reset_memorized_all/', views.ResetMemorizedView.as_view(), name='reset_memorized_all'),
     path('reset_bookmarked_all/', views.ResetBookmarkedView.as_view(), name='reset_bookmarked_all'),
 
-    path('', include(router.urls))
+    path('', include(router.urls)),
 
     # Dev use only
     # path('upload_content/', views.UploadContentView.as_view(), name='upload_content'),
