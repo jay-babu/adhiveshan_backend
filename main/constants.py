@@ -3294,13 +3294,18 @@ QUOTE = 'This is a nice quote.'
 # using this website https://www.epochconverter.com/
 ANNOUNCEMENTS = [
     {
-        'timestamp': '1611236580',
-        'text': 'The Parents Sabha is on February 6th, 2021. Details will be released shortly.'
+        'timestamp': '1612116000',
+        'text': 'Jai Swaminarayan balaks and balikas. Welcome to the Adhiveshan website! We are very excited to begin our journey towards Guru Bhakti.'
     },
     {
-        'timestamp': '1611236580',
-        'text': 'The deadline to pledge for Adhiveshan is on March 7th, 2021 and can be done through BKMS.'
+        'timestamp': '1612116000',
+        'text': 'Pledging is now live on BKMS! Make sure you contact your karyakars if you are having any issues or problems. Remember that pledges made on the website are not automatically made for you on BKMS!'
+    },
+    {
+        'timestamp': '1612116000',
+        'text': 'On Saturday, February 6th, please join your parents to attend a special Adhiveshan Sabha. You will be able to hear more about the mahima of Adhiveshan and learn how to use tools such as the website.'
     }
+
 ]
 
 ANNOUNCEMENT_PAGE_CONTENT = {
