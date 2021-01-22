@@ -2640,7 +2640,7 @@ KISHORE_SKILLS_CHALLENGE = {
 # Contains set of SD shlokas in ghanshyam tier, indexed by title.
 GHANSHYAM_SD_SHLOKAS = {
     'Shloka 1',
-    'Shloka 4 & 5',
+    'Shloka 4-5',
     'Shloka 8-9',
     'Shloka 24',
     'Shloka 64-65',
@@ -2663,7 +2663,7 @@ MAHANT_SD_SHLOKS = {
     'Shloka 1',
     'Shloka 2',
     'Shloka 3',
-    'Shloka 4 & 5',
+    'Shloka 4-5',
     'Shloka 6',
     'Shloka 7',
     'Shloka 8-9',
@@ -2713,13 +2713,14 @@ MAHANT_SD_SHLOKS = {
     'Shloka 256',
     'Shloka 274',
     'Shloka 225',
+    'Shloka 291',
 }
 
 PRAMUKH_SD_SHLOKS = {
     'Shloka 1',
     'Shloka 2',
     'Shloka 3',
-    'Shloka 4 & 5',
+    'Shloka 4-5',
     'Shloka 6',
     'Shloka 7',
     'Shloka 8-9',
@@ -2808,7 +2809,7 @@ YOGI_SD_SHLOKS = {
     'Shloka 1',
     'Shloka 2',
     'Shloka 3',
-    'Shloka 4 & 5',
+    'Shloka 4-5',
     'Shloka 6',
     'Shloka 7',
     'Shloka 8-9',
@@ -2986,7 +2987,7 @@ SHASTRI_SD_SHLOKS = {
     'Shloka 1',
     'Shloka 2',
     'Shloka 3',
-    'Shloka 4 & 5',
+    'Shloka 4-5',
     'Shloka 6',
     'Shloka 7',
     'Shloka 8-9',
