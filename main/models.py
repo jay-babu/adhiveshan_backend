@@ -1,7 +1,10 @@
+from datetime import timedelta
+
 from django.conf import settings
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
 from django.core.exceptions import ValidationError
 from django.db import models
+from django.utils import timezone
 
 from . import constants
 
@@ -195,3 +198,9 @@ class MukhpathItemInstance(models.Model):
 
     def __str__(self):
         return f'{self.mukhpath_item.title}, {self.module_instance.module.title}, for {self.module_instance.user.email}'
+
+
+class ExternalUserModel(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    code = models.PositiveBigIntegerField()
+    code_expiration = models.DateTimeField(default=timezone.now() + timedelta(days=1))

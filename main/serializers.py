@@ -10,7 +10,7 @@ from django.core.exceptions import ValidationError as DVE
 from adhiveshan_backend import settings
 from . import constants
 from . import models
-from .models import User, title_and_capitial
+from .models import User, title_and_capitial, ExternalUserModel
 
 
 @functools.lru_cache(maxsize=None)
@@ -103,3 +103,18 @@ class ChangePasswordSerializer(serializers.Serializer):
             raise ValidationError({"old_password": ["Wrong password."]})
         validate_password(attrs.get('new_password', ''), user)
         return super().validate(attrs)
+
+
+class ExternalUserSerializer(serializers.ModelSerializer):
+    code = serializers.IntegerField(required=False, min_value=99999, )
+    code_expiration = serializers.DateTimeField(required=False, )
+    user = serializers.PrimaryKeyRelatedField(required=False, queryset=User.objects.all())
+
+    class Meta:
+        model = ExternalUserModel
+        fields = ('user', 'code', 'code_expiration',)
+
+    def create(self, validated_data):
+        user = validated_data.pop('user', None)
+        obj, _ = ExternalUserModel.objects.update_or_create(user=user, defaults=validated_data)
+        return obj

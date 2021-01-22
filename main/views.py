@@ -1,19 +1,23 @@
 import os
 import csv
 from collections import defaultdict
+from datetime import timedelta
 from os import getenv
+from random import randint
 
-from rest_framework import status
+from django.utils import timezone
+from rest_framework import status, mixins, viewsets
+from rest_framework.decorators import permission_classes as pc
 from rest_framework.generics import GenericAPIView, UpdateAPIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from main.serializers import UserSerializer, ChangePasswordSerializer
+from main.serializers import UserSerializer, ChangePasswordSerializer, ExternalUserSerializer
 from . import constants
 from . import models
-from .models import title_and_capitial
+from .models import title_and_capitial, ExternalUserModel, User
 
 
 class RegisterView(GenericAPIView):
@@ -513,3 +517,27 @@ def upload_mukhpath_content():
 
                 new_item.value = 1 if current_module.title != constants.SATSANG_DIKSHA else row[5]
                 new_item.save()
+
+
+class ExternalUserView(mixins.CreateModelMixin, viewsets.GenericViewSet):
+    serializer_class = ExternalUserSerializer
+    permission_classes = (AllowAny,)
+
+    @pc((IsAuthenticated,))
+    def create(self, request, *args, **kwargs):
+        request.data['user'] = self.request.user.pk
+        request.data['code'] = randint(99999, 999999)
+        request.data['code_expiration'] = timezone.now() + timedelta(days=1)
+        return super().create(request, *args, **kwargs)
+
+    @pc((AllowAny,))
+    def get(self, request: Request):
+        data = request.data
+        user = User.objects.get(email=data.get('email'))
+        try:
+            if (ex_user := ExternalUserModel.objects.get(user=User.objects.get(email=data.get('email')), code=data.get(
+                    'code'))) and timezone.now() <= ex_user.code_expiration:
+                return Response(data=get_modules(user=user, bookmarked_only=True), status=status.HTTP_200_OK)
+        except ExternalUserModel.DoesNotExist:
+            pass
+        return Response(data={'error': 'Invalid Email or Code'}, status=status.HTTP_400_BAD_REQUEST)
