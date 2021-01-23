@@ -938,8 +938,9 @@ KISHORE_FAQ = {
 BAL_SKILLS_CHALLENGE = {
     'Story/Speech-Based Competitions': {
         'Mono-acting': """<div class="skills-html">
+<ul> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual. </ul>
 <h2 class="static-content-title">Rules</h2>
-<ul>
+<ul> 
 	<li>
 		Participants can choose to enact any one scene from the list of scenes
 		below. However, participants can choose to enact another scene if not
