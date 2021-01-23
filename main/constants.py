@@ -3286,7 +3286,7 @@ SD_SHLOKAS_FOR_TIER = {
 BM_STORIES = [
   {
     "title": "Swamishri with Children",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/2017_06_26_Vicharan__Atlanta_14_001.jpg",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/quicklink1.jpg",
     "stories": [
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/2017_06_26_Vicharan__Atlanta_14_001.jpg',
