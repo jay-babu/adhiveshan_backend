@@ -938,126 +938,24 @@ KISHORE_FAQ = {
 BAL_SKILLS_CHALLENGE = {
     'Story/Speech-Based Competitions': {
         'Mono-acting': """<div class="skills-html">
-<ul> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual. </ul>
-<h2 class="static-content-title">Rules</h2>
+<h4 class="static-content-title"> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual. </h4>
+<h2 class="static-content-title">Things to keep in mind</h2>
 <ul> 
 	<li>
-		Participants can choose to enact any one scene from the list of scenes
-		below. However, participants can choose to enact another scene if not
-		present from the list.
+		You will take on the role of one person from the scene (for most scenes this is provided), 
+    and enact the scene from that person's point of view.
 	</li>
-	<li>Each participant will have a maximum of 5 minutes to enact the scene.</li>
 	<li>The act must be memorized. Notes will not be allowed.</li>
+	<li>Balaks must choose the bal options and balikas must choose the balika options from the list.</li>
 	<li>
-		Participants must record their drama in good lighting and on a good camera
-		(either on a smartphone or webcam). Audio must be clear. Participants should
-		dress up and use props.
+		Mono-acting will be judged on: accurate portrayal of the incident, 
+    acting, tone, emotion, facial expressions, memorization, props/costume/creativity, etc.
 	</li>
 	<li>
-		You will take on the role of one person from the scene (for most scenes this
-		is provided), and enact the scene from that person's point of view.
-	</li>
-	<li>
-		Balaks must choose the bal characters and balikas must choose the balika
-		character list.
-	</li>
-	<li>
-		Mono-acting will be judged on: accurate portrayal of the incident, acting,
-		tone, emotion, facial expressions, memorization, props/costume/creativity.
+		Topic list, submission details and grading rubric will 
+    be provided by your local karyakar as we get closer to the competition date.
 	</li>
 </ul>
-<h2 class="static-content-title">Character List</h2>
-<ion-grid class="ion-text-center">
-  <ion-row class="header-row">
-    <ion-col size="2">
-      <ion-text>#</ion-text>
-    </ion-col>
-    <ion-col size="5">
-      <ion-text>Bal Characters</ion-text>
-    </ion-col>
-    <ion-col size="5">
-      <ion-text>Balika Characters</ion-text>
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        1
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Joban Pagi’s Transformation
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Jivuba’s Bhakti to Thakorji
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        2
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Ladudanji’s Four Wishes
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Kushalkuvarba
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        3
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Prahalad’s Bhakti
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Gargi’s Debate
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        4
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Shravan’s Seva
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Mirabai’s Bhakti
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        5
-      </ion-text>
-    </ion-col>
-      <ion-col size="10">
-        Characters from any bodh katha
-      </ion-col>
-  </ion-row>
-</ion-grid>
 <div>""",
         'Storytelling': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
