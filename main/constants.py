@@ -684,7 +684,7 @@ BAL_FAQ = {
         },
         {
             'question': 'Which Adhiveshan do I pledge for and which Summer Shibir do I go to?',
-            'answer': 'You will pledge for the tiers in the group you currently are in (<b>as of January 2021</b>). For example, if you are in Group 2 in January of 2021, and even if you are graduating and moving to Group 3 in September 2021, you will pledge for Adhiveshan in the Group 2 categories. Anyone in Groups 1-3 ( as of January 2021) will also attend the <b>Bal/Balika Summer Shibir</b>. <br/><b>NOTE</b>: Current 8th graders will pledge for the Kishore/Kishori Adhiveshan and will join the Kishore/Kishori Shibir. <br/> Those currently in Group 0 will pledge for the Group 0 adhiveshan, even if they are graduating and moving to Group 1 in September 2021; those currently in Group 0 will join the <b>Bal/Balika Group 0 Shibir.</b>',
+            'answer': 'You will pledge for the tiers in the group you currently are in (<b>as of January 2021</b>). For example, if you are in Group 2 in January of 2021, and even if you are graduating and moving to Group 3 in September 2021, you will pledge for Adhiveshan in the Group 2 categories. Anyone in Groups 1-3 ( as of January 2021) will also attend the <b>Bal/Balika Summer Shibir</b>. <br/><br/><b>NOTE</b>: Current 8th graders will pledge for the Kishore/Kishori Adhiveshan and will join the Kishore/Kishori Shibir. <br/> Those currently in Group 0 will pledge for the Group 0 adhiveshan, even if they are graduating and moving to Group 1 in September 2021; those currently in Group 0 will join the <b>Bal/Balika Group 0 Shibir.</b>',
         },
         {
             'question': 'What does Adhiveshan consist of?',
