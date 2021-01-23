@@ -3283,46 +3283,33 @@ SD_SHLOKAS_FOR_TIER = {
 #   8: "linear-gradient(#36d1dc, #5b86e5)", // Scooter
 #   9: "linear-gradient(#141e30, #243b55)", // Royal
 
-BM_STORIES = [{
-    "title": "Memories With Bapa",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
+BM_STORIES = [
+  {
+    "title": "Quote of the Week",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg",
     "stories": [
       {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
-        "type": "image"
-      },
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg',
-        "type": "image"
-      },
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg',
         "type": "image"
       },
     ]
   },
   {
-    "title": "Bapa's Vicharan",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
+    "title": "Insights from Swamishri",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
     "stories": [
       {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/Mahant_Swami_Maharaj.jpg',
-        "type": "image"
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201.mp4',
+        "type": "video"
       },
       {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg',
-        "type": "image"
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201_1.mp4',
+        "type": "video"
       },
       {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
-        "type": "image"
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Question%201_2.mp4',
+        "type": "video"
       },
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
-        "quote": "Some Inspiring Quote...\n-Some Great Person",
-        "type": "quote",
-        "gradient": 9
-      }
     ]
   },
 ]
