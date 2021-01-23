@@ -2094,6 +2094,24 @@ BM_STORIES = [
 
 KM_STORIES = [
   {
+    "title": "Word of the Week",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word_of_the_week.png",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Black%20Video_5.mp4',
+        "type": "video"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Black%20Video_6.mp4',
+        "type": "video"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Black%20Video_7.mp4',
+        "type": "video"
+      },
+    ]
+  },
+  {
     "title": "Quote of the Week",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg",
     "stories": [
