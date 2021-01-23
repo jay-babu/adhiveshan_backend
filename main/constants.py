@@ -959,7 +959,7 @@ BAL_SKILLS_CHALLENGE = {
 <div>""",
         'Storytelling': """<div class="skills-html">
 <p> Storytelling is where you get to narrate a story in vivid detail and include your own personal reflection to the story. It requires confidence and creativity to make the story both interesting and informative!</p>
-<h2 class="static-content-title">THings to keep in mind:</h2>
+<h2 class="static-content-title">Things to keep in mind:</h2>
 <ul>
 	<li>
     You must vividly and creatively tell the story in its entirety and provide a manan, or reflection to the story.	</li>
@@ -974,132 +974,39 @@ BAL_SKILLS_CHALLENGE = {
 </ul>
 <div>""",
         'Satsang Diksha Nirupan': """<div class="skills-html">
-<h2 class="static-content-title">Rules</h2>
+<p> One of the newest skills challenge is the Satsang Diksha Nirupan. A nirupan is a short commentary on a shastra (scripture). The Satsang Diksha Nirupan is where you get to take a few shlokas from the Satsang Diksha and create an analysis and reflection by tying all the shlokas to a common theme. </p>
+<h2 class="static-content-title">Things to keep in mind:</h2>
 <ul>
 	<li>
-		Participants will speak on a theme which is expanded upon in the Satsang Diksha. Participants must select from one of the themes below. Sample shlokas related to the theme are also provided for guidance, however participants may choose shloks outside of the range.
-	</li>
+    You will speak on a topic which is expanded upon in the Satsang Diksha. Sample shlokas related to the theme will be provided for guidance. 	</li>
 	<li>The nirupan should include at least:</li>
   <ul>
 	  <li>2 Satsang Diksha Shloks</li>
 	  <li>
 		1 prasang of Pramukh Swami Maharaj or Mahant Swami Maharaj
 	  </li>
+    <li>
+    A personal manan (analysis/reflection on how it relates to your life)
+    </li>
   </ul>
   <li>
-  Participants will have a maximum of 8 minutes.
-  </li>
-  The nirupan must be memorized. Notes will not be allowed.
+    The nirupan must be memorized. Notes will not be allowed.
+  </>
 	<li>
-		Participants must record their nirupan in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
+		Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, flow, confidence, tone, etc.
 	</li>
 	<li>
-Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, flow, confidence, tone, etc.
+    Topic list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
 	</li>
 </ul>
-<h2 class="static-content-title">Themes</h2>
-<ion-grid class="ion-text-center">
-  <ion-row class="header-row">
-    <ion-col size="2">
-      <ion-text>#</ion-text>
-    </ion-col>
-    <ion-col size="5">
-      <ion-text>Theme</ion-text>
-    </ion-col>
-    <ion-col size="5">
-      <ion-text>Example Shlokas</ion-text>
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        1
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Importance of a Mandir
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Shloks 79-95
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        2
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-         Akshar-Purushottam Darshan
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Shloks 96-115
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        3
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Sang vs Kusang
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Shloks 216-234
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        4
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Being an Ideal Child
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Shloks 209-115
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        5
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        Importance of Agna and Upasana
-      </ion-col>
-      <ion-col>
-        Shloks 287-298
-      </ion-col>
-  </ion-row>
-</ion-grid>
 <div>""",
         'Prasang-Varnan Speech': """<div class="skills-html">
-<h2 class="static-content-title">Rules</h2>
+<p> The Prasang Varnan competition is similar to the Prasang Manan mukhpath category within the Adhiveshan Rajipo Challenge. You must narrate a prasang, or divine incident of Bhagwan and the Satpurush, in detail and explain what virtues you saw in the prasang and how it relates to your life. </p>
+<h2 class="static-content-title">Things to keep in mind:</h2>
 <ul>
 	<li>
-    Participants will elaborate on a prasang and provide a manan, or personal reflection, on the prasang by using 2 mukhpath references that they had memorized. The prasang can be from, but not limited to, the prasang mukhpath section in the Rajipo Challenge. However, the personal manan must be different from the one provided.
+    You will narrate a prasang and provide a manan, or personal reflection, on the prasang by incorporating at least 1 mukhpath reference that you had memorized.
 	</li>
-	<li>If a prasang is not chosen from the Rajipo Challenge, please name the source in your speech, such as kids.baps.org or Eternal Virtues.</li>
 	<li>The prasang-varnan should include at least:</li>
   <ul>
 	  <li>
@@ -1109,17 +1016,17 @@ Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, 
 		1 mukhpath reference
     </li>
     <li>
-    A personal manan (analysis/reflection)
+    A personal manan (reflection)
     </li>
   </ul>
-  <li>
-  Participants will have a maximum of 8 minutes.
-  </li>
   <li>
   The prasang-varnan must be memorized. Notes will not be allowed.
   </li>
   <li>
-  Participants must record their prasang-varnan in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
+  Prasang-varnan will be judged on: key prasang, accurate use of mukhpath, memorization, organization, vivid details, flow, confidence, tone, etc.
+  </li>
+  <li>
+  Topic list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
   </li>
 </ul>""",
     },
