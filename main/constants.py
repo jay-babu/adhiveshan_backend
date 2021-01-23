@@ -938,8 +938,8 @@ KISHORE_FAQ = {
 BAL_SKILLS_CHALLENGE = {
     'Story/Speech-Based Competitions': {
         'Mono-acting': """<div class="skills-html">
-<h4> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual. </h4>
-<h2 class="static-content-title">Things to keep in mind</h2>
+<p> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual. </p>
+<h2 class="static-content-title">Things to keep in mind:</h2>
 <ul> 
 	<li>
 		You will take on the role of one person from the scene (for most scenes this is provided), 
@@ -958,91 +958,20 @@ BAL_SKILLS_CHALLENGE = {
 </ul>
 <div>""",
         'Storytelling': """<div class="skills-html">
-<h2 class="static-content-title">Rules</h2>
+<p> Storytelling is where you get to narrate a story in vivid detail and include your own personal reflection to the story. It requires confidence and creativity to make the story both interesting and informative!</p>
+<h2 class="static-content-title">THings to keep in mind:</h2>
 <ul>
 	<li>
-		Participants will speak on one of Yogiji Maharaj’s Bodh Katha. A sample list is provided below, however participants can choose any bodh katha from the book, 101 Tales of Wisdom.
-	</li>
-	<li>Participants must tell the story in its entirety, as well as provide a manan, or reflection, on the importance of the story.</li>
+    You must vividly and creatively tell the story in its entirety and provide a manan, or reflection to the story.	</li>
 	<li>The story must be memorized. Notes will not be allowed.</li>
+	<li>No props can be used.</li>
 	<li>
-		Participants must record their story in good lighting and on a good camera (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a punjabi.
+		Storytelling will be judged on: storytelling ability, content, creativity, vivid details, manan/personal reflection, organization, flow, confidence, tone, etc.
 	</li>
 	<li>
-		Storytelling will be judged on: storytelling ability, content, manan/personal reflection, gestures, organization, flow, confidence, tone, etc.
+		Topic list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
 	</li>
 </ul>
-<h2 class="static-content-title">Bodh Katha</h2>
-<ion-grid class="ion-text-center">
-  <ion-row class="header-row">
-    <ion-col size="2">
-      <ion-text>#</ion-text>
-    </ion-col>
-    <ion-col size="10">
-      <ion-text>Bodh Katha</ion-text>
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        1
-      </ion-text>
-    </ion-col>
-      <ion-col size="10">
-        <ion-text>
-          Tukaram and Naradji
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        2
-      </ion-text>
-    </ion-col>
-      <ion-col size="10">
-        <ion-text>
-          A Quiver of Arrows
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        3
-      </ion-text>
-    </ion-col>
-      <ion-col size="10">
-        <ion-text>
-          Lindiyo
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        4
-      </ion-text>
-    </ion-col>
-      <ion-col size="10">
-        <ion-text>
-          The Sesame Seed Scholar
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        5
-      </ion-text>
-    </ion-col>
-      <ion-col size="10">
-        <ion-text>
-          The Lazy Man
-        </ion-text>
-      </ion-col>
-  </ion-row>
-</ion-grid>
 <div>""",
         'Satsang Diksha Nirupan': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
