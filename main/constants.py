@@ -694,31 +694,17 @@ BAL_FAQ = {
     'Beginner’s Challenge (Prathmik Mukhpath)': [
         {
             'question': "What is the Beginner\'s Challenge (Prathmik Mukhpath)?",
-            'answer': "The Beginner's Challenge contains the core mukhpath of our sanstha. All of the mukhpath comes "
-                      "with translations, so it is important to pay close attention to the meanings and try to "
-                      "introspect on how the values being transmitted in the words can be applied back to our lives. "
-                      "The Beginner's Challenge will be administered at home, wherein you all will complete a "
-                      "worksheet. Your parents will aid in ensuring that you have completed the worksheet properly "
-                      "and assist in grading.",
+            'answer': 'The Beginners Challenge contains the core mukhpath of our sanstha, <b>including the Shri Swaminarayan Arti and shlokas we sing in puja</b>. All of the mukhpath comes with translations, so it is important to pay close attention to the meanings and try to introspect on how the values being transmitted in the words can be applied back to our lives. <br/> The Beginners Challenge will be <b>administered at home</b>, wherein you all will complete a worksheet based on the <b>Gujarati transliteration and English translation</b> of the mukhpath. Your parents will aid in ensuring that you have completed the worksheet properly and assist in grading. <br/> <b>NOTE</b>: Group 0 balaks/balikas will be exempt from the Beginner’s Challenge, however parents may choose to review this key mukhpath with their balaks/balikas.',
         },
     ],
     "Adhiveshan Rajipo Challenge (Advanced Mukhpath)": [
         {
             'question': "How is the Adhiveshan Rajipo Challenge (Advanced Mukhpath) structured?",
-            'answer': "The Rajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, "
-                      "Shlokas and Sakhis, and Prasang Manan. There are 4 tiers (Mahant, Pramukh, Yogi, "
-                      "and Shastri).\nNOTE: There is an additional tier called the Ghanshyam tier that is ONLY if you "
-                      "are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for "
-                      "Satsang Diksha (for the other categories, you must pick from the normal 4 tiers).\nThe "
-                      "breakdown for each tier and each group is found in the appendix on the last page.",
+            'answer': 'The Adhiveshan Rajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, Shlokas and Sakhis, and Prasang Manan. <br/> There are 4 tiers that you can choose from in each category: Mahant, Pramukh, Yogi, and Shastriji. <br/> The breakdown for how much mukhpath you must memorize for each tier can be found under the “Edit My Pledge” section or in the FAQ section in your physical booket. You will also find a similar image to the one in your physical booklet below. <br/> <b>NOTE</b>: There is an additional tier called the Ghanshyam tier that is ONLY if you are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for Satsang Diksha (for the other categories, you must pick from the normal 4 tiers).',
         },
         {
             'question': "Is there a minimum number of tiers/categories needed to participate in the Adhiveshan?",
-            'answer': "As per Swamishri’s ruchi, the focus of this Adhiveshan is to learn, understand, and imbibe "
-                      "various satsang shastras in the lives of balaks and balikas. Thus, there is no mandatory "
-                      "minimum amount of categories you need to pledge to be able to participate in the Adhiveshan. "
-                      "Although, you should still strive to pledge for as many categories as you can and push "
-                      "yourselves to strive for higher tiers to make Swamishri extra raaji.",
+            'answer': 'As per Swamishri’s ruchi (wish), the focus of this Adhiveshan is to learn, understand, and imbibe various satsang shastras in the lives of balaks and balikas. <br/> Thus, there is <b>no mandatory minimum amount</b> of categories you need to pledge to be able to participate in the Adhiveshan. It is recommended that you pledge for 2 or more categories. <br/> Although, you should still strive to pledge for as many categories as you can and push yourselves to strive for higher tiers to make Swamishri extra raji.',
         },
         {
             'question': "Can we choose which items to memorize in each category?",
