@@ -680,13 +680,11 @@ BAL_FAQ = {
         },
         {
             'question': 'Why do we do Adhiveshans?',
-            'answer': 'By learning and memorizing various parts of our shastras (scriptures), we are able to ground ourselves in the Akshar Purushottam Darshan and better understand our beliefs and principles. Mukhpath also helps us find solutions to the many problems we may face in life. This Adhiveshan will be paired with Summer Shibir 2021 along the theme of Guru Bhakti. We offer this mukhpath as a form of guru bhakti to our gurus - Pramukh Swami Maharaj and Mahant Swami Maharaj. Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.
-',
+            'answer': 'By learning and memorizing various parts of our shastras (scriptures), we are able to ground ourselves in the Akshar Purushottam Darshan and better understand our beliefs and principles. Mukhpath also helps us find solutions to the many problems we may face in life. This Adhiveshan will be paired with Summer Shibir 2021 along the theme of Guru Bhakti. We offer this mukhpath as a form of guru bhakti to our gurus - Pramukh Swami Maharaj and Mahant Swami Maharaj. Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.',
         },
         {
             'question': 'Which Adhiveshan do I pledge for and which Summer Shibir do I go to?',
-            'answer': 'You will pledge for the tiers in the group you currently are in (<b>as of January 2021</b>). For example, if you are in Group 2 in January of 2021, and even if you are graduating and moving to Group 3 in September 2021, you will pledge for Adhiveshan in the Group 2 categories. Anyone in Groups 1-3 ( as of January 2021) will also attend the <b>Bal/Balika Summer Shibir</b>.
-',
+            'answer': 'You will pledge for the tiers in the group you currently are in (<b>as of January 2021</b>). For example, if you are in Group 2 in January of 2021, and even if you are graduating and moving to Group 3 in September 2021, you will pledge for Adhiveshan in the Group 2 categories. Anyone in Groups 1-3 ( as of January 2021) will also attend the <b>Bal/Balika Summer Shibir</b>.',
         },
         {
             'question': 'What does Adhiveshan consist of?',
