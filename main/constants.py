@@ -3285,6 +3285,44 @@ SD_SHLOKAS_FOR_TIER = {
 
 BM_STORIES = [
   {
+    "title": "Swamishri with Children",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/2017_06_26_Vicharan__Atlanta_14_001.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/2017_06_26_Vicharan__Atlanta_14_001.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/2017_06_26_Vicharan__Atlanta_15.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/2017_06_26_Vicharan__Atlanta_25.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/chicago_MSMBalDin_10.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/chicago_MSMBalDin_21.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/chicago_MSMBalDin_25.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/chicago_MSMBalDin_8.jpg',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/BM/Memories/Houston_MSMBalDin_27.jpg',
+        "type": "image"
+      },
+    ]
+  },
+  {
     "title": "Quote of the Week",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg",
     "stories": [
@@ -3295,7 +3333,34 @@ BM_STORIES = [
     ]
   },
   {
-    "title": "Insights from Swamishri",
+    "title": "Divine Moods",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra2.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/yt1s_com_Guruhari_Darshan_1719_Jan_2021_Nenpur_India_1080p_3.mp4',
+        "type": "video"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/yt1s_com_Guruhari_Darshan_1719_Jan_2021_Nenpur_India_1080p_4.mp4',
+        "type": "video"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/yt1s_com_Guruhari_Darshan_1719_Jan_2021_Nenpur_India_1080p_6.mp4',
+        "type": "video"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/yt1s_com_Guruhari_Darshan_1719_Jan_2021_Nenpur_India_1080p_5.mp4',
+        "type": "video",
+      },
+      # {
+      #   "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
+      #   "quote": "Some Inspiring Quote...\n-Some Great Person",
+      #   "type": "quote",
+      # }
+    ]
+  },
+  {
+    "title": "Guidance from Swamishri",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
     "stories": [
       {
