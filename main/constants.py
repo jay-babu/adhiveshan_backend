@@ -3270,7 +3270,19 @@ SD_SHLOKAS_FOR_TIER = {
 }
 
 
-# Announcements
+# For Quotes, use background gradient from this list
+# Gradients: https://digitalsynopsis.com/design/beautiful-color-ui-gradients-backgrounds/
+#   0: "linear-gradient(#42275a, #734b6d)", // Mauve
+#   1: "linear-gradient(#de6262, #ffb88c)", // A Lost Memory
+#   2: "linear-gradient(#06beb6, #48b1bf)", // Socialive
+#   3: "linear-gradient(#dd5e89, #f7bb97)", // Pinky
+#   4: "linear-gradient(#614385, #516395)", // Kashmir
+#   5: "linear-gradient(#02aab0, #00cdac)", // Green Beach
+#   6: "linear-gradient(#d66d75, #e29587)", // Sha La La
+#   7: "linear-gradient(#4568dc, #b06ab3)", // Can you feel the love tonight
+#   8: "linear-gradient(#36d1dc, #5b86e5)", // Scooter
+#   9: "linear-gradient(#141e30, #243b55)", // Royal
+
 BM_STORIES = [{
     "title": "Memories With Bapa",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/21smruti.jpg",
@@ -3309,10 +3321,24 @@ BM_STORIES = [{
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/14agna.jpg',
         "quote": "Some Inspiring Quote...\n-Some Great Person",
         "type": "quote",
+        "gradient": 9
       }
     ]
   },
 ]
+
+# For Quotes, use background gradient from this list
+# Gradients: https://digitalsynopsis.com/design/beautiful-color-ui-gradients-backgrounds/
+#   0: "linear-gradient(#42275a, #734b6d)", // Mauve
+#   1: "linear-gradient(#de6262, #ffb88c)", // A Lost Memory
+#   2: "linear-gradient(#06beb6, #48b1bf)", // Socialive
+#   3: "linear-gradient(#dd5e89, #f7bb97)", // Pinky
+#   4: "linear-gradient(#614385, #516395)", // Kashmir
+#   5: "linear-gradient(#02aab0, #00cdac)", // Green Beach
+#   6: "linear-gradient(#d66d75, #e29587)", // Sha La La
+#   7: "linear-gradient(#4568dc, #b06ab3)", // Can you feel the love tonight
+#   8: "linear-gradient(#36d1dc, #5b86e5)", // Scooter
+#   9: "linear-gradient(#141e30, #243b55)", // Royal
 
 KM_STORIES = [
   {
