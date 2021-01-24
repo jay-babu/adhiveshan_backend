@@ -733,20 +733,20 @@ BAL_FAQ = {
             'answer': """<ul><li>Adhiveshan/Summer Shibir 2021 Launch Sabha: 1/31/2021</li><li>Adhiveshan Pledge and Summer Shibir Registration: 1/31/2021-3/7/2021</li><li>Beginners Challenge Quiz: TBD</li><li>Adhiveshan Rajipo Challenge: TBD</li><li>Skills Challenge Submission Deadline: TBD</li></ul><b>More information on specific dates, judging process, submission process, etc. will be provided to you by your local karyakars. If you have any questions, please contact your local karyakars.</b><ion-grid class="ion-text-center">
   <ion-grid class="ion-text-center">
   <ion-row class="header-row">
-  <ion-col size="5">
+  <ion-col size="6">
       <ion-text>Date</ion-text>
     </ion-col>
-    <ion-col size="5">
+    <ion-col size="6">
       <ion-text>Event</ion-text>
     </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col size="5">
+    <ion-col size="6">
       <ion-text>
         1/31/21
       </ion-text>
     </ion-col>
-      <ion-col size="5">
+      <ion-col size="6">
         <ion-text>
           Adhiveshan/SS21 Launch Sabha;
           Pledging Begins
@@ -754,60 +754,60 @@ BAL_FAQ = {
       </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
             2/6/21
           </ion-text>
         </ion-col>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
             Parent's Launch Sabha
           </ion-text>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
            3/7/21
           </ion-text>
         </ion-col>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
             Pledging & SS21 Registration Ends
           </ion-text>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
            TBD
           </ion-text>
         </ion-col>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
             Beginner's Challenge
           </ion-text>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
             TBD
           </ion-text>
         </ion-col>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
             Adhiveshan Rajipo Challenge
           </ion-text>
         </ion-col>
       </ion-row>
       <ion-row>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
             TBD
           </ion-text>
         </ion-col>
-        <ion-col size="5">
+        <ion-col size="6">
           <ion-text>
             Skills Challenge Submission
           </ion-text>
