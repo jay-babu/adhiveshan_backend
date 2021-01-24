@@ -752,6 +752,7 @@ BAL_FAQ = {
           Pledging Begins
         </ion-text>
       </ion-col>
+      </ion-row>
       <ion-row>
         <ion-col size="5">
           <ion-text>
