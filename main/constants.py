@@ -2146,7 +2146,7 @@ BM_ANNOUNCEMENTS = [
 
 KM_ANNOUNCEMENTS = [
     {
-        'timestamp': '13 Jan, 2021',
+        'timestamp': '31 Jan, 2021',
         'text': 'Pledging is now live on BKMS! Make sure you contact your karyakars if you are having any issues or problems. Remember that pledges made on the website are not automatically made for you on BKMS!'
     },
 ]
