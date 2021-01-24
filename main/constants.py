@@ -730,13 +730,7 @@ BAL_FAQ = {
     "Adhiveshan Timeline": [
         {
             'question': "What are some important dates to keep in mind relating to the Adhiveshan?",
-            'answer': '<ul><li>Adhiveshan/Summer Shibir 2021 Launch Sabha: 1/31/2021</li><li>Adhiveshan Pledge and Summer Shibir Registration: 1/31/2021-3/7/2021</li><li>Beginners Challenge Quiz: TBD</li><li>Adhiveshan Rajipo Challenge: TBD</li><li>Skills Challenge Submission Deadline: TBD</li></ul><b>More information on specific dates, judging process, submission process, etc. will be provided to you by your local karyakars. If you have any questions, please contact your local karyakars.</b>',
-        },
-    ],
-    "Summer Shibir": [
-      {
-            'question': "What is Summer Shibir",
-            'answer': """This summer, a one-day virtual Summer Shibir will be held on the theme of “Guru Bhakti.” Since you memorized mukhpath as a form of guru bhakti, this shibir will revolve around better understanding and loving our guru.<br/><br/>There will be a main Bal/Balika Shibir as well as a separate shibir for Group 0 balaks/balikas. The breakdown is as follows:<br/><br/>Those entering Grades 2-8 in Fall of 2022 will participate in the Bal/Balika Summer Shibir. Those entering Group 0 - Grade 1 in Fall of 2022 will participate in the Group 0 Shibir. NOTE: This is the same breakdown as Adhiveshan.<br/><br/>More information on Summer Shibir 2021 will be provided at a later time.<ion-grid class="ion-text-center">
+            'answer': """<ul><li>Adhiveshan/Summer Shibir 2021 Launch Sabha: 1/31/2021</li><li>Adhiveshan Pledge and Summer Shibir Registration: 1/31/2021-3/7/2021</li><li>Beginners Challenge Quiz: TBD</li><li>Adhiveshan Rajipo Challenge: TBD</li><li>Skills Challenge Submission Deadline: TBD</li></ul><b>More information on specific dates, judging process, submission process, etc. will be provided to you by your local karyakars. If you have any questions, please contact your local karyakars.</b><ion-grid class="ion-text-center">
   <ion-row class="header-row">
   <ion-col size="5">
       <ion-text>Date</ion-text>
@@ -817,7 +811,14 @@ BAL_FAQ = {
           </ion-text>
         </ion-col>
       </ion-row>
-  </ion-grid>"""
+  </ion-grid>""",
+        },
+    ],
+    "Summer Shibir": [
+      {
+            'question': "What is Summer Shibir",
+            'answer': 'This summer, a one-day virtual Summer Shibir will be held on the theme of “Guru Bhakti.” Since you memorized mukhpath as a form of guru bhakti, this shibir will revolve around better understanding and loving our guru.<br/><br/>There will be a main Bal/Balika Shibir as well as a separate shibir for Group 0 balaks/balikas. The breakdown is as follows:<br/><br/>Those entering Grades 2-8 in Fall of 2022 will participate in the Bal/Balika Summer Shibir. Those entering Group 0 - Grade 1 in Fall of 2022 will participate in the Group 0 Shibir. NOTE: This is the same breakdown as Adhiveshan.<br/><br/>More information on Summer Shibir 2021 will be provided at a later time.<ion-grid class="ion-text-center'>
+  
       }
     ]
 }
