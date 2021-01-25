@@ -537,7 +537,7 @@ class ExternalUserView(mixins.CreateModelMixin, viewsets.GenericViewSet):
         return super().create(request, *args, **kwargs)
 
     @pc((AllowAny,))
-    def get(self, request: Request):
+    def post(self, request: Request):
         data = request.data
         user = User.objects.get(email=data.get('email'))
         try:
