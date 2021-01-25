@@ -691,13 +691,13 @@ BAL_FAQ = {
             'answer': 'Adhiveshan will have three parts, each assessed in different ways and at different times throughout the spring and summer months: <br/> <ul> <li>The first part is the <b>Beginner’s Challenge</b> (traditionally known as Prathmik Mukhpath) which will be assessed at home.</li><li>The second part is the <b>Adhiveshan Rajipo Challenge</b> (traditionally known as Advance Mukhpath), which will be assessed online (in real time - over a video conferencing platform).</li><li>The final part is the <b>Skills Challenge</b> (traditionally known as Talent Competitions), which will be judged through regional online submissions.</li></ul>',
         },
     ],
-    'Beginner’s Challenge (Prathmik Mukhpath)': [
+    'Beginner’s Challenge': [
         {
             'question': "What is the Beginner\'s Challenge (Prathmik Mukhpath)?",
             'answer': 'The Beginners Challenge contains the core mukhpath of our sanstha, <b>including the Shri Swaminarayan Arti and shlokas we sing in puja</b>. All of the mukhpath comes with translations, so it is important to pay close attention to the meanings and try to introspect on how the values being transmitted in the words can be applied back to our lives. <br/> The Beginners Challenge will be <b>administered at home</b>, wherein you all will complete a worksheet based on the <b>Gujarati transliteration and English translation</b> of the mukhpath. Your parents will aid in ensuring that you have completed the worksheet properly and assist in grading. <br/><br/> <b>NOTE</b>: Group 0 balaks/balikas will be exempt from the Beginner’s Challenge, however parents may choose to review this key mukhpath with their balaks/balikas.',
         },
     ],
-    "Adhiveshan Rajipo Challenge (Advanced Mukhpath)": [
+    "Adhiveshan Rajipo Challenge": [
         {
             'question': "How is the Adhiveshan Rajipo Challenge (Advanced Mukhpath) structured?",
             'answer': 'The Adhiveshan Rajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, Shlokas and Sakhis, and Prasang Manan. <br/><br/> There are 4 tiers that you can choose from in each category: Mahant, Pramukh, Yogi, and Shastriji. <br/><br/> The breakdown for how much mukhpath you must memorize for each tier can be found under the “Edit My Pledge” section or in the FAQ section in your physical booket. You will also find a similar image to the one in your physical booklet below. <br/> <b>NOTE</b>: There is an additional tier called the Ghanshyam tier that is ONLY if you are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for Satsang Diksha (for the other categories, you must pick from the normal 4 tiers).',
@@ -711,7 +711,7 @@ BAL_FAQ = {
             'answer': '<b>The Satsang Diksha category is the only category that will have a set number of shlokas for each tier</b>. <b>For example if you choose the Mahant Challenge for the Satsang Diksha category, there will be a pre-set list of 64 shlokas.<br/><br/> For all of the other categories (Swamini Vato, Shloka/Sakhi, Kirtan, Prasang Manan), you will have a choice in creating your own set with the available list of mukhpath</b>. For example, if you are a Group 1 balak or balika who wants to do the Yogi challenge for Kirtans, you will be able to choose any 4 out of a possible list of 15 kirtans listed in the book. ',
         },
     ],
-    "Skills Challenge (Talent Competitions)": [
+    "Skills Challenge": [
         {
             'question': "What is the Skills Challenge (Talent Competition)?",
             'answer': 'The Skills Challenge allows you to tie your passions and hobbies back to Satsang. You will have a chance to show your talents in a multitude of fashions included in the mukhpath booklet. You will be able to <b>choose a minimum of 1 and a maximum of 3 skills challenges.</b><br/><br/><b>NOTE:</b>Group 0 balaks/balikas will not participate in Skills Challenge.<br/><br/>More details on the rules and regulations for each of the specific skills challenges will be provided shortly.',
@@ -974,7 +974,7 @@ KISHORE_FAQ = {
 
 # Skills Challenge for BM
 BAL_SKILLS_CHALLENGE = {
-    'Story/Speech-Based Competitions': {
+    'Story/Speech-Based Challenges': {
         'Mono-acting': """<div class="skills-html">
 <p> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual. </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
@@ -1068,7 +1068,7 @@ BAL_SKILLS_CHALLENGE = {
   </li>
 </ul>""",
     },
-    'Music-Based Competitions': {
+    'Music-Based Challenges': {
         'Solo Singing': """<div class="skills-html">
 <p> Kirtanam, or singing or listening to kirtans while remembering Bhagwan and the Sant, is one of the nine forms of bhakti according to the Shrimad Bhagvat. Solo Singing will develop this type of bhakti by helping you not only memorize and sing one of your favorite kirtans, but also better understand the meaning behind the kirtan. </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
@@ -1114,7 +1114,7 @@ BAL_SKILLS_CHALLENGE = {
 </ul>
 <div>""",
     },
-    'Writing-Based Competitions': {
+    'Writing-Based Challenges': {
         'Poetry': """<div class="skills-html">
 <p> Do you like writing? Do you like music? Why not put the two together! Poetry is where you get to use your imagination to convey a concept/message to others using creative language and rhythm. (Fun Fact: Did you know kirtans are also a form of poetry?) </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
@@ -1171,7 +1171,7 @@ BAL_SKILLS_CHALLENGE = {
 </ul>
 <div>""",
     },
-    'Art-Based Talents': {
+    'Art-Based Challenges': {
         'Painting/Illustration': """<div class="skills-html">
 <p> If you like art, or at least can draw a stick figure, then this competition is perfect for you! In this challenge, you will draw/illustrate/paint on a satsang concept/theme in a creative way. (Fun Fact: Did you know Mahant Swami Maharaj loves to draw?) </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
