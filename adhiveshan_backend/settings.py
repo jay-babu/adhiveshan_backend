@@ -121,7 +121,7 @@ CORS_ALLOWED_ORIGINS = [
     "https://bkadhiveshan.na.baps.org",
     "capacitor://localhost",
     "http://localhost",
-    "*"
+    "192.168.86.157"
 ]
 
 if getenv('ENV_PROD', 'False') == 'False':
