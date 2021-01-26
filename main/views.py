@@ -294,7 +294,7 @@ def get_modules(user, bookmarked_only=False):
         module_instance_is_sd = module_instance.module.title == constants.SATSANG_DIKSHA
 
         for mukhpath_item_instance in module_instance.mukhpath_item_instances.all().order_by('mukhpath_item__index'):
-            if bookmarked_only and not mukhpath_item_instance.is_bookmarked and not module_instance_is_sd:
+            if bookmarked_only and not mukhpath_item_instance.is_bookmarked:
                 continue
 
             if module_instance_is_sd and has_pledged_for_satsang_diksha:
