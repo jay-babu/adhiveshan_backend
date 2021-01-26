@@ -538,11 +538,11 @@ class ExternalUserView(mixins.CreateModelMixin, viewsets.GenericViewSet):
 
     @pc((AllowAny,))
     def post(self, request: Request):
-        data = request.POST
-        user = User.objects.get(email=data.get('email'))
+        email = request.POST["email"]
+        code = request.POST["code"]
+        user = User.objects.get(email=email)
         try:
-            if (ex_user := ExternalUserModel.objects.get(user=User.objects.get(email=data.get('email')), code=data.get(
-                    'code'))) and timezone.now() <= ex_user.code_expiration:
+            if (ex_user := ExternalUserModel.objects.get(user=User.objects.get(email=email), code=code)) and timezone.now() <= ex_user.code_expiration:
                 return Response(data=get_modules(user=user, bookmarked_only=True), status=status.HTTP_200_OK)
         except ExternalUserModel.DoesNotExist:
             pass
