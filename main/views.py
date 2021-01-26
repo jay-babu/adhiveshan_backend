@@ -14,7 +14,7 @@ from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from main.serializers import UserSerializer, ChangePasswordSerializer, ExternalUserSerializer
+from main.serializers import UserSerializer, ChangePasswordSerializer, CreateExternalTokenSerializer
 from . import constants
 from . import models
 from .models import title_and_capitial, ExternalUserModel, User
@@ -525,24 +525,26 @@ def upload_mukhpath_content():
                 new_item.save()
 
 
-class ExternalUserView(mixins.CreateModelMixin, viewsets.GenericViewSet):
-    serializer_class = ExternalUserSerializer
-    permission_classes = (AllowAny,)
+class CreateExternalTokenView(mixins.CreateModelMixin, viewsets.GenericViewSet):
+    serializer_class = CreateExternalTokenSerializer
+    permission_classes = (IsAuthenticated,)
 
-    @pc((IsAuthenticated,))
     def create(self, request, *args, **kwargs):
         request.data['user'] = self.request.user.pk
         request.data['code'] = randint(99999, 999999)
         request.data['code_expiration'] = timezone.now() + timedelta(days=1)
         return super().create(request, *args, **kwargs)
 
-    @pc((AllowAny,))
-    def get(self, request: Request):
+
+class GetExternalUserView(APIView):
+    permission_classes = (AllowAny,)
+
+    def post(self, request: Request):
         data = request.data
-        user = User.objects.get(email=data.get('email'))
         try:
             if (ex_user := ExternalUserModel.objects.get(user=User.objects.get(email=data.get('email')), code=data.get(
                     'code'))) and timezone.now() <= ex_user.code_expiration:
+                user = User.objects.get(email=data.get('email'))
                 return Response(data=get_modules(user=user, bookmarked_only=True), status=status.HTTP_200_OK)
         except ExternalUserModel.DoesNotExist:
             pass

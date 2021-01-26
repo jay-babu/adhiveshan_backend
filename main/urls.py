@@ -3,10 +3,10 @@ from rest_framework.routers import DefaultRouter
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 
 from . import views
-from .views import ExternalUserView
+from .views import CreateExternalTokenView, GetExternalUserView
 
 router = DefaultRouter()
-router.register('external_user', ExternalUserView, basename='external_user')
+router.register('create_external_token', CreateExternalTokenView, basename='external_user')
 
 urlpatterns = [
     path('register/', views.RegisterView.as_view(), ),
@@ -35,6 +35,7 @@ urlpatterns = [
     path('get_announcements/', views.AnnouncementsPageView.as_view()),
     path('reset_memorized_all/', views.ResetMemorizedView.as_view(), name='reset_memorized_all'),
     path('reset_bookmarked_all/', views.ResetBookmarkedView.as_view(), name='reset_bookmarked_all'),
+    path('get_external_user/', GetExternalUserView.as_view()),
 
     path('', include(router.urls)),
 

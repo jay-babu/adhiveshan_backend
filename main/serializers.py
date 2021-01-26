@@ -105,9 +105,9 @@ class ChangePasswordSerializer(serializers.Serializer):
         return super().validate(attrs)
 
 
-class ExternalUserSerializer(serializers.ModelSerializer):
+class CreateExternalTokenSerializer(serializers.ModelSerializer):
     code = serializers.IntegerField(required=False, min_value=99999, )
-    code_expiration = serializers.DateTimeField(required=False, )
+    code_expiration = serializers.DateTimeField(required=False, write_only=True)
     user = serializers.PrimaryKeyRelatedField(required=False, queryset=User.objects.all())
 
     class Meta:
