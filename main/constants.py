@@ -680,11 +680,11 @@ BAL_FAQ = {
         },
         {
             'question': 'Why do we do Adhiveshans?',
-            'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and balikas to memorize mukhpath during their summer vacations to the various Adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, memorizing and understanding mukhpath has been an integral way for balaks and balikas to earn the rajipo of our Gurus. \n\n By learning and memorizing various parts of our shastras (scriptures), we are able to ground ourselves in the Akshar Purushottam Darshan and better understand our beliefs and principles. Mukhpath also helps us find solutions to the many problems we may face in life.  \n\n This Adhiveshan will be paired with Summer Shibir 2021 along the theme of Guru Bhakti. We offer this mukhpath as a form of guru bhakti to our gurus Pramukh Swami Maharaj and Mahant Swami Maharaj. \n\n Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.',
+            'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and balikas to memorize mukhpath during their summer vacations to the various Adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, memorizing and understanding mukhpath has been an integral way for balaks and balikas to earn the rajipo of our Gurus. <br/><br/> By learning and memorizing various parts of our shastras (scriptures), we are able to ground ourselves in the Akshar Purushottam Darshan and better understand our beliefs and principles. Mukhpath also helps us find solutions to the many problems we may face in life.  <br/><br/> This Adhiveshan will be paired with Summer Shibir 2021 along the theme of Guru Bhakti. We offer this mukhpath as a form of guru bhakti to our gurus Pramukh Swami Maharaj and Mahant Swami Maharaj. <br/><br/> Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.',
         },
         {
             'question': 'Which Adhiveshan do I pledge for and which Summer Shibir do I go to?',
-            'answer': 'You will pledge for the tiers in the group you currently are in (<b>as of January 2021</b>). For example, if you are in Group 2 in January of 2021, and even if you are graduating and moving to Group 3 in September 2021, you will pledge for Adhiveshan in the Group 2 categories. Anyone in Groups 1-3 ( as of January 2021) will also attend the <b>Bal/Balika Summer Shibir</b>. <br/><br/><b>NOTE</b>: Current 8th graders will pledge for the Kishore/Kishori Adhiveshan and will join the Kishore/Kishori Shibir. <br/> Those currently in Group 0 will pledge for the Group 0 adhiveshan, even if they are graduating and moving to Group 1 in September 2021; those currently in Group 0 will join the <b>Bal/Balika Group 0 Shibir.</b>',
+            'answer': 'You will pledge for the tiers in the group you currently are in (<b>as of January 2021</b>). For example, if you are in Group 2 in January of 2021, and even if you are graduating and moving to Group 3 in September 2021, you will pledge for Adhiveshan in the Group 2 categories. Anyone in Groups 1-3 ( as of January 2021) will also attend the <b>Bal/Balika Summer Shibir</b>. <br/><br/><b>NOTE</b>: Current 8th graders will pledge for the Kishore/Kishori Adhiveshan',
         },
         {
             'question': 'What does Adhiveshan consist of?',
@@ -693,14 +693,14 @@ BAL_FAQ = {
     ],
     'Beginner’s Challenge': [
         {
-            'question': "What is the Beginner\'s Challenge (Prathmik Mukhpath)?",
-            'answer': 'The Beginners Challenge contains the core mukhpath of our sanstha, <b>including the Shri Swaminarayan Arti and shlokas we sing in puja</b>. All of the mukhpath comes with translations, so it is important to pay close attention to the meanings and try to introspect on how the values being transmitted in the words can be applied back to our lives. <br/> The Beginners Challenge will be <b>administered at home</b>, wherein you all will complete a worksheet based on the <b>Gujarati transliteration and English translation</b> of the mukhpath. Your parents will aid in ensuring that you have completed the worksheet properly and assist in grading. <br/><br/> <b>NOTE</b>: Group 0 balaks/balikas will be exempt from the Beginner’s Challenge, however parents may choose to review this key mukhpath with their balaks/balikas.',
+            'question': "What is the Beginner\'s Challenge?",
+            'answer': 'The Beginners Challenge contains the core mukhpath of our sanstha, <b>including the Shri Swaminarayan Arti and shlokas we sing in puja</b>. All of the mukhpath comes with translations, so it is important to pay close attention to the meanings and try to introspect on how the values being transmitted in the words can be applied back to our lives. <br/><br/> The Beginners Challenge will be <b>administered at home</b>, wherein you all will complete a worksheet based on the <b>Gujarati transliteration and English translation</b> of the mukhpath. Your parents will aid in ensuring that you have completed the worksheet properly and assist in grading. <br/><br/> <b>NOTE</b>: Group 0 balaks/balikas will be exempt from the Beginner’s Challenge, however parents may choose to review this key mukhpath with their balaks/balikas.',
         },
     ],
     "Adhiveshan Rajipo Challenge": [
         {
-            'question': "How is the Adhiveshan Rajipo Challenge (Advanced Mukhpath) structured?",
-            'answer': 'The Adhiveshan Rajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, Shlokas and Sakhis, and Prasang Manan. <br/><br/> There are 4 tiers that you can choose from in each category: Mahant, Pramukh, Yogi, and Shastriji. <br/><br/> The breakdown for how much mukhpath you must memorize for each tier can be found under the “Edit My Pledge” section or in the FAQ section in your physical booket. You will also find a similar image to the one in your physical booklet below. <br/> <b>NOTE</b>: There is an additional tier called the Ghanshyam tier that is ONLY if you are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for Satsang Diksha (for the other categories, you must pick from the normal 4 tiers).',
+            'question': "How is the Adhiveshan Rajipo Challenge structured?",
+            'answer': 'The Adhiveshan Rajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, Shlokas and Sakhis, and Prasang Manan. <br/><br/> There are 4 tiers that you can choose from in each category: Mahant, Pramukh, Yogi, and Shastriji. <br/><br/> The breakdown for how much mukhpath you must memorize for each tier can be found under the “Edit My Pledge” section or in the FAQ section in your physical booket. You will also find a similar image to the one in your physical booklet below. <br/><br/> <b>NOTE</b>: There is an additional tier called the Ghanshyam tier that is ONLY if you are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for Satsang Diksha (for the other categories, you must pick from the normal 4 tiers).',
         },
         {
             'question': "Is there a minimum number of tiers/categories needed to participate in the Adhiveshan?",
@@ -708,13 +708,13 @@ BAL_FAQ = {
         },
         {
             'question': "Can we choose which items to memorize in each category?",
-            'answer': '<b>The Satsang Diksha category is the only category that will have a set number of shlokas for each tier</b>. <b>For example if you choose the Mahant Challenge for the Satsang Diksha category, there will be a pre-set list of 64 shlokas.<br/><br/> For all of the other categories (Swamini Vato, Shloka/Sakhi, Kirtan, Prasang Manan), you will have a choice in creating your own set with the available list of mukhpath</b>. For example, if you are a Group 1 balak or balika who wants to do the Yogi challenge for Kirtans, you will be able to choose any 4 out of a possible list of 15 kirtans listed in the book. ',
+            'answer': '<b>The Satsang Diksha category is the only category that will have a set number of shlokas for each tier</b>. For example if you choose the Mahant Challenge for the Satsang Diksha category, there will be a pre-set list of 64 shlokas.<br/><br/> For all of the other categories (Swamini Vato, Shloka/Sakhi, Kirtan, Prasang Manan), you will have a choice in creating your own set with the available list of mukhpath</b>. For example, if you are a Group 1 balak or balika who wants to do the Yogi challenge for Kirtans, you will be able to choose any 4 out of a possible list of 15 kirtans listed in the book. ',
         },
     ],
     "Skills Challenge": [
         {
-            'question': "What is the Skills Challenge (Talent Competition)?",
-            'answer': 'The Skills Challenge allows you to tie your passions and hobbies back to Satsang. You will have a chance to show your talents in a multitude of fashions included in the mukhpath booklet. You will be able to <b>choose a minimum of 1 and a maximum of 3 skills challenges.</b><br/><br/><b>NOTE:</b>Group 0 balaks/balikas will not participate in Skills Challenge.<br/><br/>More details on the rules and regulations for each of the specific skills challenges will be provided shortly.',
+            'question': "What is the Skills Challenge?",
+            'answer': 'The Skills Challenge allows you to tie your passions and hobbies back to Satsang. You will have a chance to show your talents in a multitude of fashions included in the mukhpath booklet. You will be able to <b>choose a minimum of 1 and a maximum of 3 skills challenges.</b><br/><br/><b>NOTE:</b> Group 0 balaks/balikas will not participate in Skills Challenge.<br/><br/>More details on the rules and regulations for each of the specific skills challenges will be provided shortly.',
         },
     ],
     "Adhiveshan Pledging": [
@@ -730,96 +730,13 @@ BAL_FAQ = {
     "Adhiveshan Timeline": [
         {
             'question': "What are some important dates to keep in mind relating to the Adhiveshan?",
-            'answer': """<ul><li>Adhiveshan/Summer Shibir 2021 Launch Sabha: 1/31/2021</li><li>Adhiveshan Pledge and Summer Shibir Registration: 1/31/2021-3/7/2021</li><li>Beginners Challenge Quiz: TBD</li><li>Adhiveshan Rajipo Challenge: TBD</li><li>Skills Challenge Submission Deadline: TBD</li></ul><b>More information on specific dates, judging process, submission process, etc. will be provided to you by your local karyakars. If you have any questions, please contact your local karyakars.</b><ion-grid class="ion-text-center">
-  <ion-grid class="ion-text-center">
-  <ion-row class="header-row">
-  <ion-col size="6">
-      <ion-text>Date</ion-text>
-    </ion-col>
-    <ion-col size="6">
-      <ion-text>Event</ion-text>
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="6">
-      <ion-text>
-        1/31/21
-      </ion-text>
-    </ion-col>
-      <ion-col size="6">
-        <ion-text>
-          Adhiveshan/SS21 Launch Sabha;
-          Pledging Begins
-        </ion-text>
-      </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="6">
-          <ion-text>
-            2/6/21
-          </ion-text>
-        </ion-col>
-        <ion-col size="6">
-          <ion-text>
-            Parent's Launch Sabha
-          </ion-text>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="6">
-          <ion-text>
-           3/7/21
-          </ion-text>
-        </ion-col>
-        <ion-col size="6">
-          <ion-text>
-            Pledging & SS21 Registration Ends
-          </ion-text>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="6">
-          <ion-text>
-           TBD
-          </ion-text>
-        </ion-col>
-        <ion-col size="6">
-          <ion-text>
-            Beginner's Challenge
-          </ion-text>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="6">
-          <ion-text>
-            TBD
-          </ion-text>
-        </ion-col>
-        <ion-col size="6">
-          <ion-text>
-            Adhiveshan Rajipo Challenge
-          </ion-text>
-        </ion-col>
-      </ion-row>
-      <ion-row>
-        <ion-col size="6">
-          <ion-text>
-            TBD
-          </ion-text>
-        </ion-col>
-        <ion-col size="6">
-          <ion-text>
-            Skills Challenge Submission
-          </ion-text>
-        </ion-col>
-      </ion-row>
-  </ion-grid>""",
+            'answer': "<ul><li>Adhiveshan/Summer Shibir 2021 Launch Sabha: 1/31/2021</li><li>Adhiveshan Pledge and Summer Shibir Registration: 1/31/2021-3/7/2021</li><li>Beginners Challenge Quiz: TBD</li><li>Adhiveshan Rajipo Challenge: TBD</li><li>Skills Challenge Submission Deadline: TBD</li></ul><b>More information on specific dates, judging process, submission process, etc. will be provided to you by your local karyakars. If you have any questions, please contact your local karyakars.</b>",
         },
     ],
     "Summer Shibir": [
       {
             'question': "What is Summer Shibir",
-            'answer': 'This summer, a one-day virtual Summer Shibir will be held on the theme of “Guru Bhakti.” Since you memorized mukhpath as a form of guru bhakti, this shibir will revolve around better understanding and loving our guru.<br/><br/>There will be a main Bal/Balika Shibir as well as a separate shibir for Group 0 balaks/balikas. The breakdown is as follows:<br/><br/>Those entering Grades 2-8 in Fall of 2022 will participate in the Bal/Balika Summer Shibir. Those entering Group 0 - Grade 1 in Fall of 2022 will participate in the Group 0 Shibir. NOTE: This is the same breakdown as Adhiveshan.<br/><br/>More information on Summer Shibir 2021 will be provided at a later time.'
+            'answer': 'This summer, a one-day virtual Summer Shibir will be held on the theme of “Guru Bhakti.” Since you memorized mukhpath as a form of guru bhakti, this shibir will revolve around better understanding and loving our guru.<br/><br/>There will be a main Bal/Balika Shibir as well as a separate shibir for Group 0 balaks/balikas. The breakdown is as follows:<br/><br/>Those entering Grades 2-8 in Fall of 2022 will participate in the Bal/Balika Summer Shibir. Those entering Group 0 - Grade 1 in Fall of 2022 will participate in the Group 0 Shibir. <br/><br/> NOTE: This is the same breakdown as Adhiveshan.<br/><br/>More information on Summer Shibir 2021 will be provided at a later time.'
       }
     ]
 }
