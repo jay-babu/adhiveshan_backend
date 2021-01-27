@@ -752,17 +752,17 @@ KISHORE_FAQ = {
       'answer': "Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and kishores to memorize mukhpath during their summer vacations to the various adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, mukhpath has been integral way for kishores and kishoris to earn the Rajipo of their gurus. Adhiveshan is a structured way of memorizing mukhpath which is often focused on a certain Satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to spend time memorizing the mukhpath, learning its meaning, and eventually imbibing it in our lives to please our gurus."
     },
     {
-      'question': "How is the Adhiveshan structured? Will it be virtual?",
+      'question': "How is the Adhiveshan structured?",
       'answer': "All components of adhiveshan will take place virtually this year. There will be four components to adhiveshan: the prathmik mukhpath, the Rajipo Challenge, the Guru Bhakti Challenge, and Skills Competitions."
     },
     {
-      'question': "How will Adhiveshan testing work? Will it be virtual?",
+      'question': "How will Adhiveshan testing work?",
       'answer': "Due to the current situation with the COVID-19 pandemic, Adhiveshan will also take place over a virtual setting. Weeks prior to the shibir, karyakars will join individual calls to test kishores and kishoris on their mukhpath as it is traditionally done during an in-person adhiveshan."
     },
   ],
   'Prathmik Mukhpath': [
     {
-      'question': 'What is prathmik mukhpath?',
+      'question': 'What is Prathmik Mukhpath?',
       'answer': "The prathmik mukhpath contains core mukhpath that kishores and kishoris encounter on a daily basis. All of the mukhpath comes with translations, so it is important to pay close attention, understand the meanings, and try to introspect on how the values being transmitted in the words can be applied back to our lives. The prathmik mukhpath for this year includes the Shri Swaminarayan Arti and the two puja shlokas provided in Satsang Diksha. Kishores and kishoris will be tested on the prathmik mukhpath, just like both mukhpath challenges."
     }
   ],
