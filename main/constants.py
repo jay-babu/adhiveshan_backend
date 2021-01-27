@@ -1859,6 +1859,32 @@ SD_SHLOKAS_FOR_TIER = {
 
 BM_STORIES = [
   {
+    "title": "Swamishri Blessing the App",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0274.JPG",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0274.JPG',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0320.JPG',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0286.JPG',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0277.JPG',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0268.JPG',
+        "type": "image"
+      },
+    ]
+  },
+  {
     "title": "History of Adhiveshan",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/History-Adhiveshan/Screen%20Shot%202021-01-25%20at%2011.52.17%20AM.png",
     "stories": [
@@ -1957,6 +1983,32 @@ BM_STORIES = [
 #   9: "linear-gradient(#141e30, #243b55)", // Royal
 
 KM_STORIES = [
+  {
+    "title": "Swamishri Blessing the App",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0274.JPG",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0274.JPG',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0320.JPG',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0286.JPG',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0277.JPG',
+        "type": "image"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0268.JPG',
+        "type": "image"
+      },
+    ]
+  },
   {
     "title": "History of Adhiveshan",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/History-Adhiveshan/Screen%20Shot%202021-01-25%20at%2011.52.17%20AM.png",
