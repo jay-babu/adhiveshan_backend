@@ -680,7 +680,7 @@ BAL_FAQ = {
         },
         {
             'question': 'Why do we do Adhiveshans?',
-            'answer': 'By learning and memorizing various parts of our shastras (scriptures), we are able to ground ourselves in the Akshar Purushottam Darshan and better understand our beliefs and principles. Mukhpath also helps us find solutions to the many problems we may face in life. This Adhiveshan will be paired with Summer Shibir 2021 along the theme of Guru Bhakti. We offer this mukhpath as a form of guru bhakti to our gurus - Pramukh Swami Maharaj and Mahant Swami Maharaj. Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.',
+            'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and balikas to memorize mukhpath during their summer vacations to the various Adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, memorizing and understanding mukhpath has been an integral way for balaks and balikas to earn the rajipo of our Gurus. \n\n By learning and memorizing various parts of our shastras (scriptures), we are able to ground ourselves in the Akshar Purushottam Darshan and better understand our beliefs and principles. Mukhpath also helps us find solutions to the many problems we may face in life.  \n\n This Adhiveshan will be paired with Summer Shibir 2021 along the theme of Guru Bhakti. We offer this mukhpath as a form of guru bhakti to our gurus Pramukh Swami Maharaj and Mahant Swami Maharaj. \n\n Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.',
         },
         {
             'question': 'Which Adhiveshan do I pledge for and which Summer Shibir do I go to?',
@@ -976,7 +976,7 @@ KISHORE_FAQ = {
 BAL_SKILLS_CHALLENGE = {
     'Story/Speech-Based Challenges': {
         'Mono-acting': """<div class="skills-html">
-<p> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual. </p>
+<p> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual.</p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul> 
 	<li>
@@ -990,9 +990,7 @@ BAL_SKILLS_CHALLENGE = {
     acting, tone, emotion, facial expressions, memorization, props/costume/creativity, etc.
 	</li>
 	<li>
-		Topic list, submission details and grading rubric will 
-    be provided by your local karyakar as we get closer to the competition date.
-	</li>
+Topic list, submission details and grading rubric will be provided on the website soon. 	</li>
 </ul>
 <div>""",
         'Storytelling': """<div class="skills-html">
@@ -1007,8 +1005,7 @@ BAL_SKILLS_CHALLENGE = {
 		Storytelling will be judged on: storytelling ability, content, creativity, vivid details, manan/personal reflection, organization, flow, confidence, tone, etc.
 	</li>
 	<li>
-		Topic list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
-	</li>
+Topic list, submission details and grading rubric will be provided on the website soon. 	</li>
 </ul>
 <div>""",
         'Satsang Diksha Nirupan': """<div class="skills-html">
@@ -1034,11 +1031,10 @@ BAL_SKILLS_CHALLENGE = {
 		Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, flow, confidence, tone, etc.
 	</li>
 	<li>
-    Topic list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
-	</li>
+    Topic list, submission details and grading rubric will be provided on the website soon. 	</li>
 </ul>
 <div>""",
-        'Prasang-Varnan Speech': """<div class="skills-html">
+        'Prasang-Varnan': """<div class="skills-html">
 <p> The Prasang Varnan competition is similar to the Prasang Manan mukhpath category within the Adhiveshan Rajipo Challenge. You must narrate a prasang, or divine incident of Bhagwan and the Satpurush, in detail and explain what virtues you saw in the prasang and how it relates to your life. </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
@@ -1064,8 +1060,7 @@ BAL_SKILLS_CHALLENGE = {
   Prasang-varnan will be judged on: key prasang, accurate use of mukhpath, memorization, organization, vivid details, flow, confidence, tone, etc.
   </li>
   <li>
-  Topic list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
-  </li>
+Topic list, submission details and grading rubric will be provided on the website soon.   </li>
 </ul>""",
     },
     'Music-Based Challenges': {
@@ -1074,7 +1069,7 @@ BAL_SKILLS_CHALLENGE = {
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
 	<li>
-    You may select one of the bhajans that will be provided to you to perform during the competition.	</li>
+    You may select one of the bhajans that will be provided to you </li>
   <li>
     The bhajan must be memorized with the meaning.
   </li>
@@ -1083,8 +1078,8 @@ BAL_SKILLS_CHALLENGE = {
     Solo Singing will be judged on: sur (melody), tempo/rhythm, and tone/voice, along with your understanding of the kirtan that is spoken at the beginning, etc.  
   </li>
   <li>
-    Topic list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
-  <li>
+    Bhajan list, submission details and grading rubric will be provided on the website soon.  
+  </li>
 </ul>
 <div>""",
         'Musical Instruments': """<div class="skills-html">
@@ -1092,9 +1087,9 @@ BAL_SKILLS_CHALLENGE = {
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
 	<li>
-    You may select one of the bhajans that will be provided to you to perform during the competition.	</li>
+    You can perform your instrument for one of the bhajans from the list that will be provided to you.  
   <li>
-  The submission must include a manan (reflection) prior to singing the bhajan. This reflection can either be about the meaning of the bhajan, its history or what the bhajan means to you.
+    The submission must include a manan (reflection) prior to singing the bhajan. This reflection can either be about the meaning of the bhajan, its history or what the bhajan means to you.
   </li>
 	<li>
     You do not have to memorize the bhajan. You can have the music sheet in front of you while you play your instrument.
@@ -1109,8 +1104,7 @@ BAL_SKILLS_CHALLENGE = {
     Musical Instrument will be judged on: sur (melody), tempo/rhythm, accuracy, tonality, etc.
   </li>
   <li>
-    Topic list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
-  </li>
+    Bhajan list, submission details and grading rubric will be provided on the website soon.  </li>
 </ul>
 <div>""",
     },
@@ -1120,15 +1114,15 @@ BAL_SKILLS_CHALLENGE = {
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
 	<li>
-    You must select from one of the themes that will be provided to you. The categories are provided, with a small description on what the poem should depict.	</li>
+    You must select from one of the themes that will be provided to you. 
+  </li>
 	<li>
     Although there are many different types of poetic form, please limit to using one poetry style/form. Some examples are haiku, rhymed poetry, acrostic, free verse, ode, bhajan/kirtan, etc.  </li>
   <li>
     Poems will be judged on: organization, flow, grammar, poetry style, etc.
   </li>
   <li>
-    Theme list, submission details and grading rubric will be provided by your local karyakar as we get closer to the competition date.
-  </li>
+    Theme list, submission details and grading rubric will be provided on the website soon.  </li>
 </ul>
 <div>""",
         'Essay-Writing (Group 3)': """<div class="skills-html">
@@ -1137,7 +1131,7 @@ BAL_SKILLS_CHALLENGE = {
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
 	<li>
-    You must select from one of the themes that will be provided to you. The categories will be provided, with a small description on what the essay should be on.
+    You must select from one of the themes that will be provided to you.
   </li>
   <li>
     Essays must be in 12 point font, Arial or Times New Roman with double line spacing.
@@ -1166,7 +1160,7 @@ BAL_SKILLS_CHALLENGE = {
     Essays will be judged on: organization, flow, grammar, content, imagination, etc.
   </li>
   <li>
-    Topic list, submission details and grading rubric will be provided by your local karyakar as you get closer to the competition date.
+    Theme list, submission details and grading rubric will be provided on the website soon.
   </li>
 </ul>
 <div>""",
@@ -1177,7 +1171,8 @@ BAL_SKILLS_CHALLENGE = {
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
 	<li>
-    You must select from one of the themes that will be provided to you. The categories are provided, with a small description on what the artwork should depict.     </li>
+    You must select from one of the themes that will be provided to you. 
+  </li>
   <li>
     Artwork may include painting, drawing, sketching, chalk art, oil pastels, etc. This does not include photoshop or any multimedia art.
   </li>
@@ -1185,15 +1180,16 @@ BAL_SKILLS_CHALLENGE = {
     The artwork must be presented on an 8.5 inches by 11 inches paper or canvas.
   </li>
   <li>
-  Topic list, submission details and grading rubric will be provided by your local karyakar as you get closer to the competition date.
-  </li>
+    Theme list, submission details and grading rubric will be provided on the website soon.  </li>
 </ul>
 <div>""",
-        'Graphic Design (Photoshop)': """<div class="skills-html">
+        'Graphic Design': """<div class="skills-html">
 <h2 class="static-content-title">Things to Keep in Mind</h2>
+<p> Do you like art? Are you good with technology? Graphic Design will test your artistic and technological skills by being able to create a satsang-centric graphic using an online photo editing or illustration software. </p>
 <ul>
 	<li>
-    You must select from one of the themes that will be provided to you. The categories are provided, with a small description on what the graphic should depict.   </li>
+    You must select from one of the themes that will be provided to you.
+  </li>
   <li>
     The graphic can be made using any photo editing/illustrating tool, such as Photoshop, Photopea or Canva. (Karyakars can provide guidance on the best software to use based on your needs.) 
   </li>
@@ -1207,7 +1203,7 @@ BAL_SKILLS_CHALLENGE = {
     Feel free to be creative by using various images, texts, shapes, etc.
   </li>
   <li>
-    Theme list, submission details and grading rubric will be provided by your local karyakar as you get closer to the competition date.
+    Theme list, submission details and grading rubric will be provided on the website soon.  
   </li>
 </ul>
 <div>""",
@@ -1221,13 +1217,13 @@ BAL_SKILLS_CHALLENGE = {
     Videos can be made on any video making platform, such as Movie Maker, iMovie, Final Cut Pro, Adobe Premiere, etc. (Karyakars can provide guidance on the best software to use based on your needs.) 
   </li>
 	<li>
-    Video length should be maximum 5 minutes long. Videos must be in 16:9 ratio.
+    Videos must be in 16:9 ratio.
   </li>
 	<li>
    Feel free to be creative by using various images, texts, shapes, music, videos, voice overlay, video templates/effects, etc.	
   </li>
   <li>
-    Topic list, submission details and grading rubric will be provided by your local karyakar as you get closer to the competition date.
+    Topic list, submission details and grading rubric will be provided on the website soon. 
   </li>
 </ul>
 <div>""",
@@ -1249,7 +1245,7 @@ BAL_SKILLS_CHALLENGE = {
     Rangolis that are submitted must be new submissions and not done on prior occasions.
   </li>
   <li>
-    Topic list, submission details and grading rubric will be provided by your local karyakar as you get closer to the competition date.
+    Topic list, submission details and grading rubric will be provided on the website soon.  
   </li>
 </ul>
 <div>""",
