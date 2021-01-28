@@ -363,8 +363,6 @@ ABHAV_AVGUN = 'abhav_avgun'
 AHNIK = 'ahnik'
 CHOSAR_PADS = 'chosar_pads'
 FAGVA = 'fagva'
-GURU_PARAMPARA = 'guru_parampara'
-PATRI = 'patri'
 KISHORE_ONLY_MODULES = [
     ANTARDRASHTI,
     PRAPTINO_VICHAR,
@@ -404,8 +402,6 @@ KISHORE_ONLY_MODULES = [
     AHNIK,
     CHOSAR_PADS,
     FAGVA,
-    GURU_PARAMPARA,
-    PATRI,
 ]
 
 BAL_AND_KISHORE_MODULES = [
@@ -457,8 +453,6 @@ MODULE_ICON_LINKS = {
     AHNIK: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/36ahnik.PNG',
     CHOSAR_PADS: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/37chosarpads.jpg',
     FAGVA: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/38fagva.PNG',
-    GURU_PARAMPARA: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/39guruparampara.jpg',
-    PATRI: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/40patri.jpg',
 }
 
 # Tiers
@@ -527,8 +521,6 @@ REQUIRED_PER_KM_MODULE = {
     AHNIK: 7,
     CHOSAR_PADS: 4,
     FAGVA: 1,
-    GURU_PARAMPARA: 7,
-    PATRI: 1,
 }
 
 GROUP_0_PLEDGES = {
