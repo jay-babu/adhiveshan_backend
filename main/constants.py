@@ -417,7 +417,7 @@ MODULE_ICON_LINKS = {
 
     ANTARDRASHTI: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/1antardrashti.jpg',
     PRAPTINO_VICHAR: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/2praptinovichar.png',
-    RAJIPANO_VICHAR: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/3raajipano%20vichar.png',
+    RAJIPANO_VICHAR: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/3raajipano%20vichar.jpg',
     SANKHYA_VICHAR: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/4sankhyanovichar.JPG',
     GUN_GRAHAN_SAMBANDHNO_MAHIMA: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/5gungrahan.jpg',
     ATMA_VICHAR: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/6atmanovichar.jpg',
@@ -439,7 +439,7 @@ MODULE_ICON_LINKS = {
     SUKH: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/22sukh.jpg',
     KATHA_VARTA: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/23kathavarta.jpg',
     SATSANG_READING: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/24satsangreading.jpg',
-    SAMP_SURADHBHAV_EKTA: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/25samp.PNG',
+    SAMP_SURADHBHAV_EKTA: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/25samp.jpg',
     KSHAMA: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/26kshama.jpg',
     SAHAN: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/27sahan.jpg',
     NIRMANIPANU: 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/28nirmanipanu.jpg',
