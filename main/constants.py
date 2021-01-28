@@ -755,7 +755,7 @@ KISHORE_FAQ = {
   'Prathmik Mukhpath': [
     {
       'question': 'What is Prathmik Mukhpath?',
-      'answer': "The prathmik mukhpath contains core mukhpath that kishores and kishoris encounter on a daily basis. All of the mukhpath comes with translations, so it is important to pay close attention, understand the meanings, and try to introspect on how the values being transmitted in the words can be applied back to our lives. The prathmik mukhpath for this year includes the Shri Swaminarayan Arti and the two puja shlokas provided in Satsang Diksha. Kishores and kishoris will be tested on the prathmik mukhpath, just like both mukhpath challenges."
+      'answer': "The Prathmik Mukhpath contains core mukhpath that kishores and kishoris encounter on a daily basis. All of the mukhpath comes with translations, so it is important to pay close attention, understand the meanings, and try to introspect on how the values being transmitted in the words can be applied back to our lives. The prathmik mukhpath for this year includes the Shri Swaminarayan Arti and the two puja shlokas provided in Satsang Diksha. Kishores and kishoris will be tested on the prathmik mukhpath, just like both mukhpath challenges."
     }
   ],
   'Rajipo Challenge': [
@@ -780,7 +780,7 @@ KISHORE_FAQ = {
       'answer': "The Skills Competitions allow kishores and kishoris to tie their passions and hobbies back to Satsang. Kishores and kishoris will have a chance to show their talents in a multitude of manners. There is an enormous pool of skills to choose from and no limit, so feel free to try something new! More information regarding the skills competitions will come in a future installment."
     },
     {
-      'question': "How will the Skills Competitions work? Will it be virtual?",
+      'question': "How will the Skills Competitions work?",
       'answer': "Due to the current situation with the COVID-19 pandemic, the Skills Competitions will also take place over a virtual setting. We will request kishores and kishoris to submit their performance, art, recordings, etc. to a centralized, regional link prior to the shibir. This will allow for judges to assess each submission individually and offer awards in time for the awards ceremony."
     },
   ],
