@@ -1,9 +1,13 @@
-from django.core.mail import EmailMultiAlternatives
+from os import getenv
+import logging
+from pprint import pprint
+
+import sib_api_v3_sdk
 from django.dispatch import receiver
-from django.template.loader import render_to_string
 from django.urls import reverse
 
 from django_rest_resetpassword.signals import reset_password_token_created
+from sib_api_v3_sdk.rest import ApiException
 
 
 @receiver(reset_password_token_created)
@@ -23,23 +27,23 @@ def password_reset_token_created(sender, instance, reset_password_token, *args, 
         'current_user': reset_password_token.user,
         'username': reset_password_token.user.email,
         'email': reset_password_token.user.email,
-        'reset_password_url': "https://bkadhiveshan.na.baps.org/#/auth{}?token={}".format(
+        'reset_password_url': "bkadhiveshan.na.baps.org/#/auth{}?token={}".format(
             reverse('password_reset:reset-password-confirm'), reset_password_token.key)
     }
 
-    # render email text
-    email_plaintext_message = render_to_string('email/user_reset_password.html', context)
-    # email_plaintext_message = render_to_string('email/user_reset_password.txt', context)
-
-    msg = EmailMultiAlternatives(
-        # title:
-        f"Password Reset for BK Adhiveshan App",
-        # message:
-        email_plaintext_message,
-        # from:
-        "kishore@na.baps.org",
-        # to:
-        [reset_password_token.user.email]
-    )
-    # msg.attach_alternative(email_html_message, "text/html")
-    msg.send()
+    # Configure API key authorization: api-key
+    configuration = sib_api_v3_sdk.Configuration()
+    configuration.api_key['api-key'] = getenv('SENDINBLUE_API_KEY')
+    # create an instance of the API class
+    api_instance = sib_api_v3_sdk.TransactionalEmailsApi(sib_api_v3_sdk.ApiClient(configuration))
+    send_smtp_email = sib_api_v3_sdk.SendSmtpEmail(to=[{"email": reset_password_token.user.email}],
+                                                   sender={'email': 'kishore@na.baps.org'},
+                                                   template_id=282,
+                                                   params={"link": context.get('reset_password_url'), },
+                                                   )
+    try:
+        # Send a transactional email
+        api_instance.send_transac_email(send_smtp_email)
+    except ApiException as e:
+        pprint(e.body)
+        logging.error("Exception when calling SMTPApi->send_transac_email: %s\n" % e)
