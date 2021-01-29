@@ -181,9 +181,6 @@ def get_bal_mandal_dashboard_view(user):
     response = defaultdict(list)
     modules = response['modules']
     for pledged_module in user.pledge.pledged_modules.all():
-        module_instance = models.ModuleInstance.objects.get(
-            user=user,
-            module=pledged_module.module)
         modules.append({
             'title': pledged_module.module.title,
             'tier': pledged_module.tier,
@@ -191,7 +188,7 @@ def get_bal_mandal_dashboard_view(user):
                 pledged_module.module.title,
                 user.mandal.lower().replace(' ', '_'),
                 pledged_module.tier),
-            'memorized': get_num_of_items_memorized(module_instance)
+            'memorized': get_num_of_items_memorized(pledged_module.module)
         })
     return Response(data=response, status=status.HTTP_200_OK)
 
