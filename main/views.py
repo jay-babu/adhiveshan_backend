@@ -278,18 +278,16 @@ class BookmarkedMukhpathItemsView(APIView):
 def get_modules(user, bookmarked_only=False):
     response = {}
     has_pledged_for_satsang_diksha = False
-    satsang_diksha_pledged_module = None
     try:
-        satsang_diksha_pledged_module = user.pledge.pledged_modules.filter(
-            module__title=constants.SATSANG_DIKSHA)
-        if len(satsang_diksha_pledged_module) > 0:
-            has_pledged_for_satsang_diksha = True
-    except models.Pledge.DoesNotExist:
+        _ = user.pledge
+        has_pledged_for_satsang_diksha = user.pledge.pledged_modules.filter(
+            module__title=constants.SATSANG_DIKSHA).count() > 0
+    except Exception:
         pass
 
     sd_tier = None
     if has_pledged_for_satsang_diksha:
-        sd_tier = satsang_diksha_pledged_module.tier
+        sd_tier = user.pledge.pledged_modules.get(module__title=constants.SATSANG_DIKSHA).tier
 
     for module_instance in user.module_instances.all().order_by('module__index'):
         mukhpath_item_instances = []
