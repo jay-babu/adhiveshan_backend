@@ -45,10 +45,10 @@ def instantiate_module_instances_for_user(user):
 
     for module in relevant_modules:
         module_instance = models.ModuleInstance.objects.create(user=user, module=module)
+        mukhpath_items = []
         for item in module.mukhpath_items.all():
-            models.MukhpathItemInstance.objects.create(
-                mukhpath_item=item,
-                module_instance=module_instance)
+            mukhpath_items.append(models.MukhpathItemInstance(mukhpath_item=item, module_instance=module_instance, ))
+        models.MukhpathItemInstance.objects.bulk_create(mukhpath_items)
 
 
 class OnboardedView(APIView):
