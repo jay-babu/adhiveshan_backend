@@ -692,7 +692,7 @@ BAL_FAQ = {
             'question': "How can I change my password?"
             'answer': "<p>Go to the Settings Page</p><ul><li>Click on the “Change Password: button.</li><li>Enter your current password.</li><li>Enter a new password.</li><li>Click “Change Password” button to submit your new password.</li></ul>"
       }
-    ]
+    ],
     'Beginner’s Challenge': [
         {
             'question': "What is the Beginner\'s Challenge?",
@@ -740,7 +740,7 @@ BAL_FAQ = {
             'question': "What is Summer Shibir",
             'answer': 'This summer, a one-day virtual Summer Shibir will be held on the theme of “Guru Bhakti.” Since you memorized mukhpath as a form of guru bhakti, this shibir will revolve around better understanding and loving our guru.<br/><br/>There will be a main Bal/Balika Shibir as well as a separate shibir for Group 0 balaks/balikas. The breakdown is as follows:<br/><br/>Those entering Grades 2-8 in Fall of 2022 will participate in the Bal/Balika Summer Shibir. Those entering Group 0 - Grade 1 in Fall of 2022 will participate in the Group 0 Shibir. <br/><br/> NOTE: This is the same breakdown as Adhiveshan.<br/><br/>More information on Summer Shibir 2021 will be provided at a later time.'
       }
-    ],
+    ]
 }
 
 KISHORE_FAQ = {
