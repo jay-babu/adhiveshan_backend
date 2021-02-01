@@ -6,6 +6,7 @@ from os import getenv
 from random import randint
 import logging
 
+from django.db.models import Q
 from django.utils import timezone
 from rest_framework import status, mixins, viewsets
 from rest_framework.generics import GenericAPIView, UpdateAPIView
@@ -197,27 +198,25 @@ def get_bal_mandal_dashboard_view(user):
 def get_kishore_mandal_dashboard_view(user):
     response = defaultdict(list)
     modules = response['modules']
-    for pledged_module in user.pledge.pledged_modules.all():
-        if pledged_module.module.title == constants.SATSANG_DIKSHA:
-            module_instance = models.ModuleInstance.objects.get(
-                user=user,
-                module=pledged_module.module)
-            modules.append({
-                'title': pledged_module.module.title,
-                'tier': pledged_module.tier,
-                'required': constants.get_required_mukhpath_items(
-                    pledged_module.module.title,
-                    user.mandal.lower().replace(' ', '_'),
-                    pledged_module.tier),
-                'memorized': get_num_of_items_memorized(module_instance)
-            })
+    for pledged_module in user.pledge.pledged_modules.filter(module__title=constants.SATSANG_DIKSHA):
+        module_instance = models.ModuleInstance.objects.get(
+            user=user,
+            module=pledged_module.module,
+        )
+        modules.append({
+            'title': pledged_module.module.title,
+            'tier': pledged_module.tier,
+            'required': constants.get_required_mukhpath_items(
+                pledged_module.module.title,
+                user.mandal.lower().replace(' ', '_'),
+                pledged_module.tier),
+            'memorized': get_num_of_items_memorized(module_instance)
+        })
 
     # For module in all user module instances except for SATSANG DIKSHA and KM_MODULES
     # If is one bookmarked, show that
     # Set required as constant value.
-    for module_instance in user.module_instances.all():
-        if module_instance.module.title in (constants.SATSANG_DIKSHA, constants.KM_MODULES):
-            continue
+    for module_instance in user.module_instances.filter(~Q(module__title=constants.SATSANG_DIKSHA) & ~Q(module__title=constants.KM_MODULES)):
         if module_instance.mukhpath_item_instances.filter(is_bookmarked=True).count() > 0:
             modules.append({
                 'title': module_instance.module.title,
