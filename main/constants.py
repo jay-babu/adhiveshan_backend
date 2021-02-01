@@ -689,9 +689,9 @@ BAL_FAQ = {
             'answer': "Yes. The website is a supporting tool to help balaks and balikas explore the mukhpath so that they can make an informed pledge. The pledge will be done through BKMS and the deadline is March 7th, 2021.",
       },
       {
-            'question': "How can I change my password?"
+            'question': "How can I change my password?",
             'answer': "<p>Go to the Settings Page</p><ul><li>Click on the “Change Password: button.</li><li>Enter your current password.</li><li>Enter a new password.</li><li>Click “Change Password” button to submit your new password.</li></ul>",
-      }
+      },
     ],
     'Beginner’s Challenge': [
         {
