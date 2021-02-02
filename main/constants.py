@@ -694,7 +694,7 @@ BAL_FAQ = {
       },
       {
             'question': "What if I forgot my password?",
-            'answer': "<p>Go to the login page.</p><ul><li>Click on 'Forgot Password?'</li><li>Enter your email address that you used to create an account.<li><li>Instructions to reset the password will then be sent to your email.</li><li>Follow the instructions sent to your email.</li></ul>",
+            'answer': "<p>Go to the login page.</p><ul><li>Click on 'Forgot Password?'</li><li>Enter your email address that you used to create an account.</li><li>Instructions to reset the password will then be sent to your email.</li><li>Follow the instructions sent to your email.</li></ul>",
       },
       {
             'question': "How can I edit my pledge",
