@@ -690,7 +690,11 @@ BAL_FAQ = {
       },
       {
             'question': "How can I change my password?",
-            'answer': "<p>Go to the Settings Page</p><ul><li>Click on the “Change Password: button.</li><li>Enter your current password.</li><li>Enter a new password.</li><li>Click “Change Password” button to submit your new password.</li></ul>",
+            'answer': "<p>Go to the Settings Page</p><ul><li>Click on the 'Change Password' button.</li><li>Enter your current password.</li><li>Enter a new password.</li><li>Click “Change Password” button to submit your new password.</li></ul>",
+      },
+      {
+            'question': "What if I forgot my password?",
+            'answer': "<p>Go to the login page.</p><ul><li>Click on button</li</ul>,
       },
     ],
     'Beginner’s Challenge': [
