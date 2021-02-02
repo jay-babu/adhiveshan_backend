@@ -717,8 +717,8 @@ BAL_FAQ = {
             'answer': "<p>You need to delete the account and recreate a new one with the right email if you have used the wrong email. To delete an account:</p><ul><li>Go to the Settings Page.</li><li>Click on Delete Account button.</li><li>Note: This will delete all of the data associated with your account.</li></ul>",
       },
       {
-            'question': "What if I want to change my demographic info (name, mandal, group, etc)? Unfortunately, there is no way to change demographic information except for your password. If something needs to be changed, please delete your account and create a new account.",
-            'answer': "<ul><li>Go to the Settings Page</li><li>Click on Delete Account button</li><li>Note: This will remove all your activities on application.</li><li>Go to login page</li><li>Click on Create Account Button and create new account by selecting right group</li></ul>",
+            'question': "What if I want to change my demographic info (name, mandal, group, etc)?",
+            'answer': "<p>Unfortunately, there is no way to change demographic information except for your password. If something needs to be changed, please delete your account and create a new account.</p><ul><li>Go to the Settings Page</li><li>Click on Delete Account button</li><li>Note: This will remove all your activities on application.</li><li>Go to login page</li><li>Click on Create Account Button and create new account by selecting right group</li></ul>",
       },
       {
             'question': "Why do I see the wrong ‘bhai’ or ‘ben’ after my name?",
@@ -836,8 +836,8 @@ KISHORE_FAQ = {
             'answer': "<p>You need to delete the account and recreate a new one with the right email if you have used the wrong email. To delete an account:</p><ul><li>Go to the Settings Page.</li><li>Click on Delete Account button.</li><li>Note: This will delete all of the data associated with your account.</li></ul>",
       },
       {
-            'question': "What if I want to change my demographic info (name, mandal, group, etc)? Unfortunately, there is no way to change demographic information except for your password. If something needs to be changed, please delete your account and create a new account.",
-            'answer': "<ul><li>Go to the Settings Page</li><li>Click on Delete Account button</li><li>Note: This will remove all your activities on application.</li><li>Go to login page</li><li>Click on Create Account Button and create new account by selecting right group</li></ul>",
+            'question': "What if I want to change my demographic info (name, mandal, group, etc)?",
+            'answer': "<p>Unfortunately, there is no way to change demographic information except for your password. If something needs to be changed, please delete your account and create a new account.</p><ul><li>Go to the Settings Page</li><li>Click on Delete Account button</li><li>Note: This will remove all your activities on application.</li><li>Go to login page</li><li>Click on Create Account Button and create new account by selecting right group</li></ul>",
       },
       {
             'question': "Why do I see the wrong ‘bhai’ or ‘ben’ after my name?",
