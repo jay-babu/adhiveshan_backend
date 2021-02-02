@@ -694,7 +694,7 @@ BAL_FAQ = {
       },
       {
             'question': "What if I forgot my password?",
-            'answer': "<p>Go to the login page.</p><ul><li>Click on button</li</ul>,
+            'answer': "<p>Go to the login page.</p><ul><li>Click on button</li</ul>",
       },
     ],
     'Beginner’s Challenge': [
