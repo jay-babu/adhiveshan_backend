@@ -701,8 +701,12 @@ BAL_FAQ = {
             'answer': "<p>Go to My Progress page.</p><ul><li>Click on Edit My Pledge.</li><li>Change your pledge.</li><li>Note: This won’t change your pledge on BKMS, which is where all official pledging takes place.</li></ul>",
       },
       {
-            'question': "How can I bookmark the mukhpath items?",
-            'answer': "<p>Go to the ‘All Mukhpath’ page.</p><ul><li>Select your book or module by clicking on top circled items.</li><li>Go to Mukhpath Item cards and click on the bookmark icon if it has no color.</li><li>If the bookmark icon is now a red color, it means you have already bookmarked it. You can check your items under “My Mukhpath” page.</li></ul>",
+            'question': "How can I reset my mukhpath progress?",
+            'answer': "<p>Go to the Settings page.</p><ul><li>Click on Reset Memorized button</li</ul>",
+      },
+      {
+            'question': "What if I have multiple users in my family but a limited number of devices?",
+            'answer': "<p>We recommend that one user stay logged in via the app and another can use the mobile browser to login to the website.</p><p>Alternatively, you can log out each time someone needs to use the account.</p><p>We also recommend that parents print out small sections for kids to review on their own.</p><p>It’s not necessary to print out everything as the books will be provided around March.</p><ul><li>To print, please go to the “My Mukhpath” tab and you will be able to click “Print My Mukhpath” to print the mukhpath that you selected in the 'All Mukhpath' tab.</li></ul>",
       },
     ],
     'Beginner’s Challenge': [
