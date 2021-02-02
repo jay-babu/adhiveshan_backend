@@ -13,6 +13,9 @@ import django_heroku
 from datetime import timedelta
 from os import getenv
 from pathlib import Path
+import logging
+
+logging.basicConfig(level=logging.ERROR, format='%(asctime)s %(levelname)s %(message)s')
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent

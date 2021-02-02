@@ -1,13 +1,14 @@
-import os
 import csv
+import os
 from collections import defaultdict
 from datetime import timedelta
 from os import getenv
 from random import randint
+import logging
 
+from django.db.models import Q
 from django.utils import timezone
 from rest_framework import status, mixins, viewsets
-from rest_framework.decorators import permission_classes as pc
 from rest_framework.generics import GenericAPIView, UpdateAPIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.request import Request
@@ -31,7 +32,7 @@ class RegisterView(GenericAPIView):
             serializer.save()
             instantiate_module_instances_for_user(models.User.objects.get(email=serializer.data.get('email')))
             return Response(serializer.data, status=status.HTTP_201_CREATED)
-
+        logging.error(msg=f'{self.request.path_info} {serializer.errors}')
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
@@ -45,10 +46,10 @@ def instantiate_module_instances_for_user(user):
 
     for module in relevant_modules:
         module_instance = models.ModuleInstance.objects.create(user=user, module=module)
+        mukhpath_items = []
         for item in module.mukhpath_items.all():
-            models.MukhpathItemInstance.objects.create(
-                mukhpath_item=item,
-                module_instance=module_instance)
+            mukhpath_items.append(models.MukhpathItemInstance(mukhpath_item=item, module_instance=module_instance, ))
+        models.MukhpathItemInstance.objects.bulk_create(mukhpath_items)
 
 
 class OnboardedView(APIView):
@@ -97,6 +98,7 @@ class ChangePasswordView(UpdateAPIView):
 
             return Response(response)
 
+        logging.error(msg=f'{self.request.path_info} {serializer.errors}')
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
@@ -139,29 +141,26 @@ class MyPledgeView(APIView):
             request.user.pledge.pledged_modules.all().delete()
             # Remove all satsang diksha bookmarks here.
             satsang_diksha_instance = request.user.module_instances.get(module__title=constants.SATSANG_DIKSHA)
-            for mukhpath_item_instance in satsang_diksha_instance.mukhpath_item_instances.all():
-                mukhpath_item_instance.is_bookmarked = False
-                mukhpath_item_instance.save()
-
+            satsang_diksha_instance.mukhpath_item_instances.all().update(is_bookmarked=False)
             pledge = request.user.pledge
         # If not, create new pledge object.
         else:
             pledge = models.Pledge.objects.create(user=request.user)
 
+        pledges = []
         for module in request.data['modules']:
-            models.PledgedModule.objects.create(
-                pledge=pledge,
-                module=models.Module.objects.get(title=module['title']),
-                tier=module['tier'])
+            pledges.append(
+                models.PledgedModule(pledge=pledge, module=models.Module.objects.get(title=module['title']),
+                                     tier=module['tier'])
+            )
 
             # If pledged module is satsang diksha, bookmark items in tier.
             if module['title'] == constants.SATSANG_DIKSHA:
                 module_instance = request.user.module_instances.get(module__title=constants.SATSANG_DIKSHA)
-                for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
-                    if mukhpath_item_instance.mukhpath_item.title in constants.SD_SHLOKAS_FOR_TIER[module['tier']]:
-                        mukhpath_item_instance.is_bookmarked = True
-                        mukhpath_item_instance.save()
+                module_instance.mukhpath_item_instances.filter(
+                    mukhpath_item__title__in=constants.SD_SHLOKAS_FOR_TIER[module['tier']]).update(is_bookmarked=True)
 
+        models.PledgedModule.objects.bulk_create(pledges)
         return Response(data=request.data,
                         status=status.HTTP_201_CREATED)
 
@@ -199,27 +198,25 @@ def get_bal_mandal_dashboard_view(user):
 def get_kishore_mandal_dashboard_view(user):
     response = defaultdict(list)
     modules = response['modules']
-    for pledged_module in user.pledge.pledged_modules.all():
-        if pledged_module.module.title == constants.SATSANG_DIKSHA:
-            module_instance = models.ModuleInstance.objects.get(
-                user=user,
-                module=pledged_module.module)
-            modules.append({
-                'title': pledged_module.module.title,
-                'tier': pledged_module.tier,
-                'required': constants.get_required_mukhpath_items(
-                    pledged_module.module.title,
-                    user.mandal.lower().replace(' ', '_'),
-                    pledged_module.tier),
-                'memorized': get_num_of_items_memorized(module_instance)
-            })
+    for pledged_module in user.pledge.pledged_modules.filter(module__title=constants.SATSANG_DIKSHA):
+        module_instance = models.ModuleInstance.objects.get(
+            user=user,
+            module=pledged_module.module,
+        )
+        modules.append({
+            'title': pledged_module.module.title,
+            'tier': pledged_module.tier,
+            'required': constants.get_required_mukhpath_items(
+                pledged_module.module.title,
+                user.mandal.lower().replace(' ', '_'),
+                pledged_module.tier),
+            'memorized': get_num_of_items_memorized(module_instance)
+        })
 
     # For module in all user module instances except for SATSANG DIKSHA and KM_MODULES
     # If is one bookmarked, show that
     # Set required as constant value.
-    for module_instance in user.module_instances.all():
-        if module_instance.module.title in (constants.SATSANG_DIKSHA, constants.KM_MODULES):
-            continue
+    for module_instance in user.module_instances.filter(~Q(module__title=constants.SATSANG_DIKSHA) & ~Q(module__title=constants.KM_MODULES)):
         if module_instance.mukhpath_item_instances.filter(is_bookmarked=True).count() > 0:
             modules.append({
                 'title': module_instance.module.title,
@@ -394,9 +391,7 @@ class ResetMemorizedView(APIView):
 
     def post(self, request: Request):
         for module_instance in request.user.module_instances.all():
-            for mukhpath_item_instance in module_instance.mukhpath_item_instances.all():
-                mukhpath_item_instance.is_memorized = False
-                mukhpath_item_instance.save()
+            module_instance.mukhpath_item_instances.all().update(is_memorized=False)
         return Response(data={}, status=status.HTTP_200_OK)
 
 
@@ -510,14 +505,16 @@ def upload_mukhpath_content():
             index = 1
             for row in mukhpath_items:
                 current_module = models.Module.objects.get(title=module_name_trunc)
-                new_item = models.MukhpathItem.objects.create(
+                new_item = models.MukhpathItem.objects.update_or_create(
                     title=row[0],
-                    english_content='\n'.join(row[1].splitlines()),
-                    gujurati_content='\n'.join(row[2].splitlines()),
-                    transliteration_content='\n'.join(row[3].splitlines()),
-                    audio_url=row[4],
-                    module=current_module,
                     index=index,
+                    module=current_module,
+                    defaults={
+                        'english_content': '\n'.join(row[1].splitlines()),
+                        'gujurati_content': '\n'.join(row[2].splitlines()),
+                        'transliteration_content': '\n'.join(row[3].splitlines()),
+                        'audio_url': row[4],
+                    },
                 )
                 index += 1
 
