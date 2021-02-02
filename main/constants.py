@@ -697,7 +697,7 @@ BAL_FAQ = {
             'answer': "<p>Go to the login page.</p><ul><li>Click on 'Forgot Password?'</li><li>Enter your email address that you used to create an account.</li><li>Instructions to reset the password will then be sent to your email.</li><li>Follow the instructions sent to your email.</li></ul>",
       },
       {
-            'question': "How can I edit my pledge",
+            'question': "How can I edit my pledge?",
             'answer': "<p>Go to My Progress page.</p><ul><li>Click on Edit My Pledge.</li><li>Change your pledge.</li><li>Note: This won’t change your pledge on BKMS, which is where all official pledging takes place.</li></ul>",
       },
       {
@@ -707,6 +707,30 @@ BAL_FAQ = {
       {
             'question': "What if I have multiple users in my family but a limited number of devices?",
             'answer': "<p>We recommend that one user stay logged in via the app and another can use the mobile browser to login to the website.</p><p>Alternatively, you can log out each time someone needs to use the account.</p><p>We also recommend that parents print out small sections for kids to review on their own.</p><p>It’s not necessary to print out everything as the books will be provided around March.</p><ul><li>To print, please go to the “My Mukhpath” tab and you will be able to click “Print My Mukhpath” to print the mukhpath that you selected in the 'All Mukhpath' tab.</li></ul>",
+      },
+      {
+            'question': "How can I see the guided tutorials again for All Mukhpath and My Mukhpath pages?",
+            'answer': "<p>Reset the tutorials to see them again. Go to the Settings tab, and click on the “Reset Tutorial” option.</p>",
+      },
+      {
+            'question': "What if I used the wrong email to create an account?",
+            'answer': "<p>You need to delete the account and recreate a new one with the right email if you have used the wrong email. To delete an account:</p><ul><li>Go to the Settings Page.</li><li>Click on Delete Account button.</li><li>Note: This will delete all of the data associated with your account.</li></ul>",
+      },
+      {
+            'question': "What if I want to change my demographic info (name, mandal, group, etc)? Unfortunately, there is no way to change demographic information except for your password. If something needs to be changed, please delete your account and create a new account.",
+            'answer': "<ul><li>Go to the Settings Page</li><li>Click on Delete Account button</li><li>Note: This will remove all your activities on application.</li><li>Go to login page</li><li>Click on Create Account Button and create new account by selecting right group</li></ul>",
+      },
+      {
+            'question': "Why do I see the wrong ‘bhai’ or ‘ben’ after my name?",
+            'answer': "<p>You may find the wrong designation after your name if you selected the wrong group while creating your account. In that case, you should:</p><ul><li>Go to the Settings page</li><li>Click on Delete Account Button</li><li>Go to login page</li><li>Click on Create Account Button and create new account by selecting right group</li></ul>",
+      },
+      {
+            'question': "What should I do if I find a bug? Is there any way I can reach out?",
+            'answer': "<p>Go to the Settings page</p><ul><li>Click on the ‘Report Issue’ button and fill out the form with as much as details you can provide.</li></ul>",
+      },
+      {
+            'question': "Can I bookmark more mukhpath cards than I pledged for?",
+            'answer': "<p>Yes, you are free to bookmark as many items as you wish; however, we recommend only bookmarking items you are comfortable being tested on once the proctoring date comes.</p>",
       },
     ],
     'Beginner’s Challenge': [
@@ -778,6 +802,56 @@ KISHORE_FAQ = {
       'answer': "Due to the current situation with the COVID-19 pandemic, Adhiveshan will also take place over a virtual setting. Weeks prior to the shibir, karyakars will join individual calls to test kishores and kishoris on their mukhpath as it is traditionally done during an in-person adhiveshan."
     },
   ],
+     'Website/App': [
+      {
+            'question': "Do I still need to pledge on BKMS if I pledge here?",
+            'answer': "Yes. The website is a supporting tool to help balaks and balikas explore the mukhpath so that they can make an informed pledge. The pledge will be done through BKMS and the deadline is March 7th, 2021.",
+      },
+      {
+            'question': "How can I change my password?",
+            'answer': "<p>Go to the Settings Page</p><ul><li>Click on the 'Change Password' button.</li><li>Enter your current password.</li><li>Enter a new password.</li><li>Click 'Change Password' button to submit your new password.</li></ul>",
+      },
+      {
+            'question': "What if I forgot my password?",
+            'answer': "<p>Go to the login page.</p><ul><li>Click on 'Forgot Password?'</li><li>Enter your email address that you used to create an account.</li><li>Instructions to reset the password will then be sent to your email.</li><li>Follow the instructions sent to your email.</li></ul>",
+      },
+      {
+            'question': "How can I edit my pledge?",
+            'answer': "<p>Go to My Progress page.</p><ul><li>Click on Edit My Pledge.</li><li>Change your pledge.</li><li>Note: This won’t change your pledge on BKMS, which is where all official pledging takes place.</li></ul>",
+      },
+      {
+            'question': "How can I reset my mukhpath progress?",
+            'answer': "<p>Go to the Settings page.</p><ul><li>Click on Reset Memorized button</li</ul>",
+      },
+      {
+            'question': "What if I have multiple users in my family but a limited number of devices?",
+            'answer': "<p>We recommend that one user stay logged in via the app and another can use the mobile browser to login to the website.</p><p>Alternatively, you can log out each time someone needs to use the account.</p><p>We also recommend that parents print out small sections for kids to review on their own.</p><p>It’s not necessary to print out everything as the books will be provided around March.</p><ul><li>To print, please go to the “My Mukhpath” tab and you will be able to click “Print My Mukhpath” to print the mukhpath that you selected in the 'All Mukhpath' tab.</li></ul>",
+      },
+      {
+            'question': "How can I see the guided tutorials again for All Mukhpath and My Mukhpath pages?",
+            'answer': "<p>Reset the tutorials to see them again. Go to the Settings tab, and click on the “Reset Tutorial” option.</p>",
+      },
+      {
+            'question': "What if I used the wrong email to create an account?",
+            'answer': "<p>You need to delete the account and recreate a new one with the right email if you have used the wrong email. To delete an account:</p><ul><li>Go to the Settings Page.</li><li>Click on Delete Account button.</li><li>Note: This will delete all of the data associated with your account.</li></ul>",
+      },
+      {
+            'question': "What if I want to change my demographic info (name, mandal, group, etc)? Unfortunately, there is no way to change demographic information except for your password. If something needs to be changed, please delete your account and create a new account.",
+            'answer': "<ul><li>Go to the Settings Page</li><li>Click on Delete Account button</li><li>Note: This will remove all your activities on application.</li><li>Go to login page</li><li>Click on Create Account Button and create new account by selecting right group</li></ul>",
+      },
+      {
+            'question': "Why do I see the wrong ‘bhai’ or ‘ben’ after my name?",
+            'answer': "<p>You may find the wrong designation after your name if you selected the wrong group while creating your account. In that case, you should:</p><ul><li>Go to the Settings page</li><li>Click on Delete Account Button</li><li>Go to login page</li><li>Click on Create Account Button and create new account by selecting right group</li></ul>",
+      },
+      {
+            'question': "What should I do if I find a bug? Is there any way I can reach out?",
+            'answer': "<p>Go to the Settings page</p><ul><li>Click on the ‘Report Issue’ button and fill out the form with as much as details you can provide.</li></ul>",
+      },
+      {
+            'question': "Can I bookmark more mukhpath cards than I pledged for?",
+            'answer': "<p>Yes, you are free to bookmark as many items as you wish; however, we recommend only bookmarking items you are comfortable being tested on once the proctoring date comes.</p>",
+      },
+    ],
   'Prathmik Mukhpath': [
     {
       'question': 'What is Prathmik Mukhpath?',
