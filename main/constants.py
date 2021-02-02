@@ -698,11 +698,11 @@ BAL_FAQ = {
       },
       {
             'question': "How can I edit my pledge",
-            'answer': "<p>Go to My Progress page.</p><ul><li>Click on Edit My Pledge.</li><li>Change your pledge.<li><li>Note: This won’t change your pledge on BKMS, which is where all official pledging takes place.</li></ul>",
+            'answer': "<p>Go to My Progress page.</p><ul><li>Click on Edit My Pledge.</li><li>Change your pledge.</li><li>Note: This won’t change your pledge on BKMS, which is where all official pledging takes place.</li></ul>",
       },
       {
             'question': "How can I bookmark the mukhpath items?",
-            'answer': "<p>Go to the ‘All Mukhpath’ page.</p><ul><li>Select your book or module by clicking on top circled items.</li><li>Go to Mukhpath Item cards and click on the bookmark icon if it has no color.<li><li>If the bookmark icon is now a red color, it means you have already bookmarked it. You can check your items under “My Mukhpath” page.</li></ul>",
+            'answer': "<p>Go to the ‘All Mukhpath’ page.</p><ul><li>Select your book or module by clicking on top circled items.</li><li>Go to Mukhpath Item cards and click on the bookmark icon if it has no color.</li><li>If the bookmark icon is now a red color, it means you have already bookmarked it. You can check your items under “My Mukhpath” page.</li></ul>",
       },
     ],
     'Beginner’s Challenge': [
