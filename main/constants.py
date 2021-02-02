@@ -805,7 +805,7 @@ KISHORE_FAQ = {
      'Website/App': [
       {
             'question': "Do I still need to pledge on BKMS if I pledge here?",
-            'answer': "Yes. The website is a supporting tool to help balaks and balikas explore the mukhpath so that they can make an informed pledge. The pledge will be done through BKMS and the deadline is March 7th, 2021.",
+            'answer': "Yes. The website is a supporting tool to help kishores and kishoris explore the mukhpath so that they can make an informed pledge. The pledge will be done through BKMS and the deadline is March 7th, 2021.",
       },
       {
             'question': "How can I change my password?",
