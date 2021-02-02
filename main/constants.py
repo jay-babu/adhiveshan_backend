@@ -690,11 +690,19 @@ BAL_FAQ = {
       },
       {
             'question': "How can I change my password?",
-            'answer': "<p>Go to the Settings Page</p><ul><li>Click on the 'Change Password' button.</li><li>Enter your current password.</li><li>Enter a new password.</li><li>Click “Change Password” button to submit your new password.</li></ul>",
+            'answer': "<p>Go to the Settings Page</p><ul><li>Click on the 'Change Password' button.</li><li>Enter your current password.</li><li>Enter a new password.</li><li>Click 'Change Password' button to submit your new password.</li></ul>",
       },
       {
             'question': "What if I forgot my password?",
-            'answer': "<p>Go to the login page.</p><ul><li>Click on button</li</ul>",
+            'answer': "<p>Go to the login page.</p><ul><li>Click on 'Forgot Password?'</li><li>Enter your email address that you used to create an account.<li><li>Instructions to reset the password will then be sent to your email.</li><li>Follow the instructions sent to your email.</li></ul>",
+      },
+      {
+            'question': "How can I edit my pledge",
+            'answer': "<p>Go to My Progress page.</p><ul><li>Click on Edit My Pledge.</li><li>Change your pledge.<li><li>Note: This won’t change your pledge on BKMS, which is where all official pledging takes place.</li></ul>",
+      },
+      {
+            'question': "How can I bookmark the mukhpath items?",
+            'answer': "<p>Go to the ‘All Mukhpath’ page.</p><ul><li>Select your book or module by clicking on top circled items.</li><li>Go to Mukhpath Item cards and click on the bookmark icon if it has no color.<li><li>If the bookmark icon is now a red color, it means you have already bookmarked it. You can check your items under “My Mukhpath” page.</li></ul>",
       },
     ],
     'Beginner’s Challenge': [
