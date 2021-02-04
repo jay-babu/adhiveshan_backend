@@ -17,11 +17,6 @@ class Migration(migrations.Migration):
             name='sanskrit_audio_url',
             field=models.CharField(blank=True, default='', max_length=1000, null=True),
         ),
-        migrations.AddField(
-            model_name='mukhpathitem',
-            name='sanskrit_lipi_content',
-            field=models.TextField(blank=True, null=True),
-        ),
         migrations.AlterField(
             model_name='externalusermodel',
             name='code_expiration',
