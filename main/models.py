@@ -178,6 +178,8 @@ class MukhpathItem(models.Model):
     english_content = models.TextField()
     gujurati_content = models.TextField()
     transliteration_content = models.TextField()
+    # For use in Satsang Diksha, only.
+    sanskrit_lipi_content = models.TextField(blank=True, null=True)
     audio_url = models.CharField(max_length=1000)
     value = models.IntegerField(default=1)
     index = models.IntegerField(default=1)

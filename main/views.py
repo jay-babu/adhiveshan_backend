@@ -432,6 +432,9 @@ class UploadContentView(APIView):
     permission_classes = (AllowAny,)
 
     def post(self, request: Request):
+        if request.data['password'] != 'mahant16':
+            return
+
         # Call python func here.
         upload_mukhpath_content()
         return Response(data={}, status=status.HTTP_200_OK)
@@ -441,6 +444,9 @@ class AddModulesToDB(APIView):
     permission_classes = (AllowAny,)
 
     def post(self, request: Request):
+        if request.data['password'] != 'mahant16':
+            return
+
         # Add special KM MODULES
         models.Module.objects.create(
             title='km_modules',
