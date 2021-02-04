@@ -511,17 +511,21 @@ def upload_mukhpath_content():
             index = 1
             for row in mukhpath_items:
                 current_module = models.Module.objects.get(title=module_name_trunc)
-                new_item = models.MukhpathItem.objects.update_or_create(
-                    title=row[0],
+                new_item, did_create = models.MukhpathItem.objects.update_or_create(
                     index=index,
                     module=current_module,
                     defaults={
+                        'title': row[0],
                         'english_content': '\n'.join(row[1].splitlines()),
                         'gujurati_content': '\n'.join(row[2].splitlines()),
                         'transliteration_content': '\n'.join(row[3].splitlines()),
                         'audio_url': row[4],
                     },
                 )
+                # Ensures that we don't create new mukhpath items, but rather modify the ones that are already existing.
+                if did_create:
+                    raise Exception('NOT SUPPOSED TO HAPPEN: new mukhpath item created with title: {}'.format(row[0]))
+
                 index += 1
 
                 new_item.value = 1 if current_module.title != constants.SATSANG_DIKSHA else row[5]
