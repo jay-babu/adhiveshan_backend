@@ -311,6 +311,11 @@ def get_modules(user, bookmarked_only=False):
                 'is_bookmarked': mukhpath_item_instance.is_bookmarked,
                 'value': mukhpath_item_instance.mukhpath_item.value,
             }
+
+            if module_instance_is_sd:
+                mukhpath_item_instance_dict['sanskrit_transliteration_content'] = mukhpath_item_instance.mukhpath_item.sanskrit_transliteration_content
+                mukhpath_item_instance_dict['sanskrit_audio_url'] = mukhpath_item_instance.mukhpath_item.sanskrit_audio_url
+
             mukhpath_item_instances.append(mukhpath_item_instance_dict)
 
         if len(mukhpath_item_instances) > 0:
