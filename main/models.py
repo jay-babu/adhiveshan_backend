@@ -180,6 +180,11 @@ class MukhpathItem(models.Model):
     transliteration_content = models.TextField()
     audio_url = models.CharField(max_length=1000)
     value = models.IntegerField(default=1)
+
+    # For use in Satsang Diksha, only.
+    sanskrit_transliteration_content = models.TextField(blank=True, null=True)
+    sanskrit_audio_url = models.CharField(max_length=1000, blank=True, null=True, default='')
+
     index = models.IntegerField(default=1)
 
     def __str__(self):

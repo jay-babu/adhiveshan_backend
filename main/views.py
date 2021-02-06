@@ -311,6 +311,11 @@ def get_modules(user, bookmarked_only=False):
                 'is_bookmarked': mukhpath_item_instance.is_bookmarked,
                 'value': mukhpath_item_instance.mukhpath_item.value,
             }
+
+            if module_instance_is_sd:
+                mukhpath_item_instance_dict['sanskrit_transliteration_content'] = mukhpath_item_instance.mukhpath_item.sanskrit_transliteration_content
+                mukhpath_item_instance_dict['sanskrit_audio_url'] = mukhpath_item_instance.mukhpath_item.sanskrit_audio_url
+
             mukhpath_item_instances.append(mukhpath_item_instance_dict)
 
         if len(mukhpath_item_instances) > 0:
@@ -432,6 +437,9 @@ class UploadContentView(APIView):
     permission_classes = (AllowAny,)
 
     def post(self, request: Request):
+        if request.data['password'] != 'mahant16':
+            return
+
         # Call python func here.
         upload_mukhpath_content()
         return Response(data={}, status=status.HTTP_200_OK)
@@ -441,6 +449,9 @@ class AddModulesToDB(APIView):
     permission_classes = (AllowAny,)
 
     def post(self, request: Request):
+        if request.data['password'] != 'mahant16':
+            return
+
         # Add special KM MODULES
         models.Module.objects.create(
             title='km_modules',
@@ -505,21 +516,28 @@ def upload_mukhpath_content():
             index = 1
             for row in mukhpath_items:
                 current_module = models.Module.objects.get(title=module_name_trunc)
-                new_item = models.MukhpathItem.objects.update_or_create(
-                    title=row[0],
+                new_item, did_create = models.MukhpathItem.objects.update_or_create(
                     index=index,
                     module=current_module,
                     defaults={
+                        'title': row[0],
                         'english_content': '\n'.join(row[1].splitlines()),
                         'gujurati_content': '\n'.join(row[2].splitlines()),
                         'transliteration_content': '\n'.join(row[3].splitlines()),
                         'audio_url': row[4],
                     },
                 )
+                # Ensures that we don't create new mukhpath items, but rather modify the ones that are already existing.
+                if did_create:
+                    raise Exception('NOT SUPPOSED TO HAPPEN: new mukhpath item created with title: {}'.format(row[0]))
+
                 index += 1
 
-                new_item.value = 1 if current_module.title != constants.SATSANG_DIKSHA else row[5]
-                new_item.save()
+                if current_module.title == constants.SATSANG_DIKSHA:
+                    new_item.value = row[5]
+                    new_item.sanskrit_lipi_content = row[6]
+                    new_item.sanskrit_audio_url = row[7]
+                    new_item.save()
 
 
 class CreateExternalTokenView(mixins.CreateModelMixin, viewsets.GenericViewSet):
