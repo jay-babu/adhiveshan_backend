@@ -660,7 +660,7 @@ def get_pledge_options(mandal):
     return PLEDGE_OPTIONS[mandal]
 
 
-def get_required_mukhpath_items(module, mandal, tier):
+def get_required_Mukhpāṭh_items(module, mandal, tier):
     return PLEDGE_OPTIONS[mandal][module][tier]
 
 
@@ -668,11 +668,11 @@ BAL_FAQ = {
     'General': [
         {
             'question': 'What is Adhiveshan?',
-            'answer': '<b>Adhiveshan is a structured way of memorizing mukhpath, or scriptural references or quotations, which is focused on a certain satsang topics or themes.</b> Adhiveshan is NOT a competition, but rather a challenge for ourselves to sacrifice our time to memorize the mukhpath, learn its meaning, and eventually imbibe it in our lives to please our Guru.',
+            'answer': '<b>Adhiveshan is a structured way of memorizing Mukhpāṭh, or scriptural references or quotations, which is focused on a certain satsang topics or themes.</b> Adhiveshan is NOT a competition, but rather a challenge for ourselves to sacrifice our time to memorize the Mukhpāṭh, learn its meaning, and eventually imbibe it in our lives to please our Guru.',
         },
         {
             'question': 'Why do we do Adhiveshans?',
-            'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and balikas to memorize mukhpath during their summer vacations to the various Adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, memorizing and understanding mukhpath has been an integral way for balaks and balikas to earn the rajipo of our Gurus. <br/><br/> By learning and memorizing various parts of our shastras (scriptures), we are able to ground ourselves in the Akshar Purushottam Darshan and better understand our beliefs and principles. Mukhpath also helps us find solutions to the many problems we may face in life.  <br/><br/> This Adhiveshan will be paired with Summer Shibir 2021 along the theme of Guru Bhakti. We offer this mukhpath as a form of guru bhakti to our gurus Pramukh Swami Maharaj and Mahant Swami Maharaj. <br/><br/> Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swami Maharaj Shatabdi Mahotsav and Aksharsham Mahotsav.',
+            'answer': 'Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and balikas to memorize Mukhpāṭh during their summer vacations to the various Adhiveshans held with Pramukh Swāmi Mahārāj and Mahant Swāmi Mahārāj, memorizing and understanding Mukhpāṭh has been an integral way for balaks and balikas to earn the Rājipo of our Gurus. <br/><br/> By learning and memorizing various parts of our shastras (scriptures), we are able to ground ourselves in the Akshar Purushottam Darshan and better understand our beliefs and principles. Mukhpāṭh also helps us find solutions to the many problems we may face in life.  <br/><br/> This Adhiveshan will be paired with Summer Shibir 2021 along the theme of Guru Bhakti. We offer this Mukhpāṭh as a form of guru bhakti to our gurus Pramukh Swāmi Mahārāj and Mahant Swāmi Mahārāj. <br/><br/> Along with this, this Adhiveshan will also help us gear up for the upcoming Pramukh Swāmi Mahārāj Shatabdi Mahotsav and Aksharsham Mahotsav.',
         },
         {
             'question': 'Which Adhiveshan do I pledge for and which Summer Shibir do I go to?',
@@ -680,13 +680,13 @@ BAL_FAQ = {
         },
         {
             'question': 'What does Adhiveshan consist of?',
-            'answer': 'Adhiveshan will have three parts, each assessed in different ways and at different times throughout the spring and summer months: <br/> <ul> <li>The first part is the <b>Beginner’s Challenge</b> (traditionally known as Prathmik Mukhpath) which will be assessed at home.</li><li>The second part is the <b>Adhiveshan Rajipo Challenge</b> (traditionally known as Advance Mukhpath), which will be assessed online (in real time - over a video conferencing platform).</li><li>The final part is the <b>Skills Challenge</b> (traditionally known as Talent Competitions), which will be judged through regional online submissions.</li></ul>',
+            'answer': 'Adhiveshan will have three parts, each assessed in different ways and at different times throughout the spring and summer months: <br/> <ul> <li>The first part is the <b>Beginner’s Challenge</b> (traditionally known as Prāthmik Mukhpāṭh) which will be assessed at home.</li><li>The second part is the <b>Adhiveshan Rājipo Challenge</b> (traditionally known as Advance Mukhpāṭh), which will be assessed online (in real time - over a video conferencing platform).</li><li>The final part is the <b>Skills Challenge</b> (traditionally known as Talent Competitions), which will be judged through regional online submissions.</li></ul>',
         },
     ],
     'Website/App': [
       {
             'question': "Do I still need to pledge on BKMS if I pledge here?",
-            'answer': "Yes. The website is a supporting tool to help balaks and balikas explore the mukhpath so that they can make an informed pledge. The pledge will be done through BKMS and the deadline is March 7th, 2021.",
+            'answer': "Yes. The website is a supporting tool to help balaks and balikas explore the Mukhpāṭh so that they can make an informed pledge. The pledge will be done through BKMS and the deadline is March 7th, 2021.",
       },
       {
             'question': "How can I change my password?",
@@ -701,15 +701,15 @@ BAL_FAQ = {
             'answer': "<p>Go to My Progress page.</p><ul><li>Click on Edit My Pledge.</li><li>Change your pledge.</li><li>Note: This won’t change your pledge on BKMS, which is where all official pledging takes place.</li></ul>",
       },
       {
-            'question': "How can I reset my mukhpath progress?",
+            'question': "How can I reset my Mukhpāṭh progress?",
             'answer': "<p>Go to the Settings page.</p><ul><li>Click on Reset Memorized button</li</ul>",
       },
       {
             'question': "What if I have multiple users in my family but a limited number of devices?",
-            'answer': "<p>We recommend that one user stay logged in via the app and another can use the mobile browser to login to the website.</p><p>Alternatively, you can log out each time someone needs to use the account.</p><p>We also recommend that parents print out small sections for kids to review on their own.</p><p>It’s not necessary to print out everything as the books will be provided around March.</p><ul><li>To print, please go to the “My Mukhpath” tab and you will be able to click “Print My Mukhpath” to print the mukhpath that you selected in the 'All Mukhpath' tab.</li></ul>",
+            'answer': "<p>We recommend that one user stay logged in via the app and another can use the mobile browser to login to the website.</p><p>Alternatively, you can log out each time someone needs to use the account.</p><p>We also recommend that parents print out small sections for kids to review on their own.</p><p>It’s not necessary to print out everything as the books will be provided around March.</p><ul><li>To print, please go to the “My Mukhpāṭh” tab and you will be able to click “Print My Mukhpāṭh” to print the Mukhpāṭh that you selected in the 'All Mukhpāṭh' tab.</li></ul>",
       },
       {
-            'question': "How can I see the guided tutorials again for All Mukhpath and My Mukhpath pages?",
+            'question': "How can I see the guided tutorials again for All Mukhpāṭh and My Mukhpāṭh pages?",
             'answer': "<p>Reset the tutorials to see them again. Go to the Settings tab, and click on the “Reset Tutorial” option.</p>",
       },
       {
@@ -729,56 +729,56 @@ BAL_FAQ = {
             'answer': "<p>Go to the Settings page</p><ul><li>Click on the ‘Report Issue’ button and fill out the form with as much as details you can provide.</li></ul>",
       },
       {
-            'question': "Can I bookmark more mukhpath cards than I pledged for?",
+            'question': "Can I bookmark more Mukhpāṭh cards than I pledged for?",
             'answer': "<p>Yes, you are free to bookmark as many items as you wish; however, we recommend only bookmarking items you are comfortable being tested on once the proctoring date comes.</p>",
       },
     ],
     'Beginner’s Challenge': [
         {
             'question': "What is the Beginner\'s Challenge?",
-            'answer': 'The Beginners Challenge contains the core mukhpath of our sanstha, <b>including the Shri Swaminarayan Arti and shlokas we sing in puja</b>. All of the mukhpath comes with translations, so it is important to pay close attention to the meanings and try to introspect on how the values being transmitted in the words can be applied back to our lives. <br/><br/> The Beginners Challenge will be <b>administered at home</b>, wherein you all will complete a worksheet based on the <b>Gujarati transliteration and English translation</b> of the mukhpath. Your parents will aid in ensuring that you have completed the worksheet properly and assist in grading. <br/><br/> <b>NOTE</b>: Group 0 balaks/balikas will be exempt from the Beginner’s Challenge, however parents may choose to review this key mukhpath with their balaks/balikas.',
+            'answer': 'The Beginners Challenge contains the core Mukhpāṭh of our sanstha, <b>including the Shri Swāminārāyaṇ Arti and shlokas we sing in puja</b>. All of the Mukhpāṭh comes with translations, so it is important to pay close attention to the meanings and try to introspect on how the values being transmitted in the words can be applied back to our lives. <br/><br/> The Beginners Challenge will be <b>administered at home</b>, wherein you all will complete a worksheet based on the <b>Gujarati transliteration and English translation</b> of the Mukhpāṭh. Your parents will aid in ensuring that you have completed the worksheet properly and assist in grading. <br/><br/> <b>NOTE</b>: Group 0 balaks/balikas will be exempt from the Beginner’s Challenge, however parents may choose to review this key Mukhpāṭh with their balaks/balikas.',
         },
     ],
-    'Adhiveshan Rajipo Challenge': [
+    'Adhiveshan Rājipo Challenge': [
         {
-            'question': "How is the Adhiveshan Rajipo Challenge structured?",
-            'answer': 'The Adhiveshan Rajipo Challenge is broken up into 5 categories: Satsang Diksha, Swamini Vato, Kirtans, Shlokas and Sakhis, and Prasang Manan. <br/><br/> There are 4 tiers that you can choose from in each category: Mahant, Pramukh, Yogi, and Shastriji. <br/><br/> The breakdown for how much mukhpath you must memorize for each tier can be found under the “Edit My Pledge” section or in the FAQ section in your physical booket. You will also find a similar image to the one in your physical booklet below. <br/><br/> <b>NOTE</b>: There is an additional tier called the Ghanshyam tier that is ONLY if you are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for Satsang Diksha (for the other categories, you must pick from the normal 4 tiers).',
+            'question': "How is the Adhiveshan Rājipo Challenge structured?",
+            'answer': 'The Adhiveshan Rājipo Challenge is broken up into 5 categories: Satsang Diksha, Swāmini Vāto, Kirtans, Shlokas and Sakhis, and Prasang Manan. <br/><br/> There are 4 tiers that you can choose from in each category: Mahant, Pramukh, Yogi, and Shastriji. <br/><br/> The breakdown for how much Mukhpāṭh you must memorize for each tier can be found under the “Edit My Pledge” section or in the FAQ section in your physical booket. You will also find a similar image to the one in your physical booklet below. <br/><br/> <b>NOTE</b>: There is an additional tier called the Ghanshyam tier that is ONLY if you are in Group 0. However, if you are in Group 1, you can select the Ghanshyam tier ONLY for Satsang Diksha (for the other categories, you must pick from the normal 4 tiers).',
         },
         {
             'question': "Is there a minimum number of tiers/categories needed to participate in the Adhiveshan?",
-            'answer': 'As per Swamishri’s ruchi (wish), the focus of this Adhiveshan is to learn, understand, and imbibe various satsang shastras in the lives of balaks and balikas. <br/><br/> Thus, there is <b>no mandatory minimum amount</b> of categories you need to pledge to be able to participate in the Adhiveshan. It is recommended that you pledge for 2 or more categories. <br/><br/> Although, you should still strive to pledge for as many categories as you can and push yourselves to strive for higher tiers to make Swamishri extra raji.',
+            'answer': 'As per Swāmishri’s ruchi (wish), the focus of this Adhiveshan is to learn, understand, and imbibe various satsang shastras in the lives of balaks and balikas. <br/><br/> Thus, there is <b>no mandatory minimum amount</b> of categories you need to pledge to be able to participate in the Adhiveshan. It is recommended that you pledge for 2 or more categories. <br/><br/> Although, you should still strive to pledge for as many categories as you can and push yourselves to strive for higher tiers to make Swāmishri extra raji.',
         },
         {
             'question': "Can we choose which items to memorize in each category?",
-            'answer': '<b>The Satsang Diksha category is the only category that will have a set number of shlokas for each tier</b>. For example if you choose the Mahant Challenge for the Satsang Diksha category, there will be a pre-set list of 64 shlokas.<br/><br/> For all of the other categories (Swamini Vato, Shloka/Sakhi, Kirtan, Prasang Manan), you will have a choice in creating your own set with the available list of mukhpath</b>. For example, if you are a Group 1 balak or balika who wants to do the Yogi challenge for Kirtans, you will be able to choose any 4 out of a possible list of 15 kirtans listed in the book. ',
+            'answer': '<b>The Satsang Diksha category is the only category that will have a set number of shlokas for each tier</b>. For example if you choose the Mahant Challenge for the Satsang Diksha category, there will be a pre-set list of 64 shlokas.<br/><br/> For all of the other categories (Swāmini Vāto, Shloka/Sakhi, Kirtan, Prasang Manan), you will have a choice in creating your own set with the available list of Mukhpāṭh</b>. For example, if you are a Group 1 balak or balika who wants to do the Yogi challenge for Kirtans, you will be able to choose any 4 out of a possible list of 15 kirtans listed in the book. ',
         },
     ],
     'Skills Challenge': [
         {
             'question': "What is the Skills Challenge?",
-            'answer': 'The Skills Challenge allows you to tie your passions and hobbies back to Satsang. You will have a chance to show your talents in a multitude of fashions included in the mukhpath booklet. You will be able to <b>choose a minimum of 1 and a maximum of 3 skills challenges.</b><br/><br/><b>NOTE:</b> Group 0 balaks/balikas will not participate in Skills Challenge.<br/><br/>More details on the rules and regulations for each of the specific skills challenges will be provided shortly.',
+            'answer': 'The Skills Challenge allows you to tie your passions and hobbies back to Satsang. You will have a chance to show your talents in a multitude of fashions included in the Mukhpāṭh booklet. You will be able to <b>choose a minimum of 1 and a maximum of 3 skills challenges.</b><br/><br/><b>NOTE:</b> Group 0 balaks/balikas will not participate in Skills Challenge.<br/><br/>More details on the rules and regulations for each of the specific skills challenges will be provided shortly.',
         },
     ],
     'Adhiveshan Pledging': [
         {
             'question': "How can I pledge for Adhiveshan?",
-            'answer': 'You will be able to pledge for Adhiveshan through BKMS after the Launch Sabha at the end of January. You will be able to access this link and must submit your final pledges <b>by 3/7/21</b>.<br/><br/>Before this date, please read through the Adhiveshan book or visit the website to take a look at the tiers for your group to make a decision on what mukhpath you will be able to memorize by the summer.<br/><br/>NOTE: If you pledge for Satsang Diksha, you should try to continue with the tier you chose for your Rajipo Challenge from August 2020. If you would like to change it, there will be an opportunity for you to repledge your original Satsang Diksha pledge when you pledge for the other Adhiveshan categories.',
+            'answer': 'You will be able to pledge for Adhiveshan through BKMS after the Launch Sabha at the end of January. You will be able to access this link and must submit your final pledges <b>by 3/7/21</b>.<br/><br/>Before this date, please read through the Adhiveshan book or visit the website to take a look at the tiers for your group to make a decision on what Mukhpāṭh you will be able to memorize by the summer.<br/><br/>NOTE: If you pledge for Satsang Diksha, you should try to continue with the tier you chose for your Rājipo Challenge from August 2020. If you would like to change it, there will be an opportunity for you to repledge your original Satsang Diksha pledge when you pledge for the other Adhiveshan categories.',
         },
         {
             'question': "Will there be additional material to help me study?",
-            'answer': 'Along with the provided book, there will be additional material provided via a website including interactive aids to help memorize the Adhiveshan content. (Please ask you parents prior to creating an account on the website.)<br/><br/>Once you enter your information to sign-up for an account, you will be able to access mukhpath and pledge a tier for each category based on the group/grade you entered. This website is for your <b>personal use</b> in being able to memorize the mukhpath wherever you go! You can bookmark which mukhpath you want to memorize, listen to the audio, or even print it out!<br/><br/><b>NOTE: Pledging on the website does not replace pledging on BKMS. You must register and pledging on BKMS before 3/7/21.</b><br/><br/>As additional content is rolled out for Adhiveshan and SS21, you will be able to see the updates on the website dashboard and your local karyakars will provide you with updates.'
+            'answer': 'Along with the provided book, there will be additional material provided via a website including interactive aids to help memorize the Adhiveshan content. (Please ask you parents prior to creating an account on the website.)<br/><br/>Once you enter your information to sign-up for an account, you will be able to access Mukhpāṭh and pledge a tier for each category based on the group/grade you entered. This website is for your <b>personal use</b> in being able to memorize the Mukhpāṭh wherever you go! You can bookmark which Mukhpāṭh you want to memorize, listen to the audio, or even print it out!<br/><br/><b>NOTE: Pledging on the website does not replace pledging on BKMS. You must register and pledging on BKMS before 3/7/21.</b><br/><br/>As additional content is rolled out for Adhiveshan and SS21, you will be able to see the updates on the website dashboard and your local karyakars will provide you with updates.'
         },
     ],
     'Adhiveshan Timeline': [
         {
             'question': "What are some important dates to keep in mind relating to the Adhiveshan?",
-            'answer': "<ul><li>Adhiveshan/Summer Shibir 2021 Launch Sabha: 1/31/2021</li><li>Adhiveshan Pledge and Summer Shibir Registration: 1/31/2021-3/7/2021</li><li>Beginners Challenge Quiz: TBD</li><li>Adhiveshan Rajipo Challenge: TBD</li><li>Skills Challenge Submission Deadline: TBD</li></ul><b>More information on specific dates, judging process, submission process, etc. will be provided to you by your local karyakars. If you have any questions, please contact your local karyakars.</b>",
+            'answer': "<ul><li>Adhiveshan/Summer Shibir 2021 Launch Sabha: 1/31/2021</li><li>Adhiveshan Pledge and Summer Shibir Registration: 1/31/2021-3/7/2021</li><li>Beginners Challenge Quiz: TBD</li><li>Adhiveshan Rājipo Challenge: TBD</li><li>Skills Challenge Submission Deadline: TBD</li></ul><b>More information on specific dates, judging process, submission process, etc. will be provided to you by your local karyakars. If you have any questions, please contact your local karyakars.</b>",
         },
     ],
     'Summer Shibir': [
       {
             'question': "What is Summer Shibir",
-            'answer': 'This summer, a one-day virtual Summer Shibir will be held on the theme of “Guru Bhakti.” Since you memorized mukhpath as a form of guru bhakti, this shibir will revolve around better understanding and loving our guru.<br/><br/>There will be a main Bal/Balika Shibir as well as a separate shibir for Group 0 balaks/balikas. The breakdown is as follows:<br/><br/>Those entering Grades 2-8 in Fall of 2022 will participate in the Bal/Balika Summer Shibir. Those entering Group 0 - Grade 1 in Fall of 2022 will participate in the Group 0 Shibir. <br/><br/> NOTE: This is the same breakdown as Adhiveshan.<br/><br/>More information on Summer Shibir 2021 will be provided at a later time.'
+            'answer': 'This summer, a one-day virtual Summer Shibir will be held on the theme of “Guru Bhakti.” Since you memorized Mukhpāṭh as a form of guru bhakti, this shibir will revolve around better understanding and loving our guru.<br/><br/>There will be a main Bal/Balika Shibir as well as a separate shibir for Group 0 balaks/balikas. The breakdown is as follows:<br/><br/>Those entering Grades 2-8 in Fall of 2022 will participate in the Bal/Balika Summer Shibir. Those entering Group 0 - Grade 1 in Fall of 2022 will participate in the Group 0 Shibir. <br/><br/> NOTE: This is the same breakdown as Adhiveshan.<br/><br/>More information on Summer Shibir 2021 will be provided at a later time.'
       }
     ]
 }
@@ -787,25 +787,25 @@ KISHORE_FAQ = {
   'Adhiveshan Overview': [
     {
       'question': "What is this year’s shibir theme and how does it relate to Adhiveshan?",
-      'answer': "This year’s shibir theme is Guru Bhakti. Understanding how to perform guru bhakti the same way our gurus have will be the primary focus of the shibir. One way to perform guru bhakti is to memorize and learn mukhpath with the thought of raajipano vichar. Thus, this adhiveshan is a way to show our guru bhakti and earn our guru’s Rajipo."
+      'answer': "This year’s shibir theme is Guru Bhakti. Understanding how to perform guru bhakti the same way our gurus have will be the primary focus of the shibir. One way to perform guru bhakti is to memorize and learn Mukhpāṭh with the thought of raajipano vichar. Thus, this adhiveshan is a way to show our guru bhakti and earn our guru’s Rājipo."
     },
     {
       'question': "What is Adhiveshan?",
-      'answer': "Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and kishores to memorize mukhpath during their summer vacations to the various adhiveshans held with Pramukh Swami Maharaj and Mahant Swami Maharaj, mukhpath has been integral way for kishores and kishoris to earn the Rajipo of their gurus. Adhiveshan is a structured way of memorizing mukhpath which is often focused on a certain Satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to spend time memorizing the mukhpath, learning its meaning, and eventually imbibing it in our lives to please our gurus."
+      'answer': "Adhiveshan has been very dear to the hearts of our Gurus. Starting with Yogi Bapa’s passion for balaks and kishores to memorize Mukhpāṭh during their summer vacations to the various adhiveshans held with Pramukh Swāmi Mahārāj and Mahant Swāmi Mahārāj, Mukhpāṭh has been integral way for kishores and kishoris to earn the Rājipo of their gurus. Adhiveshan is a structured way of memorizing Mukhpāṭh which is often focused on a certain Satsang topic or theme. Adhiveshan is NOT a competition, but rather a challenge for ourselves to spend time memorizing the Mukhpāṭh, learning its meaning, and eventually imbibing it in our lives to please our gurus."
     },
     {
       'question': "How is the Adhiveshan structured?",
-      'answer': "All components of adhiveshan will take place virtually this year. There will be four components to adhiveshan: the prathmik mukhpath, the Rajipo Challenge, the Guru Bhakti Challenge, and Skills Competitions."
+      'answer': "All components of adhiveshan will take place virtually this year. There will be four components to adhiveshan: the Prāthmik Mukhpāṭh, the Rājipo Challenge, the Guru Bhakti Challenge, and Skills Competitions."
     },
     {
       'question': "How will Adhiveshan testing work?",
-      'answer': "Due to the current situation with the COVID-19 pandemic, Adhiveshan will also take place over a virtual setting. Weeks prior to the shibir, karyakars will join individual calls to test kishores and kishoris on their mukhpath as it is traditionally done during an in-person adhiveshan."
+      'answer': "Due to the current situation with the COVID-19 pandemic, Adhiveshan will also take place over a virtual setting. Weeks prior to the shibir, karyakars will join individual calls to test kishores and kishoris on their Mukhpāṭh as it is traditionally done during an in-person adhiveshan."
     },
   ],
      'Website/App': [
       {
             'question': "Do I still need to pledge on BKMS if I pledge here?",
-            'answer': "Yes. The website is a supporting tool to help kishores and kishoris explore the mukhpath so that they can make an informed pledge. The pledge will be done through BKMS and the deadline is March 7th, 2021.",
+            'answer': "Yes. The website is a supporting tool to help kishores and kishoris explore the Mukhpāṭh so that they can make an informed pledge. The pledge will be done through BKMS and the deadline is March 7th, 2021.",
       },
       {
             'question': "How can I change my password?",
@@ -820,15 +820,15 @@ KISHORE_FAQ = {
             'answer': "<p>Go to My Progress page.</p><ul><li>Click on Edit My Pledge.</li><li>Change your pledge.</li><li>Note: This won’t change your pledge on BKMS, which is where all official pledging takes place.</li></ul>",
       },
       {
-            'question': "How can I reset my mukhpath progress?",
+            'question': "How can I reset my Mukhpāṭh progress?",
             'answer': "<p>Go to the Settings page.</p><ul><li>Click on Reset Memorized button</li</ul>",
       },
       {
             'question': "What if I have multiple users in my family but a limited number of devices?",
-            'answer': "<p>We recommend that one user stay logged in via the app and another can use the mobile browser to login to the website.</p><p>Alternatively, you can log out each time someone needs to use the account.</p><p>We also recommend that parents print out small sections for kids to review on their own.</p><p>It’s not necessary to print out everything as the books will be provided around March.</p><ul><li>To print, please go to the “My Mukhpath” tab and you will be able to click “Print My Mukhpath” to print the mukhpath that you selected in the 'All Mukhpath' tab.</li></ul>",
+            'answer': "<p>We recommend that one user stay logged in via the app and another can use the mobile browser to login to the website.</p><p>Alternatively, you can log out each time someone needs to use the account.</p><p>We also recommend that parents print out small sections for kids to review on their own.</p><p>It’s not necessary to print out everything as the books will be provided around March.</p><ul><li>To print, please go to the “My Mukhpāṭh” tab and you will be able to click “Print My Mukhpāṭh” to print the Mukhpāṭh that you selected in the 'All Mukhpāṭh' tab.</li></ul>",
       },
       {
-            'question': "How can I see the guided tutorials again for All Mukhpath and My Mukhpath pages?",
+            'question': "How can I see the guided tutorials again for All Mukhpāṭh and My Mukhpāṭh pages?",
             'answer': "<p>Reset the tutorials to see them again. Go to the Settings tab, and click on the “Reset Tutorial” option.</p>",
       },
       {
@@ -848,30 +848,30 @@ KISHORE_FAQ = {
             'answer': "<p>Go to the Settings page</p><ul><li>Click on the ‘Report Issue’ button and fill out the form with as much as details you can provide.</li></ul>",
       },
       {
-            'question': "Can I bookmark more mukhpath cards than I pledged for?",
+            'question': "Can I bookmark more Mukhpāṭh cards than I pledged for?",
             'answer': "<p>Yes, you are free to bookmark as many items as you wish; however, we recommend only bookmarking items you are comfortable being tested on once the proctoring date comes.</p>",
       },
     ],
-  'Prathmik Mukhpath': [
+  'Prāthmik Mukhpāṭh': [
     {
-      'question': 'What is Prathmik Mukhpath?',
-      'answer': "The Prathmik Mukhpath contains core mukhpath that kishores and kishoris encounter on a daily basis. All of the mukhpath comes with translations, so it is important to pay close attention, understand the meanings, and try to introspect on how the values being transmitted in the words can be applied back to our lives. The prathmik mukhpath for this year includes the Shri Swaminarayan Arti and the two puja shlokas provided in Satsang Diksha. Kishores and kishoris will be tested on the prathmik mukhpath, just like both mukhpath challenges."
+      'question': 'What is Prāthmik Mukhpāṭh?',
+      'answer': "The Prāthmik Mukhpāṭh contains core Mukhpāṭh that kishores and kishoris encounter on a daily basis. All of the Mukhpāṭh comes with translations, so it is important to pay close attention, understand the meanings, and try to introspect on how the values being transmitted in the words can be applied back to our lives. The Prāthmik Mukhpāṭh for this year includes the Shri Swāminārāyaṇ Arti and the two puja shlokas provided in Satsang Diksha. Kishores and kishoris will be tested on the Prāthmik Mukhpāṭh, just like both Mukhpāṭh challenges."
     }
   ],
-  'Rajipo Challenge': [
+  'Rājipo Challenge': [
     {
-      'question': "What is the Rajipo Challenge and how is it structured?",
-      'answer': "The Adhiveshan Rajipo Challenge is one that kishore and kishoris have been working on since August 2020: the Satsang Diksha Rajipo Challenge. The Rajipo Challenge for the adhiveshan will test memorization and understanding of Satsang Diksha as well as encourage kishores and kishoris to further memorize Satsang Diksha as it is Swamishri’s inner wish. The tiering will work exactly the same as the current Rajipo Challenge."
+      'question': "What is the Rājipo Challenge and how is it structured?",
+      'answer': "The Adhiveshan Rājipo Challenge is one that kishore and kishoris have been working on since August 2020: the Satsang Diksha Rājipo Challenge. The Rājipo Challenge for the adhiveshan will test memorization and understanding of Satsang Diksha as well as encourage kishores and kishoris to further memorize Satsang Diksha as it is Swāmishri’s inner wish. The tiering will work exactly the same as the current Rājipo Challenge."
     },
     {
-      'question': "Should the current Rajipo Challenge (Satsang Diksha) be continued?",
-      'answer': "Kishores and kishoris are encouraged to continue on with their Satsang Diksha Rajipo Challenge pledge. However, kishores and kishoris will have the opportunity to re-pledge beginning January 31st, 2021 if they’d like. The pledging will occur in the same fashion as it had been previously, with the four tiers being the same (Mahant, Pramukh, Yogiji, Shastri). Final pledging closes March 7th, 2021."
+      'question': "Should the current Rājipo Challenge (Satsang Diksha) be continued?",
+      'answer': "Kishores and kishoris are encouraged to continue on with their Satsang Diksha Rājipo Challenge pledge. However, kishores and kishoris will have the opportunity to re-pledge beginning January 31st, 2021 if they’d like. The pledging will occur in the same fashion as it had been previously, with the four tiers being the same (Mahant, Pramukh, Yogiji, Shastri). Final pledging closes March 7th, 2021."
     },
   ],
   'Guru Bhakti Challenge': [
     {
       'question': 'What is the Guru Bhakti Challenge?',
-      'answer': "The Adhiveshan Guru Bhakti Challenge exists in the form of topic-based modules with relevant mukhpath items in each module. The Guru Bhakti Challenge will have four tiers that delegates can choose to achieve: Bronze, Silver, Gold, and Platinum. The distinction between these tiers is solely based on the number of modules a delegate completes — 5 for bronze, 10 for silver, 15 for gold, and 20 for platinum. Specifically, each module will consist of Swamini Vato, Vachanamrut Quotations, Shloks/Sakhis, Satsang Diksha shloks, Kirtans, Prasangs, or other mukhpath organized under a unifying Satsang topic. In order to consider a module completed, a kishore or kishori must memorize any 4 out of the 10 items of mukhpath within the module. We hope that this freedom in selecting mukhpath will incentivize kishores and kishoris to memorize according to their personal interests."
+      'answer': "The Adhiveshan Guru Bhakti Challenge exists in the form of topic-based modules with relevant Mukhpāṭh items in each module. The Guru Bhakti Challenge will have four tiers that delegates can choose to achieve: Bronze, Silver, Gold, and Platinum. The distinction between these tiers is solely based on the number of modules a delegate completes — 5 for bronze, 10 for silver, 15 for gold, and 20 for platinum. Specifically, each module will consist of Swāmini Vāto, Vachanamrut Quotations, Shloks/Sakhis, Satsang Diksha shloks, Kirtans, Prasangs, or other Mukhpāṭh organized under a unifying Satsang topic. In order to consider a module completed, a kishore or kishori must memorize any 4 out of the 10 items of Mukhpāṭh within the module. We hope that this freedom in selecting Mukhpāṭh will incentivize kishores and kishoris to memorize according to their personal interests."
     }
   ],
   'Skill Competitions': [
@@ -890,8 +890,8 @@ KISHORE_FAQ = {
       'answer': "Kishores and kishoris will be able to pledge for Adhiveshan via BKMS after the Launch Sabha on January 31st, 2021. They will be able to access this link until March 7th, 2021. By this final date, kishores and kishoris must submit their pledges."
     },
     {
-      'question': "Is there a minimum amount of mukhpath needed to participate in the Adhiveshan?",
-      'answer': "As per Swamishri’s ruchi, the focus of this Adhiveshan is to learn, understand, and imbibe various Satsang mukhpath in the lives of kishores and kishoris. Thus, outside of the prathmik mukhpath, there is no mandatory minimum amount of mukhpath that a particular kishore or kishori needs to pledge to be able to participate in the Adhiveshan. Although, karyakars should encourage kishores and kishoris to pledge for as much mukhpath as they can based on their time and ability."
+      'question': "Is there a minimum amount of Mukhpāṭh needed to participate in the Adhiveshan?",
+      'answer': "As per Swāmishri’s ruchi, the focus of this Adhiveshan is to learn, understand, and imbibe various Satsang Mukhpāṭh in the lives of kishores and kishoris. Thus, outside of the Prāthmik Mukhpāṭh, there is no mandatory minimum amount of Mukhpāṭh that a particular kishore or kishori needs to pledge to be able to participate in the Adhiveshan. Although, karyakars should encourage kishores and kishoris to pledge for as much Mukhpāṭh as they can based on their time and ability."
     },
     {
       'question': "Can a kishore or kishori change their pledge mid-way?",
@@ -899,7 +899,7 @@ KISHORE_FAQ = {
     },
     {
       'question': "Will a booklet and material be provided?",
-      'answer': "All mukhpath content will be available via a website and mobile app. The website and mobile app will also include interactive aids and quizzes to help memorize the mukhpath. A hard-copy of the mukhpath booklet will be provided to kishores and kishoris sometime in March."
+      'answer': "All Mukhpāṭh content will be available via a website and mobile app. The website and mobile app will also include interactive aids and quizzes to help memorize the Mukhpāṭh. A hard-copy of the Mukhpāṭh booklet will be provided to kishores and kishoris sometime in March."
     },
   ],
   'Summer Shibir Overview': [
@@ -1027,7 +1027,7 @@ Topic list, submission details and grading rubric will be provided on the websit
   <ul>
 	  <li>2 Satsang Diksha Shloks</li>
 	  <li>
-		1 prasang of Pramukh Swami Maharaj or Mahant Swami Maharaj
+		1 prasang of Pramukh Swāmi Mahārāj or Mahant Swāmi Mahārāj
 	  </li>
     <li>
     A personal manan (analysis/reflection on how it relates to your life)
@@ -1037,18 +1037,18 @@ Topic list, submission details and grading rubric will be provided on the websit
     The nirupan must be memorized. Notes will not be allowed.
   </>
 	<li>
-		Nirupan will be judged on: accurate use of mukhpath and prasangs, organization, flow, confidence, tone, etc.
+		Nirupan will be judged on: accurate use of Mukhpāṭh and prasangs, organization, flow, confidence, tone, etc.
 	</li>
 	<li>
     Topic list, submission details and grading rubric will be provided on the website soon. 	</li>
 </ul>
 <div>""",
         'Prasang-Varnan': """<div class="skills-html">
-<p> The Prasang Varnan competition is similar to the Prasang Manan mukhpath category within the Adhiveshan Rajipo Challenge. You must narrate a prasang, or divine incident of Bhagwan and the Satpurush, in detail and explain what virtues you saw in the prasang and how it relates to your life. </p>
+<p> The Prasang Varnan competition is similar to the Prasang Manan Mukhpāṭh category within the Adhiveshan Rājipo Challenge. You must narrate a prasang, or divine incident of Bhagwān and the Satpurush, in detail and explain what virtues you saw in the prasang and how it relates to your life. </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
 	<li>
-    You will narrate a prasang and provide a manan, or personal reflection, on the prasang by incorporating at least 1 mukhpath reference that you had memorized.
+    You will narrate a prasang and provide a manan, or personal reflection, on the prasang by incorporating at least 1 Mukhpāṭh reference that you had memorized.
 	</li>
 	<li>The prasang-varnan should include at least:</li>
   <ul>
@@ -1056,7 +1056,7 @@ Topic list, submission details and grading rubric will be provided on the websit
 		1 key prasang
 	  </li>
 	  <li>
-		1 mukhpath reference
+		1 Mukhpāṭh reference
     </li>
     <li>
     A personal manan (reflection)
@@ -1066,7 +1066,7 @@ Topic list, submission details and grading rubric will be provided on the websit
   The prasang-varnan must be memorized. Notes will not be allowed.
   </li>
   <li>
-  Prasang-varnan will be judged on: key prasang, accurate use of mukhpath, memorization, organization, vivid details, flow, confidence, tone, etc.
+  Prasang-varnan will be judged on: key prasang, accurate use of Mukhpāṭh, memorization, organization, vivid details, flow, confidence, tone, etc.
   </li>
   <li>
 Topic list, submission details and grading rubric will be provided on the website soon.   </li>
@@ -1074,7 +1074,7 @@ Topic list, submission details and grading rubric will be provided on the websit
     },
     'Music-Based Challenges': {
         'Solo Singing': """<div class="skills-html">
-<p> Kirtanam, or singing or listening to kirtans while remembering Bhagwan and the Sant, is one of the nine forms of bhakti according to the Shrimad Bhagvat. Solo Singing will develop this type of bhakti by helping you not only memorize and sing one of your favorite kirtans, but also better understand the meaning behind the kirtan. </p>
+<p> Kirtanam, or singing or listening to kirtans while remembering Bhagwān and the Sant, is one of the nine forms of bhakti according to the Shrimad BhagVāt. Solo Singing will develop this type of bhakti by helping you not only memorize and sing one of your favorite kirtans, but also better understand the meaning behind the kirtan. </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
 	<li>
@@ -1135,7 +1135,7 @@ Topic list, submission details and grading rubric will be provided on the websit
 </ul>
 <div>""",
         'Essay-Writing (Group 3)': """<div class="skills-html">
-<p> Writing essays may seem boring at first, but this challenge will help you better understand and study the mukhpath that you memorized. The Essay-Writing challenge is where you get to take all the mukhpath and prasangs you memorized and compile it into one critical-analysis paper. </p>
+<p> Writing essays may seem boring at first, but this challenge will help you better understand and study the Mukhpāṭh that you memorized. The Essay-Writing challenge is where you get to take all the Mukhpāṭh and prasangs you memorized and compile it into one critical-analysis paper. </p>
 <p> Note: Group 3 can only participate in this challenge </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
@@ -1156,7 +1156,7 @@ Topic list, submission details and grading rubric will be provided on the websit
       1 prasang, along with a manan (reflection)
     </li>
     <li>
-    2 mukhpath references
+    2 Mukhpāṭh references
     </li>
   </ul>
   <li>
@@ -1176,7 +1176,7 @@ Topic list, submission details and grading rubric will be provided on the websit
     },
     'Art-Based Challenges': {
         'Painting/Illustration': """<div class="skills-html">
-<p> If you like art, or at least can draw a stick figure, then this competition is perfect for you! In this challenge, you will draw/illustrate/paint on a satsang concept/theme in a creative way. (Fun Fact: Did you know Mahant Swami Maharaj loves to draw?) </p>
+<p> If you like art, or at least can draw a stick figure, then this competition is perfect for you! In this challenge, you will draw/illustrate/paint on a satsang concept/theme in a creative way. (Fun Fact: Did you know Mahant Swāmi Mahārāj loves to draw?) </p>
 <h2 class="static-content-title">Things to Keep in Mind</h2>
 <ul>
 	<li>
@@ -1311,7 +1311,7 @@ KISHORE_SKILLS_CHALLENGE = {
         Kishores/kishoris will be able to create a presentation on the following topics to be recorded for submission. Presentations can be created on platforms such as Google Slides, Powerpoint, Prezi, etc. During the time of the presentation, kishores must be dressed in a jabho lengho and kishoris in punjabis.
       </li>
       <li>
-        The presentation should include module content, which includes Vachanamrut references, Swamini Vato, Kirtans, etc. The presentation should provide a thorough understanding of the topic using Satsang-based references.
+        The presentation should include module content, which includes Vachanamrut references, Swāmini Vāto, Kirtans, etc. The presentation should provide a thorough understanding of the topic using Satsang-based references.
       </li>
       <li>
         Group presentations will be judged on speaking ability, accurate information, dress code, timing, creativity. More information about the judging criteria will be provided later.
@@ -2074,7 +2074,7 @@ SD_SHLOKAS_FOR_TIER = {
 
 BM_STORIES = [
   {
-    "title": "Swamishri Blessing the App",
+    "title": "Swāmishri Blessing the App",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0274.JPG",
     "stories": [
       {
@@ -2110,7 +2110,7 @@ BM_STORIES = [
     ]
   },
   {
-    "title": "Swamishri with Children",
+    "title": "Swāmishri with Children",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/quicklink1.jpg",
     "stories": [
       {
@@ -2173,7 +2173,7 @@ BM_STORIES = [
     ]
   },
   {
-    "title": "Guidance from Swamishri",
+    "title": "Guidance from Swāmishri",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
     "stories": [
       {
@@ -2199,7 +2199,7 @@ BM_STORIES = [
 
 KM_STORIES = [
   {
-    "title": "Swamishri Blessing the App",
+    "title": "Swāmishri Blessing the App",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0274.JPG",
     "stories": [
       {
@@ -2263,7 +2263,7 @@ KM_STORIES = [
     ]
   },
   {
-    "title": "Insights from Swamishri",
+    "title": "Insights from Swāmishri",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
     "stories": [
       {
@@ -2300,7 +2300,7 @@ BM_ANNOUNCEMENTS = [
     },
     {
         'timestamp': '31 Jan, 2021',
-        'text': 'Jai Swaminarayan balaks and balikas. Welcome to the Adhiveshan website! We are very excited to begin our journey towards Guru Bhakti.'
+        'text': 'Jai Swāminārāyaṇ balaks and balikas. Welcome to the Adhiveshan website! We are very excited to begin our journey towards Guru Bhakti.'
     }
 ]
 
