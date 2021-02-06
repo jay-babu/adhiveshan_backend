@@ -899,7 +899,7 @@ KISHORE_FAQ = {
     },
     {
       'question': "Will a booklet and material be provided?",
-      'answer': "All mukhpath content will be available via a website and mobile app. The website and mobile app will also include interactive aids to help memorize the mukhpath. The website will also contain small interactive quizzes to aid in memorization and self-evaluation. A hard-copy of the mukhpath booklet will be provided to kishores and kishoris shortly after the launch sabha on January 31st, 2021."
+      'answer': "All mukhpath content will be available via a website and mobile app. The website and mobile app will also include interactive aids and quizzes to help memorize the mukhpath. A hard-copy of the mukhpath booklet will be provided to kishores and kishoris sometime in March."
     },
   ],
   'Summer Shibir Overview': [
