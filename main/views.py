@@ -527,7 +527,7 @@ def upload_mukhpath_content():
                         'audio_url': row[4],
                     },
                 )
-                # Ensures that we don't create new mukhpath items, but rather modify the ones that are already existing.
+                # Alerts that we don't create new mukhpath items, but rather modify the ones that are already existing.
                 if did_create:
                     raise Exception('NOT SUPPOSED TO HAPPEN: new mukhpath item created with title: {}'.format(row[0]))
 
