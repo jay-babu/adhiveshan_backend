@@ -535,7 +535,7 @@ def upload_mukhpath_content():
 
                 if current_module.title == constants.SATSANG_DIKSHA:
                     new_item.value = row[5]
-                    new_item.sanskrit_lipi_content = row[6]
+                    new_item.sanskrit_transliteration_content = row[6]
                     new_item.sanskrit_audio_url = row[7]
                     new_item.save()
 
