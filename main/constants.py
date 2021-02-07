@@ -660,7 +660,7 @@ def get_pledge_options(mandal):
     return PLEDGE_OPTIONS[mandal]
 
 
-def get_required_Mukhpāṭh_items(module, mandal, tier):
+def get_required_mukhpath_items(module, mandal, tier):
     return PLEDGE_OPTIONS[mandal][module][tier]
 
 
