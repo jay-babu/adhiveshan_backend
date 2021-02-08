@@ -752,6 +752,10 @@ BAL_FAQ = {
             'question': "Can we choose which items to memorize in each category?",
             'answer': '<b>The Satsang Diksha category is the only category that will have a set number of shlokas for each tier</b>. For example if you choose the Mahant Challenge for the Satsang Diksha category, there will be a pre-set list of 64 shlokas.<br/><br/> For all of the other categories (Swāmini Vāto, Shloka/Sakhi, Kirtan, Prasang Manan), you will have a choice in creating your own set with the available list of Mukhpāṭh</b>. For example, if you are a Group 1 balak or balika who wants to do the Yogi challenge for Kirtans, you will be able to choose any 4 out of a possible list of 15 kirtans listed in the book. ',
         },
+        {
+          'question': "What if I have already started or want to memorize the Satsang Diksha shlokas in Sanskrit?",
+          'answer': "<ol><li>If you have only memorized the Sanskrit shlokas, you will be tested in Sanskrit.  You do not need to memorize them in Gujarati, but still need to  explain the meaning in English (paraphrasing is allowed).</li><li>If you have memorized in Sanskrit and in either English or Gujarati and would like to be tested in Sanskrit, we  can do that as well. Please contact your local karyakar and notify them that you would like to be tested in Sanskrit. They will ask for your Full name, Center, Contact Number and BKMS ID.</li></ol>"
+        },
     ],
     'Skills Challenge': [
         {
@@ -866,6 +870,10 @@ KISHORE_FAQ = {
     {
       'question': "Should the current Rājipo Challenge (Satsang Diksha) be continued?",
       'answer': "Kishores and kishoris are encouraged to continue on with their Satsang Diksha Rājipo Challenge pledge. However, kishores and kishoris will have the opportunity to re-pledge beginning January 31st, 2021 if they’d like. The pledging will occur in the same fashion as it had been previously, with the four tiers being the same (Mahant, Pramukh, Yogiji, Shastri). Final pledging closes March 7th, 2021."
+    },
+    {
+      'question': "What if I have already started or want to memorize the Satsang Diksha shlokas in Sanskrit?",
+      'answer': "<ol><li>If you have only memorized the Sanskrit shlokas, you will be tested in Sanskrit.  You do not need to memorize them in Gujarati, but still need to  explain the meaning in English (paraphrasing is allowed).</li><li>If you have memorized in Sanskrit and in either English or Gujarati and would like to be tested in Sanskrit, please contact your local karyakar and notify them that you would like to be tested in Sanskrit. They will ask for your Full name, Center, Contact Number and BKMS ID.</li></ol>"
     },
   ],
   'Guru Bhakti Challenge': [
