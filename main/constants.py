@@ -2299,8 +2299,8 @@ KM_STORIES = [
 
 BM_ANNOUNCEMENTS = [
     {
-        'timestamp': '31 Jan, 2021',
-        'text': 'On Saturday, February 6th, please join your parents to attend a special Adhiveshan Sabha. You will be able to hear more about the mahima of Adhiveshan and learn how to use tools such as the website.'
+        'timestamp': '7 Feb, 2021',
+        'text': 'You can now access Satsang Diksha material in Sanskrit by updating the application or going to the website. Remember to notify your local karyakar if you decide to memorize Satsang Diksha in Sanskrit.'
     },
     {
         'timestamp': '31 Jan, 2021',
@@ -2313,6 +2313,10 @@ BM_ANNOUNCEMENTS = [
 ]
 
 KM_ANNOUNCEMENTS = [
+    {
+        'timestamp': '7 Feb, 2021',
+        'text': 'You can now access Satsang Diksha material in Sanskrit by updating the application or going to the website. Remember to notify your local karyakar if you decide to memorize Satsang Diksha in Sanskrit.'
+    },
     {
         'timestamp': '31 Jan, 2021',
         'text': 'Pledging is now live on BKMS! Make sure you contact your karyakars if you are having any issues or problems. Remember that pledges made on the website are not automatically made for you on BKMS!'
