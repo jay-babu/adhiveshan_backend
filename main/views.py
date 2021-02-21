@@ -18,7 +18,7 @@ from rest_framework.views import APIView
 from main.serializers import UserSerializer, ChangePasswordSerializer, CreateExternalTokenSerializer
 from . import constants
 from . import models
-from .models import title_and_capitial, ExternalUserModel, User
+from .models import title_and_capitial, ExternalUserModel, User, PledgedModule, Pledge
 
 
 class RegisterView(GenericAPIView):
@@ -198,25 +198,33 @@ def get_bal_mandal_dashboard_view(user):
 def get_kishore_mandal_dashboard_view(user):
     response = defaultdict(list)
     modules = response['modules']
-    for pledged_module in user.pledge.pledged_modules.filter(module__title=constants.SATSANG_DIKSHA):
-        module_instance = models.ModuleInstance.objects.get(
-            user=user,
-            module=pledged_module.module,
-        )
-        modules.append({
-            'title': pledged_module.module.title,
-            'tier': pledged_module.tier,
-            'required': constants.get_required_mukhpath_items(
-                pledged_module.module.title,
-                user.mandal.lower().replace(' ', '_'),
-                pledged_module.tier),
-            'memorized': get_num_of_items_memorized(module_instance)
-        })
+    try:
+        for pledged_module in user.pledge.pledged_modules.filter(module__title=constants.SATSANG_DIKSHA):
+            module_instance = models.ModuleInstance.objects.get(
+                user=user,
+                module=pledged_module.module,
+            )
+            modules.append({
+                'title': pledged_module.module.title,
+                'tier': pledged_module.tier,
+                'required': constants.get_required_mukhpath_items(
+                    pledged_module.module.title,
+                    user.mandal.lower().replace(' ', '_'),
+                    pledged_module.tier),
+                'memorized': get_num_of_items_memorized(module_instance)
+            })
+    except User.DoesNotExist:
+        return Response(data={'error': 'Error in getting Dashboard'}, status=status.HTTP_400_BAD_REQUEST)
+    except PledgedModule.DoesNotExist:
+        return Response(data={'error': 'Error in getting Dashboard'}, status=status.HTTP_400_BAD_REQUEST)
+    except Pledge.DoesNotExist:
+        return Response(data={'error': 'Error in getting Dashboard'}, status=status.HTTP_400_BAD_REQUEST)
 
     # For module in all user module instances except for SATSANG DIKSHA and KM_MODULES
     # If is one bookmarked, show that
     # Set required as constant value.
-    for module_instance in user.module_instances.filter(~Q(module__title=constants.SATSANG_DIKSHA) & ~Q(module__title=constants.KM_MODULES)):
+    for module_instance in user.module_instances.filter(
+            ~Q(module__title=constants.SATSANG_DIKSHA) & ~Q(module__title=constants.KM_MODULES)):
         if module_instance.mukhpath_item_instances.filter(is_bookmarked=True).count() > 0:
             modules.append({
                 'title': module_instance.module.title,
@@ -313,8 +321,10 @@ def get_modules(user, bookmarked_only=False):
             }
 
             if module_instance_is_sd:
-                mukhpath_item_instance_dict['sanskrit_transliteration_content'] = mukhpath_item_instance.mukhpath_item.sanskrit_transliteration_content
-                mukhpath_item_instance_dict['sanskrit_audio_url'] = mukhpath_item_instance.mukhpath_item.sanskrit_audio_url
+                mukhpath_item_instance_dict[
+                    'sanskrit_transliteration_content'] = mukhpath_item_instance.mukhpath_item.sanskrit_transliteration_content
+                mukhpath_item_instance_dict[
+                    'sanskrit_audio_url'] = mukhpath_item_instance.mukhpath_item.sanskrit_audio_url
 
             mukhpath_item_instances.append(mukhpath_item_instance_dict)
 
