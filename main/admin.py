@@ -10,7 +10,7 @@ class MukhpathItemAdmin(admin.ModelAdmin):
 
 @admin.register(models.ModuleInstance)
 class ModuleInstanceAdmin(admin.ModelAdmin):
-    search_fields = ('module',)
+    search_fields = ('module__title',)
 
 
 admin.site.register(models.User)
