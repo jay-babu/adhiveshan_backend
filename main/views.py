@@ -590,6 +590,9 @@ class AddFagvaModuleToExistingUsers(APIView):
                 continue
 
             if user.is_kishore_mandal():
+                if user.module_instances.filter(module__title='fagva').count() > 0:
+                    continue
+
                 module_instance = models.ModuleInstance.objects.create(user=user, module=fagva_module)
                 mukhpath_items = []
                 for item in fagva_module.mukhpath_items.all():
