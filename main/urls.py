@@ -42,4 +42,5 @@ urlpatterns = [
     # Dev use only
     path('upload_content/', views.UploadContentView.as_view(), name='upload_content'),
     path('add_modules/', views.AddModulesToDB.as_view(), name='add_modules'),
+    path('add_fagva/', views.AddFagvaModuleToExistingUsers.as_view(), name='add_fagva'),
 ]

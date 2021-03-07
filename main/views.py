@@ -574,3 +574,24 @@ class GetExternalUserView(APIView):
         except ExternalUserModel.DoesNotExist:
             pass
         return Response(data={'error': 'Invalid Email or Code'}, status=status.HTTP_400_BAD_REQUEST)
+
+
+class AddFagvaModuleToExistingUsers(APIView):
+    permission_classes = (AllowAny,)
+
+    def post(self, request: Request):
+        if request.data['password'] != 'mahant16':
+            return
+
+        fagva_module = models.Module.objects.get(title='fagva')
+        count = 0
+        for user in models.User.objects.all():
+            if user.is_kishore_mandal():
+                module_instance = models.ModuleInstance.objects.create(user=user, module=fagva_module)
+                mukhpath_items = []
+                for item in fagva_module.mukhpath_items.all():
+                    mukhpath_items.append(
+                        models.MukhpathItemInstance(mukhpath_item=item, module_instance=module_instance, ))
+                models.MukhpathItemInstance.objects.bulk_create(mukhpath_items)
+                count += 1
+        print('TOTAL USERS CHANGED: {}'.format(count))
