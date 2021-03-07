@@ -598,3 +598,5 @@ class AddFagvaModuleToExistingUsers(APIView):
                 models.MukhpathItemInstance.objects.bulk_create(mukhpath_items)
                 count += 1
         print('TOTAL USERS CHANGED: {}'.format(count))
+        return Response(data={'count': count}, status=status.HTTP_200_OK)
+
