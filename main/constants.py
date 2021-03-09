@@ -2096,7 +2096,7 @@ BM_STORIES = [
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Static%20Image_Quote%20of%20the%20Week.jpg",
     "stories": [
       {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Static%20Image_Quote%20of%20the%20Week.jpg',
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/quote_of_the_week.jpg',
         "type": "image"
       },
     ]
@@ -2239,7 +2239,7 @@ KM_STORIES = [
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Static%20Image_Quote%20of%20the%20Week.jpg",
     "stories": [
       {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Static%20Image_Quote%20of%20the%20Week.jpg',
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/quote_of_the_week.jpg',
         "type": "image"
       },
     ]
