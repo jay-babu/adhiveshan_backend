@@ -2082,6 +2082,40 @@ SD_SHLOKAS_FOR_TIER = {
 
 BM_STORIES = [
   {
+    "title": "Word of the Week",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word%20of%20the%20week%203_8.png",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Word%20of%20the%20Week%20%283_8%29%20.mp4',
+        "type": "video"
+      },
+    ]
+  },
+  {
+    "title": "Quote of the Week",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Static%20Image_Quote%20of%20the%20Week.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%283_8%29.mp4',
+        "type": "video"
+      },
+    ]
+  },
+  {
+    "title": "Guidance from Swāmishri",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
+    "stories": [
+      {
+        'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Insights%20from%20SwamiShri%20%283_8%29.mp4',
+        'type': 'video'
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/insight.mp4',
+        "type": "video"
+      },
+    ]
+  },
+  {
     "title": "Swāmishri Blessing the App",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0274.JPG",
     "stories": [
@@ -2156,16 +2190,6 @@ BM_STORIES = [
     ]
   },
   {
-    "title": "Quote of the Week",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg",
-    "stories": [
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg',
-        "type": "image"
-      },
-    ]
-  },
-  {
     "title": "Divine Moods",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra2.jpg",
     "stories": [
@@ -2178,16 +2202,6 @@ BM_STORIES = [
       #   "quote": "Some Inspiring Quote...\n-Some Great Person",
       #   "type": "quote",
       # }
-    ]
-  },
-  {
-    "title": "Guidance from Swāmishri",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
-    "stories": [
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/insight.mp4',
-        "type": "video"
-      },
     ]
   },
 ]
@@ -2206,6 +2220,40 @@ BM_STORIES = [
 #   9: "linear-gradient(#141e30, #243b55)", // Royal
 
 KM_STORIES = [
+  {
+    "title": "Word of the Week",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word%20of%20the%20week%203_8.png",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Word%20of%20the%20Week%20%283_8%29%20.mp4',
+        "type": "video"
+      },
+    ]
+  },
+  {
+    "title": "Quote of the Week",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Static%20Image_Quote%20of%20the%20Week.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%283_8%29.mp4',
+        "type": "video"
+      },
+    ]
+  },
+  {
+    "title": "Insights from Swāmishri",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
+    "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Insights%20from%20SwamiShri%20%283_8%29.mp4',
+        "type": "video"
+      },
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/insight.mp4',
+        "type": "video"
+      },
+    ]
+  },
   {
     "title": "Swāmishri Blessing the App",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Opening/2021_01_26_0274.JPG",
@@ -2238,44 +2286,6 @@ KM_STORIES = [
     "stories": [
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/History-Adhiveshan/historyv2.mp4',
-        "type": "video"
-      },
-    ]
-  },
-  {
-    "title": "Word of the Week",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word_of_the_week.png",
-    "stories": [
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Black%20Video_5.mp4',
-        "type": "video"
-      },
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Black%20Video_6.mp4',
-        "type": "video"
-      },
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Black%20Video_7.mp4',
-        "type": "video"
-      },
-    ]
-  },
-  {
-    "title": "Quote of the Week",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg",
-    "stories": [
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/photo_2021-01-22%2015.51.47.jpeg',
-        "type": "image"
-      },
-    ]
-  },
-  {
-    "title": "Insights from Swāmishri",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
-    "stories": [
-      {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/insight.mp4',
         "type": "video"
       },
     ]
