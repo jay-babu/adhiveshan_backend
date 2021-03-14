@@ -2086,7 +2086,7 @@ BM_STORIES = [
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word%20of%20the%20week%203_8.png",
     "stories": [
       {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Word%20of%20the%20Week%20%283_8%29%20.mp4',
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Word%20of%20the%20week%20BM%20%283_15%29.mp4',
         "type": "video"
       },
     ]
@@ -2095,6 +2095,10 @@ BM_STORIES = [
     "title": "Quote of the Week",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Static%20Image_Quote%20of%20the%20Week.jpg",
     "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Quote%20of%20the%20Week%20%283_15%29.jpg',
+        "type": "image"
+      },
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/quote_of_the_week.jpg',
         "type": "image"
@@ -2119,6 +2123,10 @@ BM_STORIES = [
     "title": "Divine Moods",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra2.jpg",
     "stories": [
+      {
+        'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%283_15%29.mp4',
+        'type': 'video'
+      },
       {
         'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%283_8%29.mp4',
         'type': 'video'
@@ -2229,7 +2237,7 @@ KM_STORIES = [
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word%20of%20the%20week%203_8.png",
     "stories": [
       {
-        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Word%20of%20the%20Week%20%283_8%29%20.mp4',
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Word%20of%20the%20week%20BM%20%283_15%29.mp4',
         "type": "video"
       },
     ]
@@ -2238,6 +2246,10 @@ KM_STORIES = [
     "title": "Quote of the Week",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Static%20Image_Quote%20of%20the%20Week.jpg",
     "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/Quote%20of%20the%20Week%20%283_15%29.jpg',
+        "type": "image"
+      },
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Quote-of-the-Week/quote_of_the_week.jpg',
         "type": "image"
@@ -2248,6 +2260,10 @@ KM_STORIES = [
     "title": "Insights from Swāmishri",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra5.jpg",
     "stories": [
+      {
+        "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Insights%20From%20Swamishri%20%283_15%29.mp4',
+        "type": "video"
+      },
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Insights-from-Swamishri/Insights%20from%20SwamiShri%20%283_8%29.mp4',
         "type": "video"
@@ -2262,6 +2278,10 @@ KM_STORIES = [
     "title": "Divine Moods",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra2.jpg",
     "stories": [
+      {
+        'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%283_15%29.mp4',
+        'type': 'video'
+      },
       {
         'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%283_8%29.mp4',
         'type': 'video'
