@@ -2371,3 +2371,14 @@ KM_ANNOUNCEMENT_PAGE_CONTENT = {
     'stories': KM_STORIES
 }
 
+BM_ADHIVESHAN_DATES = {
+  'west': '',
+  'northeast': '',
+  'canada': '',
+}
+
+KM_ADHIVESHAN_DATES = {
+  'west': '',
+  'northeast': '',
+  'canada': '',
+}
