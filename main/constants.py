@@ -2083,7 +2083,7 @@ SD_SHLOKAS_FOR_TIER = {
 BM_STORIES = [
   {
     "title": "Word of the Week",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word%20of%20the%20week%203_8.png",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word%20of%20the%20week.png",
     "stories": [
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Word%20of%20the%20Week%20%283_8%29%20.mp4',
@@ -2226,7 +2226,7 @@ BM_STORIES = [
 KM_STORIES = [
   {
     "title": "Word of the Week",
-    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word%20of%20the%20week%203_8.png",
+    "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/word%20of%20the%20week.png",
     "stories": [
       {
         "url": 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Word-of-the-Week/Word%20of%20the%20Week%20%283_8%29%20.mp4',
