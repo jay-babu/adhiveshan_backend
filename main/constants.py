@@ -2383,7 +2383,7 @@ BM_ADHIVESHAN_DATES = {
 KM_ADHIVESHAN_DATES = {
   'west': '7/17/2021',
   'northeast': '7/31/2021',
-  'southeast': '7/10/2021,'
+  'southeast': '7/10/2021',
   'canada': '7/31/2021',
   'southwest': '7/31/2021',
   'midwest': '7/31/2021',
