@@ -2361,16 +2361,6 @@ KM_ANNOUNCEMENTS = [
     },
 ]
 
-BM_ANNOUNCEMENT_PAGE_CONTENT = {
-    'announcements': BM_ANNOUNCEMENTS,
-    'stories': BM_STORIES
-}
-
-KM_ANNOUNCEMENT_PAGE_CONTENT = {
-    'announcements': KM_ANNOUNCEMENTS,
-    'stories': KM_STORIES
-}
-
 BM_ADHIVESHAN_DATES = {
   'west': '7/10/2021',
   'southeast': '7/17/2021',
@@ -2387,4 +2377,16 @@ KM_ADHIVESHAN_DATES = {
   'canada': '7/31/2021',
   'southwest': '7/31/2021',
   'midwest': '7/31/2021',
+}
+
+BM_ANNOUNCEMENT_PAGE_CONTENT = {
+    'announcements': BM_ANNOUNCEMENTS,
+    'stories': BM_STORIES,
+    'adhiveshanDates': BM_ADHIVESHAN_DATES
+}
+
+KM_ANNOUNCEMENT_PAGE_CONTENT = {
+    'announcements': KM_ANNOUNCEMENTS,
+    'stories': KM_STORIES,
+    'adhiveshanDates': KM_ADHIVESHAN_DATES,
 }
