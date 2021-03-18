@@ -2372,13 +2372,19 @@ KM_ANNOUNCEMENT_PAGE_CONTENT = {
 }
 
 BM_ADHIVESHAN_DATES = {
-  'west': '',
-  'northeast': '',
-  'canada': '',
+  'west': '7/10/2021',
+  'southeast': '7/17/2021',
+  'southwest': '7/24/2021',
+  'midwest': '8/7/2021',
+  'northeast': '8/7/2021',
+  'canada': '8/7/2021',
 }
 
 KM_ADHIVESHAN_DATES = {
-  'west': '',
-  'northeast': '',
-  'canada': '',
+  'west': '7/17/2021',
+  'northeast': '7/31/2021',
+  'southeast': '7/10/2021,'
+  'canada': '7/31/2021',
+  'southwest': '7/31/2021',
+  'midwest': '7/31/2021',
 }
