@@ -15,7 +15,7 @@ djangorestframework-simplejwt==4.6.0
 gunicorn==20.0.4
 Markdown==3.3.3
 newrelic==6.0.1.155
-Pillow==8.1.0
+Pillow==8.1.1
 psycopg2==2.8.6
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
