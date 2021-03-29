@@ -36,11 +36,11 @@ urlpatterns = [
     path('reset_memorized_all/', views.ResetMemorizedView.as_view(), name='reset_memorized_all'),
     path('reset_bookmarked_all/', views.ResetBookmarkedView.as_view(), name='reset_bookmarked_all'),
     path('get_external_user/', GetExternalUserView.as_view()),
+    path('set_bkms_id/', views.SetBKMSID.as_view()),
 
     path('', include(router.urls)),
 
     # Dev use only
     # path('upload_content/', views.UploadContentView.as_view(), name='upload_content'),
     # path('add_modules/', views.AddModulesToDB.as_view(), name='add_modules'),
-    # path('add_fagva/', views.AddFagvaModuleToExistingUsers.as_view(), name='add_fagva'),
 ]

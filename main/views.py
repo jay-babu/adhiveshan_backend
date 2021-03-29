@@ -374,6 +374,7 @@ class UserDetailView(APIView):
             'mandal': user.mandal or '',
             'is_onboarded': user.is_onboarded,
             'has_watched_tutorial': user.has_watched_tutorial,
+            'bkms_id': user.bkms_id,
         }, status=status.HTTP_200_OK)
 
 
@@ -576,30 +577,12 @@ class GetExternalUserView(APIView):
         return Response(data={'error': 'Invalid Email or Code'}, status=status.HTTP_400_BAD_REQUEST)
 
 
-class AddFagvaModuleToExistingUsers(APIView):
-    permission_classes = (AllowAny,)
+class SetBKMSID(APIView):
+    permission_classes = (IsAuthenticated,)
 
-    def post(self, request: Request):
-        if request.data['password'] != 'mahant16':
-            return
-
-        fagva_module = models.Module.objects.get(title='fagva')
-        count = 0
-        for user in models.User.objects.all():
-            if user.is_admin:
-                continue
-
-            if user.is_kishore_mandal():
-                if user.module_instances.filter(module__title='fagva').count() > 0:
-                    continue
-
-                module_instance = models.ModuleInstance.objects.create(user=user, module=fagva_module)
-                mukhpath_items = []
-                for item in fagva_module.mukhpath_items.all():
-                    mukhpath_items.append(
-                        models.MukhpathItemInstance(mukhpath_item=item, module_instance=module_instance, ))
-                models.MukhpathItemInstance.objects.bulk_create(mukhpath_items)
-                count += 1
-        print('TOTAL USERS CHANGED: {}'.format(count))
-        return Response(data={'count': count}, status=status.HTTP_200_OK)
-
+    def put(self, request):
+        request.user.bkms_id = request.data.get('bkms_id')
+        request.user.save()
+        return Response(
+            data={'bkms_id': request.user.bkms_id},
+            status=status.HTTP_200_OK)
