@@ -580,7 +580,7 @@ class GetExternalUserView(APIView):
 class SetBKMSID(APIView):
     permission_classes = (IsAuthenticated,)
 
-    def put(self, request):
+    def post(self, request):
         request.user.bkms_id = request.data.get('bkms_id')
         request.user.save()
         return Response(
