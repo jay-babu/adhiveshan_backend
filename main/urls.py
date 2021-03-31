@@ -37,6 +37,7 @@ urlpatterns = [
     path('reset_bookmarked_all/', views.ResetBookmarkedView.as_view(), name='reset_bookmarked_all'),
     path('get_external_user/', GetExternalUserView.as_view()),
     path('set_bkms_id/', views.SetBKMSID.as_view()),
+    path('update_name/', views.UpdateName.as_view()),
 
     path('', include(router.urls)),
 

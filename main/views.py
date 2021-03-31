@@ -586,3 +586,25 @@ class SetBKMSID(APIView):
         return Response(
             data={'bkms_id': request.user.bkms_id},
             status=status.HTTP_200_OK)
+
+
+class UpdateName(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def post(self, request):
+        if 'first_name' in request.data:
+            request.user.first_name = request.data.get('first_name')
+
+        if 'middle_name' in request.data:
+            request.user.middle_name = request.data.get('middle_name')
+
+        if 'last_name' in request.data:
+            request.user.last_name = request.data.get('last_name')
+
+        request.user.save()
+        return Response(
+            data={
+                'first_name': request.user.first_name,
+                'middle_name': request.user.middle_name,
+                'last_name': request.user.last_name},
+            status=status.HTTP_200_OK)
