@@ -1130,7 +1130,7 @@ BAL_SKILLS_CHALLENGE = {
       </ion-text>
     </ion-col>
       <ion-col size="10">
-        Pick Your Own!
+        <b>Pick Your Own!</b>
     </ion-col>
   </ion-row>
 </ion-grid>
@@ -1253,7 +1253,7 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Pick your Own!
+          <b>Pick your Own!</b>
         </ion-text>
       </ion-col>
   </ion-row>
@@ -1526,7 +1526,7 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Pick Your Own!
+          <b>Pick Your Own!</b>
         </ion-text>
       </ion-col>
   </ion-row>
@@ -1735,7 +1735,7 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Pick Your Own!
+          <b>Pick Your Own!</b>
         </ion-text>
       </ion-col>
   </ion-row>
@@ -1951,7 +1951,7 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Pick Your Own!
+          <b>Pick Your Own!</b>
         </ion-text>
       </ion-col>
   </ion-row>
@@ -2570,129 +2570,6 @@ BAL_SKILLS_CHALLENGE = {
     Participants must submit their video in mp4 format.
   </li>
 </ul>
-<ion-grid class="ion-text-center">
-  <ion-row class="header-row">
-    <ion-col size="2">
-      <ion-text>#</ion-text>
-    </ion-col>
-    <ion-col size="5">
-      <ion-text>Theme</ion-text>
-    </ion-col>
-    <ion-col size="5">
-      <ion-text>Description</ion-text>
-    </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        1
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Ghansham - The Miraculous Child
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Depict any miraculous incident from Ghanshyam's childhood
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        2
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Pramukh Swami Maharaj Shatabdi
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Depict the life or work of Pramukh
-          Swami Maharaj
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        3
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Akshardham/Mandir
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Depict what Akshardham or mandir
-          means to you
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        4
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          My Guru: Mahant Swami Maharaj
-        </ion-text>
-      </ion-col>
-      <ion-col size="5">
-        <ion-text>
-          Depict the life and work of Mahant
-          Swami Maharaj        
-        </ion-text>
-      </ion-col>
-  </ion-row>
-  <ion-row>
-    <ion-col size="2">
-      <ion-text>
-        5
-      </ion-text>
-    </ion-col>
-      <ion-col size="5">
-        Portraits
-      </ion-col>
-      <ion-col>
-        Depict a portrait of Bhagwan
-        Swaminarayan or Guru Parampara
-      </ion-col>
-  </ion-row>
-</ion-grid>
-<div>""",
-        'Graphic Design': """<div class="skills-html">
-<h2 class="static-content-title">Rules</h2>
-<ul>
-	<li>
-    Participants must select from one of the themes below. The categories are provided
-    with a small description on what the graphic should depict.
-  </li>
-  <li>
-    The graphic can be made using any photo editing/illustrating tool, such as Photoshop
-    or Canva.  
-  </li>
-  <li>
-    The graphic can be in either portrait or landscape orientation.
-  </li>
-  <li>
-    Ensure the graphic is of good quality, such as 1920 pixels by 1080 pixels.
-  </li>
-  <li>
-    Graphic Design will be graded on: creativity, use of theme, visual/artistic elements.  </li>
-  </li>
-  <li>
-    Participants must submit a raw file or their art work.
-  </li>
-</ul>
 <h2 class="static-content-title">Topics</h2>
 <ion-grid class="ion-text-center">
   <ion-row class="header-row">
@@ -2714,7 +2591,7 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Ghansham - The Miraculous Child
+          Pramukh Swami Maharaj Shatabdi
         </ion-text>
       </ion-col>
       <ion-col size="5">
@@ -2855,6 +2732,115 @@ BAL_SKILLS_CHALLENGE = {
   </ion-row>
 </ion-grid>
 <div>""",
+        'Graphic Design': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided
+    with a small description on what the graphic should depict.
+  </li>
+  <li>
+    The graphic can be made using any photo editing/illustrating tool, such as Photoshop
+    or Canva.  
+  </li>
+  <li>
+    The graphic can be in either portrait or landscape orientation.
+  </li>
+  <li>
+    Ensure the graphic is of good quality, such as 1920 pixels by 1080 pixels.
+  </li>
+  <li>
+    Graphic Design will be graded on: creativity, use of theme, visual/artistic elements.  </li>
+  </li>
+  <li>
+    Participants must submit a raw file or their art work.
+  </li>
+</ul>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Ghansham - The Miraculous Child
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict any miraculous incident from Ghanshyam's childhood
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj Shatabdi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life or work of Pramukh
+          Swami Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Akshardham/Mandir
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict what Akshardham or mandir
+          means to you
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru: Mahant Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life and work of Mahant
+          Swami Maharaj        
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
         'Rangoli Design': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
@@ -2880,6 +2866,102 @@ BAL_SKILLS_CHALLENGE = {
     Rangoli Design will be graded on: creativity, use of theme, artistic elements.
   </li>
 </ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhagwan Swaminarayan
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Celebrating Swaminarayan Jayanti
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Aksharbrahmana Vadhamna
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Welcoming Gunatitanand Swami to sit
+          alongside Harikrishna Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Celebrating Pramukh Swami Maharaj’s
+          Shatabdi Mahotsav
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Divyata na Divada 
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Celebrating Diwali with our family      
+        </ion-text>
+      </ion-col>
+  </ion-row>
+   <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          <b>Pick Your Own!</b>
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
 <div>""",
     },
 }
