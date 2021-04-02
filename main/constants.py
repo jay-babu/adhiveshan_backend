@@ -2969,7 +2969,7 @@ BAL_SKILLS_CHALLENGE = {
 # Skills Challenge for KM
 KISHORE_SKILLS_CHALLENGE = {
   'Story/Speech-Based Competitions': {
-        'Kirtan-Bases Short Speech': """<div class="skills-html">
+        'Kirtan-Based Short Speech': """<div class="skills-html">
 <p>This competition is ideal for a kishore/kishori who is strong in singing as well as public
 speaking. Participants will combine the two technical elements to create an engaging and
 thought-provoking presentation. Presentations will revolve around a single chosar from the
@@ -2982,10 +2982,10 @@ chosar pad, provide a nirupan and your own manan. A cohesive speech will incorpo
 elements in a seamless manner — used to educate anyone who watches. Limited to one
 participant per submission. Details on formatting and how to submit videos will be provided.
 </p>
-<p>Example Video (Syncing to God’s Playlist):<a href="https://www.youtube.com/watch?v=UcgF0tRukJs" target="_blank">Here</a>
+<p>Example Video (Syncing to God’s Playlist) :<a href="https://www.youtube.com/watch?v=UcgF0tRukJs" target="_blank">Here</a>
 </p>
 <p>
-Example Video (Kishore Sabha):<a href="https://www.youtube.com/watch?v=Dr7RedeTTT0&list=PLZ_xghvSoitg6sY2zThPrWfuEiHirGF1Y&index=17" target="_blank">Here</a>
+Example Video (Kishore Sabha): <a href="https://www.youtube.com/watch?v=Dr7RedeTTT0&list=PLZ_xghvSoitg6sY2zThPrWfuEiHirGF1Y&index=17" target="_blank">Here</a>
 </p>
 <h2 class="static-content-title">Rules</h2>
 <ul> 
@@ -3013,7 +3013,7 @@ Example Video (Kishore Sabha):<a href="https://www.youtube.com/watch?v=Dr7RedeTT
     speech’s components and overall message.
   </li>
 </ul>
-<h2 class="static-content-title">Approved Chosar Pads</h2><h4 class="static-content-title">(must choose one from the following list)
+<h2 class="static-content-title">Approved Chosar Pads</h2><h4 class="static-content-title">(must choose one from the following list)</h4>
 <ion-grid class="ion-text-center">
   <ion-row class="header-row">
     <ion-col size="2">
@@ -3558,17 +3558,21 @@ The themes of the topics the group must be chosen from the list below:
       </ion-text>
     </ion-col>
     <ion-col size="5">
+    <ion-row>
       <ion-text>
       The greatness of the
       Akshar-Purushottam Darshan
       </ion-text>
+      <br />
       <ion-text>
       What does Akshar Purshottam mean?
       </ion-text>
+      <br />
       <ion-text>
       The necessity of the
       Aksharbrahma Guru
       </ion-text>
+    </ion-row>
     </ion-col>
   </ion-row>
   <ion-row>
