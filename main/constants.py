@@ -991,7 +991,7 @@ KISHORE_FAQ = {
 
 # Skills Challenge for BM
 BAL_SKILLS_CHALLENGE = {
-    'Story/Speech-Based Challenges': {
+    'Story/Speech-Based Competitions': {
         'Mono-acting': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul> 
@@ -1533,7 +1533,7 @@ BAL_SKILLS_CHALLENGE = {
 </ion-grid>
 <div>""",
     },
-    'Music-Based Challenges': {
+    'Music-Based Competitions': {
         'Solo Singing': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
@@ -1958,7 +1958,7 @@ BAL_SKILLS_CHALLENGE = {
 </ion-grid>
 <div>""",
     },
-    'Writing-Based Challenges': {
+    'Writing-Based Competitions': {
         'Poetry': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
@@ -2316,7 +2316,7 @@ BAL_SKILLS_CHALLENGE = {
 </ion-grid>
 <div>""",
     },
-    'Art-Based Challenges': {
+    'Art-Based Competitions': {
         'Painting/Illustration': """<div class="skills-html">
 <h2 class="static-content-title">Rules</h2>
 <ul>
@@ -2968,165 +2968,2137 @@ BAL_SKILLS_CHALLENGE = {
 
 # Skills Challenge for KM
 KISHORE_SKILLS_CHALLENGE = {
-  'Kirtan-based Short Speech': """
-    <ul>
-      <li>
-        This competition is ideal for a kishore/kishori who is strong in singing as well as public speaking. Participants will combine the two technical elements to create an engaging and thought-provoking presentation. Presentations will revolve around a selection of one chosar from the adhiveshan booklet.
-      </li>
-      <li>
-        This competition requires a through understanding of the background behind the chosar and the meaning of the words. A cohesive speech will incorporate these elements in a seamless manner — used to educate anyone who watches.
-      </li>
-      <li>
-        Kishores and kishoris will be judged on time limit, accurate chosar pad understanding, incorporation of translations, creativity, ability to sing and speak, and cohesiveness of the speech’s components and overall message. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Creative Storytelling': """
-    <ul>
-      <li>
-        Participants will choose prasangs from their adhiveshan modules and/or prasangs from other books as well. Participants must tell the story in its entirety, as well as provide a manan, or reflection, on the importance of the story.
-      </li>
-      <li>
-        If participants are recording themselves, they must record their story in good lighting and on a good camera (either on a smartphone or webcam). Kishores should wear a jabho-lengho and kishoris should wear a punjabi. The story may also be presented with graphics, animations, etc. with the delegate as the narrator.
-      </li>
-      <li>
-        Creative elements can be added such as creative visuals, editing, music, graphics, etc. Storytelling will be judged on: storytelling ability, content, manan/personal reflection, gestures, organization, flow, confidence, tone, etc. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Vachanamrut Nirupan': """
-    <ul>
-      <li>
-        Kishores and kishoris will have the opportunity to perform a nirupan on any given Vachanamrut contained within the adhiveshan booklet. This is a solo presentation that should be recorded for submission. This presentation has a time limit of 6 minutes. Platforms such as Google Slides, Powerpoint, or Prezi may be used to assist in the nirupan but are not required.
-      </li>
-      <li>
-        Delegates should explain the Vachanamrut, analyze the content, relate the Vachanamrut to other prasangs and texts, and explain how this Vachanamrut is beneficial to a kishore or kishori’s life.
-      </li>
-      <li>
-        Kishores/kishoris will be judged on analysis of the Vachanamrut, references to other prasangs/texts, real life application, speaking ability, accurate information, and timing. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Group Presentation': """
-    <ul>
-      <li>
-        Kishores and kishoris will have the opportunity to present on the topics listed below in a group. Groups are limited to a minimum of 3 people and a maximum of 5 people. 
-      </li>
-      <li>
-        Kishores/kishoris will be able to create a presentation on the following topics to be recorded for submission. Presentations can be created on platforms such as Google Slides, Powerpoint, Prezi, etc. During the time of the presentation, kishores must be dressed in a jabho lengho and kishoris in punjabis.
-      </li>
-      <li>
-        The presentation should include module content, which includes Vachanamrut references, Swāmini Vāto, Kirtans, etc. The presentation should provide a thorough understanding of the topic using Satsang-based references.
-      </li>
-      <li>
-        Group presentations will be judged on speaking ability, accurate information, dress code, timing, creativity. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Solo Singing': """
-    <ul>
-      <li>
-        Delegates may select any kirtan/chosar pad they wish to sing for this challenge, more specifically, it is encouraged that delegates pick a bhajan that they strongly resonate with.
-      </li>
-      <li>
-        Prior to singing the bhajan, you will need to describe the overall theme/messages contained within this bhajan. This reflection can either be about the meaning of the bhajan, or its history.
-      </li>
-      <li>
-        Kishores and kishoris will be judged on: sur (melody), tempo/rhythm, and tone/voice, along with your understanding of the kirtan that is spoken at the beginning. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Music Production (Group Singing)': """
-    <ul>
-      <li>
-        Kishores and kishoris will have the opportunity to create a full music production with a group. Groups are limited to no less than 3 people and no more than 5 people. 
-      </li>
-      <li>
-        Kishores and kishoris may combine musical instruments, vocals, and sound effects to create a music production using production software such as Garageband, Audacity, FL Studio, etc. 
-      </li>
-      <li>
-        The produced soundtrack must be exported and submitted as a MP3 file. The soundtrack will be graded on tone of vocals, melody, implementation of proper musical instruments, tempo/rhythm, and sound effects. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Research Paper': """
-    <ul>
-      <li>
-        Kishores and kishoris will have the opportunity to research a Satsang concept in depth using various Satsang scriptures and texts. The research paper will highlight a certain point and texts should be used to support the concept being presented.
-      </li>
-      <li>
-        Kishores and kishoris should create a submission via PDF or Word.
-      </li>
-      <li>
-        Papers will be judged on: organization, flow, grammar, content, sources, and citations. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Screenwriting': """
-    <ul>
-      <li>
-        Anyone interested in large productions or musicals will find this challenge interesting. A kishore or kishori must explain the relevant theme of guru bhakti through a written play or musical. Specific insights must be incorporated within the written play or musical. 
-      </li>
-      <li>
-        Writing must be done on either Google Docs or Microsoft Word and turned in as a PDF file. An example script with proper formatting will be provided. Competitors will be graded on grammar, sentence structure, readability, format, creativity, story arch, use of themes. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Photography': """
-    <ul>
-      <li>
-        Kishores and kishoris will have the opportunity to create a photo album containing a topic or theme which corresponds to the images within the album. For example, the images within the submitted photo album must correspond to a satsang topic such as: guru bhakti, mahima, mandir, Satpurush, etc.
-      </li>
-      <li>
-        Kishores and kishoris are also welcome to use editing software such as Adobe Lightroom to edit their photos. (Photoshop and Illustrator are not allowed as this would cross the boundary into graphic design)
-      </li>
-      <li>
-        Photo albums are to be submitted with a brief description of the theme which corresponds to the images. Images must be submitted within a folder or zip file with the image types as either JPEG or PNG.
-      </li>
-      <li>
-        Photo albums will be judged by consistent themes, quality, moods, creativity, originality, and uniqueness of concept. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Painting and Illustrations': """
-    <ul>
-      <li>
-        Kishores and kishoris will have the opportunity to paint or illustrate a certain incident in the lives of our gurus. These paintings and illustrations must be submitted electronically as a scan.
-      </li>
-      <li>
-        Artwork may include painting, drawing, chalk art, oil pastels, or any form of physical art utensils.
-      </li>
-      <li>
-        Artwork will be judged on creativity, cleanliness, artistic ability, and the content depicted in the artwork. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Graphic Design': """
-    <ul>
-      <li>
-        Kishores and kishoris will have the opportunity to create a graphic using an online software platform. The graphic can be made using any photo editing/illustrating tool, such as Photoshop, Illustrator or Canva.
-      </li>
-      <li>
-        The designs must be submitted electronically, as an image.
-      </li>
-      <li>
-        Submissions will be judged on creativity, artistic ability, and content depicted in the graphic. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
-  'Coding Challenge': """
-    <ul>
-      <li>
-        Any kishore or kishori interested in developing their talents in web/app development, data visualizations, or AI/ML should pick this challenge.
-      </li>
-      <li>
-        Participants may use any language and should submit final code as a .zip file
-      </li>
-      <li>
-        Submissions will be judged on creativity, utility, user-friendliness, and content provided in the coding platform. More information about the judging criteria will be provided later.
-      </li>
-    </ul>
-  """,
+  'Story/Speech-Based Competitions': {
+        'Kirtan-Bases Short Speech': """<div class="skills-html">
+<p>This competition is ideal for a kishore/kishori who is strong in singing as well as public
+speaking. Participants will combine the two technical elements to create an engaging and
+thought-provoking presentation. Presentations will revolve around a single chosar from the
+adhiveshan booklet.
+</p>
+<p>
+This competition requires a thorough understanding of the background of the chosar and the
+meaning of the words. Essentially, you will be required to understand the meaning of the
+chosar pad, provide a nirupan and your own manan. A cohesive speech will incorporate these
+elements in a seamless manner — used to educate anyone who watches. Limited to one
+participant per submission. Details on formatting and how to submit videos will be provided.
+</p>
+<p>Example Video (Syncing to God’s Playlist):<a href="https://www.youtube.com/watch?v=UcgF0tRukJs" target="_blank">Here</a>
+</p>
+<p>
+Example Video (Kishore Sabha):<a href="https://www.youtube.com/watch?v=Dr7RedeTTT0&list=PLZ_xghvSoitg6sY2zThPrWfuEiHirGF1Y&index=17" target="_blank">Here</a>
+</p>
+<h2 class="static-content-title">Rules</h2>
+<ul> 
+	<li>
+    Maximum of 10-15 minutes in ‘single-take’ format - As this is a speech first, aim for an
+    explanation and manan vs singing ration of: 5-10 minutes for explanation and 4-6
+    minutes for singing of the entire chosar pad. Points will be deducted on an interval
+    basis if a submission is less than 10 minutes or over the 15 minute limit. Notes may be
+    utilized so long as they serve as talking points.
+	</li>
+	<li>
+      Use the Prasang behind Chosar as a reference to enhance your explanation (recitation
+    of the prasang alone will not be considered a full speech)
+  </li>
+	<li>Translations are incorporated</li>
+  <li>
+    Video editing is not required, but preferred (creative elements to enhance the speech)
+	</li>
+	<li>
+    Utilizes a single Chosar pad from the ones listed below
+  </li>
+  <li>
+    Kishores and Kishoris will be judged on time limit, accurate chosar pad understanding,
+    incorporation of translations, creativity, ability to sing and speak, and cohesiveness of the
+    speech’s components and overall message.
+  </li>
+</ul>
+<h2 class="static-content-title">Approved Chosar Pads</h2><h4 class="static-content-title">(must choose one from the following list)
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="10">
+      <ion-text>Chosar Pad</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Sant Samagam Kije
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Sant Param Hitkari
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Sarve Man Taji
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Sambhal Beni Hari Rijhyani Ritdi
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Bolya Shri Hari Re
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Vali Sahu Sambhalo Re
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Tek Na Mele Re
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        8
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Anubhavi Anandma
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        9
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Manasno Avatar Mogho Nahi Male Fari
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        10
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Sacha Sadhu Re
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        11
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Janmya Tyathi Jarur Janjo
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        12
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Sant Jan Soi Sada
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        13
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Narad Mere Santse Adhik Na Koi
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        14
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Dohylu Thavu Haridas Re
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        15
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Shidne Rahie Kangal
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        16
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Premi Janne Vash Pataliyo
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<p>Participants can access the meaning of each chosar <a href="https://baps.box.com/s/gwh5auwoiw1ysyffrhqxbhuy0ivpj0at" target="_blank">here</a>
+</p>
+<p>
+Each submission should be in a single-take format, meaning no editing/cutting of the clip. This
+competition challenges deep knowledge of the Chosar, creative thinking and speech/singing
+skills which can only be fairly judged through a non-edited submission. There can be
+images/text on screen to help enhance/highlight certain messages.
+</p>
+<p>
+When recording yourself, you must record their story in good lighting and on a good camera
+(either on a smartphone or webcam). Kishores should wear a Jabho-Lengho and Kishoris
+should wear a Punjabi. The speech may also be presented with graphics, text, etc.
+</p>
+<div>""",
+        'Creative Storytelling': """<div class="skills-html">
+<p>
+Participants will choose a prasang/story from their adhiveshan modules and/or from other
+books as well. Participants must tell the story in its entirety, as well as provide a manan, or
+reflection, on the importance of the story. This challenge tests full knowledge of the prasang,
+proper manan and public speaking skills.
+</p>
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants will have a maximum of 7 minutes.
+  </li>
+	<li>
+    The prasang/story must be memorized, notes will not be allowed.
+  </li>
+	<li>
+    The prasang/story must come from the approved list of published books.
+	</li>
+</ul>
+<p>
+Creative elements can be added such as creative visuals, editing, music, graphics, etc.
+</p>
+<p>
+Storytelling will be judged on: storytelling ability, content, Manan/personal reflection, gestures,
+organization, flow, confidence, tone, and time. If you decide to include creative elements,
+please keep in mind importance will be given to the storytelling aspect of the submission.
+While creative elements can be used to enhance your overall submission, they will not be taken
+into consideration as heavily as the storytelling ability and accuracy showcased.
+</p>
+<p>
+When recording yourself, you must record their story in good lighting and on a good camera
+(either on a smartphone or webcam). Kishores should wear a Jabho-Lengho and Kishoris
+should wear a Punjabi. The speech may also be presented with graphics, text, etc.
+</p>
+<h2 class="static-content-title">Approved Books</h2><h4 class="static-content-title">(must choose one from the following list)</h4>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="10">
+      <ion-text>Book Name</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Yogiji Maharaj’s Bodh Kathas
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         108 Prasang Mala
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Pramukh Swami Maharaj’s 100 Inspiring Prasangs
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Mahant Swami Maharaj Epitome of santiliness
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Divine memories 1,2,3,4
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<p>
+Each submission should be in a single-take format, meaning no editing/cutting of the clip. This
+competition challenges deep knowledge of the prasang/story, creative thinking and public
+speaking skills which can only be fairly judged through a non-edited submission. There can be
+images/text on screen to help enhance/highlight certain messages.
+</p>
+<p>
+When recording yourself, you must record their story in good lighting and on a good camera
+(either on a smartphone or webcam). Kishores should wear a Jabho-Lengho and Kishoris
+should wear a Punjabi. The speech may also be presented with graphics, text, etc.
+</p>
+<div>""",
+        'Vachanamrut Nirupan': """<div class="skills-html">
+<p>
+Kishores and Kishoris will have the opportunity to perform a Nirupan on any Vachnamrut of
+their choice.
+</p>
+<p>
+Example Vachnamrut Nirupan: <a href="https://www.youtube.com/watch?v=ZW50gmS2wlk&ab_channel=BAPSChannel" target="_blank">Here</a>
+</p>
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    This is a solo presentation that should be recorded audio and video for submission.
+  </li>
+  <li>This presentation has a time limit of 10-15 minutes.</li>
+  <li>
+    Platforms such as Google Slides, Powerpoint, or Prezi may be used to assist in the
+    nirupan but are not required. Positive grading points will not be given to those that
+    decide to use the platforms such as Google Slides, Powerpoint, or Prezi.
+  </li>
+	<li>
+Delegates are required to read the opening paragraph but are not required to read the
+entire vachanamrut thereafter
+	</li>
+  <li>
+Delegates should explain the Vachanamrut, analyze the content, relate the Vachanamrut
+to other Prasangs and texts, and explain how this Vachanamrut is beneficial to a Kishore
+or Kishori’s life.
+  </li>
+  <li>
+You can choose to do it in either Gujarati or English, whichever language you’re most
+comfortable with.
+  </li>
+  <li>
+Actually read the Vachanamrut (opening paragraph) and go to the part or topic you
+want to do nirupan on. It is not required to read or do nirupan of the vachanamrut in its
+entirety.
+  </li>
+  <li>
+To add authenticity to your nirupan, you can read the first stanza in a poetic way
+<a href="https://download.baps.org/download.php?file=Data/Sites/1/Media/DownloadableFile/DailySatsang/vachanamrut_2019/vachanamrut_249.mp3" target="_blank">(example)</a>
+  </li>
+</ul>
+<p>
+Kishores/Kishoris will be judged on analysis of the Vachanamrut, references to other
+prasangs/texts, real life application, speaking ability, accurate information, and timing.
+</p>
+<h2 class="static-content-title">Vachanamrut List</h2><h4 class="static-content-title">(suggestions but not limited to)</h4>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="10">
+      <ion-text>Vachanamrut</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Gadhada I-3,6,16,21,67
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Gadhada II-9
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Gadhada III-2,7,38
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Panchala 4,7
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Loya 12
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+         Vadtal 11
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="12">
+      <ion-text>
+        <b>Pick your own!</b>
+      </ion-text>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<p>
+Each submission should be in a single-take format, meaning no editing/cutting of the clip. This
+competition challenges deep knowledge of the Vachanamrut, creative thinking and public
+speaking skills which can only be fairly judged through a non-edited submission. There can be
+images/text on screen to help enhance/highlight certain messages.
+</p>
+<p>
+When recording yourself, you must record their story in good lighting and on a good camera
+(either on a smartphone or webcam). Kishores should wear a Jabho-Lengho and Kishoris
+should wear a Punjabi. The speech may also be presented with graphics, text, etc.
+</p>
+<div>""",
+        'Group Presentation': """<div class="skills-html">
+<p>
+Kishores and Kishoris will have the opportunity to present on the topics listed below in a group
+from the same mandal. Groups are limited to a minimum of 3 people and a maximum of 5
+people.
+</p>
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+Presentations can be created on platforms such as Google Slides, Powerpoint, Prezi,
+etc.
+	</li>
+  <li>
+The presentation can be done in a wide range of creativity such as a musical
+presentation, acting, rhymes, TED talk style, etc
+  </li>
+	<li>The grading will be based on 60% content and 40% creativity.</li>
+  <li>
+The presentation should include module content, which must include at least 2
+references from Vachanamrut, Swamini Vato, Kirtans, etc.
+  </li>
+  <li>
+The presentation should provide a thorough understanding of the topic using
+Satsang-based references. Kishores/Kishoris will have 7 minutes to 12 minutes
+maximum to present their topic
+  </li>
+  <li>
+Everyone in the group must contribute and participate equally in order to showcase
+proper knowledge/research of the theme.
+  </li>
+  <li>
+While the group is required to adhere to the theme, the descriptions are provided to
+serve as a guideline.
+  </li>
+  <li>
+The themes of the topics the group must be chosen from the list below:
+  </li> 
+</ul>
+<h2 class="static-content-title">Themes</h2><h4 class="static-content-title">(required choose one from the list)</h4>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description (suggestions, but not limited to)</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+     Akshar-Purushottam
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+      The greatness of the
+      Akshar-Purushottam Darshan
+      </ion-text>
+      <ion-text>
+      What does Akshar Purshottam mean?
+      </ion-text>
+      <ion-text>
+      The necessity of the
+      Aksharbrahma Guru
+      </ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+    His Gift To Us
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+      Satsang Diksha
+      </ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+    My Guru Mahant
+Swami Maharaj
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+      The life of Mahant Swami Maharaj and His divine
+qualities
+      </ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+    Guru Bhakti
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+      The importance of guru bhakti.
+My Guru Bhakti
+      </ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+    Pramukh Swami
+Maharaj Shatabdi
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+      Celebrating the 100 year impact of Pramukh
+      Swami Maharaj had on others
+      Qualities, 
+      Work, 
+      Life Message     
+ </ion-text>
+    </ion-col>
+  </ion-row>
+   <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+    Mandirs
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+          The importance of Mandirs and the future
+          impact of Mandirs: on our world, on our society, and on us as indivudals
+ </ion-text>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+    },
+    'Music-Based Competitions': {
+        'Solo Singing': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    You may perform any kirtan from the Kirtan Muktavali. Select any bhajan that you feel
+    you resonate strongly with!
+  <li>
+    Participants may use any other instruments to accompany them during their
+    performance, but they will only be graded on the singing and not the use of
+    instruments.
+  </li>
+	<li>
+    Participants must record their singing in good lighting and on a good camera (either on
+    a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear
+    a punjabi.
+  </li>
+  <li>
+    Participants will have a maximum of 8 minutes 
+  </li>
+  <li>
+    Participants are allowed to cut lines if the selected bhajan is long and exceeds the time
+    given.  
+  </li>
+  <li>
+    You will be judged on: sur (melody), tempo/rhythm, and tone/voice, creativity, time.
+  </li>
+  <li>
+    Kirtans can be selected and practiced by using the <a href="https://www.anirdesh.com/kirtan/" target="_blank">Anirdesh Website</a> or Akshar
+    Amrutam app.
+  </li>
+</ul>
+<h2 class="static-content-title">Sample Bhajans</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Bhajan Name</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>CD Album</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sant Param Hitkari
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sant Param Hitkari - 2
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Tamari Murti Vina
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Prarthana
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhulish Hu Jagatni Maya 
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhakti Vihar
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jivu Chhu Rasila Tara
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Murti Pyari Re
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Ame Sau Swāmīnā Bālak
+      </ion-col>
+      <ion-col>
+        Bhakti Vihar
+      </ion-col>
+  </ion-row>
+   <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Chho Ji Amāru Jīvan
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Namie Narayanswarup
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Vahetu Jīvan Tamāru Gangānī Dhārā
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Vandana
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        8
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Joi Murti Manohar Tari
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Murti Manohar Tari
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        9
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          He Jī Me To Harkhe Nihalyā Nāth
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Amrut Ni Heli
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        10
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          <b>Pick Your Own!</b>
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Musical Instruments': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants can perform to any bhajan or can showcase their skills by performing solo
+    musical pieces.
+  </li>  
+  <li>
+    Participants must specify which instrument they are going to play including, but not
+    limited to, piano, tabla, flute, trumpet, violin, harmonium, etc.
+  </li>
+	<li>
+    Participants do not have to memorize the bhajan. They can have sheet music in front of
+    them while they play.  
+  </li>
+	<li>
+    Participants will have a maximum of 8 minutes.
+	</li>
+  <li>
+    Participants may have other instrumentalists or singers accompany them during their
+    performance, but they will only be graded on their own performance  
+  </li>
+  <li>
+    If participants choose a percussion instrument where the melody cannot be found, such
+    as tabla, please have the bhajan audio playing in the background while the participant
+    plays.
+  </li>
+  <li>
+    Participants must record their performance in good lighting and on a good camera
+    (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas
+    should wear a punjabi.
+  </li>
+  <li>
+    You will be judged on: tempo/rhythm, accuracy, tonality, creativity, time.
+  </li>
+  <li>
+    Kirtans can be selected and practiced by using the <a href="https://www.anirdesh.com/kirtan/" target="_blank">Anirdesh Website</a> or Akshar
+    Amrutam app.
+  </li>
+</ul>
+<h2 class="static-content-title">Sample Bhajans</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Bhajan Name</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>CD Album</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sant Param Hitkari
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sant Param Hitkari - 2
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Tamari Murti Vina
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Prarthana
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhulish Hu Jagatni Maya 
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhakti Vihar
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jivu Chhu Rasila Tara
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Murti Pyari Re
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Ame Sau Swāmīnā Bālak
+      </ion-col>
+      <ion-col>
+        Bhakti Vihar
+      </ion-col>
+  </ion-row>
+   <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Chho Ji Amāru Jīvan
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Namie Narayanswarup
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Vahetu Jīvan Tamāru Gangānī Dhārā
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Vandana
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        8
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Joi Murti Manohar Tari
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Murti Manohar Tari
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        9
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          He Jī Me To Harkhe Nihalyā Nāth
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Amrut Ni Heli
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        10
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          <b>Pick Your Own!</b>
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+    },
+    'Writing-Based Competitions': {
+        'Poetry': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided
+    with a small description on what the poem should depict.
+  </li>
+	<li>
+    Although there are many different types of poetic form, please limit to using one poetry
+    style/form throughout the poem. Examples are haiku, rhymed poetry, acrostic, free
+    verse, ode, etc.
+  </li>
+  <li>
+    Poems must be a maximum of 100 words.
+  </li>
+  <li>
+    Participants must submit their written poem ahead of time.
+  </li>
+  <li>
+    Participants should NOT put their name on their poem. They should only include their
+    BKMS ID on the top right of the page.
+  </li>
+  <li>
+    Poems will be judged on: organization, flow, grammar, word choice, content/depth.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jay ho Akshar-Purushottam!
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the glory of Akshar-Purushottam Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         His Gift to Us
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the Satsang Diksha
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj Shatabdi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the greatness of Pramukh Swami Maharaj and celebrating Shatabdi
+        </ion-text>
+        <ion-text>
+        1. Life and Work
+        </ion-text>
+        <ion-text>
+        2. Virtues
+        </ion-text>
+        <ion-text>
+        3. Pramukh Swami Maharaj with Balaks
+        </ion-text>
+        <ion-text>
+        4. Personal Smruti
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru: Mahant Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write what Swamibapa means to you
+        </ion-text>
+        <ion-text>
+        1. Life and Work
+        </ion-text>
+        <ion-text>
+        2. Virtues
+        </ion-text>
+        <ion-text>
+        3. Pramukh Swami Maharaj with Balaks
+        </ion-text>
+        <ion-text>
+        4. Personal Smruti
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Mandirs
+      </ion-col>
+      <ion-col>
+        Depict what mandir means to you
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Guru Bhakti
+      </ion-col>
+      <ion-col>
+        Write about what offering Guru Bhakti
+        means to you
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Other
+      </ion-col>
+      <ion-col>
+        Any other Satsang topics that you like
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Essay-Writing (Group 3)': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided
+    with a small description on what the essay can be on.
+  </li>
+  <li>
+    Essays must be in 12 point font, Arial or Times New Roman, with double spacing.
+  </li>
+  <li>
+    Essays must be between 500 to 1000 words.
+  </li>
+  <li>
+    Essays must include at least:
+  </li>
+  <ul>
+    <li>
+      1 prasang
+    </li>
+    <li>
+      2 scriptural references (Vachnamrut, Swamini Vato, Satsang Diksha, etc.)
+    </li>
+  </ul>
+  <li>
+    Essays must include a creative title and page numbers.
+  </li>
+  <li>
+    Participants should NOT put their name on their essay. They should only include their
+    BKMS ID on the top right of the page.
+  </li>
+  <li>
+    Essays will be judged on: organization, flow, grammar, content, correct use of
+    references.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jay ho Akshar-Purushottam!
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the glory of Akshar-Purushottam Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         His Gift to Us
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the Satsang Diksha
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj Shatabdi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write about the greatness of Pramukh Swami Maharaj and celebrating Shatabdi
+        </ion-text>
+        <li>
+          Life and Work
+        </li>
+        <li>
+          Virtues
+        </li>
+        <li>
+          Pramukh Swami Maharaj with Balaks
+        </li>
+        <li>
+          Personal Smruti
+        </li>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru: Mahant Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write what Swamibapa means to you
+        </ion-text>
+        <li>
+          Life and Work
+        </li>
+        <li>
+          Virtues
+        </li>
+        <li>
+          Mahant Swami Maharaj with Balaks
+        </li>
+        <li>
+          Personal Smruti
+        </li>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Mandirs
+      </ion-col>
+      <ion-col>
+        Depict what mandir means to you
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Guru Bhakti
+      </ion-col>
+      <ion-col>
+        Write about what offering Guru Bhakti
+        means to you
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Other
+      </ion-col>
+      <ion-col>
+        Any other Satsang topics that you like
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+    },
+    'Art-Based Competitions': {
+        'Painting/Illustration': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided
+    with a small description on what the artwork should depict.
+  </li>
+  <li>
+    Artwork may include painting, drawing, chalk art, oil pastels, etc. This does not include
+    photoshop or any multimedia art.
+  </li>
+  <li>
+    The artwork must be 2D and can be prepared on any sized paper or canvas.
+  </li>
+  <li>
+    Participants must submit multiple pictures and a video showing the artwork from
+    different angles. Ensure proper lighting when taking pictures and video.  
+  </li>
+  <li>
+    Painting/Illustration will be graded on: creativity, use of theme, visual/artistic elements.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Ghansham - The Miraculous Child
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict any miraculous incident from Ghanshyam's childhood
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj Shatabdi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life or work of Pramukh
+          Swami Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Akshardham/Mandir
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict what Akshardham or mandir
+          means to you
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru: Mahant Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life and work of Mahant
+          Swami Maharaj        
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Portraits
+      </ion-col>
+      <ion-col>
+        Depict a portrait of Bhagwan
+        Swaminarayan or Guru Parampara
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Graphic Design': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided
+    with a small description on what the graphic should depict.
+  </li>
+  <li>
+    The graphic can be made using any photo editing/illustrating tool, such as Photoshop
+    or Canva.  
+  </li>
+  <li>
+    The graphic can be in either portrait or landscape orientation.
+  </li>
+  <li>
+    Ensure the graphic is of good quality, such as 1920 pixels by 1080 pixels.
+  </li>
+  <li>
+    Graphic Design will be graded on: creativity, use of theme, visual/artistic elements.  </li>
+  </li>
+  <li>
+    Participants must submit a raw file or their art work.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Ghansham - The Miraculous Child
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict any miraculous incident from Ghanshyam's childhood
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj Shatabdi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life or work of Pramukh
+          Swami Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Akshardham/Mandir
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict what Akshardham or mandir
+          means to you
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru: Mahant Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life and work of Mahant
+          Swami Maharaj        
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Video Making': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants can choose from the sample topics or pick one of their choice.
+  <li>
+    The suggested topics are general and open-ended to allow for creativity.
+  </li>
+	<li>
+    Video length should be 4 to 7 minutes long.
+  </li>
+	<li>
+    This video will also be submitted electronically  
+  </li>
+  <li>
+    Video Making will be graded on: creativity, use of theme, transitions, flow, organization.
+  </li>
+  <li>
+    Participants must submit their video in mp4 format.
+  </li>
+</ul>
+<h2 class="static-content-title">Topics</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj Shatabdi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the greatness of Pramukh Swami
+          Maharaj and celebrating Shatabdi
+        </ion-text>
+        <li>
+          Life and Work
+        </li>
+        <li>
+          Virtues
+        </li>
+        <li>
+          Pramukh Swami Maharaj with Balaks
+        </li>
+        <li>
+          Personal Smruti
+        </li>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru: Mahant Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Write what Swamibapa means to you
+        </ion-text>
+        <li>
+          Life and Work
+        </li>
+        <li>
+          Virtues
+        </li>
+        <li>
+          Mahant Swami Maharaj with Balaks
+        </li>
+        <li>
+          Personal Smruti
+        </li>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Satsang History
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict major events within our Sanstha’s history
+        </ion-text>
+        <li>
+          Timeline format showing major events
+        </li>
+        <li>
+          Pick one or two major events:
+        </li>
+        <ul>
+          <li>
+            Foundation of BAPS
+          </li>
+          <li>
+            First mandir outside of India
+          </li>
+        </ul>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Mandir
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict what mandir means to you        
+        </ion-text>
+        <li>
+          Importance of Mandir
+        </li>
+      </ion-col>
+  </ion-row>
+   <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Satsang Diksha
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict what this gift from our Guru means to you     
+        </ion-text>
+        <li>
+          Importance of Mandir
+        </li>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Other
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Any other satsang related video.
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Graphic Design': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants must select from one of the themes below. The categories are provided
+    with a small description on what the graphic should depict.
+  </li>
+  <li>
+    The graphic can be made using any photo editing/illustrating tool, such as Photoshop
+    or Canva.  
+  </li>
+  <li>
+    The graphic can be in either portrait or landscape orientation.
+  </li>
+  <li>
+    Ensure the graphic is of good quality, such as 1920 pixels by 1080 pixels.
+  </li>
+  <li>
+    Graphic Design will be graded on: creativity, use of theme, visual/artistic elements.  </li>
+  </li>
+  <li>
+    Participants must submit a raw file or their art work.
+  </li>
+</ul>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Ghansham - The Miraculous Child
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict any miraculous incident from Ghanshyam's childhood
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj Shatabdi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life or work of Pramukh
+          Swami Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Akshardham/Mandir
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict what Akshardham or mandir
+          means to you
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          My Guru: Mahant Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Depict the life and work of Mahant
+          Swami Maharaj        
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+        'Rangoli Design': """<div class="skills-html">
+<h2 class="static-content-title">Rules</h2>
+<ul>
+	<li>
+    Participants can choose any of the suggested topics to design their rangoli.  
+  </li>
+  <li>
+    The suggested topics are general and open-ended to allow for creativity.  </li>
+  <li>
+    Rangolis can be made from any of the following: colored powder, chalk, colored rice
+    grains, paper cut outs, etc. Rangolis should not be simply drawn on paper.
+  </li>
+  <li>
+    Rangolis that are submitted must be new and original designs, not done on prior
+    occasions.
+  </li>
+  <li>
+    Participants must submit multiple pictures and a video showing the artwork from
+    different angles. Ensure proper lighting when taking pictures and video. The entire
+    rangoli design should be visible.
+  </li>
+  <li>
+    Rangoli Design will be graded on: creativity, use of theme, artistic elements.
+  </li>
+</ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Description</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Bhagwan Swaminarayan
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Celebrating Swaminarayan Jayanti
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Aksharbrahmana Vadhamna
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Welcoming Gunatitanand Swami to sit
+          alongside Harikrishna Maharaj
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Pramukh Swami Maharaj
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Celebrating Pramukh Swami Maharaj’s
+          Shatabdi Mahotsav
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Divyata na Divada 
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Celebrating Diwali with our family      
+        </ion-text>
+      </ion-col>
+  </ion-row>
+   <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          <b>Pick Your Own!</b>
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
+    },
 }
 
 # Satsang Diksha Tiers
