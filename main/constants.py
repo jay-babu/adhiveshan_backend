@@ -3013,7 +3013,7 @@ Example Video (Kishore Sabha): <a href="https://www.youtube.com/watch?v=Dr7RedeT
     speech’s components and overall message.
   </li>
 </ul>
-<h2 class="static-content-title">Approved Chosar Pads</h2><h4 class="static-content-title">(must choose one from the following list)</h4>
+<h2 class="static-content-title">Approved Chosar Pads</h2><h4>(must choose one from the following list)</h4>
 <ion-grid class="ion-text-center">
   <ion-row class="header-row">
     <ion-col size="2">
@@ -3264,7 +3264,7 @@ When recording yourself, you must record their story in good lighting and on a g
 (either on a smartphone or webcam). Kishores should wear a Jabho-Lengho and Kishoris
 should wear a Punjabi. The speech may also be presented with graphics, text, etc.
 </p>
-<h2 class="static-content-title">Approved Books</h2><h4 class="static-content-title">(must choose one from the following list)</h4>
+<h2 class="static-content-title">Approved Books</h2><h4>(must choose one from the following list)</h4>
 <ion-grid class="ion-text-center">
   <ion-row class="header-row">
     <ion-col size="2">
@@ -3393,7 +3393,7 @@ To add authenticity to your nirupan, you can read the first stanza in a poetic w
 Kishores/Kishoris will be judged on analysis of the Vachanamrut, references to other
 prasangs/texts, real life application, speaking ability, accurate information, and timing.
 </p>
-<h2 class="static-content-title">Vachanamrut List</h2><h4 class="static-content-title">(suggestions but not limited to)</h4>
+<h2 class="static-content-title">Vachanamrut List</h2><h4>(suggestions but not limited to)</h4>
 <ion-grid class="ion-text-center">
   <ion-row class="header-row">
     <ion-col size="2">
@@ -3533,7 +3533,7 @@ serve as a guideline.
 The themes of the topics the group must be chosen from the list below:
   </li> 
 </ul>
-<h2 class="static-content-title">Themes</h2><h4 class="static-content-title">(required choose one from the list)</h4>
+<h2 class="static-content-title">Themes</h2><h4>(required choose one from the list)</h4>
 <ion-grid class="ion-text-center">
   <ion-row class="header-row">
     <ion-col size="2">
