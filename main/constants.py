@@ -993,92 +993,521 @@ KISHORE_FAQ = {
 BAL_SKILLS_CHALLENGE = {
     'Story/Speech-Based Challenges': {
         'Mono-acting': """<div class="skills-html">
-<p> Do you like to act? Do you like to talk? Mono-Acting is where you get to act out a famous incident from our Hindu shastras (scriptures) and satsang history based on the point-of-view of the main individual.</p>
-<h2 class="static-content-title">Things to Keep in Mind</h2>
+<h2 class="static-content-title">Rules</h2>
 <ul> 
 	<li>
-		You will take on the role of one person from the scene (for most scenes this is provided), 
+    Participants can choose to enact any one scene of their choice, or select one from the
+    list below.
+	</li>
+	<li>Each participant will have 4 to 7 minutes to enact the scene.</li>
+	<li>The act must be memorized. Notes will not be allowed</li>
+  <li>
+    Participants may perform in either Gujarati or English, whichever suits them best. No
+    bonus points will be given for performing in Gujarati.
+	</li>
+	<li>
+    Participants must record their drama in good lighting and on a good camera (either on
+    a smartphone or webcam). Audio must be clear. Participants are encouraged to use
+    props  
+  </li>
+  <li>
+    You will take on the role of one person from the scene (for most scenes this is provided),
     and enact the scene from that person's point of view.
-	</li>
-	<li>The act must be memorized. Notes will not be allowed.</li>
-	<li>Balaks must choose the bal options and balikas must choose the balika options from the list.</li>
-	<li>
-		Mono-acting will be judged on: accurate portrayal of the incident, 
-    acting, tone, emotion, facial expressions, memorization, props/costume/creativity, etc.
-	</li>
-	<li>
-Topic list, submission details and grading rubric will be provided on the website soon. 	</li>
+  </li>
+  <li>
+    Balaks must choose the bal characters and balikas must choose the balika character list.
+  </li>
+  <li>
+    Mono-acting will be judged on: accurate portrayal of the incident, acting, tone,
+    emotion, facial expressions, memorization, props/costume/creativity.
+  </li>
+  <li>
+    Scripts for the sample scenes below can be downloaded from <a href="https://baps.box.com/s/dzllyk7qr1f8ia7583x9lxtwew96yl0r" target="_blank">here</a>.
+  </li>
 </ul>
+<h2 class="static-content-title">Sample Scenes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Bal Characters</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Balika Characters</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Krishna
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jivuba
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Joban Pagi
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Jamkuba
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Arjun
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Suvasinibhabhi
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sagram Vaghri
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Mirabai
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+        Shravan
+      </ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>
+        Sitaji
+      </ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        Pick Your Own!
+    </ion-col>
+  </ion-row>
+</ion-grid>
 <div>""",
         'Storytelling': """<div class="skills-html">
-<p> Storytelling is where you get to narrate a story in vivid detail and include your own personal reflection to the story. It requires confidence and creativity to make the story both interesting and informative!</p>
-<h2 class="static-content-title">Things to Keep in Mind</h2>
+<h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
-    You must vividly and creatively tell the story in its entirety and provide a manan, or reflection to the story.	</li>
-	<li>The story must be memorized. Notes will not be allowed.</li>
-	<li>No props can be used.</li>
+    Participants must speak on one of Yogiji Maharaj’s Bodh Katha. Participants can choose
+    any bodh katha from the book, 101 Tales of Wisdom  
+  </li>
+  <ul>
+    <li>
+      If you do not have the book, a short version can be found at
+      <a href="http://www.swaminarayan.org/yogijimaharaj/talesofwisdom/" target="_blank">http://www.swaminarayan.org/yogijimaharaj/talesofwisdom/.</a>
+    </li>
+  </ul>
 	<li>
-		Storytelling will be judged on: storytelling ability, content, creativity, vivid details, manan/personal reflection, organization, flow, confidence, tone, etc.
-	</li>
+    Participants must tell the story in its entirety, as well as provide a manan, or reflection,
+    on the importance of the story.
+  </li>
 	<li>
-Topic list, submission details and grading rubric will be provided on the website soon. 	</li>
+    Participants should take between 5 to 7 minutes for their story and manan or reflection.	</li>
+	<li>
+    The story must be memorized. Notes will not be allowed.
+  </li>
+  <li>
+    Participants may perform in either Gujarati or English, whichever suits them best. We
+    suggest that you perform in the language that you are most comfortable and fluent in.
+  </li>
+  <li>
+    Participants must record their story in good lighting and on a good camera (either on a
+    smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear a
+    punjabi.
+  </li>
+  <li>
+    Recording should be done in a single take with no edits. Video stitching will result in
+    disqualification.
+  </li>
+  <li>
+    Storytelling will be judged on: storytelling ability, content, manan/personal reflection,
+    gestures, organization, flow, confidence, tone, time.
+  </li>
 </ul>
+<h2 class="static-content-title">Sample Story List</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="10">
+      <ion-text>Bodh Katha</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Lindyo
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          A Quiver of Arrows
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Tukaram and Naradji
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          The Sesame Seed Scholar
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          The Lazy Man
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        6
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Pick your Own!
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
 <div>""",
         'Satsang Diksha Nirupan': """<div class="skills-html">
-<p> One of the newest skills challenge is the Satsang Diksha Nirupan. A nirupan is a short commentary on a shastra (scripture). The Satsang Diksha Nirupan is where you get to take a few shlokas from the Satsang Diksha and create an analysis and reflection by tying all the shlokas to a common theme. </p>
-<h2 class="static-content-title">Things to Keep in Mind</h2>
+<h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
-    You will speak on a topic which is expanded upon in the Satsang Diksha. Sample shlokas related to the theme will be provided for guidance. 	</li>
-	<li>The nirupan should include at least:</li>
+    Participants will select a Satsang Diksha shloka and perform a nirupan on that shloka.
+    Sample shlokas related to a theme are provided for guidance.
+  </li>
+  <li>The nirupan should done in this order:</li>
   <ul>
-	  <li>2 Satsang Diksha Shloks</li>
+	  <li>Begin by reciting the Satsang Diksha Shloka that you have chosen</li>
 	  <li>
-		1 prasang of Pramukh Swāmi Mahārāj or Mahant Swāmi Mahārāj
+	    Explain the meaning of the shloka and how it relates with the theme given in the
+      table
 	  </li>
     <li>
-    A personal manan (analysis/reflection on how it relates to your life)
+      Use at least one prasang of Pramukh Swami Maharaj or Mahant Swami Maharaj
+      that relates to the theme and the meaning of the shloka
+    </li>
+    <li>
+      Provide your manan or personal reflection of the shloka and how you can imbibe
+      it in your life
     </li>
   </ul>
   <li>
-    The nirupan must be memorized. Notes will not be allowed.
-  </>
+    Participants should take between 5 to 7 minutes for their nirupan.  
+  </li>
 	<li>
-		Nirupan will be judged on: accurate use of Mukhpāṭh and prasangs, organization, flow, confidence, tone, etc.
+    Participants may use a notecard to help them with the nirupan.
 	</li>
-	<li>
-    Topic list, submission details and grading rubric will be provided on the website soon. 	</li>
+  <li>
+    Participants may perform in either Gujarati or English, whichever suits them best. No
+    bonus points will be given for performing in Gujarati.
+  </li>
+  <li>
+    Participants must record their nirupan in good lighting and on a good camera (either on
+    a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas should wear
+    a punjabi.
+  </li>
+  <li>
+    Parents may help in preparation of the nirupan.
+  </li>
+  <li>
+    Nirupan will be judged on: messaging, correct explanation of shlok, accurate use of
+    mukhpath and prasangs, organization, flow, confidence, tone, time.
+  </li>
 </ul>
+<h2 class="static-content-title">Themes</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Example Shlokas</ion-text>
+    </ion-col>
+    <ion-col size="5">
+      <ion-text>Theme</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shlokas 79-95 
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Importance of a Mandir
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+         Shlokas 96-115
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Akshar-Purushottam Darshan
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shlokas 209-215
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Being an Ideal Child
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Shlokas 216-234
+        </ion-text>
+      </ion-col>
+      <ion-col size="5">
+        <ion-text>
+          Sang vs. Kusang
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+      <ion-col size="5">
+        Shlokas 287-298 
+      </ion-col>
+      <ion-col>
+        Importance of Agna and Upasana
+      </ion-col>
+  </ion-row>
+</ion-grid>
 <div>""",
         'Prasang-Varnan': """<div class="skills-html">
-<p> The Prasang Varnan competition is similar to the Prasang Manan Mukhpāṭh category within the Adhiveshan Rājipo Challenge. You must narrate a prasang, or divine incident of Bhagwān and the Satpurush, in detail and explain what virtues you saw in the prasang and how it relates to your life. </p>
-<h2 class="static-content-title">Things to Keep in Mind</h2>
+<h2 class="static-content-title">Rules</h2>
 <ul>
 	<li>
-    You will narrate a prasang and provide a manan, or personal reflection, on the prasang by incorporating at least 1 Mukhpāṭh reference that you had memorized.
+    Participants will elaborate on a prasang and provide a manan, or personal reflection, on
+    the prasang by using 1 mukhpath references that they had memorized. The prasang can
+    be from, but not limited to, the prasang mukhpath section in the Rajipo Challenge.
 	</li>
+  <li>
+    If a prasang is not chosen from the Adhiveshan Rajipo Challenge, please name the
+    source in your speech, such as kids.baps.org or Eternal Virtues.
+  </li>
 	<li>The prasang-varnan should include at least:</li>
   <ul>
 	  <li>
-		1 key prasang
+      1 key prasang
 	  </li>
 	  <li>
-		1 Mukhpāṭh reference
+      1 Mukhpāṭh reference
     </li>
     <li>
-    A personal manan (reflection)
+      A personal manan (analysis/reflection)
     </li>
   </ul>
   <li>
-  The prasang-varnan must be memorized. Notes will not be allowed.
+    Participants should take between 5 to 7 minutes for their prasang-varnan.
   </li>
   <li>
-  Prasang-varnan will be judged on: key prasang, accurate use of Mukhpāṭh, memorization, organization, vivid details, flow, confidence, tone, etc.
+    The prasang-varnan must be memorized. Notes will not be allowed.
   </li>
   <li>
-Topic list, submission details and grading rubric will be provided on the website soon.   </li>
-</ul>""",
+    Participants may perform in either Gujarati or English, whichever suits them best. No
+    bonus points will be given for performing in Gujarati.
+  </li>
+  <li>
+    Participants must record their prasang-varnan in good lighting and on a good camera
+    (either on a smartphone or webcam). Balaks should wear a jhabo-lengho and balikas
+    should wear a punjabi.
+  </li>
+  <li>
+    Prasang-varnan will be judged on: key prasang, manan or personal reflection, accurate
+    use of mukhpath, memorization, organization, flow, confidence, tone, time.
+  </li> 
+  <li>
+    Prasangs for the sample list below can be downloaded from <a href="https://baps.box.com/s/xd99qhk1bp3lo40rsxw6img218rqkide" target="_blank">here</a>
+  </li>
+</ul>
+<h2 class="static-content-title">Sample Prasangs</h2>
+<ion-grid class="ion-text-center">
+  <ion-row class="header-row">
+    <ion-col size="2">
+      <ion-text>#</ion-text>
+    </ion-col>
+    <ion-col size="10">
+      <ion-text>Prasangs</ion-text>
+    </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        1
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Satyam (Truth)
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        2
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Titiksha (Tolerance)
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        3
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Anahamkrutihi (Humility)
+        </ion-text>
+      </ion-col>
+  </ion-row>
+  <ion-row>
+    <ion-col size="2">
+      <ion-text>
+        4
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
+        <ion-text>
+          Astikyam (Faith in God)
+        </ion-text>
+      </ion-col>
+  </ion-row>
+</ion-grid>
+<div>""",
     },
     'Music-Based Challenges': {
         'Solo Singing': """<div class="skills-html">
