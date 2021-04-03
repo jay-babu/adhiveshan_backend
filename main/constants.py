@@ -4243,7 +4243,7 @@ global)
   </ion-row>
 </ion-grid>
 <div>""",
-        'Photpgraphy': """<div class="skills-html">
+        'Photography': """<div class="skills-html">
 <p>
 Kishores and Kishoris will have the opportunity to create a photo album containing a topic or
 theme which corresponds to the images within the album. For example, the images within the
@@ -4529,7 +4529,12 @@ prasangs/katha/daily darshan/etc.
       </ion-col>
   </ion-row>
   <ion-row>
-      <ion-col size="12">
+  <ion-col size="2">
+      <ion-text>
+        8
+      </ion-text>
+    </ion-col>
+      <ion-col size="10">
         <ion-text>
           <b>Pick your own!</b>
         </ion-text>
