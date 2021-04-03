@@ -2040,25 +2040,16 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Pramukh Swami Maharaj Shatabdi
+          What does celebrating Pramukh Swami Maharaj's shatabdi mean to you? (<b>Pick One</b>)
         </ion-text>
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Write about the greatness of Pramukh Swami Maharaj and celebrating Shatabdi
-        </ion-text>
-        <li>
-          Life and Work
-        </li>
-        <li>
-          Virtues
-        </li>
-        <li>
-          Pramukh Swami Maharaj with Balaks
-        </li>
-        <li>
-          Personal Smruti
-        </li>
+      <b> 1.</b> Life and Work
+       <b> 2. </b> Virtues
+       <b> 3. </b> Pramukh Swami Maharaj with Balaks
+       <b> 4. </b> Personal Smruti
+    </ion-text>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -2069,25 +2060,16 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          My Guru: Mahant Swami Maharaj
+          What does Mahant Swami Maharaj mean to you? (<b>Pick One</b>)
         </ion-text>
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Write what Swamibapa means to you
-        </ion-text>
-        <li>
-          Life and Work
-        </li>
-        <li>
-          Virtues
-        </li>
-        <li>
-          Mahant Swami Maharaj with Balaks
-        </li>
-        <li>
-          Personal Smruti
-        </li>
+      <b> 1.</b> Life and Work
+       <b> 2. </b> Virtues
+       <b> 3. </b> Mahant Swami Maharaj with Balaks
+       <b> 4. </b> Personal Smruti
+    </ion-text>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -2223,25 +2205,16 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Pramukh Swami Maharaj Shatabdi
+          What does celebrating Pramukh Swami Maharaj's shatabdi mean to you? (<b>Pick One</b>)
         </ion-text>
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Write about the greatness of Pramukh Swami Maharaj and celebrating Shatabdi
-        </ion-text>
-        <li>
-          Life and Work
-        </li>
-        <li>
-          Virtues
-        </li>
-        <li>
-          Pramukh Swami Maharaj with Balaks
-        </li>
-        <li>
-          Personal Smruti
-        </li>
+      <b> 1.</b> Life and Work
+       <b> 2. </b> Virtues
+       <b> 3. </b> Pramukh Swami Maharaj with Balaks
+       <b> 4. </b> Personal Smruti
+    </ion-text>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -2252,25 +2225,16 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          My Guru: Mahant Swami Maharaj
+          What does Mahant Swami Maharaj mean to you? (<b>Pick One</b>)
         </ion-text>
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Write what Swamibapa means to you
-        </ion-text>
-        <li>
-          Life and Work
-        </li>
-        <li>
-          Virtues
-        </li>
-        <li>
-          Mahant Swami Maharaj with Balaks
-        </li>
-        <li>
-          Personal Smruti
-        </li>
+      <b> 1.</b> Life and Work
+       <b> 2. </b> Virtues
+       <b> 3. </b> Mahant Swami Maharaj with Balaks
+       <b> 4. </b> Personal Smruti
+    </ion-text>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -2591,26 +2555,16 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Pramukh Swami Maharaj Shatabdi
+          What does celebrating Pramukh Swami Maharaj's shatabdi mean to you? (<b>Pick One</b>)
         </ion-text>
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Depict the greatness of Pramukh Swami
-          Maharaj and celebrating Shatabdi
-        </ion-text>
-        <li>
-          Life and Work
-        </li>
-        <li>
-          Virtues
-        </li>
-        <li>
-          Pramukh Swami Maharaj with Balaks
-        </li>
-        <li>
-          Personal Smruti
-        </li>
+      <b> 1.</b> Life and Work
+       <b> 2. </b> Virtues
+       <b> 3. </b> Pramukh Swami Maharaj with Balaks
+       <b> 4. </b> Personal Smruti
+    </ion-text>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -2621,25 +2575,16 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          My Guru: Mahant Swami Maharaj
+          What does Mahant Swami Maharaj mean to you? (<b>Pick One</b>)
         </ion-text>
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Write what Swamibapa means to you
-        </ion-text>
-        <li>
-          Life and Work
-        </li>
-        <li>
-          Virtues
-        </li>
-        <li>
-          Mahant Swami Maharaj with Balaks
-        </li>
-        <li>
-          Personal Smruti
-        </li>
+      <b> 1.</b> Life and Work
+       <b> 2. </b> Virtues
+       <b> 3. </b> Mahant Swami Maharaj with Balaks
+       <b> 4. </b> Personal Smruti
+    </ion-text>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -2650,27 +2595,13 @@ BAL_SKILLS_CHALLENGE = {
     </ion-col>
       <ion-col size="5">
         <ion-text>
-          Satsang History
+          Our Sanstha's History
         </ion-text>
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Depict major events within our Sanstha’s history
+          Consider: Timeline Format, One or Two major events, the foundation of BAPS, and the first mandir outside of India
         </ion-text>
-        <li>
-          Timeline format showing major events
-        </li>
-        <li>
-          Pick one or two major events:
-        </li>
-        <ul>
-          <li>
-            Foundation of BAPS
-          </li>
-          <li>
-            First mandir outside of India
-          </li>
-        </ul>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -2686,11 +2617,8 @@ BAL_SKILLS_CHALLENGE = {
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Depict what mandir means to you        
+          Depict what the importance of Mandir means to you.       
         </ion-text>
-        <li>
-          Importance of Mandir
-        </li>
       </ion-col>
   </ion-row>
    <ion-row>
@@ -2706,11 +2634,8 @@ BAL_SKILLS_CHALLENGE = {
       </ion-col>
       <ion-col size="5">
         <ion-text>
-          Depict what this gift from our Guru means to you     
+          Depict what the Satsang Diksha means to you. 
         </ion-text>
-        <li>
-          Importance of Mandir
-        </li>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -2982,7 +2907,7 @@ chosar pad, provide a nirupan and your own manan. A cohesive speech will incorpo
 elements in a seamless manner — used to educate anyone who watches. Limited to one
 participant per submission. Details on formatting and how to submit videos will be provided.
 </p>
-<p>Example Video (Syncing to God’s Playlist) :<a href="https://www.youtube.com/watch?v=UcgF0tRukJs" target="_blank">Here</a>
+<p>Example Video (Syncing to God’s Playlist): <a href="https://www.youtube.com/watch?v=UcgF0tRukJs" target="_blank">Here</a>
 </p>
 <p>
 Example Video (Kishore Sabha): <a href="https://www.youtube.com/watch?v=Dr7RedeTTT0&list=PLZ_xghvSoitg6sY2zThPrWfuEiHirGF1Y&index=17" target="_blank">Here</a>
@@ -3330,7 +3255,7 @@ should wear a Punjabi. The speech may also be presented with graphics, text, etc
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Divine memories 1,2,3,4
+          Divine memories 1, 2, 3, 4
         </ion-text>
       </ion-col>
   </ion-row>
@@ -3411,7 +3336,7 @@ prasangs/texts, real life application, speaking ability, accurate information, a
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Gadhada I-3,6,16,21,67
+          Gadhada I-3, 6, 16, 21, 67
         </ion-text>
       </ion-col>
   </ion-row>
@@ -3435,7 +3360,7 @@ prasangs/texts, real life application, speaking ability, accurate information, a
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Gadhada III-2,7,38
+          Gadhada III-2, 7, 38
         </ion-text>
       </ion-col>
   </ion-row>
@@ -3447,7 +3372,7 @@ prasangs/texts, real life application, speaking ability, accurate information, a
     </ion-col>
       <ion-col size="10">
         <ion-text>
-          Panchala 4,7
+          Panchala 4, 7
         </ion-text>
       </ion-col>
   </ion-row>
@@ -3476,7 +3401,12 @@ prasangs/texts, real life application, speaking ability, accurate information, a
       </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col size="12">
+  <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+    <ion-col size="10">
       <ion-text>
         <b>Pick your own!</b>
       </ion-text>
@@ -3560,16 +3490,16 @@ The themes of the topics the group must be chosen from the list below:
     <ion-col size="5">
     <ion-row>
       <ion-text>
-      The greatness of the
+      1. Greatness of the
       Akshar-Purushottam Darshan
       </ion-text>
       <br />
       <ion-text>
-      What does Akshar Purshottam mean?
+      2. What does Akshar Purshottam mean?
       </ion-text>
       <br />
       <ion-text>
-      The necessity of the
+      3. The necessity of the
       Aksharbrahma Guru
       </ion-text>
     </ion-row>
@@ -3860,32 +3790,9 @@ world.
       </ion-text>
     </ion-col>
       <ion-col size="10">
-        <ion-text>
-          Truth and Applicability of Satsang Concepts (choose one from the
-following list):
-        </ion-text>
-        <p>
-        True Happiness
-        </p>
-        <p>
-        Positive Attitude
-        </p>
-        <p>
-        Unity
-        </p>
-        <p>
-        Living an Addiction Free Life
-        </p>
-        <p>
-        Family Harmony
-        </p>
-        <p>
-        Forgiveness
-        </p>
-        <p>
-        Tolerance
-        </p>
-      </ion-col>
+        <ion-text class="md hydrated">
+            Truth and Applicability of Satsang Concepts, pick one: <b>1.</b> True Happiness <b>2.</b> Positive Attitude <b>3.</b> Unity <b>4.</b> Addiction-Free Life <b>5.</b> Family Harmony <b>6.</b> Forgiveness <b>7.</b> Tolerance
+      </ion-text>
   </ion-row>
 </ion-grid>
 <div>""",
@@ -3998,7 +3905,12 @@ Dungar Bhakta walking to farm at night
       </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col size="12">
+  <ion-col size="2">
+      <ion-text>
+        5
+      </ion-text>
+    </ion-col>
+    <ion-col size="10">
       <ion-text>
         <b>Pick your own!</b>
       </ion-text>
@@ -4155,7 +4067,12 @@ Depict any Satsang concept
       </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col size="12">
+  <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+    <ion-col size="10">
       <b>Pick your own!</b>
     </ion-col>
   </ion-row>
@@ -4313,7 +4230,12 @@ global)
       </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col size="12">
+  <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+    <ion-col size="10">
       <ion-text>
         <b>Pick your own!</b>
       </ion-text>
@@ -4428,7 +4350,7 @@ interconnected or complementary
         5
       </ion-text>
     </ion-col>
-      <ion-col size="5">
+      <ion-col size="10">
         <ion-text>
           Mandir
         </ion-text>
@@ -4447,7 +4369,12 @@ interconnected or complementary
       </ion-col>
   </ion-row>
   <ion-row>
-    <ion-col size="12">
+  <ion-col size="2">
+      <ion-text>
+        7
+      </ion-text>
+    </ion-col>
+    <ion-col size="10">
       <ion-text>
         <b>Pick your own!</b>
       </ion-text>
@@ -4545,10 +4472,10 @@ that cannot be read by a human.
         <ion-text>
           A family-friendly game app that can be used during Ghar Sabha
         </ion-text>
-        <p>
+        <ion-text>
         Satsang Charades, Satsang Quiz App, Satsang Scrabble, Satsang-themed
 Settlers of Catan, A game to aid in doing mukhpath, etc.
-        </p>
+        </ion-text>
       </ion-col>
   </ion-row>
   <ion-row>
@@ -4570,7 +4497,7 @@ Diksha words.
         5
       </ion-text>
     </ion-col>
-      <ion-col size="5">
+      <ion-col size="10">
         <ion-text>
           Satsang Diksha Study app.
         </ion-text>
