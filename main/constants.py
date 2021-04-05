@@ -2337,28 +2337,24 @@ KM_STORIES = [
 
 BM_ANNOUNCEMENTS = [
     {
+        'timestamp': '5 Apr, 2021',
+        'text': '1. Everything may be memorized in any language: Sanskrit, Gujarati, or English. \n\n\ 2. While encouraged, you do not need to memorize the translations/meanings for any mukhpath. \n\n 3. You will not be tested on references for any mukhpath.'
+    },
+    {
         'timestamp': '7 Feb, 2021',
         'text': 'You can now access Satsang Diksha material in Sanskrit by updating the application or going to the website. Remember to notify your local karyakar if you decide to memorize Satsang Diksha in Sanskrit.'
-    },
-    {
-        'timestamp': '31 Jan, 2021',
-        'text': 'Pledging is now live on BKMS till March 7th, 2021. Make sure you contact your karyakars if you are having any issues or problems. Remember that pledges made on the website are not automatically made for you on BKMS!'
-    },
-    {
-        'timestamp': '31 Jan, 2021',
-        'text': 'Jai Swāminārāyaṇ balaks and balikas. Welcome to the Adhiveshan website! We are very excited to begin our journey towards Guru Bhakti.'
     }
 ]
 
 KM_ANNOUNCEMENTS = [
     {
-        'timestamp': '7 Feb, 2021',
-        'text': 'You can now access Satsang Diksha material in Sanskrit by updating the application or going to the website. Remember to notify your local karyakar if you decide to memorize Satsang Diksha in Sanskrit.'
+        'timestamp': '5 Apr, 2021',
+        'text': '1. Everything may be memorized in any language: Sanskrit, Gujarati, or English. \n\n\ 2. While encouraged, you do not need to memorize the translations/meanings for any mukhpath. \n\n 3. You will not be tested on references for any mukhpath.'
     },
     {
-        'timestamp': '31 Jan, 2021',
-        'text': 'Pledging is now live on BKMS! Make sure you contact your karyakars if you are having any issues or problems. Remember that pledges made on the website are not automatically made for you on BKMS!'
-    },
+        'timestamp': '7 Feb, 2021',
+        'text': 'You can now access Satsang Diksha material in Sanskrit by updating the application or going to the website. Remember to notify your local karyakar if you decide to memorize Satsang Diksha in Sanskrit.'
+    }
 ]
 
 BM_ANNOUNCEMENT_PAGE_CONTENT = {
