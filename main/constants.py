@@ -5237,10 +5237,6 @@ BM_STORIES = [
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra2.jpg",
     "stories": [
       {
-        'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%284_5%29.mp4',
-        'type': 'video',
-      },
-      {
         'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%283_21%29.mp4',
         'type': 'video'
       },
@@ -5399,10 +5395,6 @@ KM_STORIES = [
     "title": "Divine Moods",
     "url": "https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/KM%20Module%20Photos/extra2.jpg",
     "stories": [
-      {
-        'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%284_5%29.mp4',
-        'type': 'video',
-      },
       {
         'url': 'https://pause.sfo2.cdn.digitaloceanspaces.com/Other/Adhiveshan%20Website/Stories/KM/Divine-Moods/Divine%20Moods%20%283_21%29.mp4',
         'type': 'video'
