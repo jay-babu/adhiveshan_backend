@@ -28,6 +28,6 @@ sib-api-v3-sdk==7.2.0
 six==1.15.0
 sqlparse==0.4.1
 starkbank-ecdsa==1.1.0
-urllib3==1.26.3
+urllib3==1.26.4
 whitenoise==5.2.0
 wincertstore==0.2
