@@ -5459,7 +5459,7 @@ KM_STORIES = [
 BM_ANNOUNCEMENTS = [
     {
         'timestamp': '6 Apr, 2021',
-        'text': 'Having trouble entering your BKMS ID?\nPlease logout and log back in to resolve any issues. You should be able to see your BKID in settings.'
+        'text': 'If you are having trouble entering your BKMS ID, please logout and log back in to resolve any issues. You should be able to see your BKID in settings.'
     },
     {
         'timestamp': '6 Apr, 2021',
@@ -5474,7 +5474,7 @@ BM_ANNOUNCEMENTS = [
 KM_ANNOUNCEMENTS = [
     {
         'timestamp': '6 Apr, 2021',
-        'text': 'Having trouble entering your BKMS ID?\nPlease logout and log back in to resolve any issues. You should be able to see your BKID in settings.'
+        'text': 'If you are having trouble entering your BKMS ID, please logout and log back in to resolve any issues. You should be able to see your BKID in settings.'
     },
     {
         'timestamp': '5 Apr, 2021',
