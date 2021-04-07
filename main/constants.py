@@ -5458,7 +5458,11 @@ KM_STORIES = [
 
 BM_ANNOUNCEMENTS = [
     {
-        'timestamp': '5 Apr, 2021',
+        'timestamp': '6 Apr, 2021',
+        'text': 'Having trouble entering your BKMS ID?\nPlease logout and log back in to resolve any issues. You should be able to see your BKID in settings.'
+    },
+    {
+        'timestamp': '6 Apr, 2021',
         'text': 'For both Rajipo and Gurubhakti challenge:\n\n1. Everything may be memorized in any language: Sanskrit, Gujarati, or English. \n\n 2. While encouraged, you do not need to memorize the translations/meanings for any mukhpath. \n\n 3. You will not be tested on references for any mukhpath.'
     },
     {
@@ -5468,6 +5472,10 @@ BM_ANNOUNCEMENTS = [
 ]
 
 KM_ANNOUNCEMENTS = [
+    {
+        'timestamp': '6 Apr, 2021',
+        'text': 'Having trouble entering your BKMS ID?\nPlease logout and log back in to resolve any issues. You should be able to see your BKID in settings.'
+    },
     {
         'timestamp': '5 Apr, 2021',
         'text': 'For both Rajipo and Gurubhakti challenge:\n\n1. Everything may be memorized in any language: Sanskrit, Gujarati, or English. \n\n 2. While encouraged, you do not need to memorize the translations/meanings for any mukhpath. \n\n 3. You will not be tested on references for any mukhpath.'
