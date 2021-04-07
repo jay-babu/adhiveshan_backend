@@ -568,13 +568,11 @@ class GetExternalUserView(APIView):
     def post(self, request: Request):
         data = request.data
         try:
-            if (ex_user := ExternalUserModel.objects.get(user=User.objects.get(email=data.get('email')), code=data.get(
-                    'code'))) and timezone.now() <= ex_user.code_expiration:
-                user = User.objects.get(email=data.get('email'))
-                return Response(data=get_modules(user=user, bookmarked_only=True), status=status.HTTP_200_OK)
+            user = User.objects.get(email=data.get('email'))
+            return Response(data=get_modules(user=user, bookmarked_only=True), status=status.HTTP_200_OK)
         except ExternalUserModel.DoesNotExist:
             pass
-        return Response(data={'error': 'Invalid Email or Code'}, status=status.HTTP_400_BAD_REQUEST)
+        return Response(data={'error': 'Invalid Email'}, status=status.HTTP_400_BAD_REQUEST)
 
 
 class SetBKMSID(APIView):
