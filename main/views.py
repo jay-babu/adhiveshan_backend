@@ -630,6 +630,18 @@ class GetUserPledgeForProctor(APIView):
         try:
             user = User.objects.get(email=data.get('email'))
             response = defaultdict(list)
+            response['userDetails'] = {
+                'email': user.email,
+                'first_name': user.first_name or '',
+                'middle_name': user.middle_name or '',
+                'last_name': user.last_name or '',
+                'region': user.region or '',
+                'center': user.center or '',
+                'gender': user.gender or '',
+                'mandal': user.mandal or '',
+                'bkms_id': user.bkms_id,
+            }
+            response['pledgeRequirements'] = constants.PROCTOR_REQUIREMENTS[user.mandal]
             modules = response['modules']
             for pledged_module in user.pledge.pledged_modules.all():
                 modules.append({
