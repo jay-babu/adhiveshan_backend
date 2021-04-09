@@ -616,12 +616,6 @@ class MatchProctorAccessCode(APIView):
             return Response(data='', status=status.HTTP_200_OK)
         return Response(data={'error': 'Invalid Code'}, status=status.HTTP_400_BAD_REQUEST)
 
-class GetProctorRequirements(APIView):
-    permission_classes = (AllowAny,)
-
-    def get(self, request: Request):
-        return Response(data=constants.PROCTOR_REQUIREMENTS, status=status.HTTP_200_OK)
-
 class GetUserPledgeForProctor(APIView):
     permission_classes = (AllowAny,)
 
