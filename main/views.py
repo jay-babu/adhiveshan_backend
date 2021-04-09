@@ -627,16 +627,20 @@ class GetUserPledgeForProctor(APIView):
 
     def get(self, request: Request):
         data = request.data
-        user = User.objects.get(email=data.get('email'))
-        response = defaultdict(list)
-        modules = response['modules']
-        for pledged_module in user.pledge.pledged_modules.all():
-            modules.append({
-                'title': pledged_module.module.title,
-                'tier': pledged_module.tier,
-                'required': constants.get_required_mukhpath_items(
-                    pledged_module.module.title,
-                    user.mandal.lower().replace(' ', '_'),
-                    pledged_module.tier)
-            })
-        return Response(data=response, status=status.HTTP_200_OK)
+        try:
+            user = User.objects.get(email=data.get('email'))
+            response = defaultdict(list)
+            modules = response['modules']
+            for pledged_module in user.pledge.pledged_modules.all():
+                modules.append({
+                    'title': pledged_module.module.title,
+                    'tier': pledged_module.tier,
+                    'required': constants.get_required_mukhpath_items(
+                        pledged_module.module.title,
+                        user.mandal.lower().replace(' ', '_'),
+                        pledged_module.tier)
+                })
+            return Response(data=response, status=status.HTTP_200_OK)
+        except ExternalUserModel.DoesNotExist:
+            pass
+        return Response(data={'error': 'Invalid Email'}, status=status.HTTP_400_BAD_REQUEST)
