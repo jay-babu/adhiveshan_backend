@@ -625,10 +625,10 @@ class GetProctorRequirements(APIView):
 class GetUserPledgeForProctor(APIView):
     permission_classes = (AllowAny,)
 
-    def post(self, request: Request):
-        data = request.data
+    def get(self, request: Request):
+        data = request.headers.email
         try:
-            user = User.objects.get(email=data.get('email'))
+            user = User.objects.get(email=data)
             response = defaultdict(list)
             response['userDetails'] = {
                 'email': user.email,
