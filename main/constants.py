@@ -5505,124 +5505,52 @@ KM_ADHIVESHAN_DATES = {
 }
 
 BM_ANNOUNCEMENT_PAGE_CONTENT = {
-    'announcements': BM_ANNOUNCEMENTS,
-    'stories': BM_STORIES,
-    'adhiveshanDates': BM_ADHIVESHAN_DATES
-}
-
-KM_ANNOUNCEMENT_PAGE_CONTENT = {
-    'announcements': KM_ANNOUNCEMENTS,
-    'stories': KM_STORIES,
-    'adhiveshanDates': KM_ADHIVESHAN_DATES,
+  'announcements': BM_ANNOUNCEMENTS,
+  'stories': BM_STORIES,
+  'adhiveshanDates': BM_ADHIVESHAN_DATES
 }
 
 PROCTOR_REQUIREMENTS = {
-  'satsang_diksha': {
-    'mahant': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'pramukh': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'yogi': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'shastriji': {
-      'required': 20,
-      'attempts': 30,
-    },
+  "satsang_diksha":{
+    "mahant":{"required":20,"attempts":30},
+    "pramukh":{"required":20,"attempts":30},
+    "yogi":{"required":20,"attempts":30},
+    "shastriji":{"required":20,"attempts":30}
   },
-  'swamini_vato': {
-    'mahant': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'pramukh': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'yogi': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'shastriji': {
-      'required': 20,
-      'attempts': 30,
-    },
+  "swamini_vato":{
+    "mahant":{"required":20,"attempts":30},
+    "pramukh":{"required":20,"attempts":30},
+    "yogi":{"required":20,"attempts":30},
+    "shastriji":{"required":20,"attempts":30}
   },
-  'shloka_sakhi': {
-    'mahant': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'pramukh': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'yogi': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'shastriji': {
-      'required': 20
-      'attempts': 30,
-    },
+  "shloka_sakhi":{
+    "mahant":{"required":20,"attempts":30},
+    "pramukh":{"required":20,"attempts":30},
+    "yogi":{"required":20,"attempts":30},
+    "shastriji":{"required":20,"attempts":30}
   },
-  'kirtan': {
-    'mahant': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'pramukh': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'yogi': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'shastriji': {
-      'required': 20,
-      'attempts': 30,
-    },
+  "kirtan":{
+    "mahant":{"required":20,"attempts":30},
+    "pramukh":{"required":20,"attempts":30},
+    "yogi":{"required":20,"attempts":30},
+    "shastriji":{"required":20,"attempts":30}
   },
-  'prasang_manan': {
-    'mahant': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'pramukh': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'yogi': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'shastriji': {
-      'required': 20,
-      'attempts': 30,
-    },
+  "prasang_manan":{
+    "mahant":{"required":20,"attempts":30},
+    "pramukh":{"required":20,"attempts":30},
+    "yogi":{"required":20,"attempts":30},
+    "shastriji":{"required":20,"attempts":30}
   },
-  'guru_bhakti': {
-    'mahant': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'pramukh': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'yogi': {
-      'required': 20,
-      'attempts': 30,
-    },
-    'shastriji': {
-      'required': 20,
-      'attempts': 30,
-    },
-  },
+  "guru_bhakti":{
+    "mahant":{"required":20,"attempts":30},
+    "pramukh":{"required":20,"attempts":30},
+    "yogi":{"required":20,"attempts":30},
+    "shastriji":{"required":20,"attempts":30}
+  }
+}
+
+KM_ANNOUNCEMENT_PAGE_CONTENT = {
+  'announcements': KM_ANNOUNCEMENTS,
+  'stories': KM_STORIES,
+  'adhiveshanDates': KM_ADHIVESHAN_DATES,
 }
