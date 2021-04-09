@@ -616,7 +616,7 @@ class MatchProctorAccessCode(APIView):
             return Response(data='', status=status.HTTP_200_OK)
         return Response(data={'error': 'Invalid Code'}, status=status.HTTP_400_BAD_REQUEST)
 
-class GetUserPledgeForProctor(APIView):
+class GetExamineeDetails(APIView):
     permission_classes = (AllowAny,)
 
     def post(self, request: Request):

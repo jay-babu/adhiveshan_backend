@@ -40,7 +40,7 @@ urlpatterns = [
     path('set_bkms_id/', views.SetBKMSID.as_view()),
     path('update_name/', views.UpdateName.as_view()),
     path('get_proctor_requirements/', views.GetProctorRequirements.as_view()),
-    path('get_user_details_for_proctor/', views.GetUserPledgeForProctor.as_view()),
+    path('get_examinee_details/', views.GetExamineeDetails.as_view()),
 
     path('', include(router.urls)),
 
