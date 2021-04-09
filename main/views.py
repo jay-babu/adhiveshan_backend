@@ -606,3 +606,18 @@ class UpdateName(APIView):
                 'middle_name': request.user.middle_name,
                 'last_name': request.user.last_name},
             status=status.HTTP_200_OK)
+
+class MatchProctorAccessCode(APIView):
+    permission_classes = (AllowAny,)
+
+    def post(self, request: Request):
+        data = request.data
+        if data.get('token') == '-309504447':
+            return Response(data='', status=status.HTTP_200_OK)
+        return Response(data={'error': 'Invalid Code'}, status=status.HTTP_400_BAD_REQUEST)
+
+class GetProctorRequirements(APIView):
+    permission_classes = (AllowAny,)
+
+    def get(self, request: Request):
+        return Response(data=constants.PROCTOR_REQUIREMENTS, status=status.HTTP_200_OK)
