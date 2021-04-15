@@ -5511,140 +5511,132 @@ BM_ANNOUNCEMENT_PAGE_CONTENT = {
 }
 
 PROCTOR_REQUIREMENTS = {
-  'Group 0': {
+  "Group 0": {
     "satsang_diksha":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "ghanshyam":{"required":8,"attempts":10},
     },
     "swamini_vato":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "ghanshyam":{"required":1,"attempts":1},
     },
     "shloka_sakhi":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "ghanshyam":{"required":1,"attempts":1},
     },
     "kirtan":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "ghanshyam":{"required":1,"attempts":1},
     },
     "prasang_manan":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "ghanshyam":{"required":1,"attempts":1},
     },
   },
-  'Group 1': {
+  "Group 1": {
     "satsang_diksha":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "ghanshyam":{"required":8,"attempts":10},
+      "mahant":{"required":16,"attempts":20},
+      "pramukh":{"required":24,"attempts":30},
+      "yogi":{"required":32,"attempts":40},
+      "shastri":{"required":40,"attempts":50}
     },
     "swamini_vato":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":2,"attempts":4},
+      "pramukh":{"required":3,"attempts":5},
+      "yogi":{"required":4,"attempts":6},
+      "shastri":{"required":5,"attempts":7}
     },
     "shloka_sakhi":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":2,"attempts":3},
+      "pramukh":{"required":2,"attempts":4},
+      "yogi":{"required":3,"attempts":5},
+      "shastri":{"required":3,"attempts":5}
     },
     "kirtan":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":1,"attempts":2},
+      "pramukh":{"required":1,"attempts":3},
+      "yogi":{"required":1,"attempts":3},
+      "shastri":{"required":1,"attempts":3}
     },
     "prasang_manan":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":1,"attempts":2},
+      "pramukh":{"required":1,"attempts":3},
+      "yogi":{"required":1,"attempts":3},
+      "shastri":{"required":1,"attempts":3}
     },
   },
-  'Group 2': {
+  "Group 2": {
     "satsang_diksha":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":16,"attempts":20},
+      "pramukh":{"required":24,"attempts":30},
+      "yogi":{"required":32,"attempts":40},
+      "shastri":{"required":40,"attempts":50}
     },
     "swamini_vato":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":4,"attempts":6},
+      "pramukh":{"required":5,"attempts":7},
+      "yogi":{"required":5,"attempts":7},
+      "shastri":{"required":6,"attempts":8}
     },
     "shloka_sakhi":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":2,"attempts":4},
+      "pramukh":{"required":3,"attempts":5},
+      "yogi":{"required":4,"attempts":6},
+      "shastri":{"required":5,"attempts":7}
     },
     "kirtan":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":1,"attempts":3},
+      "pramukh":{"required":1,"attempts":3},
+      "yogi":{"required":2,"attempts":4},
+      "shastri":{"required":2,"attempts":4}
     },
     "prasang_manan":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":1,"attempts":3},
+      "pramukh":{"required":1,"attempts":3},
+      "yogi":{"required":2,"attempts":4},
+      "shastri":{"required":2,"attempts":4}
     },
   },
-  'Group 3': {
+  "Group 3": {
     "satsang_diksha":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":16,"attempts":20},
+      "pramukh":{"required":24,"attempts":30},
+      "yogi":{"required":32,"attempts":40},
+      "shastri":{"required":40,"attempts":50}
     },
     "swamini_vato":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":6,"attempts":8},
+      "pramukh":{"required":8,"attempts":10},
+      "yogi":{"required":9,"attempts":11},
+      "shastri":{"required":12,"attempts":14}
     },
     "shloka_sakhi":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "mahant":{"required":2,"attempts":4},
+      "pramukh":{"required":4,"attempts":6},
+      "yogi":{"required":6,"attempts":8},
+      "shastri":{"required":6,"attempts":8}
     },
     "kirtan":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":1,"attempts":3},
+      "pramukh":{"required":2,"attempts":4},
+      "yogi":{"required":2,"attempts":4},
+      "shastri":{"required":3,"attempts":5}
     },
     "prasang_manan":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "mahant":{"required":1,"attempts":3},
+      "pramukh":{"required":2,"attempts":4},
+      "yogi":{"required":2,"attempts":4},
+      "shastri":{"required":3,"attempts":5}
     },
   },
-  'Kishore/Kishori': {
-    "guru_bhakti":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+  "Kishore/Kishori": {
+    "satsang_diksha":{
+      "mahant":{"required":16,"attempts":20},
+      "pramukh":{"required":24,"attempts":30},
+      "yogi":{"required":32,"attempts":40},
+      "shastri":{"required":40,"attempts":50}
+    },
+    "km_modules":{
+      "bronze":{"required":1,"attempts":2},
+      "silver":{"required":1,"attempts":2},
+      "gold":{"required":1,"attempts":2},
+      "platinum":{"required":1,"attempts":2}
     }
   }
 }
