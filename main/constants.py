@@ -5640,7 +5640,13 @@ PROCTOR_REQUIREMENTS = {
     },
   },
   'Kishore/Kishori': {
-    "guru_bhakti":{
+    "satsang_diksha":{
+      "mahant":{"required":20,"attempts":30},
+      "pramukh":{"required":20,"attempts":30},
+      "yogi":{"required":20,"attempts":30},
+      "shastri":{"required":20,"attempts":30}
+    },
+    "km_modules":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
