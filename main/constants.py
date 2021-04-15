@@ -5516,19 +5516,19 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "swamini_vato":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "shloka_sakhi":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "kirtan":{
       "mahant":{"required":20,"attempts":30},
@@ -5540,7 +5540,7 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
   },
   'Group 1': {
@@ -5548,31 +5548,31 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "swamini_vato":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "shloka_sakhi":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "kirtan":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "prasang_manan":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
   },
   'Group 2': {
@@ -5580,31 +5580,31 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "swamini_vato":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "shloka_sakhi":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "kirtan":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "prasang_manan":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
   },
   'Group 3': {
@@ -5612,13 +5612,13 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "swamini_vato":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "shloka_sakhi":{
       "mahant":{"required":20,"attempts":30},
@@ -5630,13 +5630,13 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "prasang_manan":{
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
   },
   'Kishore/Kishori': {
@@ -5644,7 +5644,7 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     }
   }
 }
