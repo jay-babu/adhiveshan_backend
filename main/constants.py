@@ -5647,10 +5647,10 @@ PROCTOR_REQUIREMENTS = {
       "shastri":{"required":20,"attempts":30}
     },
     "km_modules":{
-      "mahant":{"required":20,"attempts":30},
-      "pramukh":{"required":20,"attempts":30},
-      "yogi":{"required":20,"attempts":30},
-      "shastri":{"required":20,"attempts":30}
+      "bronze":{"required":20,"attempts":30},
+      "silver":{"required":20,"attempts":30},
+      "gold":{"required":20,"attempts":30},
+      "platinum":{"required":20,"attempts":30}
     }
   }
 }
