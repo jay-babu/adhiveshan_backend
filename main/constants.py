@@ -5534,7 +5534,7 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "prasang_manan":{
       "mahant":{"required":20,"attempts":30},
@@ -5624,7 +5624,7 @@ PROCTOR_REQUIREMENTS = {
       "mahant":{"required":20,"attempts":30},
       "pramukh":{"required":20,"attempts":30},
       "yogi":{"required":20,"attempts":30},
-      "shastriji":{"required":20,"attempts":30}
+      "shastri":{"required":20,"attempts":30}
     },
     "kirtan":{
       "mahant":{"required":20,"attempts":30},
