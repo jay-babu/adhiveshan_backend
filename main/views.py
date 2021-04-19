@@ -19,7 +19,7 @@ from main.serializers import UserSerializer, ChangePasswordSerializer, CreateExt
 from . import constants
 from . import models
 from .models import title_and_capitial, ExternalUserModel, User, PledgedModule, Pledge
-
+from firebase_logic import verify_token
 
 class RegisterView(GenericAPIView):
     serializer_class = UserSerializer
@@ -568,8 +568,11 @@ class GetExternalUserView(APIView):
     def post(self, request: Request):
         data = request.data
         try:
-            user = User.objects.get(email=data.get('email'))
-            return Response(data=get_modules(user=user, bookmarked_only=True), status=status.HTTP_200_OK)
+            if verify_token(data.get('token')):
+                user = User.objects.get(email=data.get('email'))
+                return Response(data=get_modules(user=user, bookmarked_only=True), status=status.HTTP_200_OK)
+            else:
+                return Response(data={'error': 'Access not allowed'}, status=status.HTTP_400_BAD_REQUEST)
         except ExternalUserModel.DoesNotExist:
             pass
         return Response(data={'error': 'Invalid Email'}, status=status.HTTP_400_BAD_REQUEST)
@@ -622,31 +625,34 @@ class GetExamineeDetails(APIView):
     def post(self, request: Request):
         data = request.data
         try:
-            user = User.objects.get(email=data.get('email'))
-            response = defaultdict(list)
-            response['userDetail'] = {
-                'email': user.email,
-                'first_name': user.first_name or '',
-                'middle_name': user.middle_name or '',
-                'last_name': user.last_name or '',
-                'region': user.region or '',
-                'center': user.center or '',
-                'gender': user.gender or '',
-                'mandal': user.mandal or '',
-                'bkms_id': user.bkms_id,
-            }
-            response['testingRequirements'] = constants.PROCTOR_REQUIREMENTS[user.mandal]
-            modules = response['userPledge']
-            for pledged_module in user.pledge.pledged_modules.all():
-                modules.append({
-                    'title': pledged_module.module.title,
-                    'tier': pledged_module.tier,
-                    'required': constants.get_required_mukhpath_items(
-                        pledged_module.module.title,
-                        user.mandal.lower().replace(' ', '_'),
-                        pledged_module.tier)
-                })
-            return Response(data=response, status=status.HTTP_200_OK)
+            if verify_token(data.get('token')):
+                user = User.objects.get(email=data.get('email'))
+                response = defaultdict(list)
+                response['userDetail'] = {
+                    'email': user.email,
+                    'first_name': user.first_name or '',
+                    'middle_name': user.middle_name or '',
+                    'last_name': user.last_name or '',
+                    'region': user.region or '',
+                    'center': user.center or '',
+                    'gender': user.gender or '',
+                    'mandal': user.mandal or '',
+                    'bkms_id': user.bkms_id,
+                }
+                response['testingRequirements'] = constants.PROCTOR_REQUIREMENTS[user.mandal]
+                modules = response['userPledge']
+                for pledged_module in user.pledge.pledged_modules.all():
+                    modules.append({
+                        'title': pledged_module.module.title,
+                        'tier': pledged_module.tier,
+                        'required': constants.get_required_mukhpath_items(
+                            pledged_module.module.title,
+                            user.mandal.lower().replace(' ', '_'),
+                            pledged_module.tier)
+                    })
+                return Response(data=response, status=status.HTTP_200_OK)
+            else:
+                return Response(data={'error': 'Access not allowed'}, status=status.HTTP_400_BAD_REQUEST)
         except ExternalUserModel.DoesNotExist:
             pass
         return Response(data={'error': 'Invalid Email'}, status=status.HTTP_400_BAD_REQUEST)
