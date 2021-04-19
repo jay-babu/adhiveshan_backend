@@ -3,6 +3,12 @@
 import os
 import sys
 
+import firebase_admin
+
+from firebase_logic import decrypt_file
+
+fire = None
+
 
 def main():
     """Run administrative tasks."""
@@ -19,4 +25,9 @@ def main():
 
 
 if __name__ == '__main__':
+    decrypt_file()
+    try:
+        fire = firebase_admin.initialize_app()
+    except ValueError:
+        pass
     main()
