@@ -1,5 +1,7 @@
+import logging
 import os
 
+import firebase_admin
 from cryptography.fernet import Fernet
 from firebase_admin import auth
 from firebase_admin.auth import InvalidIdTokenError
@@ -39,7 +41,15 @@ def decrypt_file():
 
 def verify_token(token: str):
     try:
+        decrypt_file()
+        try:
+           firebase_admin.get_app()
+        except ValueError as e:
+            firebase_admin.initialize_app()
         decoded_token = auth.verify_id_token(token)
         return decoded_token['uid']
     except InvalidIdTokenError:
+        return False
+    except ValueError as e:
+        logging.error(e)
         return False
