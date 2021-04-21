@@ -5,7 +5,6 @@ from datetime import timedelta
 from os import getenv
 from random import randint
 import logging
-import requests
 
 from django.db.models import Q
 from django.utils import timezone
@@ -652,22 +651,6 @@ class GetExamineeDetails(APIView):
                             pledged_module.tier)
                     })
                 return Response(data=response, status=status.HTTP_200_OK)
-            else:
-                return Response(data={'error': 'Access not allowed'}, status=status.HTTP_400_BAD_REQUEST)
-        except ExternalUserModel.DoesNotExist:
-            pass
-        return Response(data={'error': 'Invalid Email'}, status=status.HTTP_400_BAD_REQUEST)
-
-class PostResultToSheets(APIView):
-    permission_classes = (AllowAny,)
-
-    def post(self, request: Request):
-        data = request.data
-        try:
-            if verify_token(data.get('token')):
-                my_headers = {"X-SDRC-Header": "0d80857838439b80dfab750e576519092147b7bdd","token": "hfdiweyr89479msmhfwjil4893yrtpsm"}
-                requests.post('https://ysadhiveshan-backend.bapsapps.org/api/bk/results', headers=my_headers, data=data)
-                return Response(data=True, status=status.HTTP_200_OK)
             else:
                 return Response(data={'error': 'Access not allowed'}, status=status.HTTP_400_BAD_REQUEST)
         except ExternalUserModel.DoesNotExist:

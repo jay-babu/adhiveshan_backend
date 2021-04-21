@@ -40,7 +40,6 @@ urlpatterns = [
     path('set_bkms_id/', views.SetBKMSID.as_view()),
     path('update_name/', views.UpdateName.as_view()),
     path('get_examinee_details/', views.GetExamineeDetails.as_view()),
-    path('post_results/', views.PostResultToSheets.as_view()),
     path('', include(router.urls)),
 
     # Dev use only
