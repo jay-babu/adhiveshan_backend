@@ -90,7 +90,7 @@ class User(AbstractBaseUser):
                               null=True)
     is_onboarded = models.BooleanField(default=False, null=True)
     has_watched_tutorial = models.BooleanField(default=False, null=True)
-    bkms_id = models.CharField(max_length=10, blank=True, null=True)
+    bkms_id = models.CharField(max_length=10, default='0000', blank=True, null=True)
 
     objects: UserManager = UserManager()
 
