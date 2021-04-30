@@ -5458,20 +5458,24 @@ KM_STORIES = [
 
 BM_ANNOUNCEMENTS = [
     {
+        'timestamp': '2 May, 2021',
+        'text': '1. https://baps.box.com/s/ztrj6o6hzz2rfg5t6uezct127ubw6e0f\n\n2. https://app.box.com/file/793089258353?s=5nwp4bxxer6n67jyz37hjmcvnb4l9cyj\n\n3. https://baps.box.com/s/3t0wcgsy67rpygelzhux70dp4jtrkm0f'
+    },
+    {
         'timestamp': '6 Apr, 2021',
         'text': 'If you are having trouble entering your BKMS ID, please logout and log back in to resolve any issues. You should be able to see your BKID in settings.'
     },
     {
         'timestamp': '6 Apr, 2021',
         'text': 'For both Rajipo and Gurubhakti challenge:\n\n1. Everything may be memorized in any language: Sanskrit, Gujarati, or English. \n\n 2. While encouraged, you do not need to memorize the translations/meanings for any mukhpath. \n\n 3. You will not be tested on references for any mukhpath.'
-    },
-    {
-        'timestamp': '7 Feb, 2021',
-        'text': 'You can now access Satsang Diksha material in Sanskrit by updating the application or going to the website. Remember to notify your local karyakar if you decide to memorize Satsang Diksha in Sanskrit.'
     }
 ]
 
 KM_ANNOUNCEMENTS = [
+    {
+        'timestamp': '2 May, 2021',
+        'text': '1. https://baps.box.com/s/w5py2c24a4mu14cia0k0imzqwr7ikf2l\n\n2. https://baps.box.com/s/tk4h8cvyji4u3whof342m9nyco5mbquy\n\n3. https://baps.box.com/s/3t0wcgsy67rpygelzhux70dp4jtrkm0f'
+    },
     {
         'timestamp': '6 Apr, 2021',
         'text': 'If you are having trouble entering your BKMS ID, please logout and log back in to resolve any issues. You should be able to see your BKID in settings.'
@@ -5479,10 +5483,6 @@ KM_ANNOUNCEMENTS = [
     {
         'timestamp': '5 Apr, 2021',
         'text': 'For both Rajipo and Gurubhakti challenge:\n\n1. Everything may be memorized in any language: Sanskrit, Gujarati, or English. \n\n 2. While encouraged, you do not need to memorize the translations/meanings for any mukhpath. \n\n 3. You will not be tested on references for any mukhpath.'
-    },
-    {
-        'timestamp': '7 Feb, 2021',
-        'text': 'You can now access Satsang Diksha material in Sanskrit by updating the application or going to the website. Remember to notify your local karyakar if you decide to memorize Satsang Diksha in Sanskrit.'
     }
 ]
 
