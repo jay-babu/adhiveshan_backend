@@ -5459,7 +5459,7 @@ KM_STORIES = [
 BM_ANNOUNCEMENTS = [
     {
         'timestamp': '2 May, 2021',
-        'text': '1. https://baps.box.com/s/ztrj6o6hzz2rfg5t6uezct127ubw6e0f\n\n2. https://app.box.com/file/793089258353?s=5nwp4bxxer6n67jyz37hjmcvnb4l9cyj\n\n3. https://baps.box.com/s/3t0wcgsy67rpygelzhux70dp4jtrkm0f'
+        'text': '<a href="https://app.box.com/file/793089258353?s=5nwp4bxxer6n67jyz37hjmcvnb4l9cyj" target="_blank">BM Skills challenge overview memo</a>'
     },
     {
         'timestamp': '6 Apr, 2021',
