@@ -5459,7 +5459,7 @@ KM_STORIES = [
 BM_ANNOUNCEMENTS = [
     {
         'timestamp': '2 May, 2021',
-        'text': '<a href="https://app.box.com/file/793089258353?s=5nwp4bxxer6n67jyz37hjmcvnb4l9cyj" target="_blank">BM Skills challenge overview memo</a>'
+        'text': 'For both Adhiveshan and Summer Shibir use these links below:\n\n<p><a href="https://baps.box.com/s/ztrj6o6hzz2rfg5t6uezct127ubw6e0f" target="_blank">BM Shibir & Adhiveshan Overview (for Parents & Participants</a></p><p><a href="https://app.box.com/file/793089258353?s=5nwp4bxxer6n67jyz37hjmcvnb4l9cyj" target="_blank">BM Skills challenge overview memo</a></p><p><a href="https://baps.box.com/s/3t0wcgsy67rpygelzhux70dp4jtrkm0f" target="_blank">BK Skills Competition Submission Guidelines</a></p>'
     },
     {
         'timestamp': '6 Apr, 2021',
