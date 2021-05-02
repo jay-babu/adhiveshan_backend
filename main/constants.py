@@ -5459,7 +5459,7 @@ KM_STORIES = [
 BM_ANNOUNCEMENTS = [
     {
         'timestamp': '2 May, 2021',
-        'text': 'For both Adhiveshan and Summer Shibir use these links below:\n\n<p><a href="https://baps.box.com/s/ztrj6o6hzz2rfg5t6uezct127ubw6e0f" target="_blank">Bal-Balika Shibir & Adhiveshan Overview (for Parents & Participants)</a></p><p><a href="https://app.box.com/file/793089258353?s=5nwp4bxxer6n67jyz37hjmcvnb4l9cyj" target="_blank">Bal-Balika Skills Challenge Overview</a></p><p><a href="https://baps.box.com/s/3t0wcgsy67rpygelzhux70dp4jtrkm0f" target="_blank">Bal-Balika & Kishore-Kishori Skills Competition Submission Guidelines</a></p>'
+        'text': 'The following series of documents includes details of 2021 Adhiveshan Mukhpath testing process and skills challenge information. Kindly review them prior to preparing for your skills challenge to learn about the requirements and the submission process.\n\n<p><a href="https://baps.box.com/s/ztrj6o6hzz2rfg5t6uezct127ubw6e0f" target="_blank">Bal-Balika Shibir & Adhiveshan Overview (for Parents & Participants)</a></p><p><a href="https://app.box.com/file/793089258353?s=5nwp4bxxer6n67jyz37hjmcvnb4l9cyj" target="_blank">Bal-Balika Skills Challenge Overview</a></p><p><a href="https://baps.box.com/s/3t0wcgsy67rpygelzhux70dp4jtrkm0f" target="_blank">Bal-Balika & Kishore-Kishori Skills Competition Submission Guidelines</a></p>'
     },
     {
         'timestamp': '6 Apr, 2021',
