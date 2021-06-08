@@ -35,7 +35,7 @@ msgpack==1.0.2
 newrelic==6.0.1.155
 olefile==0.46
 packaging==20.9
-Pillow==8.1.1
+Pillow==8.2.0
 proto-plus==1.18.1
 protobuf==3.15.8
 psycopg2==2.8.6
