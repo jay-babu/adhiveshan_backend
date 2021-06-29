@@ -18,7 +18,6 @@ class ModuleInstanceAdmin(admin.ModelAdmin):
     search_fields = ('module__title',)
 
 
-admin.site.register(models.User)
 admin.site.register(models.Pledge)
 admin.site.register(models.PledgedModule)
 admin.site.register(models.Module)
