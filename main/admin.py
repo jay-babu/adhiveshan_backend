@@ -3,6 +3,11 @@ from django.contrib import admin
 from . import models
 
 
+@admin.register(models.User)
+class UserAdmin(admin.ModelAdmin):
+    search_fields = ('id',)
+
+
 @admin.register(models.MukhpathItem)
 class MukhpathItemAdmin(admin.ModelAdmin):
     search_fields = ('title',)
