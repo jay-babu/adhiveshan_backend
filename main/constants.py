@@ -754,7 +754,7 @@ BAL_FAQ = {
         },
         {
           'question': "What if I have already started or want to memorize the Satsang Diksha shlokas in Sanskrit?",
-          'answer': "<ol><li>If you have only memorized the Sanskrit shlokas, you will be tested in Sanskrit.  You do not need to memorize them in Gujarati, but still need to  explain the meaning in English (paraphrasing is allowed).</li><li>If you have memorized in Sanskrit and in either English or Gujarati and would like to be tested in Sanskrit, we  can do that as well. Please contact your local karyakar and notify them that you would like to be tested in Sanskrit. They will ask for your Full name, Center, Contact Number and BKMS ID.</li></ol>"
+          'answer': "<ol><li>If you have only memorized the Sanskrit shlokas, you will be tested in Sanskrit.</li><li>If you have memorized in Sanskrit and in either English or Gujarati and would like to be tested in Sanskrit, we  can do that as well. Please contact your local karyakar and notify them that you would like to be tested in Sanskrit. They will ask for your Full name, Center, Contact Number and BKMS ID.</li></ol>"
         },
     ],
     'Skills Challenge': [
@@ -873,7 +873,7 @@ KISHORE_FAQ = {
     },
     {
       'question': "What if I have already started or want to memorize the Satsang Diksha shlokas in Sanskrit?",
-      'answer': "<ol><li>If you have only memorized the Sanskrit shlokas, you will be tested in Sanskrit.  You do not need to memorize them in Gujarati, but still need to  explain the meaning in English (paraphrasing is allowed).</li><li>If you have memorized in Sanskrit and in either English or Gujarati and would like to be tested in Sanskrit, please contact your local karyakar and notify them that you would like to be tested in Sanskrit. They will ask for your Full name, Center, Contact Number and BKMS ID.</li></ol>"
+      'answer': "<ol><li>If you have only memorized the Sanskrit shlokas, you will be tested in Sanskrit.</li><li>If you have memorized in Sanskrit and in either English or Gujarati and would like to be tested in Sanskrit, please contact your local karyakar and notify them that you would like to be tested in Sanskrit. They will ask for your Full name, Center, Contact Number and BKMS ID.</li></ol>"
     },
   ],
   'Guru Bhakti Challenge': [
