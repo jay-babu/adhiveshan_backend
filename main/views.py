@@ -539,8 +539,8 @@ def upload_mukhpath_content():
                     },
                 )
                 # Alerts that we don't create new mukhpath items, but rather modify the ones that are already existing.
-                # if did_create:
-                #     raise Exception('NOT SUPPOSED TO HAPPEN: new mukhpath item created with title: {}'.format(row[0]))
+                if did_create:
+                    raise Exception('NOT SUPPOSED TO HAPPEN: new mukhpath item created with title: {}'.format(row[0]))
 
                 index += 1
 
@@ -549,6 +549,32 @@ def upload_mukhpath_content():
                     new_item.sanskrit_transliteration_content = row[6]
                     new_item.sanskrit_audio_url = row[7]
                     new_item.save()
+
+
+class AddMukhpathItemsToMissingModules(APIView):
+    permission_classes = (AllowAny,)
+
+    def post(self, request: Request):
+        if request.data['password'] != 'mahant16':
+            return
+
+        missing_module_name = request.data['missing_module_name']
+        missing_module = models.Module.objects.get(title=missing_module_name)
+        count = 0
+
+        for user in models.User.objects.all():
+            if user.is_admin:
+                continue
+
+            if user.is_kishore_mandal():
+                mukhpath_items = []
+                for item in missing_module.mukhpath_items.all():
+                    mukhpath_items.append(
+                        models.MukhpathItemInstance(mukhpath_item=item, module_instance=user.module_instances.get(module=missing_module), ))
+                models.MukhpathItemInstance.objects.bulk_create(mukhpath_items)
+                count += 1
+        print('TOTAL USERS CHANGED: {}'.format(count))
+        return Response(data={'count': count}, status=status.HTTP_200_OK)
 
 
 class CreateExternalTokenView(mixins.CreateModelMixin, viewsets.GenericViewSet):
