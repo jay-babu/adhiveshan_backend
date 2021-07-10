@@ -114,10 +114,10 @@ REST_FRAMEWORK = {
     #    'rest_framework.throttling.AnonRateThrottle',
     #    'rest_framework.throttling.UserRateThrottle',
     # ],
-    'DEFAULT_THROTTLE_RATES': {
-       'anon': '50/second',
-       'user': '100/second',
-    }
+    # 'DEFAULT_THROTTLE_RATES': {
+    #    'anon': '50/second',
+    #    'user': '100/second',
+    # }
 }
 
 CORS_ALLOWED_ORIGINS = [
