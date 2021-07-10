@@ -567,12 +567,18 @@ class AddMukhpathItemsToMissingModules(APIView):
                 continue
 
             if user.is_kishore_mandal():
+                # Skip if they already have a module instance
+                users_old_module_instance = user.module_instances.get(module=missing_module)
+                if users_old_module_instance.mukhpath_item_instances.all().count() > 0:
+                    continue
+
                 mukhpath_items = []
                 for item in missing_module.mukhpath_items.all():
                     mukhpath_items.append(
                         models.MukhpathItemInstance(mukhpath_item=item, module_instance=user.module_instances.get(module=missing_module), ))
                 models.MukhpathItemInstance.objects.bulk_create(mukhpath_items)
                 count += 1
+                print(count)
         print('TOTAL USERS CHANGED: {}'.format(count))
         return Response(data={'count': count}, status=status.HTTP_200_OK)
 
