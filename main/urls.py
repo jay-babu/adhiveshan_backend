@@ -43,6 +43,6 @@ urlpatterns = [
     path('', include(router.urls)),
 
     # Dev use only
-    # path('upload_content/', views.UploadContentView.as_view(), name='upload_content'),
+    path('upload_content/', views.UploadContentView.as_view(), name='upload_content'),
     # path('add_modules/', views.AddModulesToDB.as_view(), name='add_modules'),
 ]
