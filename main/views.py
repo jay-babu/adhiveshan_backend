@@ -539,8 +539,8 @@ def upload_mukhpath_content():
                     },
                 )
                 # Alerts that we don't create new mukhpath items, but rather modify the ones that are already existing.
-                if did_create:
-                    raise Exception('NOT SUPPOSED TO HAPPEN: new mukhpath item created with title: {}'.format(row[0]))
+                # if did_create:
+                #     raise Exception('NOT SUPPOSED TO HAPPEN: new mukhpath item created with title: {}'.format(row[0]))
 
                 index += 1
 
