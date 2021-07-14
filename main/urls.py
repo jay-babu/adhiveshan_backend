@@ -26,6 +26,8 @@ urlpatterns = [
     path('dashboard/', views.DashboardView.as_view(), name='dashboard_view'),
     path('module_images/', views.ModuleImagesView.as_view()),
     path('all_mukhpath_items/', views.AllMukhpathItemsView.as_view(), name='all_mukhpath_items'),
+    path('all_mukhpath_items_for_user/', views.AllMukhpathItemsForUserView.as_view(),
+         name='all_mukhpath_items_for_user'),
     path('bookmarked_mukhpath_items/', views.BookmarkedMukhpathItemsView.as_view(),
          name='bookmarked_mukhpath_items'),
     path('mukhpath_item_instances/', views.MukhpathItemInstanceView.as_view(),

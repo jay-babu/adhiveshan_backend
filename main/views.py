@@ -271,6 +271,15 @@ class AllMukhpathItemsView(APIView):
         return Response(data=get_modules(user=request.user), status=status.HTTP_200_OK)
 
 
+class AllMukhpathItemsForUserView(APIView):
+    permission_classes = (IsAuthenticated,)
+
+    def get(self, request):
+        email = request.data['email']
+        user = models.User.objects.get(email=email)
+        return Response(data=get_modules(user=user), status=status.HTTP_200_OK)
+
+
 class BookmarkedMukhpathItemsView(APIView):
     permission_classes = (IsAuthenticated,)
 
