@@ -371,9 +371,9 @@ class BatchMukhpathItemInstanceView(APIView):
         try:
             if verify_token(data.get('token')):
                 for item in data.get('data'):
-                    mukhpath_item_instance = models.MukhpathItemInstance.objects.get(id=item['id'])
-                    mukhpath_item_instance.is_memorized = item['is_memorized']
-                    mukhpath_item_instance.is_bookmarked = item['is_bookmarked']
+                    mukhpath_item_instance = models.MukhpathItemInstance.objects.get(id=item.get('id'))
+                    mukhpath_item_instance.is_memorized = item.get('is_memorized')
+                    mukhpath_item_instance.is_bookmarked = item.get('is_bookmarked')
                     mukhpath_item_instance.save()
                 return Response(status=status.HTTP_200_OK)
             else:
