@@ -370,9 +370,7 @@ class BatchMukhpathItemInstanceView(APIView):
         data = request.data
         try:
             if verify_token(data.get('token')):
-                print(data.get('data'))
                 for item in data.get('data'):
-                    print(item)
                     mukhpath_item_instance = models.MukhpathItemInstance.objects.get(id=item.get('id'))
                     mukhpath_item_instance.is_memorized = item.get('is_memorized')
                     mukhpath_item_instance.is_bookmarked = item.get('is_bookmarked')
