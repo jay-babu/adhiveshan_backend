@@ -272,12 +272,20 @@ class AllMukhpathItemsView(APIView):
 
 
 class AllMukhpathItemsForUserView(APIView):
-    permission_classes = (IsAuthenticated,)
+    permission_classes = (AllowAny,)
 
-    def post(self, request):
-        email = request.data['email']
-        user = models.User.objects.get(email=email)
-        return Response(data=get_modules(user=user), status=status.HTTP_200_OK)
+    def post(self, request: Request):
+        data = request.data
+        try:
+            if verify_token(data.get('token')):
+                email = request.data['email']
+                user = models.User.objects.get(email=email)
+                return Response(data=get_modules(user=user), status=status.HTTP_200_OK)
+            else:
+                return Response(data={'error': 'Access not allowed'}, status=status.HTTP_400_BAD_REQUEST)
+        except ExternalUserModel.DoesNotExist:
+            pass
+        return Response(data={'error': 'Invalid Email'}, status=status.HTTP_400_BAD_REQUEST)
 
 
 class BookmarkedMukhpathItemsView(APIView):
