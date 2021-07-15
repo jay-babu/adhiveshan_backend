@@ -32,6 +32,8 @@ urlpatterns = [
          name='bookmarked_mukhpath_items'),
     path('mukhpath_item_instances/', views.MukhpathItemInstanceView.as_view(),
          name='mukhpath_item_instance_view'),
+    path('batch_mukhpath_item_instances/', views.BatchMukhpathItemInstanceView.as_view(),
+          name='batch_mukhpath_item_instance_view'),
     path('get_faq/', views.GetFAQView.as_view(), name='get_faq'),
     path('get_skills_challenge/', views.GetSkillsChallengeView.as_view()),
     path('get_announcements/', views.AnnouncementsPageView.as_view()),

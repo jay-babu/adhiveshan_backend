@@ -362,6 +362,25 @@ class MukhpathItemInstanceView(APIView):
         mukhpath_item_instance.save()
         return Response(status=status.HTTP_200_OK)
 
+class BatchMukhpathItemInstanceView(APIView):
+    """Endpoints for MukhpathItemInstances objects."""
+    permission_classes = (AllowAny,)
+
+    def post(self, request: Request):
+        data = request.data
+        try:
+            if verify_token(data.get('token')):
+                for item in data.get('data'):
+                    mukhpath_item_instance = models.MukhpathItemInstance.objects.get(id=item['id'])
+                    mukhpath_item_instance.is_memorized = item['is_memorized']
+                    mukhpath_item_instance.is_bookmarked = item['is_bookmarked']
+                    mukhpath_item_instance.save()
+                return Response(status=status.HTTP_200_OK)
+            else:
+                return Response(data={'error': 'Access not allowed'}, status=status.HTTP_400_BAD_REQUEST)
+        except ExternalUserModel.DoesNotExist:
+            pass
+        return Response(data={'error': 'Invalid Email'}, status=status.HTTP_400_BAD_REQUEST)
 
 class CentersView(APIView):
     permission_classes = (AllowAny,)
